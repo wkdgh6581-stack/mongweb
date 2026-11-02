@@ -9,7 +9,7 @@
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/maintenance.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/maintenance.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="유지보수 · MongWeb">
 <meta property="og:description" content="MongWeb 홈페이지 유지보수 — 수정·관리 서비스, 관리 요금, 요청 방법.">

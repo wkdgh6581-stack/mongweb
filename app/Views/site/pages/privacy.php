@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>개인정보 처리방침 · (주)케이원 K1 OCEAN</title>
-<meta name="description" content="(주)케이원 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
+<title>개인정보 처리방침 · 몽웹 MongWeb</title>
+<meta name="description" content="몽웹 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
 <link rel="canonical" href="https://k1tnc.co.kr/privacy.html">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/privacy.html">
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/privacy.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/privacy.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="개인정보 처리방침 · (주)케이원">
-<meta property="og:description" content="(주)케이원 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
+<meta property="og:title" content="개인정보 처리방침 · 몽웹">
+<meta property="og:description" content="몽웹 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
 <meta property="og:url" content="https://k1tnc.co.kr/privacy.html">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="개인정보 처리방침 · (주)케이원">
-<meta name="twitter:description" content="(주)케이원 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
+<meta name="twitter:title" content="개인정보 처리방침 · 몽웹">
+<meta name="twitter:description" content="몽웹 개인정보 처리방침 — 수집 항목, 이용 목적, 보유 기간, 정보주체의 권리.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -51,7 +51,7 @@
 <section class="sec sec--paper" data-nav="light">
   <div class="wrap">
     <div class="sec-head rv pp-head">
-      <p class="lead">주식회사 케이원(이하 ‘회사’)은 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하게 처리할 수 있도록 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
+      <p class="lead">몽웹(이하 ‘회사’)은 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하게 처리할 수 있도록 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
     </div>
 
     <div class="pp rv">
@@ -130,7 +130,7 @@
         <table>
           <thead><tr><th>구분</th><th>내용</th></tr></thead>
           <tbody>
-            <tr><td>성명 · 직책</td><td>대표이사 강상운</td></tr>
+            <tr><td>성명 · 직책</td><td>대표</td></tr>
             <tr><td>연락처</td><td><?= esc($site['tel']) ?></td></tr>
             <tr><td>이메일</td><td><a href="mailto:<?= esc($site['email']) ?>"><?= esc($site['email']) ?></a></td></tr>
           </tbody>

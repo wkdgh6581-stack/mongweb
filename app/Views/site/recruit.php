@@ -10,7 +10,7 @@
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/recruit.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/recruit.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="인재채용 · (주)케이원 K1 OCEAN">
 <meta property="og:description" content="(주)케이원 인재채용 — 채용안내, 채용공고. 통합 시운전 전문 기업과 함께 성장할 인재를 기다립니다.">

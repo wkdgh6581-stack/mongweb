@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>회사소개 · (주)케이원 K1 OCEAN</title>
-<meta name="description" content="(주)케이원 회사소개 — CEO 인사말, 회사개요, 조직도. 통합 시운전 전문 기업.">
+<title>회사소개 · 몽웹 MongWeb</title>
+<meta name="description" content="몽웹 회사소개 — 인사말, 회사개요, 일하는 방식, 팀 구성. 꿈을 웹으로 잇는 홈페이지 제작 파트너.">
 <link rel="canonical" href="https://k1tnc.co.kr/about.html">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/about.html">
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/about.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/about.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="회사소개 · (주)케이원 K1 OCEAN">
-<meta property="og:description" content="(주)케이원 회사소개 — CEO 인사말, 회사개요, 조직도. 통합 시운전 전문 기업.">
+<meta property="og:title" content="회사소개 · 몽웹 MongWeb">
+<meta property="og:description" content="몽웹 회사소개 — 인사말, 회사개요, 일하는 방식, 팀 구성. 꿈을 웹으로 잇는 홈페이지 제작 파트너.">
 <meta property="og:url" content="https://k1tnc.co.kr/about.html">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="회사소개 · (주)케이원 K1 OCEAN">
-<meta name="twitter:description" content="(주)케이원 회사소개 — CEO 인사말, 회사개요, 조직도. 통합 시운전 전문 기업.">
+<meta name="twitter:title" content="회사소개 · 몽웹 MongWeb">
+<meta name="twitter:description" content="몽웹 회사소개 — 인사말, 회사개요, 일하는 방식, 팀 구성. 꿈을 웹으로 잇는 홈페이지 제작 파트너.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -48,10 +48,10 @@
 <!--ed:about/pagenav-->
 <nav class="pagenav" aria-label="회사소개 섹션">
   <div class="pagenav__in">
-    <a href="#ceo" class="on">CEO 인사말</a>
+    <a href="#ceo" class="on">인사말</a>
     <a href="#overview">회사개요</a>
-    <a href="#principles">경영방침</a>
-    <a href="#org">조직도</a>
+    <a href="#principles">일하는 방식</a>
+    <a href="#org">팀 구성</a>
   </div>
 </nav>
 <!--/ed:about/pagenav-->
@@ -62,28 +62,21 @@
 <!--ed:about/ceo-->
 <section class="sec sec--paper" id="ceo" data-nav="light">
   <div class="wrap">
-    <div class="sec-head rv"><span class="eyebrow"><b>／ 01</b>&nbsp; CEO Message</span></div>
+    <div class="sec-head rv"><span class="eyebrow"><b>／ 01</b>&nbsp; Greeting</span></div>
     <div class="cmsg">
-      <div class="cmsg__img viz rv" style="--gx:64%;--gy:34%">
-        <svg class="viz__art" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-          <circle cx="300" cy="300" r="90" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M170 560 q0 -150 130 -150 q130 0 130 150" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M300 620 V800 M120 700 H480" class="sig" stroke="currentColor" stroke-width="1.2" opacity=".5"/>
-        </svg>
-        <img src="assets/ceo.jpg" alt="(주)케이원 대표이사 강상운" loading="lazy">
+      <div class="cmsg__img viz viz--web rv" style="--gx:64%;--gy:34%">
+        <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg>
       </div>
       <div class="rv">
-        <p class="cmsg__q">현장은 언제나<br><em>예측하지 못한 변수</em>로<br>시작됩니다</p>
+        <p class="cmsg__q">홈페이지는<br><em>회사의 첫인상</em>이자<br>가장 부지런한 직원입니다</p>
         <div class="cmsg__body">
-          <p>K1은 대한민국 최초로 Turnkey Commissioning 수행체계를 구축한 조선·해양·에너지 분야의 전문 시운전 기업입니다.</p>
-          <p>시운전은 프로젝트의 마지막 공정이지만, 그 준비는 프로젝트의 시작부터 이루어져야 합니다.</p>
-          <p>그렇기에 우리는 프로젝트 초기 단계부터 현장에 참여하여 시운전 준비상태를 사전 점검하고, 시스템별 시운전을 수행하며 최종 Completion과 Handover까지 고객과 함께합니다.</p>
-          <p>현장에서 프로젝트를 수행하며 축적한 경험을 바탕으로 시운전을 보다 체계적으로 수행하는 방법을 하나의 고유적인 체계로 통합한 Turnkey Commissioning 수행방식을 구축해 왔습니다. K1은 기존의 단순 인력 중심 방식에서 벗어나 모든 공정을 하나의 체계 안에서 관리하는 통합 Commissioning Service를 제공합니다.</p>
-          <p>우리의 경쟁력은 인원의 숫자만이 아니라 현장을 이해하는 경험, 기술을 연결하는 조직력, 그리고 프로젝트를 끝까지 완성하는 실행력에 있습니다.</p>
-          <p>앞으로도 K1은 대한민국을 넘어 글로벌 조선·해양·에너지 산업에서 신뢰받는 Commissioning Partner로 성장하겠습니다.</p>
-          <p>회사를 크게 만드는 것보다 고객이 다시 찾는 회사를 만드는 것이 K1의 목표입니다.</p>
+          <p>몽웹(MongWeb)의 '몽'은 꿈을 뜻합니다. 고객이 마음속에 그리던 회사의 모습을 화면 위에 그대로 옮기는 것, 그것이 몽웹이 하는 일입니다.</p>
+          <p>좋은 홈페이지는 보기 좋은 화면에서 끝나지 않습니다. 처음 방문한 고객이 회사를 이해하고, 믿고, 문의할 수 있어야 합니다.</p>
+          <p>그래서 우리는 디자인보다 먼저 이야기를 듣습니다. 어떤 고객이 찾아오는지, 그 고객이 무엇을 가장 먼저 궁금해하는지부터 정리합니다.</p>
+          <p>요즘 고객은 검색창과 AI에게 먼저 묻습니다. 몽웹은 사람뿐 아니라 검색엔진과 AI도 회사를 정확히 이해하도록 구조를 설계합니다.</p>
+          <p>오픈한 뒤에도 직접 고칠 수 있는 관리자와 꾸준한 관리로, 홈페이지가 오래도록 일하게 만들겠습니다.</p>
         </div>
-        <div class="cmsg__sign">(주)케이원 대표이사 <b>강상운</b></div>
+        <div class="cmsg__sign">꿈을 웹으로 잇는 <b>몽웹 MongWeb</b></div>
       </div>
     </div>
   </div>
@@ -95,67 +88,27 @@
 <section class="sec sec--paper2" data-nav="light">
   <div class="wrap">
     <div class="sec-head rv">
-      <span class="eyebrow"><b>／ 02</b>&nbsp; Company History</span>
-      <h2 class="d2">회사 연혁</h2>
-      <p class="lead">2017년부터 현장에서 쌓아온 경험과 기술로 성장해 온 Commissioning 전문기업 K1입니다.</p>
+      <span class="eyebrow"><b>／ 02</b>&nbsp; At a Glance</span>
+      <h2 class="d2">한눈에 보는 몽웹</h2>
+      <p class="lead">기획부터 오픈 후 관리까지, 홈페이지에 필요한 일을 한 팀에서 처리합니다.</p>
     </div>
     <div class="hist rv">
-      <div class="hist__i"><div class="k">핵심 기술진 현장 경험</div><div class="v">20+ Years</div></div>
-      <div class="hist__i"><div class="k">설립</div><div class="v">Since 2017<small>주식회사 케이원 · K1 OCEAN</small></div></div>
-      <div class="hist__i"><div class="k">인증기업 신뢰</div><div class="v">우수 중소기업<small>좋은 일자리 · 기술 혁신 중소기업</small></div></div>
-      <div class="hist__i"><div class="k">Commissioning Professionals</div><div class="v">260명<small>정규직 80명 · 계약직 180명</small></div></div>
-      <div class="hist__i"><div class="k">2025 Revenue</div><div class="v">180억원<small>매출</small></div></div>
-      <div class="hist__i"><div class="k">End-to-End 수행체계</div><div class="v">Turnkey Commissioning</div></div>
+      <div class="hist__i"><div class="k">제작 범위</div><div class="v">기획 · 디자인 · 개발</div></div>
+      <div class="hist__i"><div class="k">검색 대응</div><div class="v">SEO · AEO · GEO<small>검색엔진 · 답변 엔진 · 생성형 AI</small></div></div>
+      <div class="hist__i"><div class="k">관리 방식</div><div class="v">직접 수정<small>화면을 보면서 고치는 관리자</small></div></div>
+      <div class="hist__i"><div class="k">제작 대상</div><div class="v">기업 · 매장 · 브랜드<small>병원 · 학원 · 쇼핑몰 · 전문직</small></div></div>
+      <div class="hist__i"><div class="k">기본 사양</div><div class="v">반응형 100%<small>PC · 태블릿 · 휴대폰</small></div></div>
+      <div class="hist__i"><div class="k">오픈 후</div><div class="v">유지보수<small>수정 · 점검 · 기능 추가</small></div></div>
     </div>
 
-    <!-- 연도별 수행 타임라인 -->
-    <div class="tline rv">
-      <ol class="tline__in">
-        <li><span class="y">2018</span></li>
-        <li><span class="y">2019</span></li>
-        <li><span class="y">2020</span></li>
-        <li><span class="y">2021</span></li>
-        <li><span class="y">2022</span></li>
-        <li><span class="y">2023</span></li>
-        <li><span class="y">2024</span></li>
-        <li><span class="y">2025</span></li>
-        <li class="on"><span class="y">2026</span><span class="now">PRESENT</span></li>
-      </ol>
-    </div>
-
-    <!-- Commissioning 수행 범위 -->
-    <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">Commissioning Scope</span></div>
+    <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">Work Scope</span></div>
     <div class="scope stg rv">
-      <div class="scope__i">
-        <i class="ic scope__ic i-planning" aria-hidden="true"></i>
-        <h4>Planning &amp; Coordination</h4>
-        <p>Commissioning Planning · Interface · Schedule</p>
-      </div>
-      <div class="scope__i">
-        <i class="ic scope__ic i-precom" aria-hidden="true"></i>
-        <h4>Pre-Commissioning</h4>
-        <p>Inspection · Pre-check · Loop Check</p>
-      </div>
-      <div class="scope__i">
-        <i class="ic scope__ic i-eim" aria-hidden="true"></i>
-        <h4>E&amp;I&amp;M Commissioning</h4>
-        <p>Electrical · Instrumentation · Mechanical</p>
-      </div>
-      <div class="scope__i">
-        <i class="ic scope__ic i-test" aria-hidden="true"></i>
-        <h4>Function &amp; Integration Test</h4>
-        <p>Function Test · Integrated Test · Performance Test</p>
-      </div>
-      <div class="scope__i">
-        <i class="ic scope__ic i-trouble" aria-hidden="true"></i>
-        <h4>Troubleshooting</h4>
-        <p>Issue Analysis · Technical Coordination · Resolution</p>
-      </div>
-      <div class="scope__i">
-        <i class="ic scope__ic i-handover" aria-hidden="true"></i>
-        <h4>Completion &amp; Handover</h4>
-        <p>Punch · Test Record · Documentation · Handover</p>
-      </div>
+      <div class="scope__i"><i class="ic scope__ic i-planning" aria-hidden="true"></i><h4>Planning</h4><p>상담 · 메뉴 구성 · 화면 설계 · 첫 문구</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-precom" aria-hidden="true"></i><h4>Design</h4><p>메인 · 하위 화면 · 휴대폰 화면 디자인</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-eim" aria-hidden="true"></i><h4>Development</h4><p>반응형 화면 · 관리자 · 문의 양식 연결</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-test" aria-hidden="true"></i><h4>SEO · AEO · GEO</h4><p>검색 등록 · 자주 묻는 질문 · 구조화 데이터</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-trouble" aria-hidden="true"></i><h4>Launch</h4><p>도메인 · 호스팅 연결 · 최종 점검 · 공개</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-handover" aria-hidden="true"></i><h4>Care</h4><p>오픈 후 수정 · 백업 · 보안 · 기능 추가</p></div>
     </div>
   </div>
 </section>
@@ -168,36 +121,36 @@
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 03</b>&nbsp; Company Overview</span>
       <h2 class="d2">회사 개요</h2>
-      <p class="lead">조선 · 해양 · 에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업</p>
+      <p class="lead">꿈을 웹으로 잇는 홈페이지 제작 파트너</p>
     </div>
     <dl class="def rv">
-      <div class="def__row"><dt>회사명</dt><dd>주식회사 케이원 (K1 Co., Ltd.)</dd></div>
-      <div class="def__row"><dt>설립일</dt><dd>2017년 07월 01일</dd></div>
-      <div class="def__row"><dt>대표이사</dt><dd>강상운 (Dennis Kang)</dd></div>
-      <div class="def__row"><dt>사업 업종</dt><dd>조선 · 해양 · 에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업</dd></div>
+      <div class="def__row"><dt>회사명</dt><dd>몽웹 (MongWeb)</dd></div>
+      <div class="def__row"><dt>사업 분야</dt><dd>기업 · 브랜드 홈페이지 제작, 리뉴얼, SEO · AEO · GEO 검색 대응, 유지보수</dd></div>
+      <div class="def__row"><dt>연락처</dt><dd>{{site.tel}} · {{site.email}}</dd></div>
+      <div class="def__row"><dt>주소</dt><dd>{{site.hq_addr}}</dd></div>
     </dl>
 
-    <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">보유 기술</span></div>
+    <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">What We Do</span></div>
     <div class="tech rv">
-      <div class="tech__i"><div class="n">01</div><h4>전기 시운전</h4><p>발전기·변압기·배전반·보호계전기 시험 및 계통 연계를 통해 전력 시스템의 안정성과 신뢰성을 확보</p></div>
-      <div class="tech__i"><div class="n">02</div><h4>계장 시운전</h4><p>DCS/PLC 루프체크, 계측기 교정, 인터록 및 트립 시험 수행으로 정밀 제어 시스템 완성도 구현</p></div>
-      <div class="tech__i"><div class="n">03</div><h4>기계 시운전</h4><p>기계 설비 전반에 대한 성능 검증(Performance Test)을 통해 설비의 최적 운전 조건 확보</p></div>
-      <div class="tech__i"><div class="n">04</div><h4>HVAC 시운전</h4><p>AHU·FCU·Chiller·Compressor 등 공조 시스템 시운전을 통해 운전 효율 및 환경 안정성 확보</p></div>
-      <div class="tech__i"><div class="n">05</div><h4>시험 장비 운용</h4><p>보호계전기 시험기, 절연·접지 시험기, 정밀 교정 장비 등 전문 장비 기반 고도화된 시험 수행</p></div>
-      <div class="tech__i"><div class="n">06</div><h4>품질 안전 관리</h4><p>ISO 기반 품질 절차, JSA·PTW 시스템 운영을 통해 무재해·무결점 프로젝트 수행</p></div>
-      <div class="tech__i" style="grid-column:1/-1"><div class="n">07</div><h4>프로젝트 관리</h4><p>Punch 관리, 공정 통제, 품질 문서화, 글로벌 협업을 통한 프로젝트 전 과정 통합 관리</p></div>
+      <div class="tech__i"><div class="n">01</div><h4>홈페이지 기획</h4><p>업종과 고객에 맞춰 메뉴 구성과 화면 흐름을 설계하고, 자료가 없어도 첫 문구를 함께 만듭니다</p></div>
+      <div class="tech__i"><div class="n">02</div><h4>디자인</h4><p>브랜드의 색과 분위기를 담고, 고객이 문의까지 자연스럽게 이어지도록 화면을 배치합니다</p></div>
+      <div class="tech__i"><div class="n">03</div><h4>반응형 개발</h4><p>PC · 태블릿 · 휴대폰 어디서든 보기 좋고 빠르게 열리는 화면으로 만듭니다</p></div>
+      <div class="tech__i"><div class="n">04</div><h4>SEO 검색 최적화</h4><p>화면마다 제목과 설명을 정리하고 네이버 · 구글 검색 등록과 사이트맵을 설정합니다</p></div>
+      <div class="tech__i"><div class="n">05</div><h4>AEO · GEO 대응</h4><p>자주 묻는 질문과 구조화 데이터로 AI가 회사 정보를 정확히 이해하도록 돕습니다</p></div>
+      <div class="tech__i"><div class="n">06</div><h4>관리자 제공</h4><p>홈페이지 화면을 보면서 글자 · 사진 · 메뉴를 직접 고치는 관리자를 드립니다</p></div>
+      <div class="tech__i" style="grid-column:1/-1"><div class="n">07</div><h4>유지보수</h4><p>오픈 후 수정 요청, 정기 점검, 백업과 보안 업데이트, 기능 추가까지 계속 함께합니다</p></div>
     </div>
 
     <div class="mv rv">
       <div class="mv__c">
         <div class="k">Mission · 미션</div>
-        <ol><li>안전한 시운전 수행</li><li>최적의 솔루션 제공</li><li>고객 성공 지원</li></ol>
+        <ol><li>고객이 이해하는 홈페이지</li><li>검색과 AI가 읽는 구조</li><li>오래 쓰는 관리 방식</li></ol>
       </div>
       <div class="mv__c dark">
         <div class="k">Vision · 비전</div>
-        <div class="vh">글로벌 전기 시운전 선도 기업</div>
-        <p class="vp">· ESG &amp; Governance 기반 신뢰경영 실현</p>
-        <p class="vp">· 케이원은 선박·해양 분야의 친환경 시스템에서 기술 경쟁력을 강화하고, 지속가능한 성장과 투명한 거버넌스를 통해 글로벌 신뢰 기업으로 도약합니다</p>
+        <div class="vh">모든 꿈이 웹 위에서 일하도록</div>
+        <p class="vp">· 작은 가게부터 기업까지, 누구나 자신 있게 보여 줄 수 있는 홈페이지</p>
+        <p class="vp">· 만들고 끝나는 것이 아니라, 오픈한 뒤에도 고객과 함께 자라는 웹 파트너</p>
       </div>
     </div>
   </div>
@@ -209,14 +162,14 @@
 <section class="sec sec--paper2" id="principles" data-nav="light">
   <div class="wrap">
     <div class="sec-head rv">
-      <span class="eyebrow"><b>／ 04</b>&nbsp; Management Principles</span>
-      <h2 class="d2">경영 방침</h2>
-      <p class="lead">원칙은 분명하게, 협업은 유연하게, 책임은 끝까지.</p>
+      <span class="eyebrow"><b>／ 04</b>&nbsp; How We Work</span>
+      <h2 class="d2">일하는 방식</h2>
+      <p class="lead">먼저 듣고, 쉽게 설명하고, 끝까지 함께합니다.</p>
     </div>
     <div class="prin rv">
-      <div class="prin__row"><div class="n"><i class="ic i-trust" aria-hidden="true"></i>01</div><div class="t">분명한 기준<b>Trust · 신뢰</b></div><p>우리는 모든 업무를 명확한 원칙과 근거 위에서 판단합니다. 일관된 운영과 투명한 소통으로 신뢰의 기준을 세웁니다.</p></div>
-      <div class="prin__row"><div class="n"><i class="ic i-collab" aria-hidden="true"></i>02</div><div class="t">유연한 협업<b>Collaboration · 협업</b></div><p>고객·파트너·구성원이 같은 방향으로 움직일 수 있도록 열린 태도로 협업하며 더 나은 결과를 함께 만들어갑니다.</p></div>
-      <div class="prin__row"><div class="n"><i class="ic i-responsibility" aria-hidden="true"></i>03</div><div class="t">확실한 책임<b>Responsibility · 책임</b></div><p>맡은 일은 시작보다 마무리가 더 중요합니다. 우리는 약속한 품질과 일정, 마지막 순간까지 책임 있게 완성합니다.</p></div>
+      <div class="prin__row"><div class="n"><i class="ic i-trust" aria-hidden="true"></i>01</div><div class="t">먼저 듣습니다<b>Listen · 경청</b></div><p>디자인을 보여 드리기 전에 회사와 고객의 이야기를 먼저 듣습니다. 무엇을 만들지보다 왜 만드는지를 함께 정리합니다.</p></div>
+      <div class="prin__row"><div class="n"><i class="ic i-collab" aria-hidden="true"></i>02</div><div class="t">쉽게 설명합니다<b>Clear · 소통</b></div><p>어려운 용어 대신 쉬운 말로, 단계마다 무엇을 하고 무엇을 확인하는지 미리 알려 드립니다.</p></div>
+      <div class="prin__row"><div class="n"><i class="ic i-responsibility" aria-hidden="true"></i>03</div><div class="t">끝까지 함께합니다<b>Care · 책임</b></div><p>오픈은 시작입니다. 직접 고칠 수 있는 관리자와 꾸준한 유지보수로 홈페이지가 오래 일하도록 돕습니다.</p></div>
     </div>
   </div>
 </section>
@@ -227,31 +180,21 @@
 <section class="sec sec--paper" id="org" data-nav="light">
   <div class="wrap">
     <div class="sec-head rv">
-      <span class="eyebrow"><b>／ 05</b>&nbsp; Organization</span>
-      <h2 class="d2">조직도</h2>
-      <p class="lead">Turnkey Base를 기반으로, 케이원과 케이원오션 두 축이 프로젝트 전 과정을 함께 수행합니다.</p>
+      <span class="eyebrow"><b>／ 05</b>&nbsp; Team</span>
+      <h2 class="d2">팀 구성</h2>
+      <p class="lead">만드는 팀과 관리하는 팀이 하나로 움직여, 상담한 사람이 오픈 후까지 책임집니다.</p>
     </div>
     <div class="orgc rv">
-      <div class="orgc__root">주식회사 케이원</div>
+      <div class="orgc__root">몽웹 MongWeb</div>
       <div class="orgc__stem"></div>
       <div class="orgc__branches">
         <div class="orgc__branch">
-          <div class="orgc__node">
-            <h4>케이원</h4>
-            <div class="sub">Offshore &amp; Integrated Commissioning</div>
-          </div>
-          <ul class="orgc__teams">
-            <li>운영지원팀</li><li>프로젝트운영팀</li><li>기술지원팀</li><li>HSE / QAQC</li><li>프로젝트 엔지니어 해외 사업팀</li><li>프로젝트 기술영업부</li>
-          </ul>
+          <div class="orgc__node"><h4>제작</h4><div class="sub">Planning · Design · Development</div></div>
+          <ul class="orgc__teams"><li>상담 · 기획</li><li>디자인</li><li>퍼블리싱 · 개발</li><li>콘텐츠 · 문구</li></ul>
         </div>
         <div class="orgc__branch">
-          <div class="orgc__node">
-            <h4>케이원오션</h4>
-            <div class="sub">Marine Service</div>
-          </div>
-          <ul class="orgc__teams">
-            <li>조달 / 지원팀</li><li>전장 시운전</li><li>기계 시운전</li><li>HSE / QAQC</li><li>운영 / 유지 / 친환경 사업팀</li>
-          </ul>
+          <div class="orgc__node"><h4>운영</h4><div class="sub">Search · Care</div></div>
+          <ul class="orgc__teams"><li>SEO · AEO · GEO</li><li>유지보수</li><li>호스팅 · 도메인 관리</li><li>고객 지원</li></ul>
         </div>
       </div>
     </div>

@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>사업분야 · (주)케이원 K1 OCEAN</title>
-<meta name="description" content="(주)케이원 사업분야 — 시운전, 기술지원(FGSS/ALS), 유지보수. 전 영역 One-Stop Commissioning.">
+<title>홈페이지제작 · 몽웹 MongWeb</title>
+<meta name="description" content="몽웹 홈페이지제작 — 기업 · 브랜드 홈페이지, 리뉴얼, SEO · AEO · GEO 검색 대응, 관리자와 유지보수.">
 <link rel="canonical" href="https://k1tnc.co.kr/business.html">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/business.html">
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/business.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/business.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="사업분야 · (주)케이원 K1 OCEAN">
-<meta property="og:description" content="(주)케이원 사업분야 — 시운전, 기술지원(FGSS/ALS), 유지보수. 전 영역 One-Stop Commissioning.">
+<meta property="og:title" content="홈페이지제작 · 몽웹 MongWeb">
+<meta property="og:description" content="몽웹 홈페이지제작 — 기업 · 브랜드 홈페이지, 리뉴얼, SEO · AEO · GEO 검색 대응, 관리자와 유지보수.">
 <meta property="og:url" content="https://k1tnc.co.kr/business.html">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="사업분야 · (주)케이원 K1 OCEAN">
-<meta name="twitter:description" content="(주)케이원 사업분야 — 시운전, 기술지원(FGSS/ALS), 유지보수. 전 영역 One-Stop Commissioning.">
+<meta name="twitter:title" content="홈페이지제작 · 몽웹 MongWeb">
+<meta name="twitter:description" content="몽웹 홈페이지제작 — 기업 · 브랜드 홈페이지, 리뉴얼, SEO · AEO · GEO 검색 대응, 관리자와 유지보수.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -38,92 +38,87 @@
 <!--ed:business/subhero-->
 <section class="subhero" data-nav="dark">
   <div class="wrap">
-    <div class="bc"><a href="index.html">홈</a> <b>›</b> 사업분야</div>
-    <h1>사업분야</h1>
-    <div class="en">Business Areas</div>
+    <div class="bc"><a href="index.html">홈</a> <b>›</b> 홈페이지제작</div>
+    <h1>홈페이지제작</h1>
+    <div class="en">Website Production</div>
   </div>
 </section>
 <!--/ed:business/subhero-->
 
 <!--ed:business/pagenav-->
-<nav class="pagenav" aria-label="사업분야 섹션">
+<nav class="pagenav" aria-label="홈페이지제작 섹션">
   <div class="pagenav__in">
-    <a href="#commissioning" class="on">시운전</a>
-    <a href="#support">기술지원</a>
-    <a href="#maintenance">유지보수</a>
+    <a href="#build" class="on">제작 서비스</a>
+    <a href="#search">검색 · AI 대응</a>
+    <a href="#care">관리 · 운영</a>
   </div>
 </nav>
 <!--/ed:business/pagenav-->
 
 <main id="main">
-<!-- 시운전 -->
-<!--ed:business/commissioning-->
-<section class="sec sec--paper" id="commissioning" data-nav="light">
+<!-- 제작 서비스 -->
+<!--ed:business/build-->
+<section class="sec sec--paper" id="build" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Commissioning</div><h2>시운전 — 시스템을 기동하는 기술</h2></div>
-        <p>전기·기계·계장·공조·항해통신 전 영역에 대한 One-Stop Commissioning을 수행합니다.</p>
+        <div><div class="en">Build</div><h2>제작 서비스 — 꿈을 화면으로</h2></div>
+        <p>처음 만드는 홈페이지부터 리뉴얼까지, 업종과 목적에 맞춰 만듭니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>전기 시운전</h3><div class="en2">Electrical</div><ul><li>고전압 및 전력 시스템 통합 시운전</li><li>Synchronizing / Load Test / PMS 검증</li><li>DP &amp; FMEA Commissioning 수행</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>계장 시운전</h3><div class="en2">Instrumentation &amp; Control</div><ul><li>Calibration &amp; Loop Check 수행</li><li>제어밸브·트랜스미터·계측 시스템 검증</li><li>C&amp;E Test 기반 제어 로직 확인</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>기계 시운전</h3><div class="en2">Mechanical</div><ul><li>펌프·컴프레서·밸브 등 회전/비회전 장비 시험</li><li>장비 기능 및 운전 상태 검증</li><li>시스템 운전 안정성 및 성능 확인</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>선장 시운전</h3><div class="en2">Hull Outfitting Commissioning</div><ul><li>화물유 · 밸러스트 시스템 시운전</li><li>갑판기기 · 소화장치 · 구명설비 기능 확인</li><li>선장 시스템 및 배관 세정 상태 확인</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>항해통신 시운전</h3><div class="en2">Navigation &amp; Telecom</div><ul><li>항해·통신 시스템 인터페이스 시험</li><li>GPS · Radar · GMDSS 장비 기능 검증</li><li>통합 인터페이스 확인</li></ul></div>
-        <div class="bizd__i"><div class="n">06</div><h3>공조 시운전</h3><div class="en2">HVAC</div><ul><li>냉난방 및 환기 시스템 성능 검증</li><li>덕트 및 공조 시스템 기능 시험</li><li>실내 환경 제어·운전 안정성 확인</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>기업 홈페이지</h3><div class="en2">Corporate Website</div><ul><li>회사소개 · 서비스 · 실적 · 문의</li><li>업종에 맞춘 메뉴 구성</li><li>브랜드 디자인 적용</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>브랜드 사이트</h3><div class="en2">Brand Site</div><ul><li>브랜드 이야기와 분위기 중심</li><li>사진 · 영상을 살린 화면</li><li>제품 · 서비스 소개</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>랜딩페이지</h3><div class="en2">Landing Page</div><ul><li>한 화면에 핵심만</li><li>광고 · 이벤트용</li><li>문의 · 신청으로 바로 연결</li></ul></div>
+        <div class="bizd__i"><div class="n">04</div><h3>리뉴얼</h3><div class="en2">Renewal</div><ul><li>쓰던 도메인 그대로</li><li>기존 글 · 자료 옮기기</li><li>구조와 디자인 새로 정리</li></ul></div>
+        <div class="bizd__i"><div class="n">05</div><h3>반응형 · 모바일</h3><div class="en2">Responsive</div><ul><li>PC · 태블릿 · 휴대폰 기본</li><li>누르기 쉬운 버튼 · 글자</li><li>빠르게 열리는 화면</li></ul></div>
+        <div class="bizd__i"><div class="n">06</div><h3>문의 · 예약 연결</h3><div class="en2">Inquiry Flow</div><ul><li>문의 양식 · 이메일 알림</li><li>전화 · 카카오톡 연결</li><li>지도 · 오시는 길</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/commissioning-->
+<!--/ed:business/build-->
 
-<!-- 기술지원 -->
-<!--ed:business/support-->
-<section class="sec sec--paper2" id="support" data-nav="light">
+<!-- 검색 · AI 대응 -->
+<!--ed:business/search-->
+<section class="sec sec--paper2" id="search" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Green &amp; Decarbonization Solutions</div><h2>기술지원 — 친환경 · 탈탄소</h2></div>
-        <p>선박 시스템 엔지니어링부터 친환경 추진 시스템까지, 시운전을 넘어 기술을 지원합니다.</p>
+        <div><div class="en">SEO · AEO · GEO</div><h2>검색 · AI 대응 — 찾히는 홈페이지</h2></div>
+        <p>네이버 · 구글 검색과 AI 답변에 회사 정보가 정확히 담기도록 기획 단계부터 설계합니다. 순위 보장이 아니라 잘 읽히는 기본기를 갖춥니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>FGSS</h3><div class="en2">LNG Fuel Gas Supply System</div><ul><li>LNG 연료 공급 시스템 기술지원</li><li>저장·이송·기화·압력 제어 계통 확인</li><li>알람·인터록 및 안전 계통 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>ALS</h3><div class="en2">Air Lubrication System</div><ul><li>선체 공기윤활 시스템 기술지원</li><li>공기 공급 장치 및 배관 계통 확인</li><li>운전 조건 및 제어 시스템 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>Wind Challenger</h3><div class="en2">Wind-Assisted Propulsion System</div><ul><li>풍력 보조 추진 시스템 기술지원</li><li>Sail 구동 및 제어 상태 확인</li><li>운항 조건 및 안전 연동 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>LNG Re-Gas System</h3><div class="en2">LNG Regasification System</div><ul><li>LNG 기화 시스템 기술지원</li><li>기화·압력·온도 제어 계통 확인</li><li>밸브 및 안전 계통 작동 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>Gas Turbine</h3><div class="en2">Gas Turbine System</div><ul><li>가스터빈 운전 기술지원</li><li>연료 공급 및 기동 조건 확인</li><li>제어·보호 시스템 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">06</div><h3>WTMS</h3><div class="en2">Water Treatment Monitoring System</div><ul><li>수처리 모니터링 시스템 기술지원</li><li>수질·계측 데이터 확인</li><li>알람 및 운전 상태 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">07</div><h3>BWTS</h3><div class="en2">Ballast Water Treatment System</div><ul><li>밸러스트수 처리 시스템 기술지원</li><li>처리 장비 및 배관 계통 확인</li><li>알람·제어 및 배출 조건 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">08</div><h3>SOx-Scrubber</h3><div class="en2">Sulfur Oxides Scrubber System</div><ul><li>황산화물 저감 설비 기술지원</li><li>세정수 및 배기가스 계통 확인</li><li>모니터링 장비 운전 상태 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">09</div><h3>SCR</h3><div class="en2">Selective Catalytic Reduction</div><ul><li>질소산화물 저감 설비 기술지원</li><li>환원제 공급 및 촉매 계통 확인</li><li>배기 온도·알람·제어 조건 검토</li></ul></div>
-        <div class="bizd__i"><div class="n">10</div><h3>AMP</h3><div class="en2">Alternative Maritime Power</div><ul><li>육상전원 공급 시스템 기술지원</li><li>전압·주파수 및 동기화 상태 확인</li><li>보호장치 및 전원 연결 상태 검토</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>검색 등록</h3><div class="en2">Search Console</div><ul><li>네이버 서치어드바이저</li><li>구글 서치콘솔</li><li>사이트맵 제출</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>화면별 제목 · 설명</h3><div class="en2">Meta Tags</div><ul><li>화면마다 검색 문구 정리</li><li>공유 미리보기 이미지</li><li>주소 정리</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>자주 묻는 질문</h3><div class="en2">AEO</div><ul><li>고객 질문 미리 정리</li><li>질문 · 답 형식 구성</li><li>짧고 정확한 답변</li></ul></div>
+        <div class="bizd__i"><div class="n">04</div><h3>구조화 데이터</h3><div class="en2">Structured Data</div><ul><li>회사 · 서비스 · 지역 정보</li><li>검색엔진이 읽는 형식</li><li>AI가 이해하는 설명</li></ul></div>
+        <div class="bizd__i"><div class="n">05</div><h3>빠른 화면</h3><div class="en2">Performance</div><ul><li>가벼운 사진 · 영상</li><li>휴대폰에서도 빠르게</li><li>기본 점검 후 오픈</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/support-->
+<!--/ed:business/search-->
 
-<!-- 유지보수 -->
-<!--ed:business/maintenance-->
-<section class="sec sec--paper" id="maintenance" data-nav="light">
+<!-- 관리 · 운영 -->
+<!--ed:business/care-->
+<section class="sec sec--paper" id="care" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Maintenance</div><h2>유지보수 — 안정적인 운전을 이어가는 관리 기술</h2></div>
-        <p>설비의 운전 상태 확인과 현장 상황에 맞는 대응을 통해 안정적인 운전과 장비 성능 유지를 위한 유지보수 기술지원을 제공합니다.</p>
+        <div><div class="en">Care</div><h2>관리 · 운영 — 오래 일하는 홈페이지</h2></div>
+        <p>직접 고칠 수 있는 관리자와 꾸준한 유지보수로, 오픈한 뒤에도 홈페이지가 늘 최신 상태를 유지합니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>O&amp;M 지원</h3><div class="en2">Operation &amp; Maintenance Support</div><ul><li>설비 운전 및 유지보수 업무 지원</li><li>운전 조건, 장비 상태, 계통별 작동 상태 확인</li><li>안정적인 설비 운영을 위한 현장 기술지원</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>A/S 기술지원</h3><div class="en2">After Service Support</div><ul><li>장비 운전 중 발생하는 이상 사항 검토</li><li>현장 상황에 따른 원인 확인 및 대응 방향 지원</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>제어·안전 로직 점검</h3><div class="en2">Control &amp; Safety Logic Check</div><ul><li>설비 운전 조건에 따른 알람, 인터록 및 보호 기능 작동 상태 확인</li><li>제어 시스템과 현장 장비 간 신호 연동 및 동작 조건 점검</li><li>비정상 운전 상황에서 장비가 안전하게 정지 또는 제어되는지 확인</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>트러블슈팅</h3><div class="en2">Troubleshooting</div><ul><li>장비 이상 및 시스템 오류 원인 검토</li><li>현장 운전 조건, 제어 신호, 장비 상태를 종합 확인</li><li>문제 해결을 위한 기술 대응 지원</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>정비 이력 관리</h3><div class="en2">Maintenance History Management</div><ul><li>점검 결과, 이상 발생 내역 및 조치 사항 정리</li><li>유지보수 기록 관리 및 후속 대응 사항 확인</li><li>설비 상태 추적을 통한 지속적인 운전 안정성 확보</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>화면 보며 직접 수정</h3><div class="en2">Easy Admin</div><ul><li>글자 · 사진 · 메뉴 수정</li><li>저장 후 게시</li><li>이전 상태로 되돌리기</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>게시판 · 갤러리</h3><div class="en2">Board</div><ul><li>공지 · 소식 올리기</li><li>사진 갤러리</li><li>채용 공고</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>문의 관리</h3><div class="en2">Inquiry</div><ul><li>문의 내역 한곳에</li><li>이메일 알림</li><li>답장 바로 보내기</li></ul></div>
+        <div class="bizd__i"><div class="n">04</div><h3>유지보수</h3><div class="en2">Maintenance</div><ul><li>수정 · 기능 추가 요청</li><li>정기 점검 · 백업</li><li>보안 업데이트</li></ul></div>
+        <div class="bizd__i"><div class="n">05</div><h3>도메인 · 호스팅</h3><div class="en2">Hosting</div><ul><li>신청부터 연결까지 안내</li><li>연장 관리</li><li>이전 지원</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/maintenance-->
+<!--/ed:business/care-->
 </main>
 
 <!-- FOOTER -->

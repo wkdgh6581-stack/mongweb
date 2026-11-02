@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>(주)케이원 · K1 OCEAN — 통합 시운전 전문 기업</title>
-<meta name="description" content="조선·해양·에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업, (주)케이원.">
+<title>몽웹 MongWeb · 홈페이지 제작 · SEO · AEO · GEO</title>
+<meta name="description" content="기업 홈페이지 제작부터 SEO · AEO · GEO 검색 대응, 직접 수정하는 관리자, 오픈 후 유지보수까지. 꿈을 웹으로 잇는 몽웹.">
 <link rel="canonical" href="https://k1tnc.co.kr/">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/">
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="(주)케이원 · K1 OCEAN — 통합 시운전 전문 기업">
-<meta property="og:description" content="조선·해양·에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업, (주)케이원.">
+<meta property="og:title" content="몽웹 MongWeb · 홈페이지 제작">
+<meta property="og:description" content="기업 홈페이지 제작부터 SEO · AEO · GEO 검색 대응, 직접 수정하는 관리자, 오픈 후 유지보수까지. 꿈을 웹으로 잇는 몽웹.">
 <meta property="og:url" content="https://k1tnc.co.kr/">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="(주)케이원 · K1 OCEAN — 통합 시운전 전문 기업">
-<meta name="twitter:description" content="조선·해양·에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업, (주)케이원.">
+<meta name="twitter:title" content="몽웹 MongWeb · 홈페이지 제작">
+<meta name="twitter:description" content="기업 홈페이지 제작부터 SEO · AEO · GEO 검색 대응, 직접 수정하는 관리자, 오픈 후 유지보수까지. 꿈을 웹으로 잇는 몽웹.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -45,7 +45,7 @@
 
   <div class="hero__top">
     <div class="wrap">
-      <span class="hero__eyebrow">FROM PLANNING TO COMPLETION</span>
+      <span class="hero__eyebrow">WEBSITE · SEO · AEO · GEO</span>
       <h1>
         <span class="mask"><span>당신의 <i>꿈</i>을,</span></span>
         <span class="mask"><span>웹사이트라는 가치로.</span></span>
@@ -58,447 +58,356 @@
     </div>
   </div>
 
-  <!-- brand architecture: ONE COMPANY · TWO DOMAINS -->
   <div class="dom">
-    <div class="dom__lab">One Company · Two Domains</div>
+    <div class="dom__lab">One Team · Two Strengths</div>
     <div class="dom__in">
       <div class="dom__b" data-k="k1">
-        <div class="dom__mk"><i class="dot" aria-hidden="true"></i><b>K1</b><span>Offshore · Plant</span></div>
-        <ul class="dom__f"><li>해양플랜트</li><li>FPSO</li><li>육상플랜트</li></ul>
-        <div class="dom__en"><b>Integrated Commissioning</b><span>Project Coordination · Technical Expertise</span></div>
+        <div class="dom__mk"><i class="dot" aria-hidden="true"></i><b>Web Build</b><span>Design · Develop</span></div>
+        <ul class="dom__f"><li>기업 홈페이지</li><li>브랜드 사이트</li><li>랜딩페이지</li></ul>
+        <div class="dom__en"><b>기획부터 오픈까지 한 팀이 직접</b><span>Planning · Design · Development</span></div>
       </div>
       <div class="dom__b" data-k="ocean">
-        <div class="dom__mk"><i class="dot" aria-hidden="true"></i><b>K1 OCEAN</b><span>Marine</span></div>
-        <ul class="dom__f"><li>Commercial Vessel</li><li>Special Vessel</li><li>LNG Carrier</li></ul>
-        <div class="dom__en"><b>E&amp;I&amp;M Commissioning</b></div>
+        <div class="dom__mk"><i class="dot" aria-hidden="true"></i><b>Search Ready</b><span>SEO · AEO · GEO</span></div>
+        <ul class="dom__f"><li>검색 노출</li><li>AI 답변 대응</li><li>구조화 데이터</li></ul>
+        <div class="dom__en"><b>사람과 검색엔진, AI가 함께 읽는 구조</b></div>
       </div>
     </div>
   </div>
 </section>
 <!--/ed:index/hero-->
 
-<!-- ============ FIGURES (company scale) ============ -->
+<!-- ============ 숫자로 보는 기본 제공 ============ -->
 <!--ed:index/figs-->
 <section class="figs" data-nav="dark">
   <div class="wrap">
     <div class="figs__in rv">
-      <div class="fig"><div class="fig__n"><span data-count="20">20</span><em>년</em></div><div class="fig__l">핵심 기술진 현장 경험</div></div>
-      <div class="fig"><div class="fig__n"><span data-count="9">9</span><em>년</em></div><div class="fig__l">창립 · Since 2017</div></div>
-      <div class="fig"><div class="fig__n"><span data-count="180">180</span><em>억</em></div><div class="fig__l">2025년 매출</div></div>
-      <div class="fig"><div class="fig__n"><span data-count="260">260</span><em>명</em></div><div class="fig__l">전문 인력</div></div>
+      <div class="fig"><div class="fig__n"><span>5</span><em>단계</em></div><div class="fig__l">상담부터 오픈까지 제작 절차</div></div>
+      <div class="fig"><div class="fig__n"><span>100</span><em>%</em></div><div class="fig__l">PC · 태블릿 · 휴대폰 반응형</div></div>
+      <div class="fig"><div class="fig__n"><span>3</span><em>가지</em></div><div class="fig__l">SEO · AEO · GEO 기본 세팅</div></div>
+      <div class="fig"><div class="fig__n"><span>24</span><em>시간</em></div><div class="fig__l">온라인 문의 접수</div></div>
     </div>
   </div>
 </section>
 <!--/ed:index/figs-->
 
-<!-- ============ ABOUT (image-first) ============ -->
+<!-- ============ ABOUT ============ -->
 <!--ed:index/about-->
 <section class="sec sec--paper about" id="about" data-nav="light">
   <div class="wrap">
     <div class="about__grid">
-      <div class="about__img viz rv" style="--gx:70%;--gy:30%">
-        <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-          <path d="M0 430 H800" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M120 430 L150 250 L470 250 L500 430 Z" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M150 250 L150 180 M470 250 L470 180" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M150 180 H470" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M560 430 L560 150 M560 150 L680 200 M560 210 L660 250" class="sig" stroke="currentColor" stroke-width="1.5"/>
-          <circle cx="560" cy="150" r="6" class="sig" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M0 470 Q200 450 400 470 T800 470" stroke="currentColor" stroke-width="1" opacity=".6"/>
-          <path d="M0 500 Q200 482 400 500 T800 500" stroke="currentColor" stroke-width="1" opacity=".4"/>
-        </svg>
-        <img src="assets/about-engineer.jpg" alt="배전반 앞에서 멀티미터로 전력 계통을 시험하는 시운전 엔지니어" loading="lazy">
+      <div class="about__img viz viz--web rv" style="--gx:70%;--gy:30%">
+        <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg>
       </div>
       <div class="about__txt">
         <span class="eyebrow rv">／ 01 &nbsp;About Us</span>
-        <h2 class="d2 rv">신뢰로 증명하는<br><em>통합 시운전 파트너</em></h2>
-        <p class="lead rv">케이원은 축적된 기술과 현장 경험을 바탕으로 설계와 시공의 결과를 안정적인 가동과 운영으로 연결합니다. 시작부터 마지막 순간까지, 그 모든 과정을 책임지는 것이 우리의 역할입니다.</p>
+        <h2 class="d2 rv">보기 좋은 화면을 넘어<br><em>문의로 이어지는 홈페이지</em></h2>
+        <p class="lead rv">몽웹은 회사를 처음 보는 고객이 무엇을 먼저 궁금해하는지부터 생각합니다. 소개 · 서비스 · 신뢰 · 문의로 이어지는 흐름을 설계하고, 검색엔진과 AI도 그 내용을 정확히 읽을 수 있게 만듭니다.</p>
       </div>
     </div>
     <div class="vals stg rv">
-      <div class="val"><i class="ic i-trust" aria-hidden="true"></i><h3>분명한 기준<b>Trust · 신뢰</b></h3><p>모든 업무를 명확한 원칙과 근거 위에서 판단합니다. 일관된 운영과 투명한 소통으로 신뢰의 기준을 세웁니다.</p></div>
-      <div class="val"><i class="ic i-collab" aria-hidden="true"></i><h3>유연한 협업<b>Collaboration · 협업</b></h3><p>고객·파트너·구성원이 같은 방향으로 움직이도록 열린 태도로 협업하며 더 나은 결과를 함께 만듭니다.</p></div>
-      <div class="val"><i class="ic i-responsibility" aria-hidden="true"></i><h3>확실한 책임<b>Responsibility · 책임</b></h3><p>맡은 일은 시작보다 마무리가 중요합니다. 약속한 품질과 일정을 마지막 순간까지 책임 있게 완성합니다.</p></div>
+      <div class="val"><i class="ic i-trust" aria-hidden="true"></i><h3>업종을 먼저 이해합니다<b>Understand · 이해</b></h3><p>업종마다 고객이 먼저 확인하는 정보가 다릅니다. 상담에서 사업과 고객을 이해한 뒤, 그 순서에 맞춰 메뉴와 화면을 구성합니다.</p></div>
+      <div class="val"><i class="ic i-collab" aria-hidden="true"></i><h3>찾히는 구조로 만듭니다<b>Search · 검색</b></h3><p>제목 · 설명 · 구조화 데이터를 기획 단계부터 함께 설계해 네이버 · 구글 검색과 AI 답변에 회사 정보가 정확히 담기도록 합니다.</p></div>
+      <div class="val"><i class="ic i-responsibility" aria-hidden="true"></i><h3>오픈 뒤에도 함께합니다<b>Care · 관리</b></h3><p>화면을 보면서 직접 고치는 관리자를 드리고, 오픈 후 수정 · 점검 · 기능 추가까지 계속 함께합니다.</p></div>
     </div>
   </div>
 </section>
 <!--/ed:index/about-->
 
-<!-- ============ BRANDS (K1 · K1 OCEAN) ============ -->
-<!--ed:index/brands-->
-<section class="sec sec--paper2 brands" id="brands" data-nav="light">
+<!-- ============ 두 가지 제작 방식 ============ -->
+<!--ed:index/services-->
+<section class="sec sec--paper2 brands" id="services" data-nav="light">
   <div class="wrap">
     <div class="brands__head">
-      <span class="eyebrow rv">／ Brands</span>
-      <h2 class="d2 rv">하나의 그룹,<br><em>두 개의 전문 영역</em></h2>
-      <p class="lead rv">해양·플랜트의 케이원과 조선·선박의 케이원오션. 두 브랜드가 각자의 현장에서 기술과 운영을 연결합니다.</p>
+      <span class="eyebrow rv">／ Services</span>
+      <h2 class="d2 rv">처음 만드는 홈페이지도,<br><em>다시 만드는 홈페이지도</em></h2>
+      <p class="lead rv">새로 시작하는 회사와 오래된 홈페이지를 바꾸려는 회사, 상황이 달라도 같은 기준으로 만듭니다.</p>
     </div>
     <div class="brands__grid">
       <article class="brand-c rv">
         <div class="brand-c__id">
-          <img class="brand-c__mk" src="assets/mark-k1.png" alt="케이원 K1" loading="lazy">
+          <img class="brand-c__mk" src="assets/favicon.png" alt="" loading="lazy">
           <div class="brand-c__nm">
-            <b>케이원 <span>K1</span></b>
-            <span class="brand-c__svc">Offshore &amp; Integrated Commissioning</span>
+            <b>신규 제작 <span>New Build</span></b>
+            <span class="brand-c__svc">Planning · Design · Development</span>
           </div>
         </div>
-        <div class="brand-c__en">Global Engineering &amp; Turnkey Commissioning Partner</div>
-        <p class="brand-c__tag">기술과 운영을 연결하는 역량,<br>프로젝트 수행의 안정적인 중심</p>
-        <p>케이원은 축적된 기술력과 현장 경험을 바탕으로 고객의 프로젝트를 안정적으로 지원합니다.</p>
-        <p>현장의 흐름을 이해하고, 고객이 필요로 하는 순간의 시작부터 완료까지 가장 가까운 곳에서 사람과 기술을 연결하고 있습니다.</p>
-        <p>글로벌 조선 산업의 흐름 속에서 친환경·고효율 기술 흐름에 대응하며, 신뢰할 수 있는 엔지니어링 파트너로 나아갑니다.</p>
-        <p>오늘의 현장을 움직이는 힘으로, 더 나은 산업의 내일을 함께 만들어갑니다.</p>
+        <div class="brand-c__en">From the first conversation to launch</div>
+        <p class="brand-c__tag">자료가 없어도 괜찮습니다.<br>상담 내용으로 기획부터 시작합니다</p>
+        <p>회사 소개서나 정리된 자료가 없어도 시작할 수 있습니다. 상담에서 들은 내용으로 메뉴 구성과 첫 문구를 먼저 제안합니다.</p>
+        <p>디자인 시안을 함께 다듬고, PC와 휴대폰에서 모두 보기 좋은 화면으로 만듭니다.</p>
+        <p>도메인 · 호스팅 연결과 검색 등록까지 마친 뒤 오픈합니다.</p>
       </article>
       <article class="brand-c rv">
         <div class="brand-c__id">
-          <img class="brand-c__mk" src="assets/mark-k1ocean.png" alt="케이원오션 K1 OCEAN" loading="lazy">
+          <img class="brand-c__mk" src="assets/favicon.png" alt="" loading="lazy">
           <div class="brand-c__nm">
-            <b>케이원오션 <span>K1 OCEAN</span></b>
-            <span class="brand-c__svc">Marine Service</span>
+            <b>리뉴얼 <span>Renewal</span></b>
+            <span class="brand-c__svc">Restructure · Redesign · Migrate</span>
           </div>
         </div>
-        <div class="brand-c__en">Turnkey E, I, T, M Commissioning Specialists</div>
-        <p class="brand-c__tag">현장의 흐름을 이끄는 실행력으로<br>시작부터 마무리까지 완벽한 동반자</p>
-        <p>케이원오션은 조선·선박 프로젝트에 필요한 기술지원과 현장 대응 서비스를 제공합니다.</p>
-        <p>선박의 다양한 공정과 기술 요구에 맞춰 정확하고 안정적인 지원을 수행하며, 프로젝트의 원활한 마무리까지 함께합니다.</p>
-        <p>에너지 산업의 빠른 변화 속에서 기술의 전문성과 풍부한 현장 경험을 바탕으로 더 안전하고 효율적인 서비스를 제공하며, 고객과 동반하는 파트너입니다.</p>
+        <div class="brand-c__en">Keep the domain, rebuild the experience</div>
+        <p class="brand-c__tag">오래된 홈페이지를<br>지금의 검색과 고객에 맞게</p>
+        <p>예전 홈페이지는 사람이 읽는 것만 생각하고 만든 경우가 많습니다. 지금은 검색엔진과 AI가 먼저 읽고 고객에게 전달합니다.</p>
+        <p>쓰던 도메인은 그대로 두고, 기존 글과 자료를 옮기면서 메뉴와 화면 구조를 새로 정리합니다.</p>
+        <p>휴대폰에서 불편했던 화면, 직접 고칠 수 없던 관리 방식도 함께 바꿉니다.</p>
       </article>
     </div>
   </div>
 </section>
-<!--/ed:index/brands-->
+<!--/ed:index/services-->
 
-<!-- ============ CAPABILITY (system diagram) ============ -->
+<!-- ============ 핵심 역량 ============ -->
 <!--ed:index/capability-->
 <section class="sec cap" id="capability" data-nav="dark">
   <div class="wrap">
     <div class="cap__grid">
       <div class="cap__aside">
-        <span class="eyebrow rv">／ 02 &nbsp;K1 Capability</span>
-        <h2 class="d2 rv">핵심 역량,<br>하나의 시스템</h2>
-        <p class="lead rv">개별 기술이 아니라, 선박 전 영역을 이해하는 <em>통합 시운전 실행 체계</em>로 연결되어 프로젝트의 마지막 순간을 책임집니다.</p>
-        <span class="cap__badge rv"><i aria-hidden="true"></i>Integrated Commissioning System</span>
+        <span class="eyebrow rv">／ 02 &nbsp;Capability</span>
+        <h2 class="d2 rv">기획부터 운영까지,<br>하나의 흐름으로</h2>
+        <p class="lead rv">기획 · 디자인 · 개발 · 검색 대응을 따로 맡기지 않아도 됩니다. 몽웹이 <em>처음부터 끝까지 한 흐름</em>으로 진행합니다.</p>
+        <span class="cap__badge rv"><i aria-hidden="true"></i>All-in-one Website Team</span>
       </div>
       <div class="cap__sys rv">
-        <div class="cap__node" tabindex="0"><div class="no">01</div><h3>Full-Ship Commissioning</h3><p>선박 전체 전력 및 제어 시스템을 통합 시운전하는 실행 역량.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">02</div><h3>High Voltage System</h3><p>Generator · Transformer · HV Switchgear 시험 및 계통 연계.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">03</div><h3>Integrated E&amp;I</h3><p>전기 · 계장 시스템 인터페이스 및 시스템 검증.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">04</div><h3>Commissioning Workforce</h3><p>HV 전문 엔지니어 및 현장 즉시 투입 인력 체계.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">05</div><h3>Early-stage Risk Control</h3><p>공사 단계 참여로 Punch 감소 및 Rework 최소화.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">06</div><h3>Equipment &amp; Standards</h3><p>전문 시험 장비 운용 및 PTW · JSA 기반 안전 관리.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">01</div><h3>Planning</h3><p>업종과 고객에 맞춘 메뉴 구성 · 화면 설계 · 첫 문구 제안.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">02</div><h3>Design</h3><p>브랜드 색과 분위기를 담은 디자인, 문의로 이어지는 화면 배치.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">03</div><h3>Development</h3><p>PC · 태블릿 · 휴대폰 반응형, 빠르게 열리는 가벼운 화면.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">04</div><h3>SEO · AEO · GEO</h3><p>검색 노출 · 질문에 대한 답 · AI가 이해하는 회사 정보까지 구조로 설계.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">05</div><h3>Easy Admin</h3><p>홈페이지 화면을 보면서 글자 · 사진 · 메뉴를 직접 고치는 관리자.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">06</div><h3>Care</h3><p>오픈 후 수정 · 점검 · 기능 추가, 필요한 만큼 이어지는 관리.</p></div>
       </div>
     </div>
   </div>
 </section>
 <!--/ed:index/capability-->
 
-<!-- ============ BUSINESS (full-bleed showcase panels) ============ -->
+<!-- ============ 제작 서비스 (패널) ============ -->
 <!--ed:index/business-->
 <section class="biz" id="business" data-nav="dark">
   <div class="wrap biz__intro">
-    <span class="eyebrow rv">／ 03 &nbsp;Business Areas</span>
-    <h2 class="d2 rv">시스템을 기동하는 기술,<br>K1이 수행합니다</h2>
-    <p class="lead rv">전기 · 기계 · 계장 · 공조 · 항해통신 전 영역에 대한 One-Stop Commissioning을 수행합니다.</p>
+    <span class="eyebrow rv">／ 03 &nbsp;What We Build</span>
+    <h2 class="d2 rv">사람도, 검색도, AI도<br>이해하는 홈페이지</h2>
+    <p class="lead rv">보기 좋은 디자인에 검색 대응과 쉬운 관리까지, 홈페이지에 필요한 것을 한 번에 갖춥니다.</p>
   </div>
 
-  <!-- 01 Electrical -->
+  <!-- 01 기업 홈페이지 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:80%;--gy:32%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <path d="M0 320 H210 L250 220 L320 420 L390 260 L440 320 H800" class="sig" stroke="currentColor" stroke-width="2"/>
-        <circle cx="210" cy="320" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="440" cy="320" r="5" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M600 140 V460 M660 140 V460 M720 140 V460" stroke="currentColor" stroke-width="1" opacity=".5"/>
-        <path d="M600 200 H720 M600 300 H720 M600 400 H720" stroke="currentColor" stroke-width="1" opacity=".5"/>
-      </svg>
-      <img src="assets/biz-01-electrical.jpg" alt="고전압 배전반과 스위치기어가 늘어선 전기실 — 전기 시운전 현장" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:80%;--gy:32%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="250" height="150" rx="6" class="sig" stroke="currentColor" stroke-width="2"/><path d="M430 210 H650 M430 240 H620 M430 270 H600 M150 390 H650 M150 420 H560" stroke="currentColor" stroke-width="1.4"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">01</span><span class="bizp__en">Electrical</span>
-      <h3>전기 시운전</h3>
-      <ul><li>고전압 및 전력 시스템 통합 시운전</li><li>Synchronizing / Load Test / PMS 검증</li><li>DP &amp; FMEA Commissioning 수행</li></ul>
+      <span class="bizp__no">01</span><span class="bizp__en">Corporate Website</span>
+      <h3>기업 홈페이지</h3>
+      <ul><li>회사소개 · 서비스 · 실적 · 문의까지 한 흐름으로</li><li>업종에 맞춘 메뉴와 화면 구성</li><li>브랜드 색과 분위기를 담은 디자인</li></ul>
     </div></div>
   </article>
 
-  <!-- 02 Mechanical -->
+  <!-- 02 반응형 · 모바일 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:22%;--gy:34%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <circle cx="250" cy="300" r="150" stroke="currentColor" stroke-width="1.5"/><circle cx="250" cy="300" r="96" stroke="currentColor" stroke-width="1.5"/>
-        <circle cx="250" cy="300" r="30" class="sig" stroke="currentColor" stroke-width="2"/>
-        <g stroke="currentColor" stroke-width="1.5">
-          <path d="M250 150 V120 M250 450 V480 M100 300 H70 M400 300 H430"/>
-          <path d="M356 194 L378 172 M144 406 L122 428 M356 406 L378 428 M144 194 L122 172"/>
-        </g>
-        <circle cx="620" cy="300" r="70" stroke="currentColor" stroke-width="1" opacity=".5"/>
-      </svg>
-      <img src="assets/biz-02-mechanical.jpg" alt="기관실의 펌프·컴프레서 배관 설비 기계 시운전 현장" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:22%;--gy:34%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="120" y="130" width="420" height="290" rx="12" stroke="currentColor" stroke-width="1.6"/><path d="M290 460 H370 M330 420 V460" stroke="currentColor" stroke-width="1.6"/><rect x="520" y="200" width="160" height="250" rx="14" stroke="currentColor" stroke-width="1.6"/><rect x="600" y="260" width="110" height="200" rx="16" class="sig" stroke="currentColor" stroke-width="2"/><path d="M640 440 H670" class="sig" stroke="currentColor" stroke-width="2"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">02</span><span class="bizp__en">Mechanical</span>
-      <h3>기계 시운전</h3>
-      <ul><li>펌프 · 컴프레서 · 밸브 등 회전/비회전 장비 시험</li><li>장비 기능 및 운전 상태 검증</li><li>시스템 운전 안정성 및 성능 확인</li></ul>
+      <span class="bizp__no">02</span><span class="bizp__en">Responsive</span>
+      <h3>반응형 · 모바일</h3>
+      <ul><li>PC · 태블릿 · 휴대폰 모두 기본</li><li>손가락으로 누르기 편한 버튼과 글자 크기</li><li>빠르게 열리는 가벼운 화면</li></ul>
     </div></div>
   </article>
 
-  <!-- 03 Instrumentation -->
+  <!-- 03 SEO 검색 최적화 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:82%;--gy:30%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <path d="M120 400 A180 180 0 0 1 480 400" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M300 400 L410 250" class="sig" stroke="currentColor" stroke-width="2"/>
-        <circle cx="300" cy="400" r="8" class="sig" stroke="currentColor" stroke-width="2"/>
-        <g stroke="currentColor" stroke-width="1.4">
-          <path d="M150 360 l-24 -14 M300 232 v-28 M450 360 l24 -14"/>
-        </g>
-        <path d="M560 300 h120 M620 260 v80 M560 300 a30 30 0 0 1 30 -30 M650 300 a30 30 0 0 1 30 30" stroke="currentColor" stroke-width="1" opacity=".5"/>
-      </svg>
-      <img src="assets/biz-03-instrumentation.jpg" alt="트랜스미터·제어밸브 등 계측 제어 설비 계장 시운전 현장" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:82%;--gy:30%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M150 210 H520 M150 260 H470 M150 310 H500 M150 360 H430 M150 410 H480" stroke="currentColor" stroke-width="1.4"/><circle cx="560" cy="330" r="62" class="sig" stroke="currentColor" stroke-width="2.2"/><path d="M604 374 L660 430" class="sig" stroke="currentColor" stroke-width="3"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">03</span><span class="bizp__en">Instrumentation &amp; Control</span>
-      <h3>계장 시운전</h3>
-      <ul><li>Calibration &amp; Loop Check 수행</li><li>제어밸브 · 트랜스미터 · 계측 시스템 검증</li><li>C&amp;E Test 기반 제어 로직 확인</li></ul>
+      <span class="bizp__no">03</span><span class="bizp__en">Search Engine Optimization</span>
+      <h3>SEO 검색 최적화</h3>
+      <ul><li>화면마다 제목 · 설명 · 주소 정리</li><li>네이버 서치어드바이저 · 구글 서치콘솔 등록</li><li>사이트맵 · 검색 수집 설정</li></ul>
     </div></div>
   </article>
 
-  <!-- 04 Hull Outfitting -->
+  <!-- 04 AI 검색 대응 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:20%;--gy:36%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <path d="M120 200 H520 L470 420 Q300 470 130 420 Z" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M170 200 V420 M230 200 V430 M300 200 V440 M370 200 V435 M440 200 V425" stroke="currentColor" stroke-width="1" opacity=".55"/>
-        <path d="M120 200 H520" class="sig" stroke="currentColor" stroke-width="2"/>
-        <path d="M560 470 Q640 452 720 470" stroke="currentColor" stroke-width="1" opacity=".5"/>
-      </svg>
-      <img src="assets/biz-04-hull.jpg" alt="해질녘 선박 갑판의 화물유·밸러스트 배관과 갑판기기·소화장치·구명정 — 선장 시운전 현장" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:20%;--gy:36%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="130" y="150" width="330" height="110" rx="20" stroke="currentColor" stroke-width="1.6"/><path d="M170 190 H420 M170 222 H360" stroke="currentColor" stroke-width="1.4"/><rect x="330" y="300" width="350" height="140" rx="20" class="sig" stroke="currentColor" stroke-width="2"/><path d="M370 342 H640 M370 374 H600 M370 406 H560" class="sig" stroke="currentColor" stroke-width="1.6"/><path d="M200 260 L180 300 L240 260" stroke="currentColor" stroke-width="1.6"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">04</span><span class="bizp__en">Hull Outfitting Commissioning</span>
-      <h3>선장 시운전</h3>
-      <ul><li>화물유 · 밸러스트 시스템 시운전</li><li>갑판기기 · 소화장치 · 구명설비 기능 확인</li><li>선장 시스템 및 배관 세정 상태 확인</li></ul>
+      <span class="bizp__no">04</span><span class="bizp__en">AEO · GEO</span>
+      <h3>AI 검색 대응</h3>
+      <ul><li>고객 질문에 답하는 자주 묻는 질문 구성</li><li>회사 · 서비스 정보를 구조화 데이터로 정리</li><li>AI 답변에 정확한 정보가 담기도록 설계</li></ul>
     </div></div>
   </article>
 
-  <!-- 05 Navigation & Telecom -->
+  <!-- 05 직접 수정하는 관리자 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:80%;--gy:30%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <circle cx="290" cy="300" r="60" stroke="currentColor" stroke-width="1.3" opacity=".6"/>
-        <circle cx="290" cy="300" r="120" stroke="currentColor" stroke-width="1.3" opacity=".45"/>
-        <circle cx="290" cy="300" r="180" stroke="currentColor" stroke-width="1.3" opacity=".3"/>
-        <path d="M290 300 L290 120 M290 300 L448 210" class="sig" stroke="currentColor" stroke-width="2"/>
-        <path d="M110 300 H470 M290 120 V480" stroke="currentColor" stroke-width="1" opacity=".4"/>
-        <circle cx="448" cy="210" r="6" class="sig" stroke="currentColor" stroke-width="2"/>
-      </svg>
-      <img src="assets/biz-05-navigation.jpg" alt="선교(브리지)의 레이더·전자해도·항해 콘솔 등 항해통신 설비" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:80%;--gy:30%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M150 200 V450 M260 200 V450" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M290 220 H650 M290 260 H600" stroke="currentColor" stroke-width="1.4"/><rect x="290" y="300" width="250" height="40" rx="4" class="sig" stroke="currentColor" stroke-width="2"/><path d="M548 300 L530 342" class="sig" stroke="currentColor" stroke-width="2"/><path d="M290 380 H620 M290 410 H560" stroke="currentColor" stroke-width="1.4"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">05</span><span class="bizp__en">Navigation &amp; Telecom</span>
-      <h3>항해통신 시운전</h3>
-      <ul><li>항해 · 통신 시스템 인터페이스 시험</li><li>GPS · Radar · GMDSS 장비 기능 검증</li><li>통합 인터페이스 확인</li></ul>
+      <span class="bizp__no">05</span><span class="bizp__en">Easy Admin</span>
+      <h3>직접 수정하는 관리자</h3>
+      <ul><li>홈페이지 화면을 보면서 바로 수정</li><li>글자 · 사진 · 메뉴 · 링크 변경</li><li>저장 후 게시, 이전 상태로 되돌리기</li></ul>
     </div></div>
   </article>
 
-  <!-- 06 FGSS / ALS -->
+  <!-- 06 유지보수 · 운영 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz" style="--gx:22%;--gy:32%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
-        <path d="M250 190 l70 40 v90 l-70 40 l-70 -40 v-90 Z" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M250 120 v70 M180 240 l-58 -34 M320 240 l58 -34 M250 360 v70 M180 320 l-58 34 M320 320 l58 34" stroke="currentColor" stroke-width="1" opacity=".5"/>
-        <circle cx="250" cy="120" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="250" cy="430" r="6" stroke="currentColor" stroke-width="1.4"/>
-        <path d="M600 400 q-40 -60 0 -110 q40 50 0 110 Z" class="sig" stroke="currentColor" stroke-width="2"/>
-      </svg>
-      <img src="assets/biz-06-fgss.jpg" alt="가스 처리 설비와 풍력·태양광이 함께 보이는 친환경 에너지 플랜트 제어 현장" loading="lazy">
+    <div class="bizp__viz viz viz--web" style="--gx:22%;--gy:32%">
+      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><circle cx="400" cy="300" r="150" stroke="currentColor" stroke-width="1.5"/><circle cx="400" cy="300" r="96" stroke="currentColor" stroke-width="1.3" opacity=".6"/><path d="M400 150 A150 150 0 0 1 550 300" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M540 280 L550 300 L566 284" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M370 300 L392 322 L436 276" class="sig" stroke="currentColor" stroke-width="2.4"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">06</span><span class="bizp__en">Green &amp; Decarbonization Solutions</span>
-      <h3>친환경 · 탈탄소</h3>
-      <ul><li>LNG · Dual Fuel · FGSS · BOG Compressor</li><li>ALS · Wind Challenger</li><li>Carbon Capture · Scrubber · BWTS</li><li>Engineering &amp; Commissioning Expertise</li></ul>
+      <span class="bizp__no">06</span><span class="bizp__en">Maintenance</span>
+      <h3>유지보수 · 운영</h3>
+      <ul><li>오픈 후 수정 · 기능 추가 요청</li><li>정기 점검 · 백업 · 보안 업데이트</li><li>도메인 · 호스팅 연장 관리</li></ul>
     </div></div>
   </article>
+
 </section>
 <!--/ed:index/business-->
 
-<!-- ============ EXECUTION (KES — data-centric) ============ -->
-<!--ed:index/execution-->
-<section class="sec exe" id="execution" data-nav="dark">
+<!-- ============ 제작 절차 · 차별점 ============ -->
+<!--ed:index/process-->
+<section class="sec exe" id="process" data-nav="dark">
   <div class="wrap">
     <div class="exe__head">
-      <span class="eyebrow rv">／ 04 &nbsp;K1 Execution System</span>
-      <h2 class="d2 rv">K1 EXECUTION SYSTEM<br><em>(KES)</em></h2>
-      <p class="lead rv">프로젝트의 Manpower, Schedule, Quality, Safety 및 Completion을 하나의 관리체계로 통합하여 Commissioning 수행력을 높이는 K1의 프로젝트 실행 시스템입니다.</p>
+      <span class="eyebrow rv">／ 04 &nbsp;How We Work</span>
+      <h2 class="d2 rv">상담부터 오픈까지<br><em>5단계로 진행합니다</em></h2>
+      <p class="lead rv">단계마다 무엇을 하고 무엇을 확인하는지 미리 알려 드립니다. 확인을 받은 뒤 다음 단계로 넘어갑니다.</p>
     </div>
-
-    <!-- KES 실행 축 5 (대표이사 제공 KES 다이어그램 재구성) -->
     <div class="kes2 rv">
       <div class="kes2__core">
         <div class="kesd__meta">
-          <div class="kes2__vow"><span>ONE SYSTEM</span><span>ONE TEAM</span><span>ONE GOAL</span><span>ZERO COMPROMISE</span></div>
-          <p class="kes2__cap">계획부터 인계까지, 하나로 연결된 실행력<em>From Planning to Completion, K1 Delivers.</em></p>
+          <div class="kes2__vow"><span>LISTEN</span><span>PLAN</span><span>DESIGN</span><span>LAUNCH</span></div>
+          <p class="kes2__cap">이야기를 듣는 것에서 시작해, 오픈 뒤까지 이어집니다<em>From your story to a working website.</em></p>
         </div>
         <div class="kesd__hub">
-          <b>KES</b>
-          <span>K1 Execution System</span>
-          <em>WE COMPLETE YOUR SUCCESS</em>
+          <b>MW</b>
+          <span>MongWeb Process</span>
+          <em>DREAM TO WEB</em>
         </div>
       </div>
       <div class="kes2__grid stg">
-        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">01</span><h3>Manpower</h3>
-          <ul><li>Right People</li><li>Right Skill</li><li>Right Place</li><li>Mobility</li></ul></article>
-        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">02</span><h3>Schedule</h3>
-          <ul><li>Priority Management</li><li>Look Ahead Planning</li><li>Progress Tracking</li><li>On-time Delivery</li></ul></article>
-        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">03</span><h3>Quality</h3>
-          <ul><li>Standard &amp; Procedure</li><li>Inspection &amp; Test</li><li>Verification</li><li>Continual Improvement</li></ul></article>
-        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">04</span><h3>Safety</h3>
-          <ul><li>PTW &amp; JSA</li><li>Risk Assessment</li><li>Safety Training</li><li>Zero Accident</li></ul></article>
-        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">05</span><h3>Completion</h3>
-          <ul><li>Punch Management</li><li>Final Test</li><li>Documentation</li><li>Handover</li></ul></article>
+        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">01</span><h3>상담</h3>
+          <ul><li>회사 · 고객 이야기</li><li>참고 사이트</li><li>예산 · 일정</li><li>견적 안내</li></ul></article>
+        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">02</span><h3>기획</h3>
+          <ul><li>메뉴 구성</li><li>화면 설계</li><li>첫 문구 제안</li><li>검색 키워드 정리</li></ul></article>
+        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">03</span><h3>디자인</h3>
+          <ul><li>메인 시안</li><li>하위 화면 시안</li><li>휴대폰 화면</li><li>수정 반영</li></ul></article>
+        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">04</span><h3>개발</h3>
+          <ul><li>반응형 화면 제작</li><li>관리자 연결</li><li>SEO · AEO · GEO 세팅</li><li>기기별 점검</li></ul></article>
+        <article class="kp"><i class="kp__node" aria-hidden="true"></i><span class="kp__n">05</span><h3>오픈</h3>
+          <ul><li>도메인 · 호스팅 연결</li><li>검색 등록</li><li>관리자 사용법 안내</li><li>오픈 후 관리</li></ul></article>
       </div>
-      <div class="kes2__val rv"><span>Global Standard</span><span>Technical Excellence</span><span>Customer Satisfaction</span><span>Safety</span><span>Quality</span><span>Performance</span></div>
+      <div class="kes2__val rv"><span>반응형 기본</span><span>검색 대응</span><span>AI 대응</span><span>직접 수정</span><span>빠른 화면</span><span>오픈 후 관리</span></div>
       <div class="kes2__band rv">
-        <span>Commercial Vessel</span>
-        <span>LNGC / Special Vessel</span>
-        <span>Offshore / FPSO</span>
-        <span>Plant / Energy</span>
-        <span>Renewable / Green Solution</span>
-        <b>Commissioning Total Solution Provider</b>
+        <span>기업 · 제조</span>
+        <span>병원 · 의원</span>
+        <span>학원 · 교육</span>
+        <span>매장 · 프랜차이즈</span>
+        <span>쇼핑몰 · 브랜드</span>
+        <b>Website Total Solution</b>
       </div>
     </div>
 
-    <!-- K1 COMMISSIONING LIFECYCLE -->
-    <div class="lc">
-      <div class="lc__head rv">
-        <span class="eyebrow">K1 Commissioning Lifecycle</span>
-        <h3>시운전의 전 생애 주기,<br><em>K1이 끝까지 책임집니다</em></h3>
-      </div>
-      <ol class="lc__steps stg rv">
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>01</b></i><h4>사전계획</h4><ul><li>계약 및 범위 정의</li><li>CMP 수립</li><li>리소스 계획</li></ul></li>
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>02</b></i><h4>설계검토</h4><ul><li>설계/도면 검토</li><li>인터페이스 검토</li><li>시운전성 검토</li></ul></li>
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>03</b></i><h4>준비 및 구축</h4><ul><li>자재/장비 준비</li><li>현장 구축 지원</li><li>사전 점검(Pre-check)</li></ul></li>
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>04</b></i><h4>시운전 수행</h4><ul><li>Loop / System Test</li><li>Function Test</li><li>Performance Test</li></ul></li>
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>05</b></i><h4>통합 시운전</h4><ul><li>Integrated Test</li><li>성능 검증</li><li>Issue 해결</li></ul></li>
-        <li class="lc__s"><i class="lc__node" aria-hidden="true"><b>06</b></i><h4>인계 및 종료</h4><ul><li>Punch &amp; Close-out</li><li>문서화 및 교육</li><li>고객 인계</li></ul></li>
-        <li class="lc__s lc__s--last"><i class="lc__node" aria-hidden="true"><b>07</b></i><h4>After Service<small>사후 지원</small></h4><ul><li>Warranty</li><li>Maintenance</li><li>Emergency 대응</li></ul></li>
-      </ol>
-    </div>
-
-    <!-- 타사와의 차별점 -->
     <div class="diff rv">
-      <h3 class="diff__t">타사와의 <em>차별점</em></h3>
-      <p class="lc__kes"><b>KES</b><span>K1 Execution System</span>모든 단계에서 KES가 적용되어 계획부터 인계까지 통합 관리됩니다.</p>
+      <h3 class="diff__t">몽웹이 <em>다른 점</em></h3>
+      <p class="lc__kes"><b>MW</b><span>MongWeb</span>디자인만 예쁜 홈페이지가 아니라, 고객이 이해하고 문의하는 홈페이지를 만듭니다.</p>
       <div class="diff__grid stg">
         <div class="diff__i">
           <i class="ic diff__ic i-control" aria-hidden="true"></i>
-          <h4>사전 통제로 리스크 최소화</h4><p>문제 발생 전에 식별하고 예방합니다.</p>
+          <h4>자료 없이도 시작</h4><p>상담 내용으로 메뉴와 첫 문구를 먼저 제안합니다.</p>
         </div>
         <div class="diff__i">
           <i class="ic diff__ic i-integration" aria-hidden="true"></i>
-          <h4>통합 관리로 생산성 극대화</h4><p>모든 요소를 하나의 시스템으로 관리합니다.</p>
+          <h4>업종에 맞춘 구조</h4><p>고객이 먼저 찾는 정보부터 보이게 구성합니다.</p>
         </div>
         <div class="diff__i">
           <i class="ic diff__ic i-procedure" aria-hidden="true"></i>
-          <h4>품질과 안전을 핵심 가치로</h4><p>절차 기반 실행으로 신뢰를 보장합니다.</p>
+          <h4>검색 · AI가 읽는 설계</h4><p>SEO · AEO · GEO를 기획 단계부터 함께 잡습니다.</p>
         </div>
         <div class="diff__i">
           <i class="ic diff__ic i-handover" aria-hidden="true"></i>
-          <h4>완료까지 책임지는 인계</h4><p>데이터와 문서로 완전한 인계를 실현합니다.</p>
+          <h4>직접 고치는 관리자</h4><p>화면을 보면서 글자 · 사진 · 메뉴를 바로 바꿉니다.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:index/execution-->
+<!--/ed:index/process-->
 
-<!-- ============ PROJECTS ============ -->
-<!--ed:index/projects-->
-<section class="sec sec--paper" id="projects" data-nav="light">
+<!-- ============ 업종별 맞춤 ============ -->
+<!--ed:index/industries-->
+<section class="sec sec--paper" id="industries" data-nav="light">
   <div class="wrap">
     <div class="pj__intro">
-      <span class="eyebrow rv">／ 05 &nbsp;Project Track Record</span>
-      <h2 class="d2 rv">국내외 주요<br>프로젝트 실적</h2>
-      <p class="lead rv">국내 주요 조선소에서 축적한 수행 경험을 바탕으로, 글로벌 EPC 현장에서 Commissioning 역량을 증명해 왔습니다.</p>
+      <span class="eyebrow rv">／ 05 &nbsp;Industries</span>
+      <h2 class="d2 rv">업종마다<br>먼저 보여야 할 것이 다릅니다</h2>
+      <p class="lead rv">병원은 진료 정보, 학원은 커리큘럼, 매장은 위치와 메뉴. 고객이 가장 먼저 찾는 정보부터 보이도록 구조를 잡습니다.</p>
     </div>
     <div class="pj-feat stg rv">
-      <article class="pj-card"><div class="viz"><img src="assets/pj-p79-fpso.jpg" alt="예인선과 함께 안벽을 나서는 PETROBRAS P79 FPSO" loading="lazy"></div>
-        <div class="yr">한화오션 · 2024</div><h3>PETROBRAS P79 FPSO</h3><p>신조 FPSO Hull &amp; Topside (EPC) 통합 시운전</p></article>
-      <article class="pj-card"><div class="viz"><img src="assets/pj-chevron-tco.jpg" alt="야간 조명이 켜진 CHEVRON TCO FGP 가스 플랜트 전경" loading="lazy"></div>
-        <div class="yr">대우조선해양 · 2017</div><h3>CHEVRON TCO FGP</h3><p>고압 전력 시스템 및 통합 시운전 수행</p></article>
-      <article class="pj-card"><div class="viz"><img src="assets/pj-wtiv-cadeler.jpg" alt="해상에 정박한 풍력 설치선 WTIV CADELER" loading="lazy"></div>
-        <div class="yr">한화오션 · 2024</div><h3>WTIV CADELER</h3><p>풍력 설치선(Wind Turbine Installation Vessel) 시운전</p></article>
-      <article class="pj-card"><div class="viz"><img src="assets/pj-prelude-flng.jpg" alt="외해에 계류 중인 SHELL PRELUDE FLNG" loading="lazy"></div>
-        <div class="yr">삼성중공업</div><h3>SHELL PRELUDE FLNG</h3><p>대형 해양플랜트 전기·계장 통합 시운전</p></article>
-      <article class="pj-card"><div class="viz"><img src="assets/pj-exxonmobil-barzan.jpg" alt="해상에 설치된 EXXONMOBIL BARZAN 해양플랜트 플랫폼" loading="lazy"></div>
-        <div class="yr">삼성중공업 · 2007</div><h3>EXXONMOBIL BARZAN</h3><p>초기 대표 프로젝트, Drillship 시운전</p></article>
-      <article class="pj-card"><div class="viz"><img src="assets/pj-woodside-trion.jpg" alt="석양을 배경으로 외해에 떠 있는 Woodside TRION 반잠수식 플랫폼" loading="lazy"></div>
-        <div class="yr">SAIPEM (offshore)</div><h3>Woodside TRION</h3><p>해외 Offshore EPC 통합 시운전 수행</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="250" height="150" rx="6" class="sig" stroke="currentColor" stroke-width="2"/><path d="M430 210 H650 M430 240 H620 M430 270 H600 M150 390 H650 M150 420 H560" stroke="currentColor" stroke-width="1.4"/></svg></div>
+        <div class="yr">회사 신뢰부터</div><h3>기업 · 제조</h3><p>회사소개 · 제품 · 인증 · 실적을 한눈에, 견적 문의로 이어지게.</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><circle cx="400" cy="300" r="150" stroke="currentColor" stroke-width="1.5"/><circle cx="400" cy="300" r="96" stroke="currentColor" stroke-width="1.3" opacity=".6"/><path d="M400 150 A150 150 0 0 1 550 300" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M540 280 L550 300 L566 284" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M370 300 L392 322 L436 276" class="sig" stroke="currentColor" stroke-width="2.4"/></svg></div>
+        <div class="yr">진료 정보부터</div><h3>병원 · 의원</h3><p>진료 과목 · 의료진 · 진료 시간 · 오시는 길을 먼저 보이게.</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg></div>
+        <div class="yr">커리큘럼부터</div><h3>학원 · 교육</h3><p>과정 · 강사 · 시간표 · 상담 신청을 휴대폰에서도 쉽게.</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="120" y="130" width="420" height="290" rx="12" stroke="currentColor" stroke-width="1.6"/><path d="M290 460 H370 M330 420 V460" stroke="currentColor" stroke-width="1.6"/><rect x="520" y="200" width="160" height="250" rx="14" stroke="currentColor" stroke-width="1.6"/><rect x="600" y="260" width="110" height="200" rx="16" class="sig" stroke="currentColor" stroke-width="2"/><path d="M640 440 H670" class="sig" stroke="currentColor" stroke-width="2"/></svg></div>
+        <div class="yr">메뉴와 위치부터</div><h3>음식점 · 카페</h3><p>메뉴 · 영업시간 · 위치 · 예약을 한 화면에서.</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M150 200 V450 M260 200 V450" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M290 220 H650 M290 260 H600" stroke="currentColor" stroke-width="1.4"/><rect x="290" y="300" width="250" height="40" rx="4" class="sig" stroke="currentColor" stroke-width="2"/><path d="M548 300 L530 342" class="sig" stroke="currentColor" stroke-width="2"/><path d="M290 380 H620 M290 410 H560" stroke="currentColor" stroke-width="1.4"/></svg></div>
+        <div class="yr">브랜드 이야기부터</div><h3>쇼핑몰 · 브랜드</h3><p>브랜드 소개와 상품 안내, 구매 · 문의로 이어지는 흐름.</p></article>
+      <article class="pj-card"><div class="viz viz--web"><svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="130" y="150" width="330" height="110" rx="20" stroke="currentColor" stroke-width="1.6"/><path d="M170 190 H420 M170 222 H360" stroke="currentColor" stroke-width="1.4"/><rect x="330" y="300" width="350" height="140" rx="20" class="sig" stroke="currentColor" stroke-width="2"/><path d="M370 342 H640 M370 374 H600 M370 406 H560" class="sig" stroke="currentColor" stroke-width="1.6"/><path d="M200 260 L180 300 L240 260" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <div class="yr">전문 분야부터</div><h3>법률 · 전문직</h3><p>업무 분야 · 사례 · 자주 묻는 질문으로 신뢰를 먼저.</p></article>
     </div>
     <div class="rv">
-      <a class="btn" href="projects.html" style="color:var(--ink)"><span>전체 실적 보기</span>
+      <a class="btn" href="price.html" style="color:var(--ink)"><span>비용 안내 보기</span>
         <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </div>
 </section>
-<!--/ed:index/projects-->
+<!--/ed:index/industries-->
 
-<!-- ============ CLIENTS ============ -->
-<!--ed:index/clients-->
-<section class="sec sec--paper2" id="clients" data-nav="light">
+<!-- ============ SEO · AEO · GEO ============ -->
+<!--ed:index/search-->
+<section class="sec sec--paper2" id="search" data-nav="light">
   <div class="wrap">
-    <div class="cli__intro rv">
-      <span class="eyebrow">／ 06 &nbsp;Our Clients</span>
-      <h2 class="d2">주요 고객사</h2>
-      <p class="lead">국내 대형 조선소와 글로벌 EPC · 오일메이저와 함께 프로젝트를 수행해 왔습니다.</p>
-    </div>
-    <div class="wall rv">
-      <i><img src="assets/logos/samsung-hi.png" alt="삼성중공업" loading="lazy"></i>
-      <i><img src="assets/logos/hyundai-hi.png" alt="현대중공업" loading="lazy"></i>
-      <i><img src="assets/logos/hanwha-ocean.png" alt="한화오션" loading="lazy"></i>
-      <i><img src="assets/logos/dsme.png" alt="대우조선해양" loading="lazy"></i>
-      <i><img src="assets/logos/hd-samho.png" alt="HD현대삼호" loading="lazy"></i>
-      <i><img src="assets/logos/sb-sunbo.png" alt="SB선보" loading="lazy"></i>
-      <i><img src="assets/logos/exxonmobil.png" alt="EXXONMOBIL" loading="lazy"></i>
-      <i><img src="assets/logos/chevron.png" alt="CHEVRON" loading="lazy"></i>
-      <i><img src="assets/logos/shell.png" alt="SHELL" loading="lazy"></i>
-      <i><img src="assets/logos/petrobras.png" alt="PETROBRAS" loading="lazy"></i>
-      <i><img src="assets/logos/technip.png" alt="TECHNIP" loading="lazy"></i>
-      <i><img src="assets/logos/transocean.png" alt="TRANSOCEAN" loading="lazy"></i>
-      <i><img src="assets/logos/saipem.png" alt="SAIPEM" loading="lazy"></i>
-      <i><img src="assets/logos/inpex.png" alt="INPEX" loading="lazy"></i>
-      <i><img src="assets/logos/woodside.png" alt="Woodside" loading="lazy"></i>
-      <i><img src="assets/logos/posco.png" alt="포스코" loading="lazy"></i>
-      <i><img src="assets/logos/shinhan.png" alt="신한중공업" loading="lazy"></i>
-      <i><img class="gsi" src="assets/logos/gsi.png" alt="GSI 广船国际" loading="lazy"></i>
-      <i><img src="assets/logos/yujin.png" alt="유진기공산업" loading="lazy"></i>
-      <i><img class="wide" src="assets/logos/donghwa.png" alt="동화뉴텍" loading="lazy"></i>
+    <div class="bizd rv">
+      <div class="bizd__head">
+        <div><div class="en">SEO · AEO · GEO</div><h2>검색에서 찾히고,<br>AI가 정확히 소개하도록</h2></div>
+        <p>요즘 고객은 검색창에 묻고, AI에게도 묻습니다. 어느 쪽에서든 회사 정보가 정확히 나오도록 세 가지를 함께 설계합니다. 검색 순위나 AI 답변 노출을 약속하기보다, 잘 읽히는 기본기를 탄탄히 갖춥니다.</p>
+      </div>
+      <div class="bizd__grid stg">
+        <div class="bizd__i"><div class="n">SEO</div><h3>검색엔진 최적화</h3><div class="en2">Search Engine Optimization</div><ul><li>화면마다 제목 · 설명 정리</li><li>네이버 · 구글 검색 등록</li><li>사이트맵 · 빠른 화면</li></ul></div>
+        <div class="bizd__i"><div class="n">AEO</div><h3>답변 엔진 최적화</h3><div class="en2">Answer Engine Optimization</div><ul><li>고객 질문을 미리 정리</li><li>질문 · 답 형식의 자주 묻는 질문</li><li>짧고 정확한 답변 문구</li></ul></div>
+        <div class="bizd__i"><div class="n">GEO</div><h3>생성형 AI 최적화</h3><div class="en2">Generative Engine Optimization</div><ul><li>회사 · 서비스 · 지역 정보 정리</li><li>구조화 데이터 적용</li><li>AI가 이해하는 일관된 설명</li></ul></div>
+      </div>
     </div>
   </div>
 </section>
-<!--/ed:index/clients-->
+<!--/ed:index/search-->
 
-<!-- ============ CERTIFICATIONS (trust band) ============ -->
-<!--ed:index/certifications-->
-<section class="sec cap" id="certifications" data-nav="dark">
+<!-- ============ 몽웹의 약속 ============ -->
+<!--ed:index/promise-->
+<section class="sec cap" id="promise" data-nav="dark">
   <div class="wrap">
     <div class="cert__lead">
-      <span class="eyebrow rv">／ 07 &nbsp;Certifications</span>
-      <h2 class="d2 rv">국제 기준으로<br><em>검증된 신뢰</em></h2>
-      <p class="lead rv">국제 기준에 따라 검증된 품질 · 환경 · 안전 경영 시스템을 기반으로 운영합니다.</p>
+      <span class="eyebrow rv">／ 06 &nbsp;Our Promise</span>
+      <h2 class="d2 rv">모든 홈페이지에<br><em>기본으로 담습니다</em></h2>
+      <p class="lead rv">요금제와 상관없이, 몽웹이 만드는 홈페이지에는 이 네 가지가 기본으로 들어갑니다.</p>
     </div>
     <div class="certrow rv">
-      <div class="certc"><i class="ic i-quality" aria-hidden="true"></i><h3>ISO 9001</h3><div class="k">품질경영시스템</div><div class="en">Quality Management</div></div>
-      <div class="certc"><i class="ic i-eco" aria-hidden="true"></i><h3>ISO 14001</h3><div class="k">환경경영시스템</div><div class="en">Environmental Management</div></div>
-      <div class="certc"><i class="ic i-safety" aria-hidden="true"></i><h3>ISO 45001</h3><div class="k">안전보건경영시스템</div><div class="en">Occupational Health &amp; Safety</div></div>
-      <div class="certc"><i class="ic i-license" aria-hidden="true"></i><h3>전기공사업 면허</h3><div class="k">전기공사 면허</div><div class="en">Licensed Electrical Contractor</div></div>
+      <div class="certc"><i class="ic i-quality" aria-hidden="true"></i><h3>반응형</h3><div class="k">PC · 태블릿 · 휴대폰</div><div class="en">Responsive Design</div></div>
+      <div class="certc"><i class="ic i-eco" aria-hidden="true"></i><h3>검색 기본 세팅</h3><div class="k">SEO · AEO · GEO</div><div class="en">Search Ready</div></div>
+      <div class="certc"><i class="ic i-safety" aria-hidden="true"></i><h3>관리자 제공</h3><div class="k">화면 보며 직접 수정</div><div class="en">Easy Admin</div></div>
+      <div class="certc"><i class="ic i-license" aria-hidden="true"></i><h3>오픈 후 지원</h3><div class="k">수정 · 점검 · 안내</div><div class="en">After Launch Care</div></div>
     </div>
   </div>
 </section>
-<!--/ed:index/certifications-->
+<!--/ed:index/promise-->
 
 </main>
 

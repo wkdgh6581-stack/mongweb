@@ -10,7 +10,7 @@
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/news.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/news.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="홍보센터 · (주)케이원 K1 OCEAN">
 <meta property="og:description" content="(주)케이원 홍보센터 — 게시판, 갤러리, CI(심볼 마크·마스코트).">

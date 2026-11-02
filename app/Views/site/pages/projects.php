@@ -10,7 +10,7 @@
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/projects.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/projects.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="(주)케이원 · K1 OCEAN">
+<meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="프로젝트 실적 · (주)케이원 K1 OCEAN">
 <meta property="og:description" content="(주)케이원 프로젝트 실적 — 국내 조선소 및 글로벌 EPC 시운전 프로젝트, 주요 고객사.">
