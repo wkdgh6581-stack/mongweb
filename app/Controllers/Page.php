@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\PageEditor;
 use CodeIgniter\Exceptions\PageNotFoundException;
 
 /**
@@ -23,7 +24,7 @@ class Page extends BaseController
             throw PageNotFoundException::forPageNotFound();
         }
 
-        return view('site/pages/' . $name);
+        return $this->output(PageEditor::render('site/pages/' . $name, [], $name));
     }
 
     /**
@@ -38,7 +39,7 @@ class Page extends BaseController
             throw PageNotFoundException::forPageNotFound();
         }
 
-        return view('site/pages/en/' . $name);
+        return $this->output(PageEditor::render('site/pages/en/' . $name, [], 'en/' . $name));
     }
 
     /**
@@ -46,6 +47,17 @@ class Page extends BaseController
      */
     public function notFound()
     {
-        return $this->response->setStatusCode(404)->setBody(view('site/pages/404'));
+        // 어느 깊이의 주소에서 열려도 경로가 맞도록 deep 으로 그린다
+        return $this->response->setStatusCode(404)->setBody(PageEditor::render('site/pages/404', [], '', true));
+    }
+
+    /** 편집기·미리보기 화면은 브라우저가 저장해 두지 않게 한다 */
+    private function output(string $html)
+    {
+        if (PageEditor::mode() !== 'public') {
+            $this->response->setHeader('Cache-Control', 'no-store');
+        }
+
+        return $this->response->setBody($html);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\PageEditor;
 use App\Models\RecruitModel;
 
 /**
@@ -13,13 +14,13 @@ class Recruit extends BaseController
     {
         $model = new RecruitModel();
 
-        return view('site/recruit', [
+        return PageEditor::render('site/recruit', [
             // 노출을 켜 둔 공고만, 마감일이 지난 것은 빼고 보여준다.
             'recruit_list' => array_values(array_filter(
                 $model->where('is_open', 1)->orderBy('id', 'DESC')->findAll(),
                 static fn ($job) => ! $model->isExpired($job)
             )),
-        ]);
+        ], 'recruit');
     }
 
     public function view($id)
@@ -31,9 +32,9 @@ class Recruit extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
 
-        return view('site/recruit_view', [
+        return PageEditor::render('site/recruit_view', [
             'recruit'    => $recruit,
             'is_expired' => $model->isExpired($recruit),
-        ]);
+        ], '', true);
     }
 }

@@ -47,6 +47,20 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin'], static functio
         $routes->get('/', 'Dashboard::index');
         $routes->get('dashboard', 'Dashboard::index');
 
+        // 홈페이지 화면 편집기 — 화면을 보면서 글자·사진·링크를 고친다
+        $routes->get('editor', 'Editor::index');
+        $routes->post('editor/save', 'Editor::save');
+        $routes->post('editor/upload', 'Editor::upload');
+        $routes->post('editor/reset', 'Editor::reset');
+        $routes->post('editor/publish', 'Editor::publish');
+        $routes->post('editor/discard', 'Editor::discard');
+        $routes->get('editor/status', 'Editor::status');
+        $routes->post('editor/restore/(:num)', 'Editor::restore/$1');
+        $routes->get('editor/replace', 'Editor::replace');
+        $routes->post('editor/replace', 'Editor::doReplace');
+        $routes->get('editor/export', 'Editor::export');
+        $routes->post('editor/import', 'Editor::import');
+
         // 게시판
         $routes->get('article', 'Article::index');
         $routes->get('article/create', 'Article::create');

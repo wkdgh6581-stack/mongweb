@@ -31,49 +31,8 @@
 <a class="skip" href="#main">본문 바로가기</a>
 
 <!-- HEADER -->
-<header class="head" id="head">
-  <div class="head__in">
-    <a class="brand" href="<?= base_url('index.html') ?>" aria-label="(주)케이원 홈">
-      <img class="brand--dark" src="<?= base_url('assets/logo-k1-dark.png') ?>" alt="(주)케이원 · Korea No.1">
-      <img class="brand--light" src="<?= base_url('assets/logo-k1.png') ?>" alt="(주)케이원 · Korea No.1">
-    </a>
-    <div class="gnbwrap">
-      <nav aria-label="주 메뉴"><ul class="gnb">
-        <li><a href="<?= base_url('about.html') ?>">회사소개</a></li>
-        <li><a href="<?= base_url('business.html') ?>">사업분야</a></li>
-        <li><a href="<?= base_url('projects.html') ?>">프로젝트 실적</a></li>
-        <li><a href="<?= base_url('recruit.html') ?>">인재채용</a></li>
-        <li><a href="<?= base_url('news.html') ?>">홍보센터</a></li>
-        <li><a href="<?= base_url('contact.html') ?>">고객문의</a></li>
-      </ul></nav>
-      <div class="mega"><div class="mega__in">
-        <div class="mega__col"><h5>회사소개</h5><a href="<?= base_url('about.html#ceo') ?>">CEO 인사말</a><a href="<?= base_url('about.html#overview') ?>">회사개요</a><a href="<?= base_url('about.html#org') ?>">조직도</a></div>
-        <div class="mega__col"><h5>사업분야</h5><a href="<?= base_url('business.html#commissioning') ?>">시운전</a><a href="<?= base_url('business.html#support') ?>">기술지원</a><a href="<?= base_url('business.html#maintenance') ?>">유지보수</a></div>
-        <div class="mega__col"><h5>프로젝트 실적</h5><a href="<?= base_url('projects.html#domestic') ?>">국내 프로젝트</a><a href="<?= base_url('projects.html#overseas') ?>">해외 프로젝트</a><a href="<?= base_url('projects.html#clients') ?>">주요 고객사</a></div>
-        <div class="mega__col"><h5>인재채용</h5><a href="<?= base_url('recruit.html') ?>">채용안내</a><a href="<?= base_url('recruit.html#jobs') ?>">채용공고</a></div>
-        <div class="mega__col"><h5>홍보센터</h5><a href="<?= base_url('news.html') ?>">게시판</a><a href="<?= base_url('news.html#gallery') ?>">갤러리</a><a href="<?= base_url('news.html#ci') ?>">CI</a></div>
-        <div class="mega__col"><h5>고객문의</h5><a href="<?= base_url('contact.html#inquiry') ?>">문의하기</a><a href="<?= base_url('contact.html#map') ?>">오시는 길</a></div>
-      </div></div>
-    </div>
-    <div class="head__r">
-      <div class="lang" role="group" aria-label="Language"><a class="lang__b is-on" href="#" aria-current="true">KR</a><a class="lang__b" href="<?= base_url('en/news.html') ?>">EN</a></div>
-      <a class="head__cta" href="<?= base_url('contact.html') ?>">고객문의</a>
-      <button class="burger" id="burger" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-
-<div class="drawer" id="drawer" aria-hidden="true">
-  <div class="drawer__grp"><b><a href="<?= base_url('about.html') ?>">회사소개</a></b><div class="sub"><a href="<?= base_url('about.html#ceo') ?>">CEO 인사말</a><a href="<?= base_url('about.html#overview') ?>">회사개요</a><a href="<?= base_url('about.html#org') ?>">조직도</a></div></div>
-  <div class="drawer__grp"><b><a href="<?= base_url('business.html') ?>">사업분야</a></b><div class="sub"><a href="<?= base_url('business.html#commissioning') ?>">시운전</a><a href="<?= base_url('business.html#support') ?>">기술지원</a><a href="<?= base_url('business.html#maintenance') ?>">유지보수</a></div></div>
-  <div class="drawer__grp"><b><a href="<?= base_url('projects.html') ?>">프로젝트 실적</a></b><div class="sub"><a href="<?= base_url('projects.html#domestic') ?>">국내</a><a href="<?= base_url('projects.html#overseas') ?>">해외</a><a href="<?= base_url('projects.html#clients') ?>">주요 고객사</a></div></div>
-  <div class="drawer__grp"><b><a href="<?= base_url('recruit.html') ?>">인재채용</a></b><div class="sub"><a href="<?= base_url('recruit.html') ?>">채용안내</a><a href="<?= base_url('recruit.html#jobs') ?>">채용공고</a></div></div>
-  <div class="drawer__grp"><b><a href="<?= base_url('news.html') ?>">홍보센터</a></b><div class="sub"><a href="<?= base_url('news.html') ?>">게시판</a><a href="<?= base_url('news.html#gallery') ?>">갤러리</a><a href="<?= base_url('news.html#ci') ?>">CI</a></div></div>
-  <div class="drawer__grp"><b><a href="<?= base_url('contact.html') ?>">고객문의</a></b><div class="sub"><a href="<?= base_url('contact.html#inquiry') ?>">문의하기</a><a href="<?= base_url('contact.html#map') ?>">오시는 길</a></div></div>
-      <div class="lang lang--drawer" role="group" aria-label="Language"><a class="lang__b is-on" href="#" aria-current="true">KR</a><a class="lang__b" href="<?= base_url('en/news.html') ?>">EN</a></div>
-  <a class="btn btn--solid drawer__cta" href="<?= base_url('contact.html') ?>"><span>고객문의</span>
-    <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-</div>
+<?php \App\Libraries\PageEditor::tokens(['home_url' => 'index.html', 'alt_lang_url' => 'en/news.html', 'foot_cta_url' => 'contact.html', 'foot_cta_label' => '고객문의']) ?>
+<?= view('site/partials/header_ko') ?>
 
 <!-- SUB HERO -->
 <section class="subhero" data-nav="dark">
@@ -149,38 +108,7 @@
 </main>
 
 <!-- FOOTER -->
-<footer class="foot" id="contact" data-nav="dark">
-  <div class="foot__cta">
-    <div class="wrap">
-      <h2>프로젝트의 마지막 순간,<br><em>케이원이 함께하겠습니다</em></h2>
-      <a class="btn btn--solid" href="<?= base_url('contact.html') ?>"><span>고객문의</span>
-        <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-    </div>
-  </div>
-  <div class="wrap foot__top">
-    <div class="foot__brand">
-      <div class="foot__logo">
-        <img src="<?= base_url('assets/logo-k1-dark.png') ?>" alt="(주)케이원 · Korea No.1">
-      </div>
-      <p>조선 · 해양 · 에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업.</p>
-    </div>
-    <div class="foot__map">
-      <div class="foot__col"><h4>회사소개</h4><a href="<?= base_url('about.html#ceo') ?>">CEO 인사말</a><a href="<?= base_url('about.html#overview') ?>">회사개요</a><a href="<?= base_url('about.html#org') ?>">조직도</a></div>
-      <div class="foot__col"><h4>사업분야</h4><a href="<?= base_url('business.html#commissioning') ?>">시운전</a><a href="<?= base_url('business.html#support') ?>">기술지원</a><a href="<?= base_url('business.html#maintenance') ?>">유지보수</a></div>
-      <div class="foot__col"><h4>프로젝트 실적</h4><a href="<?= base_url('projects.html#domestic') ?>">국내 프로젝트</a><a href="<?= base_url('projects.html#overseas') ?>">해외 프로젝트</a><a href="<?= base_url('projects.html#clients') ?>">주요 고객사</a></div>
-      <div class="foot__col"><h4>인재채용</h4><a href="<?= base_url('recruit.html') ?>">채용안내</a><a href="<?= base_url('recruit.html#jobs') ?>">채용공고</a></div>
-      <div class="foot__col"><h4>홍보센터</h4><a href="<?= base_url('news.html') ?>">게시판</a><a href="<?= base_url('news.html#gallery') ?>">갤러리</a><a href="<?= base_url('news.html#ci') ?>">CI</a></div>
-      <div class="foot__col"><h4>고객문의</h4><a href="<?= base_url('contact.html#inquiry') ?>">문의하기</a><a href="<?= base_url('contact.html#map') ?>">오시는 길</a></div>
-    </div>
-  </div>
-  <div class="wrap foot__info">
-    <span><b>K1</b> <?= esc($site['hq_addr']) ?> · <?= esc($site['ulsan_addr']) ?></span>
-    <span><b>K1 OCEAN</b> <?= esc($site['yeongam_addr']) ?></span>
-    <span><b>TEL</b> <?= esc($site['tel']) ?> · <b>FAX</b> <?= esc($site['fax']) ?></span>
-    <span><b>E-mail</b> <?= esc($site['email']) ?></span>
-  </div>
-  <div class="wrap foot__bot"><a class="foot__pp" href="<?= base_url('privacy.html') ?>">개인정보 처리방침</a><span>© 2026 (주)케이원 (K1 Co., Ltd.) · K1 OCEAN — All rights reserved.</span></div>
-</footer>
+<?= view('site/partials/footer_ko') ?>
 
 <script src="<?= base_url('js/v2.js?v=20260902') ?>"></script>
 <script>

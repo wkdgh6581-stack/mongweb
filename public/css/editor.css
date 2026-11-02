@@ -1,0 +1,74 @@
+/* 홈페이지 화면 편집기 — 편집 모드에서만 실린다. 모든 규칙은 .ed- 로 시작해 사이트 스타일과 섞이지 않는다. */
+:root{
+  --ed-brand:#2563EB; --ed-brand-2:#1D4ED8; --ed-ink:#0F172A; --ed-mut:#64748B;
+  --ed-ok:#059669; --ed-warn:#D97706; --ed-danger:#DC2626;
+  --ed-font:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+}
+html.ed-on{scroll-behavior:auto !important}
+html.ed-on body{cursor:default}
+
+/* 사이트 스크립트를 끈 상태라 나타나는 효과 대신 바로 보이게 */
+html.ed-on .rv,html.ed-on .stg>*,html.ed-on .mask,html.ed-on .d2{transition:none !important}
+html.ed-on .hero__media,html.ed-on .bizp__viz{transform:none !important}
+
+/* 고치는 중인 글자 */
+html.ed-on [data-ed-editing]{outline:2px solid var(--ed-brand) !important;outline-offset:3px;cursor:text;caret-color:var(--ed-brand);min-width:1ch}
+html.ed-on [data-ed-editing]:empty::before{content:"글자를 입력하세요";opacity:.4}
+
+/* 회사 정보 칩 */
+.ed-token{background:rgba(37,99,235,.14);box-shadow:inset 0 -2px 0 rgba(37,99,235,.55);border-radius:3px;padding:0 2px;cursor:help;white-space:nowrap}
+
+/* 숨긴 영역 — 편집기에서는 흐리게 보인다 */
+html.ed-on .ed-hidden{opacity:.32;position:relative;filter:grayscale(1)}
+html.ed-on .ed-hidden::after{content:"숨긴 영역 — 홈페이지에는 보이지 않습니다";position:absolute;left:50%;top:18px;transform:translateX(-50%);
+  z-index:5;background:var(--ed-ink);color:#fff;font:600 13px/1 var(--ed-font);padding:9px 14px;border-radius:999px;pointer-events:none}
+
+/* 영역 테두리 보기 */
+html.ed-outline [data-ed]{outline:1px dashed rgba(37,99,235,.55);outline-offset:-1px}
+
+.ed-flash{animation:ed-flash .7s ease}
+@keyframes ed-flash{0%{box-shadow:0 0 0 0 rgba(37,99,235,.65)}100%{box-shadow:0 0 0 14px rgba(37,99,235,0)}}
+.ed-loading{opacity:.4;filter:blur(2px)}
+
+/* ---------- 편집기 UI ---------- */
+.ed-ui{font-family:var(--ed-font);letter-spacing:-.01em;box-sizing:border-box}
+.ed-ui *,.ed-ui *::before,.ed-ui *::after{box-sizing:border-box}
+
+.ed-hov,.ed-sel{position:fixed;pointer-events:none;z-index:2147483000;display:none;border-radius:3px}
+.ed-hov{outline:2px dashed rgba(37,99,235,.8);outline-offset:2px;background:rgba(37,99,235,.06)}
+.ed-hov__tag{position:absolute;left:-2px;top:-24px;background:var(--ed-brand);color:#fff;font:700 11px/1 var(--ed-font);padding:5px 7px;border-radius:4px 4px 4px 0;white-space:nowrap}
+.ed-sel{outline:2px solid var(--ed-brand);outline-offset:3px}
+.ed-sel[data-type="text"]{outline:0}
+
+.ed-bar{position:fixed;z-index:2147483100;display:none;align-items:center;gap:6px;flex-wrap:wrap;max-width:min(760px,calc(100vw - 16px));
+  padding:6px;background:#0F172A;color:#E2E8F0;border-radius:10px;box-shadow:0 10px 30px rgba(2,6,23,.35),0 2px 6px rgba(2,6,23,.2)}
+.ed-bar button{all:unset;display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 10px;border-radius:7px;color:#E2E8F0;
+  font:600 13px/1 var(--ed-font);cursor:pointer;white-space:nowrap}
+.ed-bar button:hover{background:rgba(148,163,184,.18);color:#fff}
+.ed-bar button:focus-visible{outline:2px solid #93C5FD}
+.ed-bar button svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ed-bar button.ic span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.ed-bar button.ic{padding:0 8px}
+.ed-bar button.pri{background:var(--ed-brand);color:#fff}
+.ed-bar button.pri:hover{background:var(--ed-brand-2)}
+.ed-bar button.danger:hover{background:rgba(220,38,38,.25);color:#FCA5A5}
+.ed-bar__grp{display:flex;align-items:center;gap:2px;padding-right:6px;margin-right:2px;border-right:1px solid rgba(148,163,184,.25)}
+.ed-bar__grp:last-child{border-right:0}
+.ed-bar__grp em{font:700 11px/1 var(--ed-font);font-style:normal;color:#94A3B8;padding:0 6px 0 4px}
+.ed-bar__fld{display:flex;align-items:center;gap:6px;font:600 12px/1 var(--ed-font);color:#94A3B8}
+.ed-bar__fld input{all:unset;width:180px;height:30px;padding:0 9px;border-radius:6px;background:#1E293B;color:#fff;font:500 13px/30px var(--ed-font);box-sizing:border-box}
+.ed-bar__fld--wide input{width:240px}
+.ed-bar__fld input:focus{box-shadow:0 0 0 2px #3B82F6}
+.ed-bar__chk{display:flex;align-items:center;gap:4px;font:600 12px/1 var(--ed-font);color:#CBD5E1;padding:0 6px}
+.ed-bar__note{font:500 13px/1 var(--ed-font);color:#94A3B8;padding:0 8px}
+
+.ed-bbar{position:fixed;z-index:2147482900;display:none;align-items:center;gap:6px;padding:5px 6px 5px 12px;border-radius:999px;
+  background:rgba(255,255,255,.96);color:var(--ed-ink);box-shadow:0 4px 16px rgba(2,6,23,.18);border:1px solid rgba(15,23,42,.08);font:500 12.5px/1 var(--ed-font)}
+.ed-bbar b{font-weight:800;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ed-bbar__st{display:inline-flex;align-items:center;gap:5px;color:var(--ed-mut);font-weight:600}
+.ed-dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+.ed-dot--dirty{background:var(--ed-danger)}
+.ed-dot--draft{background:var(--ed-warn)}
+.ed-dot--live{background:var(--ed-ok)}
+.ed-bbar button{all:unset;cursor:pointer;height:26px;padding:0 10px;border-radius:999px;background:#F1F5F9;font:700 12px/26px var(--ed-font);color:#334155}
+.ed-bbar button:hover{background:#E2E8F0;color:var(--ed-ink)}

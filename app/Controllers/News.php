@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\PageEditor;
 use App\Models\ArticleModel;
 use App\Models\GalleryModel;
 
@@ -20,14 +21,14 @@ class News extends BaseController
 
         $page = max(1, (int) $this->request->getGet('page'));
 
-        return view('site/news', [
+        return PageEditor::render('site/news', [
             'article_list'  => $article_model->getList(self::PER_PAGE, $page),
             'article_total' => $article_model->pager->getTotal(),
             'pager'         => $article_model->pager,
             'current_page'  => $page,
             'per_page'      => self::PER_PAGE,
             'gallery_list'  => $gallery_model->orderBy('sort_order', 'ASC')->orderBy('id', 'DESC')->findAll(),
-        ]);
+        ], 'news');
     }
 
     public function view($id)
@@ -42,10 +43,10 @@ class News extends BaseController
         // 조회수는 한 번 올리되, 화면에는 쓰지 않는다(관리자만 참고).
         $model->update($id, ['view_count' => (int) $article['view_count'] + 1]);
 
-        return view('site/news_view', [
+        return PageEditor::render('site/news_view', [
             'article' => $article,
             'prev'    => $model->where('id <', $id)->orderBy('id', 'DESC')->first(),
             'next'    => $model->where('id >', $id)->orderBy('id', 'ASC')->first(),
-        ]);
+        ], '', true);
     }
 }
