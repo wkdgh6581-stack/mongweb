@@ -22,7 +22,7 @@ $ver = '?v=' . (@filemtime(FCPATH . 'js/editor-shell.js') ?: '1');
 <header class="sb" role="toolbar" aria-label="편집 도구">
   <a class="sb__back" href="<?= base_url('admin/dashboard') ?>" title="관리자 홈으로">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
-    <img src="<?= base_url('images/mark-k1.png') ?>" alt="">
+    <img src="<?= base_url('images/mark-mongweb.png') ?>" alt="">
     <span>관리자</span>
   </a>
 

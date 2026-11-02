@@ -15,7 +15,7 @@
   <div class="wrap foot__top">
     <div class="foot__brand">
       <div class="foot__logo">
-        <img src="assets/logo-k1-dark.png" alt="(주)케이원 · Korea No.1">
+        <img src="assets/logo-mongweb-dark.png" alt="MongWeb">
       </div>
       <p>조선 · 해양 · 에너지 산업의 Commissioning 전 과정을 하나의 책임체계로 수행하는 Turnkey 전문기업.</p>
     </div>

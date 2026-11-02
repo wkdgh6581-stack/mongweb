@@ -48,7 +48,7 @@ $current = $current ?? '';
 
   <nav class="side" aria-label="관리자 메뉴">
     <div class="side__brand">
-      <img src="<?= base_url('images/mark-k1.png') ?>" alt="">
+      <img src="<?= base_url('images/mark-mongweb.png') ?>" alt="">
       <span>
         <b>(주)케이원</b>
         <span>Admin</span>

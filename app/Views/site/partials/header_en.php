@@ -7,9 +7,9 @@
 <!--ed:@en/head-->
 <header class="head" id="head">
   <div class="head__in">
-    <a class="brand" href="{{home_url}}" aria-label="K1 Home">
-      <img class="brand--dark" src="../assets/logo-k1-dark.png" alt="K1 Co., Ltd. · Korea No.1">
-      <img class="brand--light" src="../assets/logo-k1.png" alt="K1 Co., Ltd. · Korea No.1">
+    <a class="brand" href="{{home_url}}" aria-label="MongWeb Home">
+      <img class="brand--dark" src="../assets/logo-mongweb-dark.png" alt="MongWeb">
+      <img class="brand--light" src="../assets/logo-mongweb.png" alt="MongWeb">
     </a>
     <div class="gnbwrap">
       <nav aria-label="Main menu"><ul class="gnb">

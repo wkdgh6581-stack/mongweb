@@ -15,7 +15,7 @@
   <div class="wrap foot__top">
     <div class="foot__brand">
       <div class="foot__logo">
-        <img src="../assets/logo-k1-dark.png" alt="K1 Co., Ltd. · Korea No.1">
+        <img src="../assets/logo-mongweb-dark.png" alt="MongWeb">
       </div>
       <p>A turnkey specialist delivering the entire commissioning process for the shipbuilding, offshore and energy industries under a single line of responsibility.</p>
     </div>

@@ -16,7 +16,7 @@
   <div class="login__box">
 
     <div class="login__brand">
-      <img src="<?= base_url('images/mark-k1.png') ?>" alt="(주)케이원">
+      <img src="<?= base_url('images/mark-mongweb.png') ?>" alt="(주)케이원">
       <b>(주)케이원 홈페이지 관리</b>
       <span>K1 Co., Ltd.</span>
     </div>
