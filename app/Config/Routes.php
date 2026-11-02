@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 
 // 고정 페이지 — 주소는 기존 링크를 그대로 쓰도록 .html 을 유지한다
 $routes->get('/', 'Page::show/index');
-$routes->get('(index|about|business|price|maintenance|projects|contact|privacy)\.html', 'Page::show/$1');
+$routes->get('(index|about|business|price|maintenance|corporate|hospital|franchise|shop|lawyer|tax|projects|contact|privacy)\.html', 'Page::show/$1');
 $routes->get('en', 'Page::english/index');
 $routes->get('en/', 'Page::english/index');
 $routes->get('en/(index|about|business|projects|contact|privacy|news|recruit)\.html', 'Page::english/$1');

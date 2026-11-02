@@ -63,6 +63,11 @@
     if (!el.classList.contains('in')) { el.classList.add('in'); el.setAttribute('data-ed-in', ''); }
   });
 
+  // 접힌 질문(details)은 편집 중에 펼쳐 두어 답변도 고칠 수 있게 (저장할 때 원래대로)
+  [].slice.call(doc.querySelectorAll('[data-ed] details:not([open])')).forEach(function (d) {
+    d.setAttribute('open', ''); d.setAttribute('data-ed-open', '');
+  });
+
   blocks.forEach(function (b) {
     if (b.hasAttribute('data-block-hidden')) { b.style.display = ''; b.classList.add('ed-hidden'); }
     chipify(b);
@@ -111,6 +116,7 @@
       var add = el.getAttribute('data-ed-addcls');
       if (add) add.split(' ').forEach(function (k) { if (k) el.classList.remove(k); });
       if (el.hasAttribute('data-ed-tab')) el.removeAttribute('tabindex');
+      if (el.hasAttribute('data-ed-open')) el.removeAttribute('open');
     });
 
     if (c.classList.contains('ed-hidden')) { c.setAttribute('data-block-hidden', ''); c.style.display = 'none'; }

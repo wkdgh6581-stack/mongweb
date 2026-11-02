@@ -65,7 +65,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Corporate</div><h2>기업 홈페이지</h2></div>
+        <div><div class="en">Corporate</div><h2>기업 홈페이지</h2><a class="bizd__more" href="corporate.html">자세히 보기</a></div>
         <p><b>회사를 처음 보는 고객이 신뢰하고 견적을 문의하도록.</b> 회사소개부터 제품 · 서비스, 실적, 문의까지 한 흐름으로 정리합니다. 거래처와 구직자가 먼저 확인하는 정보를 앞에 둡니다.</p>
       </div>
       <div class="bizd__grid stg">
@@ -84,7 +84,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Hospital · Clinic</div><h2>병원 홈페이지</h2></div>
+        <div><div class="en">Hospital · Clinic</div><h2>병원 홈페이지</h2><a class="bizd__more" href="hospital.html">자세히 보기</a></div>
         <p><b>진료 정보를 빠르게 찾고, 예약 · 상담으로 이어지도록.</b> 진료 과목, 의료진, 진료 시간, 오시는 길을 휴대폰에서 바로 찾을 수 있게 만듭니다. 의료광고 기준을 고려해 표현을 함께 점검합니다.</p>
       </div>
       <div class="bizd__grid stg">
@@ -103,7 +103,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Franchise</div><h2>프랜차이즈 홈페이지</h2></div>
+        <div><div class="en">Franchise</div><h2>프랜차이즈 홈페이지</h2><a class="bizd__more" href="franchise.html">자세히 보기</a></div>
         <p><b>브랜드를 알리고 가맹 문의를 받도록.</b> 고객에게는 브랜드와 메뉴 · 매장을, 예비 점주에게는 창업 안내와 가맹 절차를 보여 주는 두 갈래 구조로 만듭니다.</p>
       </div>
       <div class="bizd__grid stg">
@@ -122,7 +122,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Online Store</div><h2>쇼핑몰 홈페이지</h2></div>
+        <div><div class="en">Online Store</div><h2>쇼핑몰 홈페이지</h2><a class="bizd__more" href="shop.html">자세히 보기</a></div>
         <p><b>상품을 보기 좋게 보여 주고, 구매로 이어지도록.</b> 브랜드 분위기를 살린 상품 화면과 결제까지 이어지는 쇼핑 흐름을 만듭니다. 운영하시기 편한 관리 방식을 함께 정합니다.</p>
       </div>
       <div class="bizd__grid stg">
@@ -141,7 +141,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Law Firm</div><h2>변호사 홈페이지</h2></div>
+        <div><div class="en">Law Firm</div><h2>변호사 홈페이지</h2><a class="bizd__more" href="lawyer.html">자세히 보기</a></div>
         <p><b>전문 분야를 분명히 보여 주고, 상담 신청으로 이어지도록.</b> 업무 분야와 변호사 소개, 상담 절차를 차분하고 신뢰감 있게 정리합니다. 변호사 광고 규정을 고려해 표현을 함께 점검합니다.</p>
       </div>
       <div class="bizd__grid stg">
@@ -160,7 +160,7 @@
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Tax · Legal · Labor · Accounting</div><h2>세무 · 법무 · 노무 · 회계 홈페이지</h2></div>
+        <div><div class="en">Tax · Legal · Labor · Accounting</div><h2>세무 · 법무 · 노무 · 회계 홈페이지</h2><a class="bizd__more" href="tax.html">자세히 보기</a></div>
         <p><b>어려운 업무를 쉽게 설명하고, 상담으로 이어지도록.</b> 세무사 · 법무사 · 노무사 · 회계사 사무소에 맞춰 업무 범위와 상담 방법을 알기 쉽게 정리합니다. 고객이 자주 묻는 내용을 먼저 보여 줍니다.</p>
       </div>
       <div class="bizd__grid stg">
