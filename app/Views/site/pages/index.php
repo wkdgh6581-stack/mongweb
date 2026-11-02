@@ -39,7 +39,7 @@
 <!-- ============ HERO ============ -->
 <!--ed:index/hero-->
 <section class="hero" id="hero" data-nav="dark">
-  <div class="hero__media"><img src="assets/hero.jpg" alt="석양의 해양 현장에서 작업 중인 대형 선박과 데크 크레인" fetchpriority="high"></div>
+  <div class="hero__media"><video src="assets/hero.mp4" poster="assets/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="두 사람이 악수하는 모습"></video></div>
   <div class="hero__veil"></div>
   <div class="scrollcue">SCROLL</div>
 
