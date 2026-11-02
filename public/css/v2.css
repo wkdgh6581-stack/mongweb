@@ -185,7 +185,7 @@ em{font-style:normal;color:var(--orange)}
 .mega::after{content:"";position:absolute;left:0;top:0;height:2px;width:100%;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--e2) .08s}
 .head.mega-open .mega{opacity:1;visibility:visible;transform:none}
 .head.mega-open .mega::after{transform:scaleX(1)}
-.mega__in{max-width:var(--wrap);margin-inline:auto;padding:46px var(--pad) 54px;display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.mega__in{max-width:var(--wrap);margin-inline:auto;padding:46px var(--pad) 54px;display:grid;grid-template-columns:repeat(5,1fr);gap:26px}
 .mega__col{opacity:0;transform:translateY(14px);transition:opacity .5s var(--e2),transform .5s var(--e2)}
 .head.mega-open .mega__col{opacity:1;transform:none}
 .head.mega-open .mega__col:nth-child(1){transition-delay:.06s}.head.mega-open .mega__col:nth-child(2){transition-delay:.11s}
@@ -602,7 +602,7 @@ body.lock{overflow:hidden}
 .foot__logo{display:flex;align-items:center;margin-bottom:22px}
 .foot__logo img{height:34px;width:auto}
 .foot__brand p{font-size:15px;color:var(--dim-2);max-width:34ch;line-height:1.8}
-.foot__map{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.foot__map{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
 .foot__col h4{font-size:14px;font-weight:700;color:#fff;margin-bottom:16px}
 .foot__col a{display:block;font-size:14px;color:var(--dim-2);padding:6px 0;transition:color .3s}
 .foot__col a:hover{color:var(--orange)}
@@ -657,7 +657,7 @@ body.lock{overflow:hidden}
      34px부터 시작해 좁은 화면에서도 원·텍스트 간격을 15px 확보한다 */
   .cap__sys{--cap-pad:clamp(34px,4vw,40px)}
   .foot__top{grid-template-columns:1fr;gap:44px}
-  .foot__map{grid-template-columns:repeat(2,1fr);gap:24px 20px}
+  .foot__map{grid-template-columns:repeat(3,1fr);gap:24px 20px}
 }
 @media (max-width:820px){
   .figs__in{grid-template-columns:1fr 1fr;gap:36px 0}.fig:nth-child(odd)::before{display:none}

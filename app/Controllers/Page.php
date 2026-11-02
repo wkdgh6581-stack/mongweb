@@ -15,7 +15,7 @@ class Page extends BaseController
 {
     /** 열어 줄 페이지 — 여기 없는 이름은 404 로 보낸다 */
     private const ALLOWED = [
-        'index', 'about', 'business', 'price', 'projects', 'contact', 'privacy',
+        'index', 'about', 'business', 'price', 'maintenance', 'projects', 'contact', 'privacy',
     ];
 
     public function show(string $name = 'index')
@@ -33,7 +33,7 @@ class Page extends BaseController
      */
     public function english(string $name = 'index')
     {
-        $allowed = array_diff(array_merge(self::ALLOWED, ['news', 'recruit']), ['price']);
+        $allowed = array_diff(array_merge(self::ALLOWED, ['news', 'recruit']), ['price', 'maintenance']);
 
         if (! in_array($name, $allowed, true)) {
             throw PageNotFoundException::forPageNotFound();

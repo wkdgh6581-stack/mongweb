@@ -30,6 +30,7 @@ class PageEditor
         'about'       => ['회사소개',       'about.html'],
         'business'    => ['홈페이지제작',   'business.html'],
         'price'       => ['비용안내',       'price.html'],
+        'maintenance' => ['유지보수',       'maintenance.html'],
         'projects'    => ['프로젝트 실적',  'projects.html'],
         'recruit'     => ['인재채용',       'recruit.html'],
         'news'        => ['홍보센터',       'news.html'],
