@@ -20,7 +20,7 @@
       <p>기획부터 디자인 · 개발 · 검색 대응 · 오픈 후 관리까지, 꿈을 웹으로 잇는 홈페이지 제작 파트너.</p>
     </div>
     <div class="foot__map">
-      <div class="foot__col"><h4>회사소개</h4><a href="about.html#ceo">인사말</a><a href="about.html#overview">회사개요</a><a href="about.html#org">팀 구성</a></div>
+      <div class="foot__col"><h4>회사소개</h4><a href="about.html">몽웹 소개</a></div>
       <div class="foot__col"><h4>홈페이지제작</h4><a href="business.html#build">제작 서비스</a><a href="business.html#search">검색 · AI 대응</a><a href="business.html#care">관리 · 운영</a></div>
       <div class="foot__col"><h4>비용안내</h4><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div>
       <div class="foot__col"><h4>유지보수</h4><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div>

@@ -44,18 +44,6 @@
   </div>
 </section>
 <!--/ed:about/subhero-->
-
-<!--ed:about/pagenav-->
-<nav class="pagenav" aria-label="회사소개 섹션">
-  <div class="pagenav__in">
-    <a href="#ceo" class="on">인사말</a>
-    <a href="#overview">회사개요</a>
-    <a href="#principles">일하는 방식</a>
-    <a href="#org">팀 구성</a>
-  </div>
-</nav>
-<!--/ed:about/pagenav-->
-
 <main id="main">
 
 <!-- CEO MESSAGE -->
