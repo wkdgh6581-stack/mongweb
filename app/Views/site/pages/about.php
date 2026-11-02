@@ -50,21 +50,21 @@
 <!--ed:about/ceo-->
 <section class="sec sec--paper" id="ceo" data-nav="light">
   <div class="wrap">
-    <div class="sec-head rv"><span class="eyebrow"><b>／ 01</b>&nbsp; Greeting</span></div>
+    <div class="sec-head rv"><span class="eyebrow"><b>／ 01</b>&nbsp; MONG WEB | 몽웹</span></div>
     <div class="cmsg">
       <div class="cmsg__img viz viz--web rv" style="--gx:64%;--gy:34%">
         <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg>
       </div>
       <div class="rv">
-        <p class="cmsg__q">홈페이지는<br><em>회사의 첫인상</em>이자<br>가장 부지런한 직원입니다</p>
+        <p class="cmsg__q">당신의 <em>꿈</em>을,<br>웹사이트라는 가치로.</p>
         <div class="cmsg__body">
-          <p>몽웹(MongWeb)의 '몽'은 꿈을 뜻합니다. 고객이 마음속에 그리던 회사의 모습을 화면 위에 그대로 옮기는 것, 그것이 몽웹이 하는 일입니다.</p>
-          <p>좋은 홈페이지는 보기 좋은 화면에서 끝나지 않습니다. 처음 방문한 고객이 회사를 이해하고, 믿고, 문의할 수 있어야 합니다.</p>
-          <p>그래서 우리는 디자인보다 먼저 이야기를 듣습니다. 어떤 고객이 찾아오는지, 그 고객이 무엇을 가장 먼저 궁금해하는지부터 정리합니다.</p>
-          <p>요즘 고객은 검색창과 AI에게 먼저 묻습니다. 몽웹은 사람뿐 아니라 검색엔진과 AI도 회사를 정확히 이해하도록 구조를 설계합니다.</p>
-          <p>오픈한 뒤에도 직접 고칠 수 있는 관리자와 꾸준한 관리로, 홈페이지가 오래도록 일하게 만들겠습니다.</p>
+          <p>모든 비즈니스의 시작에는 하나의 꿈이 있습니다.<br>누군가에게는 새로운 도전이고, 누군가에게는 오랫동안 준비해 온 목표이며, 또 다른 누군가에게는 세상에 전하고 싶은 특별한 가치입니다.</p>
+          <p><b>몽웹(MONG WEB)</b>의 ‘몽(夢)’은 꿈을 의미합니다.<br>몽웹은 단순히 홈페이지를 만드는 것이 아니라, 고객이 꿈꾸는 비즈니스의 모습과 가치를 디지털 공간에 구현하는 홈페이지 제작 전문기업입니다.</p>
+          <p>우리는 고객의 생각에 귀 기울이고, 브랜드가 가진 고유한 이야기를 이해하며, 그 안에 담긴 가능성을 디자인합니다.<br>감각적인 디자인과 사용자 중심의 설계, 그리고 비즈니스의 목적을 고려한 웹사이트를 통해 고객의 꿈이 더 많은 사람에게 닿을 수 있도록 돕습니다.</p>
+          <p>꿈은 머릿속에 머무를 때 상상이지만, 세상에 보여지는 순간 가능성이 됩니다.<br>몽웹은 그 가능성을 현실로 연결하는 첫 번째 디지털 공간을 만듭니다.</p>
+          <p><b>당신의 꿈이 세상에 닿는 곳, 몽웹.</b></p>
         </div>
-        <div class="cmsg__sign">꿈을 웹으로 잇는 <b>몽웹 MongWeb</b></div>
+        <div class="cmsg__sign">MONG WEB — <b>We Build Your Dream.</b></div>
       </div>
     </div>
   </div>
