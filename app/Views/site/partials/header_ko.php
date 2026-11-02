@@ -21,7 +21,7 @@
       </ul></nav>
       <div class="mega"><div class="mega__in">
         <div class="mega__col"><h5>회사소개</h5><a href="about.html">몽웹 소개</a></div>
-        <div class="mega__col"><h5>홈페이지제작</h5><a href="business.html#build">제작 서비스</a><a href="business.html#search">검색 · AI 대응</a><a href="business.html#care">관리 · 운영</a></div>
+        <div class="mega__col"><h5>홈페이지제작</h5><a href="business.html#corporate">기업 홈페이지</a><a href="business.html#hospital">병원 홈페이지</a><a href="business.html#franchise">프랜차이즈 홈페이지</a><a href="business.html#shop">쇼핑몰 홈페이지</a><a href="business.html#lawyer">변호사 홈페이지</a><a href="business.html#tax">세무 · 법무 · 노무 · 회계 홈페이지</a></div>
         <div class="mega__col"><h5>비용안내</h5><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div>
         <div class="mega__col"><h5>유지보수</h5><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div>
         <div class="mega__col"><h5>고객문의</h5><a href="contact.html#inquiry">문의하기</a><a href="contact.html#map">오시는 길</a></div>
@@ -39,7 +39,7 @@
 <!--ed:@ko/drawer-->
 <div class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer__grp"><b><a href="about.html">회사소개</a></b><div class="sub"><a href="about.html">몽웹 소개</a></div></div>
-  <div class="drawer__grp"><b><a href="business.html">홈페이지제작</a></b><div class="sub"><a href="business.html#build">제작 서비스</a><a href="business.html#search">검색 · AI 대응</a><a href="business.html#care">관리 · 운영</a></div></div>
+  <div class="drawer__grp"><b><a href="business.html">홈페이지제작</a></b><div class="sub"><a href="business.html#corporate">기업 홈페이지</a><a href="business.html#hospital">병원 홈페이지</a><a href="business.html#franchise">프랜차이즈 홈페이지</a><a href="business.html#shop">쇼핑몰 홈페이지</a><a href="business.html#lawyer">변호사 홈페이지</a><a href="business.html#tax">세무 · 법무 · 노무 · 회계 홈페이지</a></div></div>
   <div class="drawer__grp"><b><a href="price.html">비용안내</a></b><div class="sub"><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div></div>
   <div class="drawer__grp"><b><a href="maintenance.html">유지보수</a></b><div class="sub"><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div></div>
   <div class="drawer__grp"><b><a href="contact.html">고객문의</a></b><div class="sub"><a href="contact.html#inquiry">문의하기</a><a href="contact.html#map">오시는 길</a></div></div>

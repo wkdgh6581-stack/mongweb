@@ -48,77 +48,131 @@
 <!--ed:business/pagenav-->
 <nav class="pagenav" aria-label="홈페이지제작 섹션">
   <div class="pagenav__in">
-    <a href="#build" class="on">제작 서비스</a>
-    <a href="#search">검색 · AI 대응</a>
-    <a href="#care">관리 · 운영</a>
+    <a href="#corporate" class="on">기업</a>
+    <a href="#hospital">병원</a>
+    <a href="#franchise">프랜차이즈</a>
+    <a href="#shop">쇼핑몰</a>
+    <a href="#lawyer">변호사</a>
+    <a href="#tax">세무·법무·노무·회계</a>
   </div>
 </nav>
 <!--/ed:business/pagenav-->
 
 <main id="main">
-<!-- 제작 서비스 -->
-<!--ed:business/build-->
-<section class="sec sec--paper" id="build" data-nav="light">
+<!-- 기업 홈페이지 -->
+<!--ed:business/corporate-->
+<section class="sec sec--paper" id="corporate" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Build</div><h2>제작 서비스 — 꿈을 화면으로</h2></div>
-        <p>처음 만드는 홈페이지부터 리뉴얼까지, 업종과 목적에 맞춰 만듭니다.</p>
+        <div><div class="en">Corporate</div><h2>기업 홈페이지</h2></div>
+        <p><b>회사를 처음 보는 고객이 신뢰하고 견적을 문의하도록.</b> 회사소개부터 제품 · 서비스, 실적, 문의까지 한 흐름으로 정리합니다. 거래처와 구직자가 먼저 확인하는 정보를 앞에 둡니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>기업 홈페이지</h3><div class="en2">Corporate Website</div><ul><li>회사소개 · 서비스 · 실적 · 문의</li><li>업종에 맞춘 메뉴 구성</li><li>브랜드 디자인 적용</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>브랜드 사이트</h3><div class="en2">Brand Site</div><ul><li>브랜드 이야기와 분위기 중심</li><li>사진 · 영상을 살린 화면</li><li>제품 · 서비스 소개</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>랜딩페이지</h3><div class="en2">Landing Page</div><ul><li>한 화면에 핵심만</li><li>광고 · 이벤트용</li><li>문의 · 신청으로 바로 연결</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>리뉴얼</h3><div class="en2">Renewal</div><ul><li>쓰던 도메인 그대로</li><li>기존 글 · 자료 옮기기</li><li>구조와 디자인 새로 정리</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>반응형 · 모바일</h3><div class="en2">Responsive</div><ul><li>PC · 태블릿 · 휴대폰 기본</li><li>누르기 쉬운 버튼 · 글자</li><li>빠르게 열리는 화면</li></ul></div>
-        <div class="bizd__i"><div class="n">06</div><h3>문의 · 예약 연결</h3><div class="en2">Inquiry Flow</div><ul><li>문의 양식 · 이메일 알림</li><li>전화 · 카카오톡 연결</li><li>지도 · 오시는 길</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>회사소개 · 연혁 · 오시는 길</li><li>제품 · 서비스 소개</li><li>실적 · 인증 · 거래처</li><li>견적 · 제휴 문의</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>게시판 · 공지 · 보도자료</li><li>자료실 · 카탈로그 내려받기</li><li>채용 공고</li><li>영문 화면</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>회사명 · 제품명 검색 정리</li><li>회사 정보 구조화 데이터</li><li>자주 묻는 질문</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/build-->
+<!--/ed:business/corporate-->
 
-<!-- 검색 · AI 대응 -->
-<!--ed:business/search-->
-<section class="sec sec--paper2" id="search" data-nav="light">
+<!-- 병원 홈페이지 -->
+<!--ed:business/hospital-->
+<section class="sec sec--paper2" id="hospital" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">SEO · AEO · GEO</div><h2>검색 · AI 대응 — 찾히는 홈페이지</h2></div>
-        <p>네이버 · 구글 검색과 AI 답변에 회사 정보가 정확히 담기도록 기획 단계부터 설계합니다. 순위 보장이 아니라 잘 읽히는 기본기를 갖춥니다.</p>
+        <div><div class="en">Hospital · Clinic</div><h2>병원 홈페이지</h2></div>
+        <p><b>진료 정보를 빠르게 찾고, 예약 · 상담으로 이어지도록.</b> 진료 과목, 의료진, 진료 시간, 오시는 길을 휴대폰에서 바로 찾을 수 있게 만듭니다. 의료광고 기준을 고려해 표현을 함께 점검합니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>검색 등록</h3><div class="en2">Search Console</div><ul><li>네이버 서치어드바이저</li><li>구글 서치콘솔</li><li>사이트맵 제출</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>화면별 제목 · 설명</h3><div class="en2">Meta Tags</div><ul><li>화면마다 검색 문구 정리</li><li>공유 미리보기 이미지</li><li>주소 정리</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>자주 묻는 질문</h3><div class="en2">AEO</div><ul><li>고객 질문 미리 정리</li><li>질문 · 답 형식 구성</li><li>짧고 정확한 답변</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>구조화 데이터</h3><div class="en2">Structured Data</div><ul><li>회사 · 서비스 · 지역 정보</li><li>검색엔진이 읽는 형식</li><li>AI가 이해하는 설명</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>빠른 화면</h3><div class="en2">Performance</div><ul><li>가벼운 사진 · 영상</li><li>휴대폰에서도 빠르게</li><li>기본 점검 후 오픈</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>병원 소개 · 의료진</li><li>진료 과목 · 진료 안내</li><li>진료 시간 · 오시는 길</li><li>공지 · 건강 정보</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>온라인 예약 · 상담 신청</li><li>전화 · 카카오톡 바로 연결</li><li>지도 · 주차 안내</li><li>휴대폰 화면 우선 설계</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 진료과 검색 정리</li><li>진료 Q&amp;A 구성</li><li>병원 정보 구조화 데이터</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/search-->
+<!--/ed:business/hospital-->
 
-<!-- 관리 · 운영 -->
-<!--ed:business/care-->
-<section class="sec sec--paper" id="care" data-nav="light">
+<!-- 프랜차이즈 홈페이지 -->
+<!--ed:business/franchise-->
+<section class="sec sec--paper" id="franchise" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Care</div><h2>관리 · 운영 — 오래 일하는 홈페이지</h2></div>
-        <p>직접 고칠 수 있는 관리자와 꾸준한 유지보수로, 오픈한 뒤에도 홈페이지가 늘 최신 상태를 유지합니다.</p>
+        <div><div class="en">Franchise</div><h2>프랜차이즈 홈페이지</h2></div>
+        <p><b>브랜드를 알리고 가맹 문의를 받도록.</b> 고객에게는 브랜드와 메뉴 · 매장을, 예비 점주에게는 창업 안내와 가맹 절차를 보여 주는 두 갈래 구조로 만듭니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>화면 보며 직접 수정</h3><div class="en2">Easy Admin</div><ul><li>글자 · 사진 · 메뉴 수정</li><li>저장 후 게시</li><li>이전 상태로 되돌리기</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>게시판 · 갤러리</h3><div class="en2">Board</div><ul><li>공지 · 소식 올리기</li><li>사진 갤러리</li><li>채용 공고</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>문의 관리</h3><div class="en2">Inquiry</div><ul><li>문의 내역 한곳에</li><li>이메일 알림</li><li>답장 바로 보내기</li></ul></div>
-        <div class="bizd__i"><div class="n">04</div><h3>유지보수</h3><div class="en2">Maintenance</div><ul><li>수정 · 기능 추가 요청</li><li>정기 점검 · 백업</li><li>보안 업데이트</li></ul></div>
-        <div class="bizd__i"><div class="n">05</div><h3>도메인 · 호스팅</h3><div class="en2">Hosting</div><ul><li>신청부터 연결까지 안내</li><li>연장 관리</li><li>이전 지원</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>브랜드 스토리</li><li>메뉴 · 상품 소개</li><li>매장 찾기</li><li>창업 안내 · 가맹 절차</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>가맹 상담 신청</li><li>매장 지도 · 지역별 검색</li><li>이벤트 · 소식 게시판</li><li>매장별 정보 관리</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>브랜드명 · 지역 매장 검색</li><li>창업 비용 · 절차 Q&amp;A</li><li>매장 정보 구조화 데이터</li></ul></div>
       </div>
     </div>
   </div>
 </section>
-<!--/ed:business/care-->
+<!--/ed:business/franchise-->
+
+<!-- 쇼핑몰 홈페이지 -->
+<!--ed:business/shop-->
+<section class="sec sec--paper2" id="shop" data-nav="light">
+  <div class="wrap">
+    <div class="bizd rv">
+      <div class="bizd__head">
+        <div><div class="en">Online Store</div><h2>쇼핑몰 홈페이지</h2></div>
+        <p><b>상품을 보기 좋게 보여 주고, 구매로 이어지도록.</b> 브랜드 분위기를 살린 상품 화면과 결제까지 이어지는 쇼핑 흐름을 만듭니다. 운영하시기 편한 관리 방식을 함께 정합니다.</p>
+      </div>
+      <div class="bizd__grid stg">
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>메인 · 기획전</li><li>상품 목록 · 상세</li><li>장바구니 · 주문</li><li>브랜드 소개 · 고객센터</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>결제 · 회원 · 적립금</li><li>상품 · 주문 관리</li><li>후기 · 문의 게시판</li><li>모바일 쇼핑 화면</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>상품명 · 카테고리 검색 정리</li><li>상품 정보 구조화 데이터</li><li>배송 · 교환 Q&amp;A</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ed:business/shop-->
+
+<!-- 변호사 홈페이지 -->
+<!--ed:business/lawyer-->
+<section class="sec sec--paper" id="lawyer" data-nav="light">
+  <div class="wrap">
+    <div class="bizd rv">
+      <div class="bizd__head">
+        <div><div class="en">Law Firm</div><h2>변호사 홈페이지</h2></div>
+        <p><b>전문 분야를 분명히 보여 주고, 상담 신청으로 이어지도록.</b> 업무 분야와 변호사 소개, 상담 절차를 차분하고 신뢰감 있게 정리합니다. 변호사 광고 규정을 고려해 표현을 함께 점검합니다.</p>
+      </div>
+      <div class="bizd__grid stg">
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>사무소 · 변호사 소개</li><li>업무 분야별 안내</li><li>상담 절차 · 비용 안내</li><li>오시는 길</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>상담 신청 · 예약</li><li>전화 · 카카오톡 바로 연결</li><li>법률 칼럼 · 소식 게시판</li><li>휴대폰 화면 우선 설계</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 분야 검색 정리</li><li>자주 묻는 법률 질문</li><li>사무소 정보 구조화 데이터</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ed:business/lawyer-->
+
+<!-- 세무 · 법무 · 노무 · 회계 홈페이지 -->
+<!--ed:business/tax-->
+<section class="sec sec--paper2" id="tax" data-nav="light">
+  <div class="wrap">
+    <div class="bizd rv">
+      <div class="bizd__head">
+        <div><div class="en">Tax · Legal · Labor · Accounting</div><h2>세무 · 법무 · 노무 · 회계 홈페이지</h2></div>
+        <p><b>어려운 업무를 쉽게 설명하고, 상담으로 이어지도록.</b> 세무사 · 법무사 · 노무사 · 회계사 사무소에 맞춰 업무 범위와 상담 방법을 알기 쉽게 정리합니다. 고객이 자주 묻는 내용을 먼저 보여 줍니다.</p>
+      </div>
+      <div class="bizd__grid stg">
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>사무소 · 전문가 소개</li><li>업무 분야별 안내</li><li>상담 절차 · 수수료 안내</li><li>오시는 길</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>상담 신청 · 자료 접수</li><li>신고 일정 · 공지 게시판</li><li>자료실 · 서식 내려받기</li><li>전화 · 카카오톡 연결</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 업무 검색 정리</li><li>세무 · 노무 Q&amp;A 구성</li><li>사무소 정보 구조화 데이터</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ed:business/tax-->
+
 </main>
 
 <!-- FOOTER -->
