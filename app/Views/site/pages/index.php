@@ -50,9 +50,9 @@
         <span class="mask"><span>당신의 <i>꿈</i>을,</span></span>
         <span class="mask"><span>웹사이트라는 가치로.</span></span>
       </h1>
-      <p class="hero__sub">조선 · 해양 · 에너지 산업의 Commissioning 전 과정을<br>하나의 책임체계로 수행하는 전문기업, <span class="nb">(주)케이원.</span></p>
+      <p class="hero__sub">머릿속에 그리던 모습을 화면 위에 그대로.<br>작은 가게부터 기업까지, 꿈을 웹으로 잇는 <span class="nb">몽웹.</span></p>
       <div class="hero__act">
-        <a class="btn btn--solid" href="business.html"><span>사업분야 보기</span>
+        <a class="btn btn--solid" href="contact.html#inquiry"><span>제작 문의하기</span>
           <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </div>
