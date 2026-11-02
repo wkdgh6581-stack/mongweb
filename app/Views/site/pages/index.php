@@ -47,8 +47,8 @@
     <div class="wrap">
       <span class="hero__eyebrow">FROM PLANNING TO COMPLETION</span>
       <h1>
-        <span class="mask"><span>프로젝트의 마지막 순간,</span></span>
-        <span class="mask"><span><i>K1</i>이 완성합니다</span></span>
+        <span class="mask"><span>당신의 <i>꿈</i>을,</span></span>
+        <span class="mask"><span>웹사이트라는 가치로.</span></span>
       </h1>
       <p class="hero__sub">조선 · 해양 · 에너지 산업의 Commissioning 전 과정을<br>하나의 책임체계로 수행하는 전문기업, <span class="nb">(주)케이원.</span></p>
       <div class="hero__act">
