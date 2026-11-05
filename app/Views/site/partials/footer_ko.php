@@ -21,7 +21,7 @@
     </div>
     <div class="foot__map">
       <div class="foot__col"><h4>회사소개</h4><a href="about.html">몽웹 소개</a></div>
-      <div class="foot__col"><h4>홈페이지제작</h4><a href="corporate.html">기업 홈페이지</a><a href="hospital.html">병원 홈페이지</a><a href="franchise.html">프랜차이즈 홈페이지</a><a href="shop.html">쇼핑몰 홈페이지</a><a href="lawyer.html">변호사 홈페이지</a><a href="tax.html">세무 · 법무 · 노무 · 회계 홈페이지</a></div>
+      <div class="foot__col"><h4>홈페이지제작</h4><a href="corporate.html">기업 홈페이지</a><a href="hospital.html">병원 홈페이지</a><a href="franchise.html">프랜차이즈 홈페이지</a><a href="shop.html">쇼핑몰 홈페이지</a><a href="lawyer.html">변호사·전문직 사무소 홈페이지</a></div>
       <div class="foot__col"><h4>비용안내</h4><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div>
       <div class="foot__col"><h4>유지보수</h4><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div>
       <div class="foot__col"><h4>고객문의</h4><a href="contact.html#inquiry">문의하기</a><a href="contact.html#map">오시는 길</a></div>

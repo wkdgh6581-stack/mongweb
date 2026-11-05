@@ -52,8 +52,7 @@
     <a href="#hospital">병원</a>
     <a href="#franchise">프랜차이즈</a>
     <a href="#shop">쇼핑몰</a>
-    <a href="#lawyer">변호사</a>
-    <a href="#tax">세무·법무·노무·회계</a>
+    <a href="#lawyer">변호사·전문직</a>
   </div>
 </nav>
 <!--/ed:business/pagenav-->
@@ -135,43 +134,24 @@
 </section>
 <!--/ed:business/shop-->
 
-<!-- 변호사 홈페이지 -->
+<!-- 변호사 · 전문직 사무소 홈페이지 -->
 <!--ed:business/lawyer-->
 <section class="sec sec--paper" id="lawyer" data-nav="light">
   <div class="wrap">
     <div class="bizd rv">
       <div class="bizd__head">
-        <div><div class="en">Law Firm</div><h2>변호사 홈페이지</h2><a class="bizd__more" href="lawyer.html">자세히 보기</a></div>
-        <p><b>전문 분야를 분명히 보여 주고, 상담 신청으로 이어지도록.</b> 업무 분야와 변호사 소개, 상담 절차를 차분하고 신뢰감 있게 정리합니다. 변호사 광고 규정을 고려해 표현을 함께 점검합니다.</p>
+        <div><div class="en">Law &amp; Professional Office</div><h2>변호사 · 전문직 사무소 홈페이지</h2><a class="bizd__more" href="lawyer.html">자세히 보기</a></div>
+        <p><b>전문 분야를 분명히 보여 주고, 상담 신청으로 이어지도록.</b> 변호사 · 세무사 · 법무사 · 노무사 · 회계사 사무소에 맞춰 업무 분야와 전문가 소개, 상담 절차를 차분하고 신뢰감 있게 정리합니다. 직역별 광고 규정을 고려해 표현을 함께 점검합니다.</p>
       </div>
       <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>사무소 · 변호사 소개</li><li>업무 분야별 안내</li><li>상담 절차 · 비용 안내</li><li>오시는 길</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>상담 신청 · 예약</li><li>전화 · 카카오톡 바로 연결</li><li>법률 칼럼 · 소식 게시판</li><li>휴대폰 화면 우선 설계</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 분야 검색 정리</li><li>자주 묻는 법률 질문</li><li>사무소 정보 구조화 데이터</li></ul></div>
+        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>사무소 · 전문가 소개</li><li>업무 분야별 안내</li><li>상담 절차 · 비용 안내</li><li>오시는 길</li></ul></div>
+        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>상담 신청 · 예약</li><li>전화 · 카카오톡 바로 연결</li><li>칼럼 · 소식 · 자료실</li><li>휴대폰 화면 우선 설계</li></ul></div>
+        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 분야 검색 정리</li><li>자주 묻는 법률 · 세무 · 노무 질문</li><li>사무소 정보 구조화 데이터</li></ul></div>
       </div>
     </div>
   </div>
 </section>
 <!--/ed:business/lawyer-->
-
-<!-- 세무 · 법무 · 노무 · 회계 홈페이지 -->
-<!--ed:business/tax-->
-<section class="sec sec--paper2" id="tax" data-nav="light">
-  <div class="wrap">
-    <div class="bizd rv">
-      <div class="bizd__head">
-        <div><div class="en">Tax · Legal · Labor · Accounting</div><h2>세무 · 법무 · 노무 · 회계 홈페이지</h2><a class="bizd__more" href="tax.html">자세히 보기</a></div>
-        <p><b>어려운 업무를 쉽게 설명하고, 상담으로 이어지도록.</b> 세무사 · 법무사 · 노무사 · 회계사 사무소에 맞춰 업무 범위와 상담 방법을 알기 쉽게 정리합니다. 고객이 자주 묻는 내용을 먼저 보여 줍니다.</p>
-      </div>
-      <div class="bizd__grid stg">
-        <div class="bizd__i"><div class="n">01</div><h3>화면 구성</h3><div class="en2">Pages</div><ul><li>사무소 · 전문가 소개</li><li>업무 분야별 안내</li><li>상담 절차 · 수수료 안내</li><li>오시는 길</li></ul></div>
-        <div class="bizd__i"><div class="n">02</div><h3>핵심 기능</h3><div class="en2">Features</div><ul><li>상담 신청 · 자료 접수</li><li>신고 일정 · 공지 게시판</li><li>자료실 · 서식 내려받기</li><li>전화 · 카카오톡 연결</li></ul></div>
-        <div class="bizd__i"><div class="n">03</div><h3>검색 · AI 대응</h3><div class="en2">Search</div><ul><li>지역 + 업무 검색 정리</li><li>세무 · 노무 Q&amp;A 구성</li><li>사무소 정보 구조화 데이터</li></ul></div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/ed:business/tax-->
 
 </main>
 

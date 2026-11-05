@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>변호사 홈페이지 제작 · 몽웹 MongWeb</title>
-<meta name="description" content="몽웹 변호사 홈페이지 제작 — 법률 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 변호사를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
+<title>변호사·전문직 사무소 홈페이지 제작 · 몽웹 MongWeb</title>
+<meta name="description" content="몽웹 변호사·전문직 사무소 홈페이지 제작 — 법률 · 세무 · 노무 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 전문가를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
 <link rel="canonical" href="https://k1tnc.co.kr/lawyer.html">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/lawyer.html">
 <link rel="alternate" hreflang="x-default" href="https://k1tnc.co.kr/lawyer.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="변호사 홈페이지 제작 · 몽웹 MongWeb">
-<meta property="og:description" content="몽웹 변호사 홈페이지 제작 — 법률 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 변호사를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
+<meta property="og:title" content="변호사·전문직 사무소 홈페이지 제작 · 몽웹 MongWeb">
+<meta property="og:description" content="몽웹 변호사·전문직 사무소 홈페이지 제작 — 법률 · 세무 · 노무 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 전문가를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
 <meta property="og:url" content="https://k1tnc.co.kr/lawyer.html">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="변호사 홈페이지 제작 · 몽웹 MongWeb">
-<meta name="twitter:description" content="몽웹 변호사 홈페이지 제작 — 법률 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 변호사를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
+<meta name="twitter:title" content="변호사·전문직 사무소 홈페이지 제작 · 몽웹 MongWeb">
+<meta name="twitter:description" content="몽웹 변호사·전문직 사무소 홈페이지 제작 — 법률 · 세무 · 노무 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 전문가를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -37,10 +37,10 @@
 <!--ed:lawyer/subhero-->
 <section class="subhero" data-nav="dark">
   <div class="wrap">
-    <div class="bc"><a href="index.html">홈</a> <b>›</b> <a href="business.html">홈페이지제작</a> <b>›</b> 변호사 홈페이지</div>
-    <h1>변호사 홈페이지 제작</h1>
-    <div class="en">Law Firm</div>
-    <p class="dt-lead">법률 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 변호사를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.</p>
+    <div class="bc"><a href="index.html">홈</a> <b>›</b> <a href="business.html">홈페이지제작</a> <b>›</b> 변호사·전문직 사무소 홈페이지</div>
+    <h1>변호사·전문직 사무소<br>홈페이지 제작</h1>
+    <div class="en">Law &amp; Professional Office</div>
+    <p class="dt-lead">법률 · 세무 · 노무 상담이 필요한 사람은 불안한 마음으로 검색합니다. 업무 분야와 전문가를 차분하고 분명하게 보여 주고, 상담 신청까지 이어지는 홈페이지를 만듭니다.</p>
     <div class="dt-cta">
       <a class="btn btn--solid" href="contact.html#inquiry"><span>제작 상담 신청</span>
         <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -148,7 +148,7 @@
     </div>
     <div class="dt-struct rv">
       <div class="dt-tree">
-        <span class="root">변호사 홈페이지</span>
+        <span class="root">전문직 사무소 홈페이지</span>
         <ul>
           <li>사무소 소개<small>인사말 · 둘러보기</small></li>
           <li>변호사 소개<small>변호사별 분야</small></li>
