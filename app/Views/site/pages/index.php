@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261102">
+<link rel="stylesheet" href="css/v2.css?v=20261107">
 </head>
 <body>
 <a class="skip" href="#top">본문 바로가기</a>
@@ -95,8 +95,8 @@
 <section class="sec sec--paper about" id="about" data-nav="light">
   <div class="wrap">
     <div class="about__grid">
-      <div class="about__img viz viz--web rv" style="--gx:70%;--gy:30%">
-        <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg>
+      <div class="about__img about__img--photo rv">
+        <img src="assets/about-web.jpg" alt="노트북 화면의 홈페이지와 상담 · 보안 · 성과 · AI · 개발 아이콘" width="1536" height="1024" loading="lazy">
       </div>
       <div class="about__txt">
         <span class="eyebrow rv">／ 01 &nbsp;About Us</span>
