@@ -1280,3 +1280,47 @@ html.ed-on .dt-faq details p{display:block}
   .dt-steps{grid-template-columns:minmax(0,1fr)}
   .dt-faq details p{padding:0 0 22px 46px}
 }
+
+/* =====================================================================
+   메인 페이지 글자 크기 균형 (히어로와 같은 기준)
+   큰 제목은 약 25% 줄이고, 설명 글은 키우고 더 진하게 — 읽기 쉽게
+   ===================================================================== */
+body.home{--ink-mut:#454A60;--dim:#C3C7DA;--dim-2:#9CA1BA}
+.home .eyebrow{font-size:14px}
+.home .d2{font-size:clamp(28px,4vw,58px);line-height:1.15;letter-spacing:-.035em}
+.home .lead{font-size:clamp(17px,1.6vw,22px);line-height:1.8;color:var(--ink-mut)}
+.home .sec--dark .lead,.home [data-nav="dark"] .lead{color:var(--dim)}
+/* 숫자 */
+.home .fig__n{font-size:clamp(34px,3.8vw,58px)}
+.home .fig__l{font-size:16.5px}
+/* 가치 카드 */
+.home .val h3{font-size:clamp(20px,1.8vw,25px)}
+.home .val p{font-size:16.5px;line-height:1.8}
+/* 신규 제작 · 리뉴얼 */
+.home .brand-c__nm b{font-size:clamp(20px,1.8vw,25px)}
+.home .brand-c p.brand-c__tag{font-size:clamp(18px,1.6vw,22px)}
+.home .brand-c>p{font-size:17px}
+.home .brand-c h3{font-size:17.5px}
+/* 역량 */
+.home .cap__node h3{font-size:clamp(21px,2vw,28px);line-height:1.2}
+.home .cap__node p{font-size:17px}
+/* 업종 패널 */
+.home .bizp__no{font-size:clamp(44px,5.2vw,88px)}
+.home .bizp h3{font-size:clamp(28px,3.4vw,50px);line-height:1.1}
+.home .bizp li{font-size:clamp(16px,1.25vw,18.5px);color:#fff}
+/* 제작 과정 */
+.home .kp h3{font-size:clamp(18px,1.55vw,21px)}
+.home .kp li{font-size:16px;line-height:1.6}
+.home .kes2__cap{font-size:clamp(17px,1.4vw,20px)}
+.home .kes2__cap em{font-size:15px}
+.home .diff__t{font-size:clamp(22px,2.1vw,30px)}
+.home .diff__i h4{font-size:clamp(17px,1.45vw,20px)}
+.home .diff__i p{font-size:16px;line-height:1.7}
+/* 업종 카드 */
+.home .pj-card h3{font-size:clamp(19px,1.7vw,23px)}
+.home .pj-card p{font-size:16px;line-height:1.7}
+/* 약속 */
+.home .certc h3{font-size:clamp(20px,1.9vw,26px)}
+.home .certc .k{font-size:16px}
+/* 바닥 안내 */
+.home .foot__cta h2{font-size:clamp(28px,3.4vw,50px);line-height:1.15}
