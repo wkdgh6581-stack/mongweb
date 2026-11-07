@@ -299,6 +299,12 @@ body.lock{overflow:hidden}
 .about__img{position:relative;min-height:clamp(420px,54vw,760px);margin-left:calc(var(--pad)*-1);border-radius:0}
 .about__img--photo{background:#0A0F3C;overflow:hidden}
 .about__img--photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+/* 사진일 때(PC): 이미지 높이를 오른쪽 글자 영역(작은 제목 위 ~ 설명 끝)에 맞춘다 */
+@media (min-width:1081px){
+  .about__grid:has(.about__img--photo){align-items:stretch}
+  .about__grid .about__img--photo{min-height:0}
+  .about__grid:has(.about__img--photo) .about__txt{padding-top:0;padding-bottom:0}
+}
 .about__img .viz__tag{left:calc(var(--pad) + 8px)}
 .about__txt{padding:clamp(40px,5vw,84px) 0 clamp(20px,3vw,40px) clamp(40px,6vw,110px);display:flex;flex-direction:column;justify-content:center}
 .about__txt .d2{margin-top:26px}
