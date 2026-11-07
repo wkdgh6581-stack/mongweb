@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 
 // 고정 페이지 — 주소는 기존 링크를 그대로 쓰도록 .html 을 유지한다
 $routes->get('/', 'Page::show/index');
-$routes->get('(index|about|business|projects|contact|privacy)\.html', 'Page::show/$1');
+$routes->get('(index|about|business|price|maintenance|corporate|hospital|franchise|shop|lawyer|projects|contact|privacy)\.html', 'Page::show/$1');
 $routes->get('en', 'Page::english/index');
 $routes->get('en/', 'Page::english/index');
 $routes->get('en/(index|about|business|projects|contact|privacy|news|recruit)\.html', 'Page::english/$1');
@@ -46,6 +46,20 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin'], static functio
     $routes->group('', ['filter' => 'adminAuth'], static function ($routes) {
         $routes->get('/', 'Dashboard::index');
         $routes->get('dashboard', 'Dashboard::index');
+
+        // 홈페이지 화면 편집기 — 화면을 보면서 글자·사진·링크를 고친다
+        $routes->get('editor', 'Editor::index');
+        $routes->post('editor/save', 'Editor::save');
+        $routes->post('editor/upload', 'Editor::upload');
+        $routes->post('editor/reset', 'Editor::reset');
+        $routes->post('editor/publish', 'Editor::publish');
+        $routes->post('editor/discard', 'Editor::discard');
+        $routes->get('editor/status', 'Editor::status');
+        $routes->post('editor/restore/(:num)', 'Editor::restore/$1');
+        $routes->get('editor/replace', 'Editor::replace');
+        $routes->post('editor/replace', 'Editor::doReplace');
+        $routes->get('editor/export', 'Editor::export');
+        $routes->post('editor/import', 'Editor::import');
 
         // 게시판
         $routes->get('article', 'Article::index');

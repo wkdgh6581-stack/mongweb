@@ -5,6 +5,8 @@
  */
 $menu = [
     ['url' => 'admin/dashboard', 'key' => 'dashboard', 'label' => '대시보드'],
+    ['url' => 'admin/editor',    'key' => 'editor',    'label' => '홈페이지 편집'],
+    ['url' => 'admin/editor/replace', 'key' => 'replace', 'label' => '문구 일괄 바꾸기'],
     ['url' => 'admin/article',   'key' => 'article',   'label' => '게시판'],
     ['url' => 'admin/gallery',   'key' => 'gallery',   'label' => '갤러리'],
     ['url' => 'admin/recruit',   'key' => 'recruit',   'label' => '채용공고'],
@@ -17,6 +19,8 @@ $menu_sub = [
 ];
 $icons = [
     'dashboard' => '<rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/>',
+    'editor'    => '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M9.5 17.5l1-3 5-5 2 2-5 5z"/>',
+    'replace'   => '<path d="M4 7h11M11 3l4 4-4 4"/><path d="M20 17H9M13 13l-4 4 4 4"/>',
     'article'   => '<path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/>',
     'gallery'   => '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-6 6-3-3-4 4"/>',
     'recruit'   => '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M3 12h18"/>',
@@ -44,7 +48,7 @@ $current = $current ?? '';
 
   <nav class="side" aria-label="관리자 메뉴">
     <div class="side__brand">
-      <img src="<?= base_url('images/mark-k1.png') ?>" alt="">
+      <img src="<?= base_url('images/mark-mongweb.png') ?>" alt="">
       <span>
         <b>(주)케이원</b>
         <span>Admin</span>
