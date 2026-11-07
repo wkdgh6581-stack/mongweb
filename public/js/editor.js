@@ -361,7 +361,7 @@
       if (!s.attributes.length) { while (s.firstChild) s.parentNode.insertBefore(s.firstChild, s); s.parentNode.removeChild(s); }
     });
     [].slice.call(el.querySelectorAll('[style]')).forEach(function (s) {
-      if (!s.closest('svg') && /font-size|line-height|background-color|color: rgb/.test(s.getAttribute('style')) && !s.hasAttribute('data-keep-style')) s.removeAttribute('style');
+      if (!s.closest('svg') && !s.classList.contains('fz') && /font-size|line-height|background-color|color: rgb/.test(s.getAttribute('style')) && !s.hasAttribute('data-keep-style')) s.removeAttribute('style');
     });
     changed();
   }
@@ -400,6 +400,9 @@
     prev: '<svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>',
     next: '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>',
     up: '<svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
+    fzdn: '<svg viewBox="0 0 24 24"><path d="M3 18l4-11 4 11M4.5 14h5"/><path d="M15 12h6"/></svg>',
+    fzup: '<svg viewBox="0 0 24 24"><path d="M3 18l4-11 4 11M4.5 14h5"/><path d="M15 12h6M18 9v6"/></svg>',
+    fzreset: '<svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 108-8 8.5 8.5 0 00-6 2.5L4 8"/><path d="M4 4v4h4"/></svg>',
     img: '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-6 6-3-3-4 4"/></svg>'
   };
 
@@ -415,7 +418,10 @@
 
     if (t === 'text') {
       h += '<div class="ed-bar__grp">' + btn('bold', '굵게', 'bold', 'ic') + btn('em', '강조색', 'em', 'ic') +
-        (link ? btn('unlink', '링크 해제', 'unlink', 'ic') : btn('link', '링크 걸기', 'link', 'ic')) + '</div>';
+        (link ? btn('unlink', '링크 해제', 'unlink', 'ic') : btn('link', '링크 걸기', 'link', 'ic')) + '</div>' +
+        '<div class="ed-bar__grp ed-bar__fz"><em>글자 크기</em>' + btn('fzdn', '작게', 'fzdn', 'ic') +
+        '<b class="ed-bar__fzv" title="원래 크기 대비">' + fzCur(el) + '%</b>' + btn('fzup', '크게', 'fzup', 'ic') +
+        btn('fzreset', '크기 원래대로', 'fzreset', 'ic') + '</div>';
     }
     if (t === 'img') {
       h += '<div class="ed-bar__grp">' + btn('img', '사진 바꾸기', 'img', 'pri') + '</div>' +
@@ -464,6 +470,7 @@
       if (a) { while (a.firstChild) a.parentNode.insertBefore(a.firstChild, a); a.parentNode.removeChild(a); }
     }
     else if (act === 'img') { fileIn.click(); return; }
+    else if (act === 'fzup' || act === 'fzdn' || act === 'fzreset') { fzStep(el, act); }
     else if (act === 'dup' && item) {
       var cp = item.cloneNode(true);
       [].slice.call(cp.querySelectorAll('[contenteditable]')).concat([cp]).forEach(function (x) { x.removeAttribute('contenteditable'); x.removeAttribute('data-ed-editing'); });
@@ -509,6 +516,59 @@
     changed();
   });
   bar.addEventListener('change', function (e) { if (e.target.type === 'checkbox') bar.dispatchEvent(new Event('input', { bubbles: true })); });
+
+  // ------------------------------------------------------------------
+  // 글자 크기 — <span class="fz" style="font-size:1.2em"> 로 감싼다.
+  // em 이라서 PC·휴대폰 어디서나 '원래 크기의 몇 %' 로 같은 비율이 유지된다.
+  // 글자를 끌어서 고르면 그 부분만, 안 고르면 이 글자 묶음 전체가 바뀐다.
+  // ------------------------------------------------------------------
+  var FZ_MIN = 50, FZ_MAX = 300, FZ_STEP = 10;
+  function fzWhole(el) {
+    var kids = [].filter.call(el.childNodes, function (n) { return !(n.nodeType === 3 && !n.nodeValue.trim()); });
+    return (kids.length === 1 && kids[0].nodeType === 1 && kids[0].classList.contains('fz')) ? kids[0] : null;
+  }
+  function fzPct(span) { return span ? (Math.round(parseFloat(span.style.fontSize) * 100) || 100) : 100; }
+  function fzCur(el) { return fzPct(fzWhole(el)); }
+  function fzUnwrap(sp) { while (sp.firstChild) sp.parentNode.insertBefore(sp.firstChild, sp); sp.parentNode.removeChild(sp); }
+  function fzApply(sp, pct) {
+    if (pct === 100) { fzUnwrap(sp); return null; }
+    sp.style.fontSize = (pct / 100) + 'em';
+    return sp;
+  }
+  function fzNext(cur, act) {
+    if (act === 'fzreset') return 100;
+    var n = cur + (act === 'fzup' ? FZ_STEP : -FZ_STEP);
+    return Math.max(FZ_MIN, Math.min(FZ_MAX, n));
+  }
+  function fzStep(el, act) {
+    var s = window.getSelection();
+    var r = (savedRange && !savedRange.collapsed && el.contains(savedRange.commonAncestorContainer)) ? savedRange : null;
+    if (r && r.toString().trim() && r.toString().trim() !== el.textContent.trim()) {
+      // 고른 부분만
+      var anc = r.commonAncestorContainer; anc = anc.nodeType === 1 ? anc : anc.parentElement;
+      var sp = anc.closest('.fz');
+      if (!(sp && el.contains(sp) && sp !== fzWhole(el) && sp.textContent.trim() === r.toString().trim())) {
+        if (act === 'fzreset') return;
+        sp = doc.createElement('span'); sp.className = 'fz';
+        sp.appendChild(r.extractContents());
+        r.insertNode(sp);
+        [].slice.call(sp.querySelectorAll('.fz')).forEach(fzUnwrap);
+      }
+      var kept = fzApply(sp, fzNext(fzPct(sp), act));
+      if (kept) {
+        var nr = doc.createRange(); nr.selectNodeContents(kept);
+        s.removeAllRanges(); s.addRange(nr); savedRange = nr.cloneRange();
+      } else { savedRange = null; }
+      return;
+    }
+    // 묶음 전체
+    var w = fzWhole(el);
+    var next = fzNext(fzPct(w), act);
+    if (act === 'fzreset') [].slice.call(el.querySelectorAll('.fz')).forEach(fzUnwrap);
+    if (next === 100) { if (w && w.parentNode) fzUnwrap(w); return; }
+    if (!w) { w = doc.createElement('span'); w.className = 'fz'; while (el.firstChild) w.appendChild(el.firstChild); el.appendChild(w); }
+    fzApply(w, next);
+  }
 
   function restoreRange() {
     if (!savedRange) return false;

@@ -72,3 +72,7 @@ html.ed-outline [data-ed]{outline:1px dashed rgba(37,99,235,.55);outline-offset:
 .ed-dot--live{background:var(--ed-ok)}
 .ed-bbar button{all:unset;cursor:pointer;height:26px;padding:0 10px;border-radius:999px;background:#F1F5F9;font:700 12px/26px var(--ed-font);color:#334155}
 .ed-bbar button:hover{background:#E2E8F0;color:var(--ed-ink)}
+
+/* 글자 크기 */
+.ed-bar__fz{display:inline-flex;align-items:center;gap:2px}
+.ed-bar__fzv{min-width:42px;text-align:center;font:700 12px/1 var(--ed-font);color:#fff}
