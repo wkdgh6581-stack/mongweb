@@ -1324,3 +1324,5 @@ html.ed-on .dt-faq details p{display:block}
 .home .certc .k{font-size:15.36px}
 /* 바닥 안내 */
 .home .foot__cta h2{font-size:clamp(25.2px,2.92vw,43px);line-height:1.15}
+/* About Us 설명 글: 크기 줄이고 줄 길이를 고르게 */
+.home .about__txt .lead{font-size:clamp(15.5px,1.12vw,17px);line-height:1.75;max-width:34em;text-wrap:pretty;word-break:keep-all}
