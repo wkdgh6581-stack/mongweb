@@ -1285,7 +1285,7 @@ html.ed-on .dt-faq details p{display:block}
    메인 페이지 글자 크기 균형 (히어로와 같은 기준)
    큰 제목은 약 25% 줄이고, 설명 글은 키우고 더 진하게 — 읽기 쉽게
    ===================================================================== */
-body.home{--ink-mut:#454A60;--dim:#C3C7DA;--dim-2:#9CA1BA}
+.home{--ink-mut:#454A60;--dim:#C3C7DA;--dim-2:#9CA1BA}
 .home .eyebrow{font-size:14px}
 .home .d2{font-size:clamp(28px,4vw,58px);line-height:1.15;letter-spacing:-.035em}
 .home .lead{font-size:clamp(17px,1.6vw,22px);line-height:1.8;color:var(--ink-mut)}
