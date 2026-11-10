@@ -1575,3 +1575,42 @@ html.ed-on .dt-faq details p{display:block}
 .dt-fit__cap b{font-size:clamp(22px,2.15vw,32px);white-space:nowrap}
 .dt-fit__cap p{font-size:clamp(14px,1.05vw,16px);white-space:nowrap}
 @media (max-width:720px){.dt-fit__cap b{font-size:clamp(18px,5.4vw,24px)}.dt-fit__cap p{white-space:normal}}
+/* 업종 상세 04 Customer Journey — 이미지 + 단계 호버 */
+.dt-jr{position:relative;overflow:hidden;background:radial-gradient(60% 70% at 70% 30%,#101a46 0%,#090d1e 60%,#080b18 100%)}
+.dt-jr>.wrap{position:relative;z-index:1}
+.dt-jr__art{position:absolute;top:clamp(40px,4vw,70px);right:0;width:min(68vw,1300px);aspect-ratio:1300/480;z-index:0}
+.dt-jr__art img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.dt-jr__art .base{transition:filter .5s}
+.dt-jr.lit .dt-jr__art .base{filter:brightness(.55) saturate(.9)}
+.dt-jr__art .hl{opacity:0;filter:brightness(1.18) saturate(1.1);transition:opacity .45s}
+.dt-jr__art .hl.on{opacity:1}
+.dt-jr .sec-head{max-width:44%;min-height:clamp(260px,26vw,400px)}
+.dt-steps--jr{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;margin-top:clamp(20px,3vw,40px);padding-top:0;border:0}
+.dt-steps__bar{position:absolute;left:0;right:0;top:28px;height:1px;background:rgba(255,255,255,.18)}
+.dt-steps__bar b{position:absolute;left:0;top:-1px;height:3px;width:0;border-radius:3px;background:linear-gradient(90deg,#2b3bff,#6b78ff);box-shadow:0 0 14px #4f5dff;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.dt-steps--jr .dt-step{position:relative;padding:0 0 20px;border:0;background:none;cursor:pointer;color:#fff}
+.dt-steps--jr .dt-step>i{position:relative;z-index:1;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;font-style:normal;font-size:15px;font-weight:800;
+  background:#0b1024;border:1px solid rgba(255,255,255,.28);color:#fff;transition:background .35s,border-color .35s,box-shadow .35s,transform .35s}
+.dt-steps--jr .dt-step.done>i{border-color:#4f5dff}
+.dt-steps--jr .dt-step.on>i{background:linear-gradient(135deg,#2b3bff,#5a67ff);border-color:#8b95ff;box-shadow:0 0 0 6px rgba(79,93,255,.18),0 0 26px rgba(79,93,255,.8);transform:scale(1.06)}
+.dt-steps--jr .ic{display:block;margin:22px 0 0 6px;width:34px;height:34px;color:#cfd4ff;transition:color .35s,transform .35s}
+.dt-steps--jr .ic svg{width:100%;height:100%}
+.dt-steps--jr .dt-step.on .ic{color:#fff;transform:translateY(-2px)}
+.dt-steps--jr h4{margin-top:14px;font-size:clamp(20px,1.7vw,24px);font-weight:800;color:#fff}
+.dt-steps--jr p{margin-top:8px;font-size:15px;line-height:1.6;color:var(--dim);transition:color .35s}
+.dt-steps--jr .dt-step.on p{color:#e6e9ff}
+.dt-steps--jr .dt-step::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;border-radius:3px;background:linear-gradient(90deg,#4f5dff,transparent);box-shadow:0 0 12px #4f5dff;transition:width .5s}
+.dt-steps--jr .dt-step.on::after{width:80%}
+@media (max-width:1080px){
+  .dt-jr__art{position:relative;top:auto;width:120%;margin:0 0 10px -10%}
+  .dt-jr .sec-head{max-width:none;min-height:0}
+  .dt-steps--jr{grid-template-columns:minmax(0,1fr);gap:8px}
+  .dt-steps__bar{display:none}
+  .dt-steps--jr .dt-step{display:grid;grid-template-columns:48px 30px 1fr;column-gap:14px;align-items:center;padding:12px 0}
+  .dt-steps--jr .dt-step>i{width:44px;height:44px;font-size:13px;grid-row:span 2}
+  .dt-steps--jr .ic{margin:0;width:26px;height:26px;grid-row:span 2}
+  .dt-steps--jr h4{margin:0;font-size:18px}.dt-steps--jr p{margin:2px 0 0;grid-column:3}
+  .dt-steps--jr .dt-step::after{display:none}
+}
+.dt-jr__art{-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 16%),linear-gradient(0deg,transparent 0%,#000 14%,#000 88%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(90deg,transparent 0%,#000 16%),linear-gradient(0deg,transparent 0%,#000 14%,#000 88%,transparent 100%);mask-composite:intersect}

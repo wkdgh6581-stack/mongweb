@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110v">
+<link rel="stylesheet" href="css/v2.css?v=20261110x">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -127,19 +127,20 @@
 
 <!-- 고객 이동 경로 -->
 <!--ed:corporate/journey-->
-<section class="sec cap dt-sec" id="journey" data-nav="dark">
+<section class="sec cap dt-sec dt-jr" id="journey" data-nav="dark">
+  <div class="dt-jr__art" aria-hidden="true"><img class="base" src="assets/corp-journey.jpg" alt="" width="2600" height="960"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(20.6% 16.2%,53.2% 6.2%,50.0% 81.7%,17.5% 77.5%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(52.6% 18.8%,65.2% 15.0%,62.6% 83.3%,50.0% 80.8%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(64.5% 20.0%,75.5% 16.7%,74.0% 81.7%,63.5% 79.2%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(75.0% 22.9%,84.5% 19.8%,83.2% 79.2%,74.1% 77.1%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(84.1% 26.7%,93.3% 23.5%,92.2% 76.2%,83.2% 74.6%)"></div>
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 04</b>&nbsp; Customer Journey</span>
       <h2 class="d2">검색에서 문의까지,<br><em>막힘없는 흐름</em></h2>
       <p class="lead">방문자가 단계마다 찾는 정보를 미리 준비해, 중간에 떠나지 않고 문의까지 이어지게 합니다.</p>
     </div>
-    <div class="dt-steps stg rv">
-      <div class="dt-step"><i>01</i><h4>검색</h4><p>제품명 · 기술 · 지역으로 찾아옵니다</p></div>
-      <div class="dt-step"><i>02</i><h4>확인</h4><p>무슨 회사인지 첫 화면에서 파악합니다</p></div>
-      <div class="dt-step"><i>03</i><h4>비교</h4><p>제품 · 기술 · 설비를 살펴봅니다</p></div>
-      <div class="dt-step"><i>04</i><h4>신뢰</h4><p>실적 · 인증 · 거래처를 확인합니다</p></div>
-      <div class="dt-step"><i>05</i><h4>문의</h4><p>견적 · 상담을 남깁니다</p></div>
+    <div class="dt-steps dt-steps--jr rv"><span class="dt-steps__bar" aria-hidden="true"><b></b></span>
+      <div class="dt-step on" tabindex="0"><i>01</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></span><h4>검색</h4><p>제품명 · 기술 · 지역으로 찾아옵니다</p></div>
+      <div class="dt-step" tabindex="0"><i>02</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></span><h4>확인</h4><p>무슨 회사인지 첫 화면에서 파악합니다</p></div>
+      <div class="dt-step" tabindex="0"><i>03</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></span><h4>비교</h4><p>제품 · 기술 · 설비를 살펴봅니다</p></div>
+      <div class="dt-step" tabindex="0"><i>04</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 5.5v6c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10v-6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span><h4>신뢰</h4><p>실적 · 인증 · 거래처를 확인합니다</p></div>
+      <div class="dt-step" tabindex="0"><i>05</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><h4>문의</h4><p>견적 · 상담을 남깁니다</p></div>
     </div>
   </div>
 </section>
@@ -248,7 +249,7 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
-<script src="js/dt-fit.js?v=3"></script>
+<script src="js/dt-fit.js?v=4"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>

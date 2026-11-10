@@ -28,3 +28,41 @@
     });
   });
 })();
+/* 업종 상세 "검색에서 문의까지" — 단계에 마우스를 올리면 그 단계 화면이 빛나고 진행선이 따라간다 */
+(function () {
+  [].forEach.call(document.querySelectorAll('.dt-jr'), function (sec) {
+    var steps = [].slice.call(sec.querySelectorAll('.dt-step'));
+    var hls = [].slice.call(sec.querySelectorAll('.dt-jr__art .hl'));
+    var bar = sec.querySelector('.dt-steps__bar b');
+    var cur = 0, hover = false, auto;
+    function show(i) {
+      cur = i;
+      steps.forEach(function (s, k) { s.classList.toggle('on', k === i); s.classList.toggle('done', k < i); });
+      hls.forEach(function (h, k) { h.classList.toggle('on', k === i); });
+      sec.classList.add('lit');
+      if (bar && steps[i]) {
+        var dot = steps[i].querySelector('i'), wrap = bar.parentNode;
+        var x = dot.getBoundingClientRect().left + dot.offsetWidth / 2 - wrap.getBoundingClientRect().left;
+        bar.style.width = Math.max(0, x) + 'px';
+      }
+    }
+    steps.forEach(function (s, i) {
+      s.addEventListener('mouseenter', function () { hover = true; show(i); });
+      s.addEventListener('focus', function () { show(i); });
+      s.addEventListener('click', function () { show(i); });
+      s.addEventListener('mouseleave', function () { hover = false; });
+    });
+    // 보고 있을 때 천천히 자동으로 한 단계씩
+    function tick() { if (!hover) show((cur + 1) % steps.length); }
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) {
+        es.forEach(function (e) {
+          clearInterval(auto);
+          if (e.isIntersecting) { show(cur); auto = setInterval(tick, 2600); }
+        });
+      }, { threshold: .3 }).observe(sec);
+    }
+    window.addEventListener('resize', function () { show(cur); });
+    show(0);
+  });
+})();
