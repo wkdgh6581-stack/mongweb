@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110u">
+<link rel="stylesheet" href="css/v2.css?v=20261110v">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -118,7 +118,7 @@
       </ol>
       <div class="dt-fit__view" aria-live="polite">
         <img class="dt-fit__img" src="assets/fit-new.jpg" alt="" width="1884" height="1070">
-        <div class="dt-fit__cap"><span class="no">01</span><b>새로 사업을<br>시작한 회사</b><p>회사를 처음 알리고 신뢰를 쌓을<br>첫 홈페이지가 필요할 때</p></div>
+        <div class="dt-fit__cap"><span class="no">01</span><b>새로 사업을 시작한 회사</b><p>회사를 처음 알리고 신뢰를 쌓을 첫 홈페이지가 필요할 때</p></div>
       </div>
     </div>
   </div>

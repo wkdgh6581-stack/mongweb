@@ -1570,3 +1570,8 @@ html.ed-on .dt-faq details p{display:block}
 .dt-fit__view::after{background:linear-gradient(90deg,rgba(8,14,44,.88) 0%,rgba(8,14,44,.62) 42%,rgba(8,14,44,.12) 78%,transparent 100%)}
 .dt-fit__cap{max-width:58%}
 .dt-fit__img{object-position:70% 50%}
+/* 사진 위 제목·설명 한 줄로 */
+.dt-fit__cap{max-width:calc(100% - 2 * clamp(28px,4vw,60px));right:clamp(28px,4vw,60px)}
+.dt-fit__cap b{font-size:clamp(22px,2.15vw,32px);white-space:nowrap}
+.dt-fit__cap p{font-size:clamp(14px,1.05vw,16px);white-space:nowrap}
+@media (max-width:720px){.dt-fit__cap b{font-size:clamp(18px,5.4vw,24px)}.dt-fit__cap p{white-space:normal}}
