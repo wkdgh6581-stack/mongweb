@@ -1327,3 +1327,5 @@ html.ed-on .dt-faq details p{display:block}
 .home .certc .k{font-size:16px}
 /* 바닥 안내 */
 .home .foot__cta h2{font-size:clamp(28px,3.4vw,50px);line-height:1.15}
+/* 메인: 영역 사이 위아래 여백 줄임 (최대 208px → 128px) */
+.home .sec{padding-block:clamp(72px,8vw,128px)}
