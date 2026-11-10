@@ -56,7 +56,7 @@
 <!-- 고객이 찾는 검색어 -->
 <!--ed:hospital/search-->
 <section class="sec sec--paper dt-sec dt-sec--art" id="search" data-nav="light">
-  <div class="dt-art dt-art--sm" aria-hidden="true"><img src="assets/ind-hospital.jpg" alt=""></div>
+  <div class="dt-art" aria-hidden="true"><img src="assets/hos-find-art.jpg" alt="" width="1986" height="790"></div>
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 01</b>&nbsp; How Customers Find You</span>
@@ -64,10 +64,10 @@
       <p class="lead">진료 과목과 지역 검색에 맞는 화면이 있어야 병원이 발견됩니다.</p>
     </div>
     <div class="dt-cards stg rv">
-      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>허리 통증 병원</b></span><span class="qr"><i>M</i><span><b>○○병원</b><small>www.oo-clinic.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">01</span><span class="lab">증상</span><p class="q">허리 통증 병원</p><p>진료 과목 · 치료 안내 화면</p></div>
-      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>강남역 피부과</b></span><span class="qr"><i>M</i><span><b>○○병원</b><small>www.oo-clinic.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">02</span><span class="lab">지역</span><p class="q">강남역 피부과</p><p>위치 · 오시는 길 · 주차 안내</p></div>
-      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>토요일 진료 소아과</b></span><span class="qr"><i>M</i><span><b>○○병원</b><small>www.oo-clinic.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">03</span><span class="lab">시간</span><p class="q">토요일 진료 소아과</p><p>진료 시간 · 휴진일 안내</p></div>
-      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>어깨 전문의</b></span><span class="qr"><i>M</i><span><b>○○병원</b><small>www.oo-clinic.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">04</span><span class="lab">의료진</span><p class="q">어깨 전문의</p><p>의료진 소개와 진료 분야</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/hos-find-1.jpg" alt="" loading="lazy"></div><span class="n">01</span><span class="lab">증상</span><p class="q">허리 통증 병원</p><p>진료 과목 · 치료 안내 화면</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/hos-find-2.jpg" alt="" loading="lazy"></div><span class="n">02</span><span class="lab">지역</span><p class="q">강남역 피부과</p><p>위치 · 오시는 길 · 주차 안내</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/hos-find-3.jpg" alt="" loading="lazy"></div><span class="n">03</span><span class="lab">시간</span><p class="q">토요일 진료 소아과</p><p>진료 시간 · 휴진일 안내</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/hos-find-4.jpg" alt="" loading="lazy"></div><span class="n">04</span><span class="lab">의료진</span><p class="q">어깨 전문의</p><p>의료진 소개와 진료 분야</p></div>
     </div>
   </div>
 </section>
