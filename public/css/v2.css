@@ -1485,3 +1485,26 @@ html.ed-on .dt-faq details p{display:block}
   .dt-split .dt-panel ul li::before{top:18px}
   .dt-split .dt-mock--ph{--phs:.56;padding:14px 0 0;height:calc(528px * var(--phs) + 28px)}
 }
+/* 하오웹식: 칸 배경 없이 밝은 바탕 위에 큰 휴대폰 + 큰 글자, 지그재그 */
+@media (min-width:1081px){
+  .dt-split{max-width:none;gap:clamp(56px,7vw,110px);margin-top:clamp(40px,5vw,72px)}
+  .dt-split .dt-panel{background:none;border:0;padding:0;color:var(--ink);column-gap:clamp(48px,7vw,120px);
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .dt-split .dt-panel:nth-child(even){grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .dt-split .dt-panel>.tag{font-size:14px}
+  .dt-split .dt-panel>h3{margin-top:14px;font-size:clamp(28px,2.8vw,40px);line-height:1.25;color:var(--ink)}
+  .dt-split .dt-panel>ul{margin-top:28px}
+  .dt-split .dt-panel ul li{padding:16px 0 16px 24px;font-size:clamp(16px,1.25vw,18px);color:var(--ink);border-top:1px solid var(--line-l)}
+  .dt-split .dt-panel ul li:last-child{border-bottom:1px solid var(--line-l)}
+  .dt-split .dt-panel ul li::before{top:28px;width:10px;height:2px}
+  .dt-split .dt-mock--ph{--phs:.96;padding:30px 0 0;height:calc(528px * var(--phs) + 60px);
+    background:radial-gradient(46% 52% at 50% 52%,rgba(79,93,255,.22),transparent 72%)}
+  .dt-split .ph{box-shadow:0 0 0 1px rgba(20,24,40,.08),0 40px 80px -30px rgba(30,40,160,.45),0 0 60px -20px rgba(79,93,255,.35)}
+}
+@media (max-width:1080px){
+  .dt-split{gap:56px}
+  .dt-split .dt-panel{background:none;border:0;padding:0;color:var(--ink)}
+  .dt-split .dt-panel>h3{color:var(--ink);font-size:26px}
+  .dt-split .dt-panel ul li{color:var(--ink);border-top:1px solid var(--line-l);font-size:16px}
+  .dt-split .dt-mock--ph{--phs:.9;height:calc(528px * var(--phs) + 40px);padding-top:20px;background:radial-gradient(50% 50% at 50% 50%,rgba(79,93,255,.2),transparent 72%)}
+}
