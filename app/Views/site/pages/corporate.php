@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110s">
+<link rel="stylesheet" href="css/v2.css?v=20261110u">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -107,14 +107,20 @@
       <span class="eyebrow"><b>／ 03</b>&nbsp; Who It's For</span>
       <h2 class="d2">이런 곳에<br><em>필요합니다</em></h2>
     </div>
-    <ol class="dt-check rv">
-      <li><div><b>새로 사업을 시작한 회사</b><span>회사를 처음 알리고 신뢰를 쌓을 첫 홈페이지가 필요할 때</span></div></li>
-      <li><div><b>홈페이지가 오래된 회사</b><span>휴대폰에서 깨지거나 내용이 몇 년째 그대로일 때</span></div></li>
-      <li><div><b>제품 · 서비스가 많은 회사</b><span>카탈로그 PDF 대신 제품별로 찾아볼 수 있어야 할 때</span></div></li>
-      <li><div><b>거래처 문의를 늘리고 싶은 회사</b><span>전화 대신 홈페이지로 견적 문의를 받고 싶을 때</span></div></li>
-      <li><div><b>채용이 필요한 회사</b><span>회사 분위기와 채용 정보를 함께 보여 주고 싶을 때</span></div></li>
-      <li><div><b>해외 거래가 있는 회사</b><span>영문 화면으로 회사와 제품을 소개해야 할 때</span></div></li>
-    </ol>
+    <div class="dt-fit rv">
+      <ol class="dt-fit__list">
+      <li class="dt-fit__i on" data-img="assets/fit-new.jpg" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.3-2 4-2 6 2 0 4.7-.5 6-2"/><path d="M9 15l-3-3c1-3 3-6 6.5-8.2C15.5 2 19 2 22 2c0 3 0 6.5-1.8 9.5C18 15 15 17 12 18z"/><circle cx="15.5" cy="8.5" r="1.8"/></svg></i><div><b>새로 사업을 시작한 회사</b><span>회사를 처음 알리고 신뢰를 쌓을 첫 홈페이지가 필요할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/ind-corporate.jpg" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></i><div><b>홈페이지가 오래된 회사</b><span>휴대폰에서 깨지거나 내용이 몇 년째 그대로일 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/corp-find-process.jpg" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></i><div><b>제품 · 서비스가 많은 회사</b><span>카탈로그 PDF 대신 제품별로 찾아볼 수 있어야 할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/corp-find-tech.jpg" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17l2 2a1.5 1.5 0 0 0 2-2"/><path d="M14 14l2.5 2.5a1.5 1.5 0 0 0 2-2l-3.8-3.8a3 3 0 0 0-4.2 0l-.9.9a1.5 1.5 0 0 1-2-2l2.8-2.8a5 5 0 0 1 6.2-.7l.5.3a2 2 0 0 0 1.6.3L21 6"/><path d="M21 3l1 9-2 0M3 4L2 13l6.5 6.5a1.5 1.5 0 0 0 2-2"/><path d="M3 4h8"/></svg></i><div><b>거래처 문의를 늘리고 싶은 회사</b><span>전화 대신 홈페이지로 견적 문의를 받고 싶을 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/about-web5.jpg" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="5" cy="9.5" r="2.2"/><circle cx="19" cy="9.5" r="2.2"/><path d="M1.5 18a4 4 0 0 1 4-3.5M22.5 18a4 4 0 0 0-4-3.5"/></svg></i><div><b>채용이 필요한 회사</b><span>회사 분위기와 채용 정보를 함께 보여 주고 싶을 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/sub-corporate.jpg" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 4 6 4 9.5s-1.4 6.7-4 9.5c-2.6-2.8-4-6-4-9.5s1.4-6.7 4-9.5z"/></svg></i><div><b>해외 거래가 있는 회사</b><span>영문 화면으로 회사와 제품을 소개해야 할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      </ol>
+      <div class="dt-fit__view" aria-live="polite">
+        <img class="dt-fit__img" src="assets/fit-new.jpg" alt="" width="1884" height="1070">
+        <div class="dt-fit__cap"><span class="no">01</span><b>새로 사업을<br>시작한 회사</b><p>회사를 처음 알리고 신뢰를 쌓을<br>첫 홈페이지가 필요할 때</p></div>
+      </div>
+    </div>
   </div>
 </section>
 <!--/ed:corporate/fit-->
@@ -242,6 +248,7 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
+<script src="js/dt-fit.js?v=3"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>

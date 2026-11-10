@@ -1534,3 +1534,39 @@ html.ed-on .dt-faq details p{display:block}
 .dt-card--ph>.lab{margin:22px 0 0 0;font-size:16px;align-self:baseline;border:0;padding:0}
 .dt-card--ph>.q{flex:0 0 calc(100% - 48px);margin-top:10px;border:0;padding:0;font-size:clamp(19px,1.6vw,23px)}
 .dt-card--ph>p:last-child{flex:0 0 calc(100% - 48px);border:0;padding:0;margin-top:10px;font-size:15px}
+/* 업종 상세 03 이런 곳에 필요합니다 — 목록 + 사진 (호버 전환) */
+.dt-fit{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1fr);gap:clamp(24px,3vw,40px);align-items:stretch}
+.dt-fit__list{display:flex;flex-direction:column}
+.dt-fit__i{position:relative;display:grid;grid-template-columns:44px 44px 1fr 20px;align-items:center;gap:16px;padding:18px 22px;border-bottom:1px solid var(--line-l);cursor:pointer;
+  border-radius:12px;transition:background .35s,color .35s,box-shadow .35s,border-color .35s}
+.dt-fit__i .no{font-size:16px;font-weight:800;letter-spacing:.02em}
+.dt-fit__i .ic{width:36px;height:36px;display:grid;place-items:center;font-style:normal}
+.dt-fit__i .ic svg{width:34px;height:34px}
+.dt-fit__i div{padding-left:22px;border-left:1px solid var(--line-l);transition:border-color .35s}
+.dt-fit__i b{display:block;font-size:clamp(17px,1.35vw,20px);font-weight:800;letter-spacing:-.02em;color:var(--ink);transition:color .35s}
+.dt-fit__i span{display:block;margin-top:4px;font-size:14px;color:var(--ink-mut);transition:color .35s}
+.dt-fit__i .arr{font-style:normal;font-size:26px;line-height:1;color:var(--ink);transition:transform .35s,color .35s}
+.dt-fit__i:hover .arr{transform:translateX(4px)}
+.dt-fit__i.on{background:linear-gradient(90deg,#1a1aff,#3b3bff);color:#fff;border-color:transparent;box-shadow:0 18px 40px -18px rgba(26,26,255,.7)}
+.dt-fit__i.on b,.dt-fit__i.on span,.dt-fit__i.on .arr{color:#fff}
+.dt-fit__i.on span{opacity:.85}
+.dt-fit__i.on div{border-color:rgba(255,255,255,.3)}
+.dt-fit__view{position:relative;border-radius:16px;overflow:hidden;min-height:480px;background:#0b1430}
+.dt-fit__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .25s,transform .6s var(--e1)}
+.dt-fit__view::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,20,60,.72) 0%,rgba(10,20,60,.35) 45%,transparent 70%)}
+.dt-fit__cap{position:absolute;left:clamp(28px,4vw,60px);top:50%;transform:translateY(-50%);z-index:1;color:#fff;transition:opacity .25s,transform .35s}
+.dt-fit__cap .no{display:flex;align-items:center;gap:14px;font-size:20px;font-weight:800;opacity:.85}
+.dt-fit__cap .no::after{content:"";width:44px;height:2px;background:currentColor}
+.dt-fit__cap b{display:block;margin-top:18px;font-size:clamp(32px,3.2vw,48px);font-weight:800;line-height:1.2;letter-spacing:-.035em}
+.dt-fit__cap p{margin-top:20px;font-size:clamp(15px,1.2vw,18px);line-height:1.7;opacity:.92}
+.dt-fit__view.swap .dt-fit__img{opacity:.25;transform:scale(1.03)}
+.dt-fit__view.swap .dt-fit__cap{opacity:0;transform:translateY(calc(-50% + 10px))}
+@media (max-width:1080px){
+  .dt-fit{grid-template-columns:minmax(0,1fr)}
+  .dt-fit__view{order:-1;min-height:300px}
+  .dt-fit__i{grid-template-columns:32px 32px 1fr 14px;gap:10px;padding:14px 12px}
+  .dt-fit__i div{padding-left:12px}
+}
+.dt-fit__view::after{background:linear-gradient(90deg,rgba(8,14,44,.88) 0%,rgba(8,14,44,.62) 42%,rgba(8,14,44,.12) 78%,transparent 100%)}
+.dt-fit__cap{max-width:58%}
+.dt-fit__img{object-position:70% 50%}
