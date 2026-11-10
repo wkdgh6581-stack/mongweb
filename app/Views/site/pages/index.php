@@ -213,7 +213,7 @@
 
   <!-- 03 SEO 검색 최적화 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz bizp__viz--photo bizp__viz--seo"><img src="assets/biz-seo.jpg" alt="구글 검색 결과 맨 위에 몽웹이 보이는 노트북 화면" width="1832" height="858" loading="lazy"></div>
+    <div class="bizp__viz bizp__viz--photo bizp__viz--seo"><img src="assets/biz-seo-nv.jpg" alt="네이버 검색 결과 맨 위에 몽웹이 보이는 노트북 화면" width="1832" height="858" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">03</span><span class="bizp__en">Search Engine Optimization</span>
