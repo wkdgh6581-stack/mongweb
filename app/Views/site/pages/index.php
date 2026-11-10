@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110d">
+<link rel="stylesheet" href="css/v2.css?v=20261110e">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -202,9 +202,7 @@
 
   <!-- 02 반응형 · 모바일 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:22%;--gy:34%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="120" y="130" width="420" height="290" rx="12" stroke="currentColor" stroke-width="1.6"/><path d="M290 460 H370 M330 420 V460" stroke="currentColor" stroke-width="1.6"/><rect x="520" y="200" width="160" height="250" rx="14" stroke="currentColor" stroke-width="1.6"/><rect x="600" y="260" width="110" height="200" rx="16" class="sig" stroke="currentColor" stroke-width="2"/><path d="M640 440 H670" class="sig" stroke="currentColor" stroke-width="2"/></svg>
-    </div>
+    <div class="bizp__viz bizp__viz--phone"><img src="assets/biz-mobile.gif" alt="휴대폰에 맞춰 보이는 몽웹 홈페이지 화면" width="508" height="508" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">02</span><span class="bizp__en">Responsive</span>

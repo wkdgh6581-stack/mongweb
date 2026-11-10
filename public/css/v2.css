@@ -1341,3 +1341,16 @@ html.ed-on .dt-faq details p{display:block}
   .bizp__viz--photo img{object-position:30% 50%}
   .bizp:has(.bizp__viz--photo) .bizp__scrim{background:linear-gradient(0deg,#070a1f 0%,#070a1f 42%,rgba(7,10,31,.55) 52%,transparent 66%)}
 }
+/* 업종 패널 02 반응형 · 모바일 — 휴대폰 화면 GIF */
+.bizp__viz--phone{inset:0;background:radial-gradient(60% 80% at 78% 50%,#141d3d 0%,#0E152B 45%,#090c1a 100%)}
+.bizp__viz--phone img{position:absolute;right:max(4vw,calc((100vw - var(--wrap))/2 + 2vw));top:50%;transform:translateY(-50%);
+  height:min(92%,640px);width:auto;aspect-ratio:1;
+  -webkit-mask-image:radial-gradient(closest-side,#000 82%,transparent 100%);mask-image:radial-gradient(closest-side,#000 82%,transparent 100%)}
+.bizp.in .bizp__viz--phone img{transform:translateY(-50%)}
+.bizp:has(.bizp__viz--phone) .bizp__scrim{background:linear-gradient(90deg,rgba(6,7,12,.7) 0%,rgba(6,7,12,.2) 40%,transparent 60%)}
+@media (max-width:1080px){
+  .bizp__viz--phone{background:#0E152B}
+  .bizp__viz--phone img{right:50%;top:2%;transform:translateX(50%);height:auto;width:min(68%,340px)}
+  .bizp.in .bizp__viz--phone img{transform:translateX(50%)}
+  .bizp:has(.bizp__viz--phone) .bizp__scrim{background:linear-gradient(0deg,#0E152B 0%,#0E152B 38%,rgba(14,21,43,.6) 50%,transparent 62%)}
+}
