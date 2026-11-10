@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110b">
+<link rel="stylesheet" href="css/v2.css?v=20261110c">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -95,8 +95,8 @@
 <section class="sec sec--paper about" id="about" data-nav="light">
   <div class="wrap">
     <div class="about__grid">
-      <div class="about__img about__img--photo about__img--light rv">
-        <img src="assets/about-web4.jpg" alt="노트북으로 홈페이지를 만드는 모습과 화면 설계안을 보며 상담하는 모습" width="1338" height="701" loading="lazy">
+      <div class="about__img about__img--photo about__img--cover rv">
+        <img src="assets/about-web5.jpg" alt="몽웹 홈페이지가 열린 노트북 화면을 보며 생각하는 사람" width="1672" height="941" loading="lazy">
       </div>
       <div class="about__txt">
         <span class="eyebrow rv">／ 01 &nbsp;About Us</span>
