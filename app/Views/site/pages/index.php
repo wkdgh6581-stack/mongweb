@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110f">
+<link rel="stylesheet" href="css/v2.css?v=20261110g">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -235,27 +235,14 @@
     </div></div>
   </article>
 
-  <!-- 05 직접 수정하는 관리자 -->
+  <!-- 05 유지보수 · 운영 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:80%;--gy:30%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M150 200 V450 M260 200 V450" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M290 220 H650 M290 260 H600" stroke="currentColor" stroke-width="1.4"/><rect x="290" y="300" width="250" height="40" rx="4" class="sig" stroke="currentColor" stroke-width="2"/><path d="M548 300 L530 342" class="sig" stroke="currentColor" stroke-width="2"/><path d="M290 380 H620 M290 410 H560" stroke="currentColor" stroke-width="1.4"/></svg>
-    </div>
-    <div class="bizp__scrim"></div>
-    <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">05</span><span class="bizp__en">Easy Admin</span>
-      <h3>직접 수정하는 관리자</h3>
-      <ul><li>홈페이지 화면을 보면서 바로 수정</li><li>글자 · 사진 · 메뉴 · 링크 변경</li><li>저장 후 게시, 이전 상태로 되돌리기</li></ul>
-    </div></div>
-  </article>
-
-  <!-- 06 유지보수 · 운영 -->
-  <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:22%;--gy:32%">
+    <div class="bizp__viz viz viz--web bizp__viz--shiftl" style="--gx:22%;--gy:32%">
       <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><circle cx="400" cy="300" r="150" stroke="currentColor" stroke-width="1.5"/><circle cx="400" cy="300" r="96" stroke="currentColor" stroke-width="1.3" opacity=".6"/><path d="M400 150 A150 150 0 0 1 550 300" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M540 280 L550 300 L566 284" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M370 300 L392 322 L436 276" class="sig" stroke="currentColor" stroke-width="2.4"/></svg>
     </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">06</span><span class="bizp__en">Maintenance</span>
+      <span class="bizp__no">05</span><span class="bizp__en">Maintenance</span>
       <h3>유지보수 · 운영</h3>
       <ul><li>오픈 후 수정 · 기능 추가 요청</li><li>정기 점검 · 백업 · 보안 업데이트</li><li>도메인 · 호스팅 연장 관리</li></ul>
     </div></div>
