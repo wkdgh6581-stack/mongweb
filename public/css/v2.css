@@ -1354,3 +1354,5 @@ html.ed-on .dt-faq details p{display:block}
   .bizp.in .bizp__viz--phone img{transform:translateX(50%)}
   .bizp:has(.bizp__viz--phone) .bizp__scrim{background:linear-gradient(0deg,#0E152B 0%,#0E152B 38%,rgba(14,21,43,.6) 50%,transparent 62%)}
 }
+.bizp__viz--seo img{object-position:20% 55%}
+@media (max-width:1080px){.bizp__viz--seo img{object-position:30% 50%}}

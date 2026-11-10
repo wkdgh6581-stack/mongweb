@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110e">
+<link rel="stylesheet" href="css/v2.css?v=20261110f">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -213,9 +213,7 @@
 
   <!-- 03 SEO 검색 최적화 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:82%;--gy:30%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M150 210 H520 M150 260 H470 M150 310 H500 M150 360 H430 M150 410 H480" stroke="currentColor" stroke-width="1.4"/><circle cx="560" cy="330" r="62" class="sig" stroke="currentColor" stroke-width="2.2"/><path d="M604 374 L660 430" class="sig" stroke="currentColor" stroke-width="3"/></svg>
-    </div>
+    <div class="bizp__viz bizp__viz--photo bizp__viz--seo"><img src="assets/biz-seo.jpg" alt="구글 검색 결과 맨 위에 몽웹이 보이는 노트북 화면" width="1832" height="858" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">03</span><span class="bizp__en">Search Engine Optimization</span>
