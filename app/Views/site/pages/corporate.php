@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110q">
+<link rel="stylesheet" href="css/v2.css?v=20261110s">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -55,7 +55,8 @@
 <main id="main">
 <!-- 고객이 찾는 검색어 -->
 <!--ed:corporate/search-->
-<section class="sec sec--paper dt-sec" id="search" data-nav="light">
+<section class="sec sec--paper dt-sec dt-sec--art" id="search" data-nav="light">
+  <div class="dt-art" aria-hidden="true"><img src="assets/corp-find-laptop.jpg" alt="" width="1972" height="690"></div>
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 01</b>&nbsp; How Customers Find You</span>
@@ -63,10 +64,10 @@
       <p class="lead">검색어마다 그 답이 되는 화면이 있어야 회사가 발견됩니다.</p>
     </div>
     <div class="dt-cards stg rv">
-      <div class="dt-card"><span class="n">01</span><span class="lab">제품</span><p class="q">스테인리스 배관 부품 제조</p><p>제품별 상세 화면과 규격 정보</p></div>
-      <div class="dt-card"><span class="n">02</span><span class="lab">기술</span><p class="q">정밀 가공 가능한 업체</p><p>보유 설비 · 기술 소개 화면</p></div>
-      <div class="dt-card"><span class="n">03</span><span class="lab">지역</span><p class="q">경기도 금형 업체</p><p>회사 위치와 서비스 지역 표시</p></div>
-      <div class="dt-card"><span class="n">04</span><span class="lab">공정</span><p class="q">OEM 생산 문의</p><p>생산 절차와 문의 방법 안내</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-product.jpg" alt="검색창에 스테인리스 배관 부품 제조를 입력한 화면" width="930" height="490" loading="lazy"></div><span class="n">01</span><span class="lab">제품</span><p class="q">스테인리스 배관 부품 제조</p><p>제품별 상세 화면과 규격 정보</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-tech.jpg" alt="정밀 가공 중인 금속 부품" width="930" height="490" loading="lazy"></div><span class="n">02</span><span class="lab">기술</span><p class="q">정밀 가공 가능한 업체</p><p>보유 설비 · 기술 소개 화면</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-region.jpg" alt="경기도 지도 위 위치 표시" width="930" height="490" loading="lazy"></div><span class="n">03</span><span class="lab">지역</span><p class="q">경기도 금형 업체</p><p>회사 위치와 서비스 지역 표시</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-process.jpg" alt="ISO 인증과 OEM 생산 부품" width="930" height="490" loading="lazy"></div><span class="n">04</span><span class="lab">공정</span><p class="q">OEM 생산 문의</p><p>생산 절차와 문의 방법 안내</p></div>
     </div>
   </div>
 </section>
