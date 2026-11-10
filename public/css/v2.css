@@ -1389,9 +1389,9 @@ html.ed-on .dt-faq details p{display:block}
 /* =====================================================================
    업종 상세 — 검색 · AI 답변 휴대폰 연출 (js/dt-vis.js)
    ===================================================================== */
-.dt-mock--ph{position:relative;display:flex;justify-content:center;align-items:flex-start;margin:26px 0 22px;padding:36px 0;overflow:hidden;border:0;
+.dt-mock--ph{--phs:.74;position:relative;display:flex;justify-content:center;align-items:flex-start;margin:22px 0 18px;padding:24px 0 0;height:calc(528px * var(--phs) + 48px);overflow:hidden;border:0;
   background:radial-gradient(55% 60% at 50% 55%,rgba(79,93,255,.32),transparent 70%),linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,0));border:1px solid var(--line-d)}
-.ph{position:relative;width:286px;flex:none;border-radius:42px;padding:9px;background:linear-gradient(145deg,#3a4056,#141724 40%,#2a2f43);
+.ph{position:relative;width:286px;flex:none;transform:scale(var(--phs));transform-origin:top center;border-radius:42px;padding:9px;background:linear-gradient(145deg,#3a4056,#141724 40%,#2a2f43);
   box-shadow:0 0 0 1px rgba(255,255,255,.08),0 30px 70px -20px rgba(30,40,255,.55),0 0 50px -10px rgba(79,93,255,.45);font-family:inherit;letter-spacing:-.01em}
 .ph::before{content:"";position:absolute;top:18px;left:50%;transform:translateX(-50%);width:84px;height:24px;border-radius:14px;background:#07080d;z-index:3}
 .ph__scr{position:relative;height:510px;border-radius:34px;background:#fff;color:#14161f;overflow:hidden;padding:46px 16px 16px}
@@ -1460,6 +1460,5 @@ html.ed-on .dt-faq details p{display:block}
 .ph.typing .ph__send{background:#3b4bff}.ph.sent .ph__send{transform:scale(.86)}
 .ph.typing .ph__in{border-color:#5865f2;box-shadow:0 0 0 4px rgba(88,101,242,.14)}
 @media (max-width:720px){
-  .dt-mock--ph{padding:26px 0}
-  .ph{width:262px}
+  .dt-mock--ph{--phs:.7}
 }
