@@ -1374,3 +1374,14 @@ html.ed-on .dt-faq details p{display:block}
 .pj-card__ph{aspect-ratio:16/10;margin-bottom:20px;overflow:hidden;background:#e9ecf3}
 .pj-card__ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1s var(--e1)}
 .pj-card:hover .pj-card__ph img{transform:scale(1.04)}
+/* 상세 화면 맨 위 사진 배경 */
+.subhero--photo{background:#0b1430}
+.subhero--photo::before,.subhero--photo::after{display:none}
+.subhero__bg{position:absolute;inset:0;z-index:0}
+.subhero__bg img{width:100%;height:100%;object-fit:cover;object-position:70% 50%}
+.subhero__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,12,30,.55) 0%,rgba(8,12,30,.25) 40%,transparent 62%)}
+.subhero--photo .dt-lead{color:#dfe4f2}
+@media (max-width:1080px){
+  .subhero__bg img{object-position:78% 50%}
+  .subhero__bg::after{background:linear-gradient(180deg,rgba(8,12,30,.55) 0%,rgba(8,12,30,.72) 100%)}
+}

@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110j">
+<link rel="stylesheet" href="css/v2.css?v=20261110k">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -35,7 +35,8 @@
 
 <!-- SUB HERO -->
 <!--ed:corporate/subhero-->
-<section class="subhero" data-nav="dark">
+<section class="subhero subhero--photo" data-nav="dark">
+  <div class="subhero__bg"><img src="assets/sub-corporate.jpg" alt="" width="2054" height="766"></div>
   <div class="wrap">
     <div class="bc"><a href="index.html">홈</a> <b>›</b> <a href="business.html">홈페이지제작</a> <b>›</b> 기업 홈페이지</div>
     <h1>기업 홈페이지 제작</h1>
