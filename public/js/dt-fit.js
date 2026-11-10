@@ -67,3 +67,19 @@
     show(0);
   });
 })();
+/* 업종 상세 05·06·07 — 항목에 마우스를 올리면 오른쪽 장면이 바뀐다 */
+(function () {
+  [].forEach.call(document.querySelectorAll('.hv'), function (box) {
+    var items = [].slice.call(box.querySelectorAll('.hv__i'));
+    var slides = [].slice.call(box.querySelectorAll('.hv__s'));
+    function show(i) {
+      items.forEach(function (x, k) { x.classList.toggle('on', k === i); });
+      slides.forEach(function (x, k) { x.classList.toggle('on', k === i); });
+    }
+    items.forEach(function (li, i) {
+      li.addEventListener('mouseenter', function () { show(i); });
+      li.addEventListener('focus', function () { show(i); });
+      li.addEventListener('click', function () { show(i); });
+    });
+  });
+})();

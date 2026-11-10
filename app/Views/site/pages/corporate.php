@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110z">
+<link rel="stylesheet" href="css/v2.css?v=20261111b">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -166,27 +166,29 @@
       <h2 class="d2">화면 구조와<br><em>핵심 기능</em></h2>
       <p class="lead">가지고 계신 자료를 그대로 옮기지 않고, 홈페이지에서 읽기 쉬운 구조로 다시 정리합니다.</p>
     </div>
-    <div class="dt-struct rv">
-      <div class="dt-tree">
-        <span class="root">기업 홈페이지</span>
-        <ul>
-          <li>회사소개<small>인사말 · 연혁 · 오시는 길</small></li>
-          <li>제품 · 서비스<small>제품별 상세 화면</small></li>
-          <li>기술 · 설비<small>보유 기술과 장비</small></li>
-          <li>실적 · 인증<small>납품 실적 · 인증서</small></li>
-          <li>홍보센터<small>소식 · 보도자료</small></li>
-          <li>채용<small>채용 공고</small></li>
-          <li>고객문의<small>견적 · 제휴 문의</small></li>
-        </ul>
-      </div>
-      <ul class="dt-feat">
-        <li><div><b>제품 · 실적 직접 등록</b><span>새 제품이나 실적이 생기면 관리자에서 바로 올립니다.</span></div></li>
-        <li><div><b>자료 내려받기</b><span>카탈로그 · 인증서 · 회사소개서를 내려받게 합니다.</span></div></li>
-        <li><div><b>영문 화면</b><span>해외 거래처를 위한 영문 화면을 함께 만듭니다.</span></div></li>
-        <li><div><b>채용 공고</b><span>모집 기간과 함께 공고를 올리고 내립니다.</span></div></li>
-        <li><div><b>부서별 문의</b><span>견적 · 제휴 · 채용 문의를 나눠 받습니다.</span></div></li>
-      </ul>
+    <div class="hv rv">
+      <ol class="hv__list ">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5l8-3v19M12 8h8v13M8 8h.01M8 12h.01M8 16h.01M16 12h.01M16 16h.01M2 21h20"/></svg></i><div><b>회사소개</b><span>인사말 · 연혁 · 오시는 길</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></i><div><b>제품 · 서비스</b><span>제품별 상세 화면</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></i><div><b>기술 · 설비</b><span>보유 기술과 장비</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg></i><div><b>실적 · 인증</b><span>납품 실적 · 인증서</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></i><div><b>홍보센터</b><span>소식 · 보도자료</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="5" cy="9.5" r="2.2"/><circle cx="19" cy="9.5" r="2.2"/></svg></i><div><b>채용</b><span>채용 공고</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">07</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></i><div><b>고객문의</b><span>견적 · 제휴 문의</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="on">회사소개</span><span class="">제품</span><span class="">기술</span><span class="">실적</span><span class="">홍보</span><span class="">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/fit-new.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>신뢰를 만드는 기업</p></div><div class="mk__rows"><i><b></b>인사말</i><i><b></b>연혁</i><i><b></b>조직도</i><i><b></b>오시는 길</i></div></div><figcaption><span class="no">01</span><b>회사소개</b><p>처음 방문한 거래처가 회사의 규모와 이력을 한눈에 봅니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="on">제품</span><span class="">기술</span><span class="">실적</span><span class="">홍보</span><span class="">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/corp-find-laptop.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>제품별 상세 · 규격</p></div><div class="mk__rows"><i><b></b>배관 피팅</i><i><b></b>플랜지</i><i><b></b>밸브 부품</i><i><b></b>맞춤 가공</i></div></div><figcaption><span class="no">02</span><b>제품 · 서비스</b><p>제품마다 사진 · 규격 · 문의 버튼이 있는 상세 화면을 만듭니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="">제품</span><span class="on">기술</span><span class="">실적</span><span class="">홍보</span><span class="">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/corp-find-tech.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>정밀 가공 설비</p></div><div class="mk__rows"><i><b></b>CNC 가공</i><i><b></b>5축 머시닝</i><i><b></b>측정 장비</i><i><b></b>공정 흐름</i></div></div><figcaption><span class="no">03</span><b>기술 · 설비</b><p>보유 설비와 가공 범위를 보여 줘 기술력을 증명합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="">제품</span><span class="">기술</span><span class="on">실적</span><span class="">홍보</span><span class="">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/corp-find-process.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>인증 · 납품 실적</p></div><div class="mk__rows"><i><b></b>ISO 9001</i><i><b></b>ISO 14001</i><i><b></b>주요 납품처</i><i><b></b>특허</i></div></div><figcaption><span class="no">04</span><b>실적 · 인증</b><p>납품 실적과 인증서를 모아 신뢰를 먼저 보여 줍니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="">제품</span><span class="">기술</span><span class="">실적</span><span class="on">홍보</span><span class="">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/jr-05.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>회사 소식</p></div><div class="mk__rows"><i><b></b>공지사항</i><i><b></b>보도자료</i><i><b></b>전시회</i><i><b></b>카탈로그</i></div></div><figcaption><span class="no">05</span><b>홍보센터</b><p>새 소식과 보도자료를 관리자에서 직접 올립니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="">제품</span><span class="">기술</span><span class="">실적</span><span class="">홍보</span><span class="on">채용</span><span class="">문의</span></div><div class="mk__hero"><img src="assets/about-web5.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>함께 성장할 인재</p></div><div class="mk__rows"><i><b></b>인재상</i><i><b></b>복리후생</i><i><b></b>채용 공고</i><i><b></b>지원하기</i></div></div><figcaption><span class="no">06</span><b>채용</b><p>회사 분위기와 함께 모집 공고를 올리고 내립니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.example.co.kr</span></div><div class="mk__nav"><strong>COMPANY</strong><span class="">회사소개</span><span class="">제품</span><span class="">기술</span><span class="">실적</span><span class="">홍보</span><span class="">채용</span><span class="on">문의</span></div><div class="mk__hero"><img src="assets/jr-04.jpg" alt="" loading="lazy" style="object-position:50% 50%"><p>견적 · 제휴 문의</p></div><div class="mk__rows"><i><b></b>견적 문의</i><i><b></b>제휴 문의</i><i><b></b>채용 문의</i><i><b></b>자료 요청</i></div></div><figcaption><span class="no">07</span><b>고객문의</b><p>견적 · 제휴 · 채용 문의를 나눠 받고 바로 알림을 받습니다.</p></figcaption></figure>
+        </div>
     </div>
+    <ul class="hv__chips">
+      <li><b>제품 · 실적 직접 등록</b></li><li><b>자료 내려받기</b></li><li><b>영문 화면</b></li><li><b>채용 공고</b></li><li><b>부서별 문의</b></li>
+    </ul>
   </div>
 </section>
 <!--/ed:corporate/structure-->
@@ -200,16 +202,29 @@
       <h2 class="d2">기본으로<br><em>함께 드립니다</em></h2>
       <p class="lead">따로 요청하지 않으셔도 모든 홈페이지에 들어가는 항목입니다.</p>
     </div>
-    <div class="dt-incl rv">
-      <div><b>반응형 화면</b><span>PC · 태블릿 · 휴대폰 어디서든 보기 좋게 맞춥니다.</span></div>
-      <div><b>보안 접속(SSL)</b><span>주소창 자물쇠 표시로 방문자가 안심하고 볼 수 있습니다.</span></div>
-      <div><b>검색 등록</b><span>네이버 서치어드바이저 · 구글 서치콘솔 등록과 사이트맵 제출.</span></div>
-      <div><b>방문 통계 연결</b><span>어떤 검색어로 몇 명이 들어오는지 확인할 수 있게 연결합니다.</span></div>
-      <div><b>화면 보며 고치는 관리자</b><span>글자 · 사진 · 메뉴를 홈페이지 화면에서 바로 수정합니다.</span></div>
-      <div><b>문의 알림</b><span>문의가 들어오면 이메일로 바로 알려 드립니다.</span></div>
-      <div><b>AI가 읽는 구조</b><span>자주 묻는 질문과 구조화 데이터로 회사 정보를 정리합니다.</span></div>
-      <div><b>게시판 · 공지</b><span>소식 · 공지 · 자료를 직접 올릴 수 있습니다.</span></div>
-      <div><b>오픈 후 안내</b><span>관리자 사용법과 운영 방법을 정리해 전달합니다.</span></div>
+    <div class="hv hv--rev rv">
+      <ol class="hv__list hv__list--grid">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="14" height="10" rx="1.2"/><path d="M6 18h6M9 14v4"/><rect x="17" y="8" width="5" height="12" rx="1.2"/></svg></i><div><b>반응형 화면</b><span>PC · 태블릿 · 휴대폰 어디서나</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></i><div><b>보안 접속(SSL)</b><span>주소창 자물쇠 표시</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></i><div><b>검색 등록</b><span>네이버 · 구글 등록과 사이트맵</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M7 17V11M12 17V6M17 17v-4"/></svg></i><div><b>방문 통계 연결</b><span>검색어 · 방문 수 확인</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg></i><div><b>화면 보며 고치는 관리자</b><span>글자 · 사진 · 메뉴 바로 수정</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></i><div><b>문의 알림</b><span>문의가 오면 이메일로</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">07</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg></i><div><b>AI가 읽는 구조</b><span>자주 묻는 질문 · 구조화 데이터</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">08</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></i><div><b>게시판 · 공지</b><span>소식 · 공지 · 자료 직접 등록</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">09</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3z"/><path d="M4 17a3 3 0 0 1 3-3h11"/></svg></i><div><b>오픈 후 안내</b><span>관리자 사용법 정리</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--gif"><img src="assets/biz-mobile.gif" alt="" loading="lazy" style="object-position:50% 50%"></div><figcaption><span class="no">01</span><b>반응형 화면</b><p>PC · 태블릿 · 휴대폰 어디서든 보기 좋게 맞춥니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--ssl"><div class="mk__url"><span class="lk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>https://www.example.co.kr<em>보안 연결됨</em></div><div class="mk__shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><p>주소창 자물쇠로<br>안심하고 둘러봅니다</p></div><figcaption><span class="no">02</span><b>보안 접속(SSL)</b><p>주소창 자물쇠 표시로 방문자가 안심하고 볼 수 있습니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-seo.jpg" alt="" loading="lazy" style="object-position:22% 55%"><figcaption><span class="no">03</span><b>검색 등록</b><p>네이버 서치어드바이저 · 구글 서치콘솔 등록과 사이트맵을 제출합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--chart"><div class="mk__kpi"><span><b>1,284</b>이번 달 방문</span><span><b>+38%</b>지난달 대비</span><span><b>62%</b>검색 유입</span></div><div class="mk__bars"><i style="--h:34%"></i><i style="--h:48%"></i><i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:55%"></i><i style="--h:70%"></i><i style="--h:66%"></i><i style="--h:82%"></i><i style="--h:76%"></i><i style="--h:92%"></i></div><div class="mk__kw"><span>스테인리스 배관 부품</span><span>정밀 가공 업체</span><span>OEM 생산</span></div></div><figcaption><span class="no">04</span><b>방문 통계 연결</b><p>어떤 검색어로 몇 명이 들어오는지 확인할 수 있게 연결합니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-maint.jpg" alt="" loading="lazy" style="object-position:24% 50%"><figcaption><span class="no">05</span><b>화면 보며 고치는 관리자</b><p>글자 · 사진 · 메뉴를 홈페이지 화면에서 바로 수정합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--noti"><div class="mk__card"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>새 견적 문의가 도착했습니다</b><p>○○기계 · 플랜지 500개 견적 요청</p></div><em>방금</em></div><div class="mk__card dim"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>제휴 문의</b><p>△△산업 · 납품 협력 문의</p></div><em>1시간 전</em></div><div class="mk__card dim"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>자료 요청</b><p>카탈로그 PDF 요청</p></div><em>어제</em></div></div><figcaption><span class="no">06</span><b>문의 알림</b><p>문의가 들어오면 이메일로 바로 알려 드립니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-aeo.jpg" alt="" loading="lazy" style="object-position:50% 50%"><figcaption><span class="no">07</span><b>AI가 읽는 구조</b><p>자주 묻는 질문과 구조화 데이터로 회사 정보를 정리합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--board"><div class="mk__bh"><b>공지 · 소식</b><span>+ 글쓰기</span></div><div class="mk__row"><em>공지</em><b>2026 하반기 설비 증설 안내</b><span>11.08</span></div><div class="mk__row"><em>소식</em><b>국제 기계전 참가 안내</b><span>11.02</span></div><div class="mk__row"><em>자료</em><b>2026 제품 카탈로그</b><span>10.27</span></div><div class="mk__row"><em>공지</em><b>추석 연휴 배송 일정</b><span>09.20</span></div></div><figcaption><span class="no">08</span><b>게시판 · 공지</b><p>소식 · 공지 · 자료를 직접 올릴 수 있습니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--guide"><div class="mk__doc"><b>관리자 사용 안내서</b><span><i>1</i>글자 · 사진 바꾸기</span><span><i>2</i>제품 · 실적 등록</span><span><i>3</i>게시글 올리기</span><span><i>4</i>문의 확인하기</span></div><div class="mk__tag">오픈 후 1:1 설명</div></div><figcaption><span class="no">09</span><b>오픈 후 안내</b><p>관리자 사용법과 운영 방법을 정리해 전달합니다.</p></figcaption></figure>
+        </div>
     </div>
   </div>
 </section>
@@ -224,10 +239,17 @@
       <h2 class="d2">비용은 이렇게<br><em>정해집니다</em></h2>
       <p class="lead">견적을 드리기 전에 무엇에 따라 비용이 달라지는지 먼저 설명드립니다.</p>
     </div>
-    <div class="dt-cost rv">
-      <div><span class="n">01</span><h4>화면 수</h4><p>메인 외에 몇 개의 화면이 필요한지가 가장 큰 기준입니다.</p></div>
-      <div><span class="n">02</span><h4>내용 준비 범위</h4><p>문구 작성 · 사진 정리 · 자료 옮기기를 어디까지 맡기시는지에 따라 달라집니다.</p></div>
-      <div><span class="n">03</span><h4>기능과 언어</h4><p>예약 · 결제 · 회원 같은 기능이나 외국어 화면이 필요하면 범위가 늘어납니다.</p></div>
+    <div class="hv hv--cost rv">
+      <ol class="hv__list hv__list--big">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></i><div><b>화면 수</b><span>메인 외에 몇 개의 화면이 필요한지가 가장 큰 기준입니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg></i><div><b>내용 준비 범위</b><span>문구 작성 · 사진 정리 · 자료 옮기기를 어디까지 맡기시는지에 따라 달라집니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 4 6 4 9.5s-1.4 6.7-4 9.5c-2.6-2.8-4-6-4-9.5s1.4-6.7 4-9.5z"/></svg></i><div><b>기능과 언어</b><span>예약 · 결제 · 회원 같은 기능이나 외국어 화면이 필요하면 범위가 늘어납니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--pages"><div class="mk__tree"><span class="m">메인</span><div><span style="--d:0.0s">회사소개</span><span style="--d:0.08s">제품</span><span style="--d:0.16s">기술</span><span style="--d:0.24s">실적</span><span style="--d:0.32s">홍보</span><span style="--d:0.4s">채용</span><span style="--d:0.48s">문의</span><span style="--d:0.56s">영문</span></div></div><div class="mk__meter"><b>화면 수</b><i><em style="width:72%"></em></i><span>메인 + 8개 화면</span></div></div><figcaption><span class="no">01</span><b>화면 수</b><p>메인 외에 필요한 화면 수가 가장 큰 기준입니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--prep"><div class="mk__opt on"><span class="ck"></span><div><b>문구 작성</b><p>회사 소개 · 제품 설명 글을 새로 씁니다</p></div><em>몽웹이 작성</em></div><div class="mk__opt on"><span class="ck"></span><div><b>사진 정리</b><p>보유 사진 보정 · 크기 맞춤</p></div><em>몽웹이 정리</em></div><div class="mk__opt on"><span class="ck"></span><div><b>자료 옮기기</b><p>카탈로그 · 인증서를 화면으로 옮깁니다</p></div><em>몽웹이 진행</em></div><div class="mk__opt"><span class="ck"></span><div><b>촬영</b><p>제품 · 공장 사진 새로 촬영</p></div><em>선택 사항</em></div></div><figcaption><span class="no">02</span><b>내용 준비 범위</b><p>문구 · 사진 · 자료 준비를 어디까지 맡기시는지에 따라 달라집니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--func"><p class="h">필요한 기능</p><div class="mk__chips"><span class="on">견적 문의</span><span class="on">자료실</span><span class="">예약</span><span class="">결제</span><span class="">회원</span><span class="on">게시판</span></div><p class="h">화면 언어</p><div class="mk__chips"><span class="on">한국어</span><span class="on">English</span><span class="">中文</span><span class="">日本語</span></div></div><figcaption><span class="no">03</span><b>기능과 언어</b><p>예약 · 결제 · 회원 기능이나 외국어 화면이 늘면 범위가 넓어집니다.</p></figcaption></figure>
+        </div>
     </div>
     <div class="dt-more rv"><a class="btn" href="price.html" style="color:var(--ink)"><span>비용 안내 자세히 보기</span>
       <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
@@ -260,7 +282,7 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
-<script src="js/dt-fit.js?v=5"></script>
+<script src="js/dt-fit.js?v=6"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>
