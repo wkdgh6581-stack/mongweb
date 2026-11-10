@@ -191,7 +191,7 @@
 
   <!-- 01 기업 홈페이지 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz bizp__viz--photo"><img src="assets/biz-corporate.jpg" alt="기업 홈페이지가 열린 노트북" width="1672" height="941" loading="lazy"></div>
+    <div class="bizp__viz bizp__viz--photo"><img src="assets/biz-corporate-mw.jpg" alt="기업 홈페이지가 열린 노트북" width="1672" height="941" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">01</span><span class="bizp__en">Corporate Website</span>
