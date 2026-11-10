@@ -1462,3 +1462,15 @@ html.ed-on .dt-faq details p{display:block}
 @media (max-width:720px){
   .dt-mock--ph{--phs:.7}
 }
+/* 업종 상세 SEO · AEO 영역: 위아래로 쌓고, 각 줄은 글자 | 휴대폰 (지그재그) */
+@media (min-width:1081px){
+  .dt-split{grid-template-columns:minmax(0,1fr);gap:18px}
+  .dt-split .dt-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:clamp(32px,5vw,80px);
+    grid-template-rows:1fr auto auto auto 1fr;grid-template-areas:". mock" "tag mock" "h3 mock" "ul mock" ". mock";padding:clamp(24px,2.6vw,36px) clamp(32px,4vw,64px)}
+  .dt-split .dt-panel:nth-child(even){grid-template-areas:"mock ." "mock tag" "mock h3" "mock ul" "mock ."}
+  .dt-split .dt-panel>.tag{grid-area:tag}
+  .dt-split .dt-panel>h3{grid-area:h3}
+  .dt-split .dt-panel>ul{grid-area:ul;margin-top:22px}
+  .dt-split .dt-panel>.dt-mock{grid-area:mock;margin:0}
+  .dt-split .dt-mock--ph{--phs:.68;padding:20px 0 0;height:calc(528px * var(--phs) + 40px);align-self:center;background:radial-gradient(50% 60% at 50% 50%,rgba(79,93,255,.28),transparent 72%);border:0}
+}
