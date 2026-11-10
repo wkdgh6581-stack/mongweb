@@ -1357,3 +1357,16 @@ html.ed-on .dt-faq details p{display:block}
 .bizp__viz--seo img{object-position:20% 55%}
 @media (max-width:1080px){.bizp__viz--seo img{object-position:30% 50%}}
 @media (min-width:1081px){.bizp__viz--shiftl .viz__art{transform:translateX(-14%)}}
+/* 업종 패널 04 AI 검색 대응 — 휴대폰 3대 이미지를 글자 반대편에 */
+.bizp__viz--fig{inset:0;background:#030a1c}
+.bizp__viz--fig img{position:absolute;right:max(2vw,calc((100vw - var(--wrap))/2));top:50%;transform:translateY(-50%);
+  width:min(60vw,1180px);height:auto;max-height:96%;object-fit:contain;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(0deg,transparent,#000 7%,#000 93%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(0deg,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect}
+.bizp.in .bizp__viz--fig img{transform:translateY(-50%)}
+.bizp:has(.bizp__viz--fig) .bizp__scrim{background:linear-gradient(90deg,rgba(3,10,28,.85) 0%,rgba(3,10,28,.4) 34%,transparent 50%)}
+@media (max-width:1080px){
+  .bizp__viz--fig{background:#03081a}
+  .bizp__viz--fig img{right:50%;top:3%;transform:translateX(50%);width:104%;max-height:none}
+  .bizp.in .bizp__viz--fig img{transform:translateX(50%)}
+  .bizp:has(.bizp__viz--fig) .bizp__scrim{background:linear-gradient(0deg,#03081a 0%,#03081a 40%,rgba(3,8,26,.6) 52%,transparent 64%)}
+}

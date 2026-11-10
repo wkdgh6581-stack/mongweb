@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110g">
+<link rel="stylesheet" href="css/v2.css?v=20261110h">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -224,9 +224,7 @@
 
   <!-- 04 AI 검색 대응 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:20%;--gy:36%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="130" y="150" width="330" height="110" rx="20" stroke="currentColor" stroke-width="1.6"/><path d="M170 190 H420 M170 222 H360" stroke="currentColor" stroke-width="1.4"/><rect x="330" y="300" width="350" height="140" rx="20" class="sig" stroke="currentColor" stroke-width="2"/><path d="M370 342 H640 M370 374 H600 M370 406 H560" class="sig" stroke="currentColor" stroke-width="1.6"/><path d="M200 260 L180 300 L240 260" stroke="currentColor" stroke-width="1.6"/></svg>
-    </div>
+    <div class="bizp__viz bizp__viz--fig"><img src="assets/biz-aeo.jpg" alt="네이버 검색 · 구글 AI 개요 · ChatGPT 답변에 몽웹이 나오는 휴대폰 세 대" width="1672" height="941" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">04</span><span class="bizp__en">AEO · GEO</span>
