@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110k">
+<link rel="stylesheet" href="css/v2.css?v=20261110l">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -83,12 +83,12 @@
     <div class="dt-split rv">
       <div class="dt-panel">
         <span class="tag">SEO</span><h3>검색 결과에 보이기</h3>
-        <div class="dt-mock" aria-hidden="true"><div class="bar">천연 원목 도마</div><div class="res"><b>천연 원목 도마 | 우리 회사</b><span>화면마다 정리된 제목과 설명이 검색 결과에 그대로 나옵니다.</span></div></div>
+        <div class="dt-mock" aria-hidden="true"><div class="bar" data-rel="원목 도마 관리법,호두나무 도마,도마 선물 세트">천연 원목 도마</div><div class="res" data-url="www.oowood.co.kr"><b>천연 원목 도마 | ○○우드</b><span>원목 종류 · 크기 · 관리 방법을 비교하고 바로 구매하세요.</span></div></div>
         <ul><li>화면마다 검색 제목 · 설명 정리</li><li>네이버 · 구글 검색 등록과 사이트맵</li><li>빠르게 열리는 가벼운 화면</li></ul>
       </div>
       <div class="dt-panel">
         <span class="tag">AEO · GEO</span><h3>AI 답변에 담기기</h3>
-        <div class="dt-mock" aria-hidden="true"><span class="ask">천연 원목 도마, 어디가 좋을까?</span><div class="ans"><b>우리 회사</b>는 … 정리된 회사 정보와 자주 묻는 질문을 바탕으로 소개됩니다.</div></div>
+        <div class="dt-mock" aria-hidden="true"><span class="ask">오래 쓰는 원목 도마 어디서 사?</span><div class="ans" data-src="○○우드 쇼핑몰,구매 후기">원목 종류와 크기, 관리 방법을 상품마다 자세히 적어 둔 곳이 고르기 쉽습니다. <b>○○우드</b>는 소재 설명과 구매 후기, 배송 · 교환 안내가 정리되어 있습니다.</div></div>
         <ul><li>고객 질문에 답하는 자주 묻는 질문</li><li>회사 · 서비스 정보 구조화 데이터</li><li>어디서나 같은 회사 설명</li></ul>
       </div>
     </div>
@@ -240,5 +240,6 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
+<script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>
