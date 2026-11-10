@@ -1799,3 +1799,10 @@ html.ed-on .dt-faq details p{display:block}
 .hv--cost .hv__stage{min-height:520px}
 .hv__s{padding-bottom:140px}
 .mk--prep{gap:8px}.mk__opt{padding:10px 14px}
+/* 병원 상단 사진 */
+@media (min-width:1081px){
+  .subhero--hos .subhero__bg{background:#0d1a2e}
+  .subhero--hos .subhero__bg img{position:absolute;left:auto;right:0;top:0;width:68%;height:100%;object-fit:cover;object-position:62% 35%;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%);mask-image:linear-gradient(90deg,transparent 0%,#000 30%)}
+  .subhero--hos .subhero__bg::after{background:linear-gradient(180deg,rgba(8,14,34,.7) 0%,transparent 22%),linear-gradient(90deg,rgba(8,14,34,.6) 0%,rgba(8,14,34,.3) 40%,transparent 60%)}
+}
+.subhero--hos .subhero__bg{overflow:hidden}
