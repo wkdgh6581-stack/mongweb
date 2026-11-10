@@ -172,8 +172,7 @@
         <div class="cap__node" tabindex="0"><div class="no">02</div><h3>Design</h3><p>브랜드 색과 분위기를 담은 디자인, 문의로 이어지는 화면 배치.</p></div>
         <div class="cap__node" tabindex="0"><div class="no">03</div><h3>Development</h3><p>PC · 태블릿 · 휴대폰 반응형, 빠르게 열리는 가벼운 화면.</p></div>
         <div class="cap__node" tabindex="0"><div class="no">04</div><h3>SEO · AEO · GEO</h3><p>검색 노출 · 질문에 대한 답 · AI가 이해하는 회사 정보까지 구조로 설계.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">05</div><h3>Easy Admin</h3><p>홈페이지 화면을 보면서 글자 · 사진 · 메뉴를 직접 고치는 관리자.</p></div>
-        <div class="cap__node" tabindex="0"><div class="no">06</div><h3>Care</h3><p>오픈 후 수정 · 점검 · 기능 추가, 필요한 만큼 이어지는 관리.</p></div>
+        <div class="cap__node" tabindex="0"><div class="no">05</div><h3>Care</h3><p>오픈 후 수정 · 점검 · 기능 추가, 필요한 만큼 이어지는 관리.</p></div>
       </div>
     </div>
   </div>
