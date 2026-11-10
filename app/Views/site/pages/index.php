@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261107i">
+<link rel="stylesheet" href="css/v2.css?v=20261110a">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -95,8 +95,8 @@
 <section class="sec sec--paper about" id="about" data-nav="light">
   <div class="wrap">
     <div class="about__grid">
-      <div class="about__img about__img--photo rv">
-        <img src="assets/about-web.jpg" alt="노트북 화면의 홈페이지와 상담 · 보안 · 성과 · AI · 개발 아이콘" width="1536" height="1024" loading="lazy">
+      <div class="about__img about__img--photo about__img--light rv">
+        <img src="assets/about-web2.jpg" alt="노트북으로 홈페이지를 만드는 모습과 화면 설계안을 보며 상담하는 모습" width="1440" height="826" loading="lazy">
       </div>
       <div class="about__txt">
         <span class="eyebrow rv">／ 01 &nbsp;About Us</span>

@@ -305,6 +305,9 @@ body.lock{overflow:hidden}
 .about__img{position:relative;min-height:clamp(420px,54vw,760px);margin-left:calc(var(--pad)*-1);border-radius:0}
 .about__img--photo{background:#0A0F3C;overflow:hidden}
 .about__img--photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+/* 밝은 배경 사진: 바탕과 자연스럽게 섞이고 잘리지 않게 */
+.about__img--light{background:transparent}
+.about__img--light img{object-fit:contain;mix-blend-mode:multiply}
 /* 사진일 때(PC): 이미지 높이를 오른쪽 글자 영역(작은 제목 위 ~ 설명 끝)에 맞춘다 */
 @media (min-width:1081px){
   .about__grid:has(.about__img--photo){align-items:stretch}
