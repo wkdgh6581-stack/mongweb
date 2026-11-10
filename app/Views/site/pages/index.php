@@ -96,7 +96,7 @@
   <div class="wrap">
     <div class="about__grid">
       <div class="about__img about__img--photo about__img--light rv">
-        <img src="assets/about-web3.jpg" alt="노트북으로 홈페이지를 만드는 모습과 화면 설계안을 보며 상담하는 모습" width="1135" height="704" loading="lazy">
+        <img src="assets/about-web4.jpg" alt="노트북으로 홈페이지를 만드는 모습과 화면 설계안을 보며 상담하는 모습" width="1338" height="701" loading="lazy">
       </div>
       <div class="about__txt">
         <span class="eyebrow rv">／ 01 &nbsp;About Us</span>
