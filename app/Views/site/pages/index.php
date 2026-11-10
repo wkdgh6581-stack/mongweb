@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110c">
+<link rel="stylesheet" href="css/v2.css?v=20261110d">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -191,9 +191,7 @@
 
   <!-- 01 기업 홈페이지 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web" style="--gx:80%;--gy:32%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="250" height="150" rx="6" class="sig" stroke="currentColor" stroke-width="2"/><path d="M430 210 H650 M430 240 H620 M430 270 H600 M150 390 H650 M150 420 H560" stroke="currentColor" stroke-width="1.4"/></svg>
-    </div>
+    <div class="bizp__viz bizp__viz--photo"><img src="assets/biz-corporate.jpg" alt="기업 홈페이지가 열린 노트북" width="1672" height="941" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">01</span><span class="bizp__en">Corporate Website</span>

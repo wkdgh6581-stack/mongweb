@@ -1330,3 +1330,14 @@ html.ed-on .dt-faq details p{display:block}
 .home .foot__cta h2{font-size:clamp(28px,3.4vw,50px);line-height:1.15}
 /* 메인: 영역 사이 위아래 여백 줄임 (최대 208px → 128px) */
 .home .sec{padding-block:clamp(72px,8vw,128px)}
+/* 업종 패널 사진 (01 기업 홈페이지) */
+.bizp__viz--photo{background:#070a1f}
+.bizp__viz--photo img{width:100%;height:100%;object-fit:cover;object-position:28% 62%}
+.bizp:has(.bizp__viz--photo) .bizp__scrim{background:
+   linear-gradient(-90deg,rgba(6,7,12,.78) 0%,rgba(6,7,12,.35) 34%,transparent 58%),
+   linear-gradient(0deg,rgba(5,6,10,.6),transparent 40%)}
+@media (max-width:1080px){
+  .bizp__viz--photo{inset:0 0 auto 0;height:58%}
+  .bizp__viz--photo img{object-position:30% 50%}
+  .bizp:has(.bizp__viz--photo) .bizp__scrim{background:linear-gradient(0deg,#070a1f 0%,#070a1f 42%,rgba(7,10,31,.55) 52%,transparent 66%)}
+}
