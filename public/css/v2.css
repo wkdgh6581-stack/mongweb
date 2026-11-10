@@ -1474,3 +1474,14 @@ html.ed-on .dt-faq details p{display:block}
   .dt-split .dt-panel>.dt-mock{grid-area:mock;margin:0}
   .dt-split .dt-mock--ph{--phs:.68;padding:20px 0 0;height:calc(528px * var(--phs) + 40px);align-self:center;background:radial-gradient(50% 60% at 50% 50%,rgba(79,93,255,.28),transparent 72%);border:0}
 }
+/* 지그재그 줄을 더 작게: 폭 제한 · 여백 · 휴대폰 축소 */
+@media (min-width:1081px){
+  .dt-split{max-width:1040px;margin-inline:auto;gap:16px}
+  .dt-split .dt-panel{padding:22px 48px;column-gap:56px;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
+  .dt-split .dt-panel:nth-child(even){grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+  .dt-split .dt-panel>h3{font-size:clamp(20px,1.7vw,24px)}
+  .dt-split .dt-panel>ul{margin-top:16px}
+  .dt-split .dt-panel ul li{padding:8px 0 8px 18px;font-size:14.5px}
+  .dt-split .dt-panel ul li::before{top:18px}
+  .dt-split .dt-mock--ph{--phs:.56;padding:14px 0 0;height:calc(528px * var(--phs) + 28px)}
+}
