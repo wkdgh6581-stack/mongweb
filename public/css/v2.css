@@ -1799,3 +1799,55 @@ html.ed-on .dt-faq details p{display:block}
 .hv--cost .hv__stage{min-height:520px}
 .hv__s{padding-bottom:140px}
 .mk--prep{gap:8px}.mk__opt{padding:10px 14px}
+/* 메인 SERVICES — 신규 제작 / 리뉴얼 호버 카드 */
+.svc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,2vw,28px);margin-top:clamp(32px,4vw,56px)}
+.svc-c{position:relative;display:flex;flex-direction:column;border-radius:18px;overflow:hidden;background:#0b1028;color:#fff;
+  box-shadow:0 0 0 1px rgba(120,135,255,.14),0 30px 60px -40px rgba(20,30,120,.6);transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s,opacity .4s}
+.svc-grid:hover .svc-c:not(:hover){opacity:.72}
+.svc-c:hover{transform:translateY(-8px);box-shadow:0 0 0 1px rgba(120,135,255,.6),0 40px 80px -30px rgba(43,59,255,.7),0 0 40px -10px rgba(79,93,255,.5)}
+.svc-c__media{position:relative;aspect-ratio:16/8;overflow:hidden}
+.svc-c__media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 40%;transition:transform 1.2s cubic-bezier(.2,.8,.2,1),filter .7s,opacity .7s,clip-path .9s cubic-bezier(.2,.8,.2,1)}
+.svc-c:hover .svc-c__media img{transform:scale(1.06)}
+.svc-c__media::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0b1028 0%,rgba(11,16,40,.2) 45%,transparent 70%);pointer-events:none}
+/* 신규: 진행 단계 */
+.svc-c__prog{position:absolute;z-index:2;left:24px;right:24px;bottom:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.svc-c__prog span{position:relative;padding:10px 12px;border-radius:10px;background:rgba(10,15,40,.6);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(6px);
+  font-size:13px;font-weight:700;color:#cfd4f2;transition:background .4s,border-color .4s,color .4s;transition-delay:calc(var(--i) * .12s)}
+.svc-c__prog b{display:block;font-size:11px;color:#8b95ff;margin-bottom:2px}
+.svc-c--new:hover .svc-c__prog span{background:linear-gradient(135deg,#2b3bff,#5a67ff);border-color:#8b95ff;color:#fff}
+.svc-c--new:hover .svc-c__prog b{color:#fff}
+/* 리뉴얼: BEFORE → AFTER */
+.svc-c__media .bef{filter:grayscale(1) contrast(.85) brightness(.75) blur(1.5px);clip-path:inset(0 0 0 0)}
+.svc-c--ren:hover .svc-c__media .bef{clip-path:inset(0 0 0 100%)}
+.svc-c__ba{position:absolute;z-index:2;left:24px;bottom:22px;display:flex;gap:6px}
+.svc-c__ba em{font-style:normal;font-size:12px;font-weight:800;letter-spacing:.12em;padding:7px 12px;border-radius:999px;transition:background .5s,color .5s,opacity .5s}
+.svc-c__ba .b{background:rgba(255,255,255,.9);color:#14161f}
+.svc-c__ba .a{background:rgba(255,255,255,.1);color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.2)}
+.svc-c--ren:hover .svc-c__ba .b{background:rgba(255,255,255,.1);color:rgba(255,255,255,.55)}
+.svc-c--ren:hover .svc-c__ba .a{background:linear-gradient(135deg,#2b3bff,#5a67ff);color:#fff;border-color:#8b95ff}
+/* 본문 */
+.svc-c__body{position:relative;padding:clamp(22px,2.4vw,34px) clamp(24px,2.6vw,38px) clamp(26px,2.8vw,40px);display:flex;flex-direction:column;flex:1}
+.svc-c__top{display:flex;align-items:center;gap:14px}
+.svc-c__no{font-size:30px;font-weight:800;font-style:italic;background:linear-gradient(135deg,#6b7bff,#2b3bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.svc-c__svc{font-size:12.5px;font-weight:700;letter-spacing:.06em;color:#8b95ff}
+.svc-c h3{margin-top:10px;font-size:clamp(26px,2.3vw,34px);font-weight:800;letter-spacing:-.03em}
+.svc-c h3 span{font-size:15px;font-weight:600;color:#8a90b0;margin-left:6px;letter-spacing:0}
+.svc-c__tag{margin-top:12px;font-size:clamp(16px,1.3vw,19px);font-weight:700;line-height:1.5;color:#e3e6fb}
+.svc-c ul{margin-top:22px;display:grid;gap:10px}
+.svc-c li{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);font-size:14.5px;color:#c9cde6;
+  transition:background .4s,border-color .4s,color .4s,transform .4s}
+.svc-c li i{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:#8b95ff;transition:background .4s,color .4s}
+.svc-c li i svg{width:12px;height:12px}
+.svc-c:hover li{background:rgba(79,93,255,.12);border-color:rgba(120,135,255,.3);color:#fff}
+.svc-c:hover li i{background:#2b3bff;color:#fff}
+.svc-c:hover li:nth-child(1){transition-delay:.05s}.svc-c:hover li:nth-child(2){transition-delay:.12s}.svc-c:hover li:nth-child(3){transition-delay:.19s}
+.svc-c:hover li{transform:translateX(4px)}
+.svc-c__cta{margin-top:auto;padding-top:24px;display:inline-flex;align-items:center;gap:14px;align-self:flex-start;font-size:14.5px;font-weight:800;color:#fff}
+.svc-c__cta svg{width:40px;height:12px;transition:transform .4s}
+.svc-c__cta span{background:linear-gradient(currentColor,currentColor) 0 100%/0 1.5px no-repeat;transition:background-size .4s}
+.svc-c:hover .svc-c__cta svg{transform:translateX(8px)}.svc-c:hover .svc-c__cta span{background-size:100% 1.5px}
+@media (max-width:900px){.svc-grid{grid-template-columns:minmax(0,1fr)}.svc-c__prog span{font-size:11.5px;padding:8px}}
+@media (hover:none){.svc-c--ren .svc-c__media .bef{clip-path:inset(0 0 0 100%)}.svc-c--ren .svc-c__ba .a{background:#2b3bff;color:#fff}}
+.svc-grid:hover .svc-c:not(:hover){opacity:1;filter:brightness(.7) saturate(.7)}
+.svc-c{transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s,filter .4s}
+.svc-c__body{padding-top:clamp(10px,1.2vw,18px)}
