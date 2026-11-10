@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110h">
+<link rel="stylesheet" href="css/v2.css?v=20261110i">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -235,9 +235,7 @@
 
   <!-- 05 유지보수 · 운영 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz viz viz--web bizp__viz--shiftl" style="--gx:22%;--gy:32%">
-      <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><circle cx="400" cy="300" r="150" stroke="currentColor" stroke-width="1.5"/><circle cx="400" cy="300" r="96" stroke="currentColor" stroke-width="1.3" opacity=".6"/><path d="M400 150 A150 150 0 0 1 550 300" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M540 280 L550 300 L566 284" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M370 300 L392 322 L436 276" class="sig" stroke="currentColor" stroke-width="2.4"/></svg>
-    </div>
+    <div class="bizp__viz bizp__viz--photo bizp__viz--maint"><img src="assets/biz-maint.jpg" alt="몽웹 관리자 대시보드에서 사이트 운영 현황을 보여 주는 노트북" width="1965" height="800" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">05</span><span class="bizp__en">Maintenance</span>
