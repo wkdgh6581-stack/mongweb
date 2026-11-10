@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261111d">
+<link rel="stylesheet" href="css/v2.css?v=20261111b">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -122,26 +122,34 @@
       <h2 class="d2 rv">처음 만드는 홈페이지도,<br><em>다시 만드는 홈페이지도</em></h2>
       <p class="lead rv">새로 시작하는 회사와 오래된 홈페이지를 바꾸려는 회사, 상황이 달라도 같은 기준으로 만듭니다.</p>
     </div>
-    <div class="svc-grid">
-      <article class="svc-c svc-c--new rv">
-        <div class="svc-c__media"><img src="assets/jr-03.jpg" alt="" loading="lazy"><div class="svc-c__prog" aria-hidden="true"><span style="--i:0"><b>01</b>기획</span><span style="--i:1"><b>02</b>디자인</span><span style="--i:2"><b>03</b>개발</span><span style="--i:3"><b>04</b>오픈</span><i></i></div></div>
-        <div class="svc-c__body">
-          <div class="svc-c__top"><span class="svc-c__no">01</span><span class="svc-c__svc">Planning · Design · Development</span></div>
-          <h3>신규 제작 <span>New Build</span></h3>
-          <p class="svc-c__tag">자료가 없어도 괜찮습니다.<br>상담 내용으로 기획부터 시작합니다</p>
-          <ul><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>자료가 없어도 메뉴 구성과 첫 문구를 먼저 제안</li><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>디자인 시안을 함께 다듬고 PC · 휴대폰 모두 최적화</li><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>도메인 · 호스팅 연결과 검색 등록까지 마치고 오픈</li></ul>
-          <a class="svc-c__cta" href="contact.html#inquiry"><span>신규 제작 상담하기</span><svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <div class="brands__grid">
+      <article class="brand-c rv">
+        <div class="brand-c__id">
+          <img class="brand-c__mk" src="assets/favicon.png" alt="" loading="lazy">
+          <div class="brand-c__nm">
+            <b>신규 제작 <span>New Build</span></b>
+            <span class="brand-c__svc">Planning · Design · Development</span>
+          </div>
         </div>
+        <div class="brand-c__en">From the first conversation to launch</div>
+        <p class="brand-c__tag">자료가 없어도 괜찮습니다.<br>상담 내용으로 기획부터 시작합니다</p>
+        <p>회사 소개서나 정리된 자료가 없어도 시작할 수 있습니다. 상담에서 들은 내용으로 메뉴 구성과 첫 문구를 먼저 제안합니다.</p>
+        <p>디자인 시안을 함께 다듬고, PC와 휴대폰에서 모두 보기 좋은 화면으로 만듭니다.</p>
+        <p>도메인 · 호스팅 연결과 검색 등록까지 마친 뒤 오픈합니다.</p>
       </article>
-      <article class="svc-c svc-c--ren rv">
-        <div class="svc-c__media"><img class="aft" src="assets/jr-04.jpg" alt="" loading="lazy"><img class="bef" src="assets/jr-04.jpg" alt="" loading="lazy"><span class="svc-c__ba"><em class="b">BEFORE</em><em class="a">AFTER</em></span></div>
-        <div class="svc-c__body">
-          <div class="svc-c__top"><span class="svc-c__no">02</span><span class="svc-c__svc">Restructure · Redesign · Migrate</span></div>
-          <h3>리뉴얼 <span>Renewal</span></h3>
-          <p class="svc-c__tag">오래된 홈페이지를<br>지금의 검색과 고객에 맞게</p>
-          <ul><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>검색엔진과 AI가 먼저 읽는 구조로 다시 설계</li><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>쓰던 도메인은 그대로, 기존 글 · 자료는 옮겨서 정리</li><li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 12 4 4 8-8"/></svg></i>휴대폰 화면과 직접 고칠 수 있는 관리 방식으로 교체</li></ul>
-          <a class="svc-c__cta" href="contact.html#inquiry"><span>리뉴얼 상담하기</span><svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <article class="brand-c rv">
+        <div class="brand-c__id">
+          <img class="brand-c__mk" src="assets/favicon.png" alt="" loading="lazy">
+          <div class="brand-c__nm">
+            <b>리뉴얼 <span>Renewal</span></b>
+            <span class="brand-c__svc">Restructure · Redesign · Migrate</span>
+          </div>
         </div>
+        <div class="brand-c__en">Keep the domain, rebuild the experience</div>
+        <p class="brand-c__tag">오래된 홈페이지를<br>지금의 검색과 고객에 맞게</p>
+        <p>예전 홈페이지는 사람이 읽는 것만 생각하고 만든 경우가 많습니다. 지금은 검색엔진과 AI가 먼저 읽고 고객에게 전달합니다.</p>
+        <p>쓰던 도메인은 그대로 두고, 기존 글과 자료를 옮기면서 메뉴와 화면 구조를 새로 정리합니다.</p>
+        <p>휴대폰에서 불편했던 화면, 직접 고칠 수 없던 관리 방식도 함께 바꿉니다.</p>
       </article>
     </div>
   </div>
