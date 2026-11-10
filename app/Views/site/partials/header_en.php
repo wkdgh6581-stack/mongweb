@@ -26,7 +26,7 @@
         <div class="mega__col"><h5>Track Record</h5><a href="projects.html#domestic">Domestic Projects</a><a href="projects.html#overseas">Overseas Projects</a><a href="projects.html#clients">Our Clients</a></div>
         <div class="mega__col"><h5>Careers</h5><a href="recruit.html">Recruitment Guide</a><a href="recruit.html#jobs">Open Positions</a></div>
         <div class="mega__col"><h5>News & Media</h5><a href="news.html">Notice Board</a><a href="news.html#gallery">Gallery</a><a href="news.html#ci">CI</a></div>
-        <div class="mega__col"><h5>Contact</h5><a href="contact.html#inquiry">Inquiry</a><a href="contact.html#map">Location</a></div>
+        <div class="mega__col"><h5>Contact</h5><a href="contact.html#inquiry">Inquiry</a></div>
       </div></div>
     </div>
     <div class="head__r">
@@ -45,7 +45,7 @@
   <div class="drawer__grp"><b><a href="projects.html">Track Record</a></b><div class="sub"><a href="projects.html#domestic">Domestic</a><a href="projects.html#overseas">Overseas</a><a href="projects.html#clients">Our Clients</a></div></div>
   <div class="drawer__grp"><b><a href="recruit.html">Careers</a></b><div class="sub"><a href="recruit.html">Recruitment Guide</a><a href="recruit.html#jobs">Open Positions</a></div></div>
   <div class="drawer__grp"><b><a href="news.html">News & Media</a></b><div class="sub"><a href="news.html">Notice Board</a><a href="news.html#gallery">Gallery</a><a href="news.html#ci">CI</a></div></div>
-  <div class="drawer__grp"><b><a href="contact.html">Contact</a></b><div class="sub"><a href="contact.html#inquiry">Inquiry</a><a href="contact.html#map">Location</a></div></div>
+  <div class="drawer__grp"><b><a href="contact.html">Contact</a></b><div class="sub"><a href="contact.html#inquiry">Inquiry</a></div></div>
       <div class="lang lang--drawer" role="group" aria-label="Language"><a class="lang__b" href="{{alt_lang_url}}">KR</a><a class="lang__b is-on" href="#" aria-current="true">EN</a></div>
   <a class="btn btn--solid drawer__cta" href="contact.html"><span>Contact</span>
     <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>

@@ -25,7 +25,7 @@
       <div class="foot__col"><h4>Track Record</h4><a href="projects.html#domestic">Domestic Projects</a><a href="projects.html#overseas">Overseas Projects</a><a href="projects.html#clients">Our Clients</a></div>
       <div class="foot__col"><h4>Careers</h4><a href="recruit.html">Recruitment Guide</a><a href="recruit.html#jobs">Open Positions</a></div>
       <div class="foot__col"><h4>News & Media</h4><a href="news.html">Notice Board</a><a href="news.html#gallery">Gallery</a><a href="news.html#ci">CI</a></div>
-      <div class="foot__col"><h4>Contact</h4><a href="contact.html#inquiry">Inquiry</a><a href="contact.html#map">Location</a></div>
+      <div class="foot__col"><h4>Contact</h4><a href="contact.html#inquiry">Inquiry</a></div>
     </div>
   </div>
   <div class="wrap foot__info">

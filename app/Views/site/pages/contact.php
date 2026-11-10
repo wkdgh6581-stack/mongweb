@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>고객문의 · 몽웹 MongWeb</title>
-<meta name="description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의와 오시는 길.">
+<meta name="description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의.">
 <link rel="canonical" href="https://k1tnc.co.kr/contact.html">
 <link rel="alternate" hreflang="ko" href="https://k1tnc.co.kr/contact.html">
 <link rel="alternate" hreflang="en" href="https://k1tnc.co.kr/en/contact.html">
@@ -13,14 +13,14 @@
 <meta property="og:site_name" content="몽웹 MongWeb">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="고객문의 · 몽웹 MongWeb">
-<meta property="og:description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의와 오시는 길.">
+<meta property="og:description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의.">
 <meta property="og:url" content="https://k1tnc.co.kr/contact.html">
 <meta property="og:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="고객문의 · 몽웹 MongWeb">
-<meta name="twitter:description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의와 오시는 길.">
+<meta name="twitter:description" content="몽웹 고객문의 — 홈페이지 제작 · 리뉴얼 · 견적 · 유지보수 문의.">
 <meta name="twitter:image" content="https://k1tnc.co.kr/assets/og-image.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -44,15 +44,6 @@
   </div>
 </section>
 <!--/ed:contact/subhero-->
-
-<!--ed:contact/pagenav-->
-<nav class="pagenav" aria-label="고객문의 섹션">
-  <div class="pagenav__in">
-    <a href="#inquiry" class="on">문의하기</a>
-    <a href="#map">오시는 길</a>
-  </div>
-</nav>
-<!--/ed:contact/pagenav-->
 
 <main id="main">
 
@@ -112,29 +103,6 @@
   </div>
 </section>
 <!--/ed:contact/inquiry-->
-
-<!-- MAP / LOCATIONS -->
-<!--ed:contact/map-->
-<section class="sec sec--paper2" id="map" data-nav="light">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <span class="eyebrow"><b>／ 02</b>&nbsp; Location</span>
-      <h2 class="d2">오시는 길</h2>
-      <p class="lead">방문 상담은 미리 연락 주시면 시간을 맞춰 준비하겠습니다. 전화 · 화상 상담도 가능합니다.</p>
-    </div>
-    <dl class="def rv">
-      <div class="def__row"><dt>주소</dt><dd><?= esc($site['hq_addr']) ?></dd></div>
-      <div class="def__row"><dt>전화</dt><dd><?= esc($site['tel']) ?></dd></div>
-      <div class="def__row"><dt>이메일</dt><dd><?= esc($site['email']) ?></dd></div>
-      <div class="def__row"><dt>상담 시간</dt><dd>평일 09:00 – 18:00 (주말 · 공휴일 휴무)</dd></div>
-    </dl>
-    <div class="rv" style="margin-top:28px">
-      <a class="btn" href="https://map.naver.com/p/search/<?= rawurlencode($site['hq_addr']) ?>" target="_blank" rel="noopener" style="color:var(--ink)"><span>네이버 지도에서 보기</span>
-        <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-    </div>
-  </div>
-</section>
-<!--/ed:contact/map-->
 
 </main>
 

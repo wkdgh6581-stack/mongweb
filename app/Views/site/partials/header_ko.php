@@ -24,7 +24,7 @@
         <div class="mega__col"><h5>홈페이지제작</h5><a href="corporate.html">기업 홈페이지</a><a href="hospital.html">병원 홈페이지</a><a href="franchise.html">프랜차이즈 홈페이지</a><a href="shop.html">쇼핑몰 홈페이지</a><a href="lawyer.html">변호사·전문직 사무소 홈페이지</a></div>
         <div class="mega__col"><h5>비용안내</h5><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div>
         <div class="mega__col"><h5>유지보수</h5><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div>
-        <div class="mega__col"><h5>고객문의</h5><a href="contact.html#inquiry">문의하기</a><a href="contact.html#map">오시는 길</a></div>
+        <div class="mega__col"><h5>고객문의</h5><a href="contact.html#inquiry">문의하기</a></div>
       </div></div>
     </div>
     <div class="head__r">
@@ -42,7 +42,7 @@
   <div class="drawer__grp"><b><a href="business.html">홈페이지제작</a></b><div class="sub"><a href="corporate.html">기업 홈페이지</a><a href="hospital.html">병원 홈페이지</a><a href="franchise.html">프랜차이즈 홈페이지</a><a href="shop.html">쇼핑몰 홈페이지</a><a href="lawyer.html">변호사·전문직 사무소 홈페이지</a></div></div>
   <div class="drawer__grp"><b><a href="price.html">비용안내</a></b><div class="sub"><a href="price.html#plans">요금 안내</a><a href="price.html#process">제작 절차</a><a href="price.html#faq">자주 묻는 질문</a></div></div>
   <div class="drawer__grp"><b><a href="maintenance.html">유지보수</a></b><div class="sub"><a href="maintenance.html#service">유지보수 서비스</a><a href="maintenance.html#plans">관리 요금</a><a href="maintenance.html#request">요청 방법</a></div></div>
-  <div class="drawer__grp"><b><a href="contact.html">고객문의</a></b><div class="sub"><a href="contact.html#inquiry">문의하기</a><a href="contact.html#map">오시는 길</a></div></div>
+  <div class="drawer__grp"><b><a href="contact.html">고객문의</a></b><div class="sub"><a href="contact.html#inquiry">문의하기</a></div></div>
       <div class="lang lang--drawer" role="group" aria-label="Language"><a class="lang__b is-on" href="#" aria-current="true">KR</a><a class="lang__b" href="{{alt_lang_url}}">EN</a></div>
   <a class="btn btn--solid drawer__cta" href="contact.html"><span>고객문의</span>
     <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>

@@ -45,15 +45,6 @@
 </section>
 <!--/ed:en/contact/subhero-->
 
-<!--ed:en/contact/pagenav-->
-<nav class="pagenav" aria-label="Contact sections">
-  <div class="pagenav__in">
-    <a href="#inquiry" class="on">Inquiry</a>
-    <a href="#map">Location</a>
-  </div>
-</nav>
-<!--/ed:en/contact/pagenav-->
-
 <main id="main">
 
 <!-- INQUIRY -->
@@ -117,43 +108,6 @@
   </div>
 </section>
 <!--/ed:en/contact/inquiry-->
-
-<!-- MAP / LOCATIONS -->
-<!--ed:en/contact/map-->
-<section class="sec sec--paper2" id="map" data-nav="light">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <span class="eyebrow"><b>／ 02</b>&nbsp; Location</span>
-      <h2 class="d2">Location</h2>
-      <p class="lead">We serve our clients close to the field from our Geoje head office and our Yeongam and Ulsan branches.</p>
-    </div>
-    <div class="loc rv">
-      <div class="loc__i">
-        <div class="loc__map">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=128.6900418%2C34.8918086%2C128.6980418%2C34.8968086&layer=mapnik&marker=34.8943086%2C128.6940418"
-            title="Map of the Geoje head office — 59 Okpodaecheop-ro, Geoje-si" loading="lazy"></iframe>
-        </div>
-        <div class="loc__b"><div class="tag">K1 · HQ</div><h3>Geoje Head Office</h3><p>59 Okpodaecheop-ro, 2F, Geoje-si, Gyeongsangnam-do, Korea</p><div class="loc__c"><span>TEL <?= esc($site['tel']) ?></span><span>FAX <?= esc($site['fax']) ?></span></div></div>
-      </div>
-      <div class="loc__i">
-        <div class="loc__map">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.3805798%2C34.7506621%2C126.4005798%2C34.7631621&layer=mapnik&marker=34.7569121%2C126.3905798"
-            title="Map of the Yeongam branch — 93 Daebul-ro, Samho-eup, Yeongam-gun" loading="lazy"></iframe>
-        </div>
-        <div class="loc__b"><div class="tag">K1 OCEAN · Branch</div><h3>Yeongam Branch</h3><p>93 Daebul-ro, Samho-eup, Yeongam-gun, Jeollanam-do</p><div class="loc__c"><span>TEL <?= esc($site['yeongam_tel']) ?></span><span>FAX <?= esc($site['yeongam_fax']) ?></span></div></div>
-      </div>
-      <div class="loc__i">
-        <div class="loc__map">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=129.4031875%2C35.4767992%2C129.4111875%2C35.4817992&layer=mapnik&marker=35.4792992%2C129.4071875"
-            title="Map of the Ulsan branch — 400 Bangeojin Sunhwan-doro, Dong-gu, Ulsan" loading="lazy"></iframe>
-        </div>
-        <div class="loc__b"><div class="tag">K1 · Branch</div><h3>Ulsan Branch</h3><p>400 Bangeojin Sunhwan-doro, Dong-gu, Ulsan, Korea</p><?php if ($site['ulsan_tel'] || $site['ulsan_fax']): ?><div class="loc__c"><?php if ($site['ulsan_tel']): ?><span>TEL <?= esc($site['ulsan_tel']) ?></span><?php endif ?><?php if ($site['ulsan_fax']): ?><span>FAX <?= esc($site['ulsan_fax']) ?></span><?php endif ?></div><?php endif ?></div>
-      </div>
-    </div>
-    <p class="loc__attr">Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors</p>
-  </div>
-</section>
-<!--/ed:en/contact/map-->
 
 </main>
 
