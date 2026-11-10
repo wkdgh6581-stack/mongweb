@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261111e">
+<link rel="stylesheet" href="css/v2.css?v=20261111b">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -36,13 +36,11 @@
 
 <!-- SUB HERO -->
 <!--ed:about/subhero-->
-<section class="subhero subhero--photo subhero--about" data-nav="dark">
-  <div class="subhero__bg"><img src="assets/fit-new.jpg" alt="" width="1884" height="1070"></div>
+<section class="subhero" data-nav="dark">
   <div class="wrap">
     <div class="bc"><a href="index.html">홈</a> <b>›</b> 회사소개</div>
     <h1>회사소개</h1>
     <div class="en">About Us</div>
-    <p class="dt-lead">꿈을 웹으로 잇는 홈페이지 제작 파트너, 몽웹입니다.<br>기획부터 디자인 · 개발 · 검색 대응 · 오픈 후 관리까지 한 팀이 함께합니다.</p>
   </div>
 </section>
 <!--/ed:about/subhero-->
@@ -54,7 +52,9 @@
   <div class="wrap">
     <div class="sec-head rv"><span class="eyebrow"><b>／ 01</b>&nbsp; MONG WEB | 몽웹</span></div>
     <div class="cmsg">
-      <div class="cmsg__img cmsg__img--photo rv"><img src="assets/about-web5.jpg" alt="몽웹 홈페이지가 열린 노트북을 바라보는 사람" loading="lazy"><span class="cmsg__badge">We Build<br>Your Dream.</span></div>
+      <div class="cmsg__img viz viz--web rv" style="--gx:64%;--gy:34%">
+        <svg class="viz__art" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true"><rect x="110" y="120" width="580" height="360" rx="14" stroke="currentColor" stroke-width="1.6"/><path d="M110 168 H690" stroke="currentColor" stroke-width="1.4"/><circle cx="140" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="162" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="184" cy="144" r="6" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="200" width="500" height="120" rx="6" stroke="currentColor" stroke-width="1.4"/><path d="M190 250 H420" class="sig" stroke="currentColor" stroke-width="2.4"/><path d="M190 285 H360" stroke="currentColor" stroke-width="1.4"/><rect x="150" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="325" y="350" width="150" height="90" rx="6" stroke="currentColor" stroke-width="1.3"/><rect x="500" y="350" width="150" height="90" rx="6" class="sig" stroke="currentColor" stroke-width="2"/></svg>
+      </div>
       <div class="rv">
         <p class="cmsg__q">당신의 <em>꿈</em>을,<br>웹사이트라는 가치로.</p>
         <div class="cmsg__body">
@@ -90,23 +90,13 @@
     </div>
 
     <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">Work Scope</span></div>
-    <div class="hv rv">
-      <ol class="hv__list ">
-        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l1 2h3v16H5V5h3z"/><path d="M9 11h6M9 15h4"/></svg></i><div><b>Planning</b><span>상담 · 메뉴 구성 · 화면 설계 · 첫 문구</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1 0 1.5-.8 1.5-1.6 0-1.1-.8-1.4-.8-2.4 0-.9.7-1.5 1.6-1.5H17a4 4 0 0 0 4-4c0-4.7-4-8.5-9-8.5z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10.5" cy="7.5" r="1"/><circle cx="15" cy="7.5" r="1"/></svg></i><div><b>Design</b><span>메인 · 하위 화면 · 휴대폰 화면 디자인</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg></i><div><b>Development</b><span>반응형 화면 · 관리자 · 문의 양식 연결</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></i><div><b>SEO · AEO · GEO</b><span>검색 등록 · 자주 묻는 질문 · 구조화 데이터</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.3-2 4-2 6 2 0 4.7-.5 6-2"/><path d="M9 15l-3-3c1-3 3-6 6.5-8.2C15.5 2 19 2 22 2c0 3 0 6.5-1.8 9.5C18 15 15 17 12 18z"/><circle cx="15.5" cy="8.5" r="1.8"/></svg></i><div><b>Launch</b><span>도메인 · 호스팅 연결 · 최종 점검 · 공개</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-4.6-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.4-8 11-8 11z"/></svg></i><div><b>Care</b><span>오픈 후 수정 · 백업 · 보안 · 기능 추가</span></div><em class="arr" aria-hidden="true">›</em></li>
-        </ol>
-      <div class="hv__stage" aria-hidden="true">
-        <figure class="hv__s on"><img src="assets/jr-02.jpg" alt="" loading="lazy" style="object-position:62% 50%"><figcaption><span class="no">01</span><b>Planning</b><p>업종과 고객에 맞춰 메뉴와 화면 흐름을 설계합니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/jr-03.jpg" alt="" loading="lazy" style="object-position:62% 40%"><figcaption><span class="no">02</span><b>Design</b><p>브랜드의 색과 분위기를 담은 화면을 함께 다듬습니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-corporate-mw.jpg" alt="" loading="lazy" style="object-position:30% 50%"><figcaption><span class="no">03</span><b>Development</b><p>PC · 태블릿 · 휴대폰 어디서든 빠르게 열리는 화면을 만듭니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-seo.jpg" alt="" loading="lazy" style="object-position:22% 55%"><figcaption><span class="no">04</span><b>SEO · AEO · GEO</b><p>검색엔진과 AI가 회사 정보를 정확히 읽도록 구조를 잡습니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/jr-05.jpg" alt="" loading="lazy" style="object-position:60% 50%"><figcaption><span class="no">05</span><b>Launch</b><p>최종 점검을 마치고 도메인에 연결해 공개합니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-maint.jpg" alt="" loading="lazy" style="object-position:24% 50%"><figcaption><span class="no">06</span><b>Care</b><p>오픈 후에도 수정 · 점검 · 기능 추가로 계속 함께합니다.</p></figcaption></figure>
-        </div>
+    <div class="scope stg rv">
+      <div class="scope__i"><i class="ic scope__ic i-planning" aria-hidden="true"></i><h4>Planning</h4><p>상담 · 메뉴 구성 · 화면 설계 · 첫 문구</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-precom" aria-hidden="true"></i><h4>Design</h4><p>메인 · 하위 화면 · 휴대폰 화면 디자인</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-eim" aria-hidden="true"></i><h4>Development</h4><p>반응형 화면 · 관리자 · 문의 양식 연결</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-test" aria-hidden="true"></i><h4>SEO · AEO · GEO</h4><p>검색 등록 · 자주 묻는 질문 · 구조화 데이터</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-trouble" aria-hidden="true"></i><h4>Launch</h4><p>도메인 · 호스팅 연결 · 최종 점검 · 공개</p></div>
+      <div class="scope__i"><i class="ic scope__ic i-handover" aria-hidden="true"></i><h4>Care</h4><p>오픈 후 수정 · 백업 · 보안 · 기능 추가</p></div>
     </div>
   </div>
 </section>
@@ -129,25 +119,14 @@
     </dl>
 
     <div class="sec-head rv" style="margin:clamp(60px,7vw,90px) 0 0"><span class="eyebrow">What We Do</span></div>
-    <div class="hv hv--rev rv">
-      <ol class="hv__list ">
-        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l1 2h3v16H5V5h3z"/><path d="M9 11h6M9 15h4"/></svg></i><div><b>홈페이지 기획</b><span>메뉴 구성과 화면 흐름, 첫 문구까지</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1 0 1.5-.8 1.5-1.6 0-1.1-.8-1.4-.8-2.4 0-.9.7-1.5 1.6-1.5H17a4 4 0 0 0 4-4c0-4.7-4-8.5-9-8.5z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10.5" cy="7.5" r="1"/><circle cx="15" cy="7.5" r="1"/></svg></i><div><b>디자인</b><span>브랜드 색과 분위기, 문의로 이어지는 배치</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg></i><div><b>반응형 개발</b><span>PC · 태블릿 · 휴대폰 어디서나</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></i><div><b>SEO 검색 최적화</b><span>제목 · 설명 정리, 검색 등록</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg></i><div><b>AEO · GEO 대응</b><span>AI가 이해하는 회사 정보</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg></i><div><b>관리자 제공</b><span>화면 보며 직접 고치는 관리자</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">07</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-4.6-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.4-8 11-8 11z"/></svg></i><div><b>유지보수</b><span>수정 · 점검 · 백업 · 기능 추가</span></div><em class="arr" aria-hidden="true">›</em></li>
-        </ol>
-      <div class="hv__stage" aria-hidden="true">
-        <figure class="hv__s on"><img src="assets/corp-find-laptop.jpg" alt="" loading="lazy" style="object-position:40% 50%"><figcaption><span class="no">01</span><b>홈페이지 기획</b><p>업종과 고객에 맞춰 메뉴 구성과 화면 흐름을 설계하고, 자료가 없어도 첫 문구를 함께 만듭니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/jr-03.jpg" alt="" loading="lazy" style="object-position:62% 40%"><figcaption><span class="no">02</span><b>디자인</b><p>브랜드의 색과 분위기를 담고, 고객이 문의까지 이어지도록 화면을 배치합니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/ind-corporate.jpg" alt="" loading="lazy" style="object-position:50% 50%"><figcaption><span class="no">03</span><b>반응형 개발</b><p>어디서든 보기 좋고 빠르게 열리는 화면으로 만듭니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-seo.jpg" alt="" loading="lazy" style="object-position:22% 55%"><figcaption><span class="no">04</span><b>SEO 검색 최적화</b><p>화면마다 제목과 설명을 정리하고 네이버 · 구글 검색 등록과 사이트맵을 설정합니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-aeo.jpg" alt="" loading="lazy" style="object-position:50% 50%"><figcaption><span class="no">05</span><b>AEO · GEO 대응</b><p>자주 묻는 질문과 구조화 데이터로 AI가 회사 정보를 정확히 이해하도록 돕습니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-maint.jpg" alt="" loading="lazy" style="object-position:24% 50%"><figcaption><span class="no">06</span><b>관리자 제공</b><p>홈페이지 화면을 보면서 글자 · 사진 · 메뉴를 직접 고칩니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/jr-04.jpg" alt="" loading="lazy" style="object-position:62% 50%"><figcaption><span class="no">07</span><b>유지보수</b><p>오픈 후 수정 요청, 정기 점검, 백업과 보안 업데이트, 기능 추가까지 함께합니다.</p></figcaption></figure>
-        </div>
+    <div class="tech rv">
+      <div class="tech__i"><div class="n">01</div><h4>홈페이지 기획</h4><p>업종과 고객에 맞춰 메뉴 구성과 화면 흐름을 설계하고, 자료가 없어도 첫 문구를 함께 만듭니다</p></div>
+      <div class="tech__i"><div class="n">02</div><h4>디자인</h4><p>브랜드의 색과 분위기를 담고, 고객이 문의까지 자연스럽게 이어지도록 화면을 배치합니다</p></div>
+      <div class="tech__i"><div class="n">03</div><h4>반응형 개발</h4><p>PC · 태블릿 · 휴대폰 어디서든 보기 좋고 빠르게 열리는 화면으로 만듭니다</p></div>
+      <div class="tech__i"><div class="n">04</div><h4>SEO 검색 최적화</h4><p>화면마다 제목과 설명을 정리하고 네이버 · 구글 검색 등록과 사이트맵을 설정합니다</p></div>
+      <div class="tech__i"><div class="n">05</div><h4>AEO · GEO 대응</h4><p>자주 묻는 질문과 구조화 데이터로 AI가 회사 정보를 정확히 이해하도록 돕습니다</p></div>
+      <div class="tech__i"><div class="n">06</div><h4>관리자 제공</h4><p>홈페이지 화면을 보면서 글자 · 사진 · 메뉴를 직접 고치는 관리자를 드립니다</p></div>
+      <div class="tech__i" style="grid-column:1/-1"><div class="n">07</div><h4>유지보수</h4><p>오픈 후 수정 요청, 정기 점검, 백업과 보안 업데이트, 기능 추가까지 계속 함께합니다</p></div>
     </div>
 
     <div class="mv rv">
@@ -175,17 +154,10 @@
       <h2 class="d2">일하는 방식</h2>
       <p class="lead">먼저 듣고, 쉽게 설명하고, 끝까지 함께합니다.</p>
     </div>
-    <div class="hv hv--cost rv">
-      <ol class="hv__list hv__list--big">
-        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 1 1 12 0c0 3-2 4-3 5s-1 3-3.5 3.5"/><path d="M9 9a3 3 0 0 1 6 0"/></svg></i><div><b>먼저 듣습니다</b><span>Listen · 경청 — 디자인보다 회사와 고객의 이야기를 먼저</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/></svg></i><div><b>쉽게 설명합니다</b><span>Clear · 소통 — 어려운 용어 대신 쉬운 말로</span></div><em class="arr" aria-hidden="true">›</em></li>
-        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-4.6-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.4-8 11-8 11z"/></svg></i><div><b>끝까지 함께합니다</b><span>Care · 책임 — 오픈은 시작입니다</span></div><em class="arr" aria-hidden="true">›</em></li>
-        </ol>
-      <div class="hv__stage" aria-hidden="true">
-        <figure class="hv__s on"><img src="assets/about-web5.jpg" alt="" loading="lazy" style="object-position:40% 50%"><figcaption><span class="no">01</span><b>먼저 듣습니다</b><p>디자인을 보여 드리기 전에 회사와 고객의 이야기를 먼저 듣습니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/jr-04.jpg" alt="" loading="lazy" style="object-position:62% 50%"><figcaption><span class="no">02</span><b>쉽게 설명합니다</b><p>단계마다 무엇을 하는지 쉬운 말로 설명하고 함께 확인합니다.</p></figcaption></figure>
-        <figure class="hv__s"><img src="assets/biz-maint.jpg" alt="" loading="lazy" style="object-position:24% 50%"><figcaption><span class="no">03</span><b>끝까지 함께합니다</b><p>직접 고칠 수 있는 관리자와 오픈 후 관리로 끝까지 함께합니다.</p></figcaption></figure>
-        </div>
+    <div class="prin rv">
+      <div class="prin__row"><div class="n"><i class="ic i-trust" aria-hidden="true"></i>01</div><div class="t">먼저 듣습니다<b>Listen · 경청</b></div><p>디자인을 보여 드리기 전에 회사와 고객의 이야기를 먼저 듣습니다. 무엇을 만들지보다 왜 만드는지를 함께 정리합니다.</p></div>
+      <div class="prin__row"><div class="n"><i class="ic i-collab" aria-hidden="true"></i>02</div><div class="t">쉽게 설명합니다<b>Clear · 소통</b></div><p>어려운 용어 대신 쉬운 말로, 단계마다 무엇을 하고 무엇을 확인하는지 미리 알려 드립니다.</p></div>
+      <div class="prin__row"><div class="n"><i class="ic i-responsibility" aria-hidden="true"></i>03</div><div class="t">끝까지 함께합니다<b>Care · 책임</b></div><p>오픈은 시작입니다. 직접 고칠 수 있는 관리자와 꾸준한 유지보수로 홈페이지가 오래 일하도록 돕습니다.</p></div>
     </div>
   </div>
 </section>
@@ -224,7 +196,6 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
-<script src="js/dt-fit.js?v=6"></script>
 <script>
 (function(){
   var links=[].slice.call(document.querySelectorAll('.pagenav a'));

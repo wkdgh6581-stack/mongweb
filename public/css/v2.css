@@ -1799,11 +1799,3 @@ html.ed-on .dt-faq details p{display:block}
 .hv--cost .hv__stage{min-height:520px}
 .hv__s{padding-bottom:140px}
 .mk--prep{gap:8px}.mk__opt{padding:10px 14px}
-/* 회사소개 */
-.subhero--about .subhero__bg img{object-position:70% 40%}
-.subhero--about .subhero__bg::after{background:linear-gradient(90deg,rgba(8,12,30,.85) 0%,rgba(8,12,30,.5) 45%,rgba(8,12,30,.1) 75%)}
-.cmsg__img--photo{position:relative;border-radius:16px;overflow:hidden;background:#0b1430}
-.cmsg__img--photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:40% 50%;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
-.cmsg__img--photo:hover img{transform:scale(1.05)}
-.cmsg__img--photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,14,44,.7),transparent 45%)}
-.cmsg__badge{position:absolute;z-index:1;left:24px;bottom:22px;color:#fff;font-size:clamp(20px,1.8vw,26px);font-weight:800;line-height:1.2;letter-spacing:-.02em}
