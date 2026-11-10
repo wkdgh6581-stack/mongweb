@@ -1508,3 +1508,7 @@ html.ed-on .dt-faq details p{display:block}
   .dt-split .dt-panel ul li{color:var(--ink);border-top:1px solid var(--line-l);font-size:16px}
   .dt-split .dt-mock--ph{--phs:.9;height:calc(528px * var(--phs) + 40px);padding-top:20px;background:radial-gradient(50% 50% at 50% 50%,rgba(79,93,255,.2),transparent 72%)}
 }
+/* 업종 상세: 영역 사이 위아래 여백 축소 (최대 150px → 88px) */
+.sub .dt-sec{padding-block:clamp(52px,5.6vw,88px)}
+.sub .dt-sec .sec-head{margin-bottom:clamp(28px,3vw,44px)}
+@media (min-width:1081px){.dt-split{margin-top:clamp(24px,3vw,44px);gap:clamp(40px,5vw,72px)}}
