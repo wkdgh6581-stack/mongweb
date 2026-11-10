@@ -1806,3 +1806,20 @@ html.ed-on .dt-faq details p{display:block}
   .subhero--hos .subhero__bg::after{background:linear-gradient(180deg,rgba(8,14,34,.7) 0%,transparent 22%),linear-gradient(90deg,rgba(8,14,34,.6) 0%,rgba(8,14,34,.3) 40%,transparent 60%)}
 }
 .subhero--hos .subhero__bg{overflow:hidden}
+/* 업종 상세 공통: 01 영역 작은 노트북 사진 · 카드 검색 미니 화면 */
+.dt-art--sm{width:min(40vw,620px);top:clamp(20px,3vw,50px);right:clamp(0px,3vw,60px);
+  -webkit-mask-image:radial-gradient(closest-side,#000 70%,transparent 100%);mask-image:radial-gradient(closest-side,#000 70%,transparent 100%)}
+.dt-art--sm img{border-radius:0}
+.dt-card__ph--q{position:relative;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:18px 18px 16px;
+  background:radial-gradient(80% 90% at 70% 20%,#2a3bd6 0%,#141f6b 45%,#0a1136 100%)}
+.dt-card__ph--q .qp{display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;background:#fff;color:#14161f;font-size:13px;box-shadow:0 10px 24px -10px rgba(0,0,0,.6)}
+.dt-card__ph--q .qp svg{width:15px;height:15px;color:#2b3bff;flex:none}
+.dt-card__ph--q .qp b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dt-card__ph--q .qr{display:flex;align-items:center;gap:9px;padding:9px 12px;border-radius:10px;background:rgba(255,255,255,.95);transform:translateY(6px);opacity:.92;transition:transform .5s,opacity .5s}
+.dt-card__ph--q .qr i{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;background:#2b3bff;color:#fff;font-style:normal;font-size:11px;font-weight:800}
+.dt-card__ph--q .qr b{display:block;font-size:12px;color:#2337e8}.dt-card__ph--q .qr small{font-size:10px;color:#7c8196}
+.dt-card__ph--q .qg{display:block;height:8px;width:80%;border-radius:5px;background:rgba(255,255,255,.18)}.dt-card__ph--q .qg.s{width:55%}
+.dt-card--ph:hover .dt-card__ph--q .qr{transform:none;opacity:1;box-shadow:0 0 0 2px #8b95ff}
+.subhero--dim .subhero__bg img{filter:blur(1.5px) brightness(.85)}
+.subhero--dim .subhero__bg::after{background:linear-gradient(180deg,rgba(8,14,34,.7) 0%,transparent 22%),linear-gradient(90deg,rgba(8,14,34,.95) 0%,rgba(8,14,34,.85) 45%,rgba(8,14,34,.35) 70%,rgba(8,14,34,.1) 100%)}
+@media (max-width:1080px){.subhero--dim .subhero__bg::after{background:rgba(8,14,34,.78)}}

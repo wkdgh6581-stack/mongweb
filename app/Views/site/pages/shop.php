@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261111h">
+<link rel="stylesheet" href="css/v2.css?v=20261111j">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -35,7 +35,8 @@
 
 <!-- SUB HERO -->
 <!--ed:shop/subhero-->
-<section class="subhero" data-nav="dark">
+<section class="subhero subhero--photo subhero--hos subhero--dim" data-nav="dark">
+  <div class="subhero__bg"><img src="assets/ind-shop.jpg" alt=""></div>
   <div class="wrap">
     <div class="bc"><a href="index.html">홈</a> <b>›</b> <a href="business.html">홈페이지제작</a> <b>›</b> 쇼핑몰 홈페이지</div>
     <h1>쇼핑몰 홈페이지 제작</h1>
@@ -54,7 +55,8 @@
 <main id="main">
 <!-- 고객이 찾는 검색어 -->
 <!--ed:shop/search-->
-<section class="sec sec--paper dt-sec" id="search" data-nav="light">
+<section class="sec sec--paper dt-sec dt-sec--art" id="search" data-nav="light">
+  <div class="dt-art dt-art--sm" aria-hidden="true"><img src="assets/ind-shop.jpg" alt=""></div>
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 01</b>&nbsp; How Customers Find You</span>
@@ -62,10 +64,10 @@
       <p class="lead">상품명과 쓰임새 검색에 맞는 화면이 있어야 매출로 이어집니다.</p>
     </div>
     <div class="dt-cards stg rv">
-      <div class="dt-card"><span class="n">01</span><span class="lab">상품</span><p class="q">천연 원목 도마</p><p>상품 상세 화면 · 상품 정보</p></div>
-      <div class="dt-card"><span class="n">02</span><span class="lab">쓰임</span><p class="q">선물용 수제 향초</p><p>용도별 기획전 화면</p></div>
-      <div class="dt-card"><span class="n">03</span><span class="lab">비교</span><p class="q">유기농 세안제 추천</p><p>상품 비교 · 후기</p></div>
-      <div class="dt-card"><span class="n">04</span><span class="lab">구매</span><p class="q">○○ 무료배송</p><p>배송 · 교환 안내</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>천연 원목 도마</b></span><span class="qr"><i>M</i><span><b>○○우드</b><small>www.oowood.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">01</span><span class="lab">상품</span><p class="q">천연 원목 도마</p><p>상품 상세 화면 · 상품 정보</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>선물용 수제 향초</b></span><span class="qr"><i>M</i><span><b>○○우드</b><small>www.oowood.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">02</span><span class="lab">쓰임</span><p class="q">선물용 수제 향초</p><p>용도별 기획전 화면</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>유기농 세안제 추천</b></span><span class="qr"><i>M</i><span><b>○○우드</b><small>www.oowood.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">03</span><span class="lab">비교</span><p class="q">유기농 세안제 추천</p><p>상품 비교 · 후기</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph dt-card__ph--q" aria-hidden="true"><span class="qp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><b>○○ 무료배송</b></span><span class="qr"><i>M</i><span><b>○○우드</b><small>www.oowood.co.kr</small></span></span><span class="qg"></span><span class="qg s"></span></div><span class="n">04</span><span class="lab">구매</span><p class="q">○○ 무료배송</p><p>배송 · 교환 안내</p></div>
     </div>
   </div>
 </section>
@@ -105,34 +107,52 @@
       <span class="eyebrow"><b>／ 03</b>&nbsp; Who It's For</span>
       <h2 class="d2">이런 곳에<br><em>필요합니다</em></h2>
     </div>
-    <ol class="dt-check rv">
-      <li><div><b>처음 온라인 판매를 시작하는 곳</b><span>오프라인 상품을 온라인으로 팔고 싶을 때</span></div></li>
-      <li><div><b>오픈마켓만 쓰던 브랜드</b><span>수수료 없는 자사몰이 필요할 때</span></div></li>
-      <li><div><b>브랜드 분위기가 중요한 곳</b><span>틀에 박힌 화면 대신 브랜드다운 화면이 필요할 때</span></div></li>
-      <li><div><b>상품이 많은 곳</b><span>분류 · 검색 · 기획전으로 찾기 쉽게 해야 할 때</span></div></li>
-      <li><div><b>단골을 늘리고 싶은 곳</b><span>회원 · 적립금 · 쿠폰으로 재구매를 늘리고 싶을 때</span></div></li>
-      <li><div><b>쇼핑몰이 오래된 곳</b><span>휴대폰에서 주문이 불편할 때</span></div></li>
-    </ol>
+    <div class="dt-fit rv">
+      <ol class="dt-fit__list">
+      <li class="dt-fit__i on" data-img="assets/ind-shop.jpg" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.3-2 4-2 6 2 0 4.7-.5 6-2"/><path d="M9 15l-3-3c1-3 3-6 6.5-8.2C15.5 2 19 2 22 2c0 3 0 6.5-1.8 9.5C18 15 15 17 12 18z"/><circle cx="15.5" cy="8.5" r="1.8"/></svg></i><div><b>처음 온라인 판매를 시작하는 곳</b><span>오프라인 상품을 온라인으로 팔고 싶을 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/biz-mobile.gif" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></i><div><b>오픈마켓만 쓰던 브랜드</b><span>수수료 없는 자사몰이 필요할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/jr-03.jpg" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></i><div><b>브랜드 분위기가 중요한 곳</b><span>틀에 박힌 화면 대신 브랜드다운 화면이 필요할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/ind-cafe.jpg" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/></svg></i><div><b>상품이 많은 곳</b><span>분류 · 검색 · 기획전으로 찾기 쉽게 해야 할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/biz-maint.jpg" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="5" cy="9.5" r="2.2"/><circle cx="19" cy="9.5" r="2.2"/><path d="M1.5 18a4 4 0 0 1 4-3.5M22.5 18a4 4 0 0 0-4-3.5"/></svg></i><div><b>단골을 늘리고 싶은 곳</b><span>회원 · 적립금 · 쿠폰으로 재구매를 늘리고 싶을 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      <li class="dt-fit__i" data-img="assets/jr-02.jpg" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5l8-3v19M12 8h8v13M2 21h20"/></svg></i><div><b>쇼핑몰이 오래된 곳</b><span>휴대폰에서 주문이 불편할 때</span></div><em class="arr" aria-hidden="true">›</em></li>
+      </ol>
+      <div class="dt-fit__view" aria-live="polite">
+        <img class="dt-fit__img" src="assets/ind-shop.jpg" alt="">
+        <div class="dt-fit__cap"><span class="no">01</span><b>처음 온라인 판매를 시작하는 곳</b><p>오프라인 상품을 온라인으로 팔고 싶을 때</p></div>
+      </div>
+    </div>
   </div>
 </section>
 <!--/ed:shop/fit-->
 
 <!-- 고객 이동 경로 -->
 <!--ed:shop/journey-->
-<section class="sec cap dt-sec" id="journey" data-nav="dark">
+<section class="sec cap dt-sec dt-jr dt-jr2" id="journey" data-nav="dark">
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 04</b>&nbsp; Customer Journey</span>
       <h2 class="d2">검색에서 문의까지,<br><em>막힘없는 흐름</em></h2>
       <p class="lead">방문자가 단계마다 찾는 정보를 미리 준비해, 중간에 떠나지 않고 문의까지 이어지게 합니다.</p>
     </div>
-    <div class="dt-steps stg rv">
-      <div class="dt-step"><i>01</i><h4>검색</h4><p>상품명 · 용도로 찾아옵니다</p></div>
-      <div class="dt-step"><i>02</i><h4>구경</h4><p>기획전과 상품 목록을 봅니다</p></div>
-      <div class="dt-step"><i>03</i><h4>비교</h4><p>상세 정보와 후기를 살펴봅니다</p></div>
-      <div class="dt-step"><i>04</i><h4>신뢰</h4><p>브랜드 · 배송 · 교환을 확인합니다</p></div>
-      <div class="dt-step"><i>05</i><h4>구매</h4><p>장바구니에 담고 결제합니다</p></div>
+    <div class="dt-jr2__stage rv" aria-live="polite">
+      <figure class="dt-jr2__s on" data-i="0"><img src="assets/jr-01.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">01</span><h3>상품 · 쓰임 · 후기로<br><em>검색</em>하고 발견</h3><p>필요한 상품이나 쓰임새, 후기로 검색해 쇼핑몰을 찾습니다.</p></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="1"><img src="assets/jr-02.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">02</span><h3>스타일과 <em>기능</em> 선택</h3><p>원하는 홈페이지 스타일과 필요한 기능을 구체적으로 선택합니다.</p></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="2"><img src="assets/jr-03.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">03</span><h3>홈페이지 <em>시안</em> 제작</h3><p>요구사항을 반영한 맞춤 시안을 제작합니다.</p><ul><li>요구사항 분석</li><li>기획 및 구조 설계</li><li>디자인 시안 제작</li></ul></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="3"><img src="assets/jr-04.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">04</span><h3>검토 및 <em>수정</em></h3><p>제작된 홈페이지를 함께 검토하고, 피드백을 반영해 완성도를 높입니다.</p><ul><li>시안 검토</li><li>피드백 접수</li><li>수정 작업</li><li>최종 반영</li></ul></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="4"><img src="assets/jr-05.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">05</span><h3>홈페이지 <em>완성</em> 및 공개</h3><p>완성된 홈페이지를 최종 확인하고 온라인에 정식으로 공개합니다.</p><ul><li>최종 검수</li><li>도메인 연결</li><li>웹사이트 공개</li></ul></figcaption></figure>
     </div>
+    <div class="dt-steps dt-steps--jr rv"><span class="dt-steps__bar" aria-hidden="true"><b></b></span>
+      <div class="dt-step on" tabindex="0"><i>01</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></span><h4>검색</h4><p>상품 · 쓰임 · 후기로 찾아옵니다</p></div>
+      <div class="dt-step" tabindex="0"><i>02</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></span><h4>스타일 · 기능 선택</h4><p>원하는 스타일과 기능을 고릅니다</p></div>
+      <div class="dt-step" tabindex="0"><i>03</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></span><h4>시안 제작</h4><p>요구사항을 반영한 맞춤 시안을 만듭니다</p></div>
+      <div class="dt-step" tabindex="0"><i>04</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 5.5v6c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10v-6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span><h4>검토 · 수정</h4><p>함께 검토하고 피드백을 반영합니다</p></div>
+      <div class="dt-step" tabindex="0"><i>05</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><h4>완성 · 공개</h4><p>최종 확인 후 온라인에 공개합니다</p></div>
+      </div>
   </div>
 </section>
 <!--/ed:shop/journey-->
@@ -146,27 +166,29 @@
       <h2 class="d2">화면 구조와<br><em>핵심 기능</em></h2>
       <p class="lead">가지고 계신 자료를 그대로 옮기지 않고, 홈페이지에서 읽기 쉬운 구조로 다시 정리합니다.</p>
     </div>
-    <div class="dt-struct rv">
-      <div class="dt-tree">
-        <span class="root">쇼핑몰 홈페이지</span>
-        <ul>
-          <li>메인 · 기획전<small>추천 · 신상품</small></li>
-          <li>상품 목록<small>분류별 목록</small></li>
-          <li>상품 상세<small>사진 · 정보 · 후기</small></li>
-          <li>장바구니 · 주문<small>결제 · 배송지</small></li>
-          <li>회원<small>가입 · 적립금 · 쿠폰</small></li>
-          <li>브랜드 소개<small>이야기 · 철학</small></li>
-          <li>고객센터<small>배송 · 교환 · 문의</small></li>
-        </ul>
-      </div>
-      <ul class="dt-feat">
-        <li><div><b>결제 연결</b><span>카드 · 계좌이체 · 간편결제 등 결제를 연결합니다.</span></div></li>
-        <li><div><b>상품 · 주문 관리</b><span>상품 등록과 주문 · 배송 처리를 관리자에서 합니다.</span></div></li>
-        <li><div><b>회원 · 적립금</b><span>회원 가입, 적립금, 쿠폰으로 재구매를 돕습니다.</span></div></li>
-        <li><div><b>후기 · 문의</b><span>상품 후기와 문의를 받고 답변합니다.</span></div></li>
-        <li><div><b>모바일 쇼핑 화면</b><span>휴대폰에서 고르고 결제하기 편하게 만듭니다.</span></div></li>
-      </ul>
+    <div class="hv rv">
+      <ol class="hv__list">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5l8-3v19M12 8h8v13M2 21h20"/></svg></i><div><b>메인 · 기획전</b><span>추천 · 신상품</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></i><div><b>상품 목록</b><span>분류별 목록</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></i><div><b>상품 상세</b><span>사진 · 정보 · 후기</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></i><div><b>장바구니 · 주문</b><span>결제 · 배송지</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></i><div><b>회원</b><span>가입 · 적립금 · 쿠폰</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></i><div><b>브랜드 소개</b><span>이야기 · 철학</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">07</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></i><div><b>고객센터</b><span>배송 · 교환 · 문의</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="on">메인</span><span class="">상품</span><span class="">상품</span><span class="">장바구니</span><span class="">회원</span><span class="">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/ind-shop.jpg" alt="" loading="lazy"><p>메인 · 기획전</p></div><div class="mk__rows" style="grid-template-columns:repeat(2,1fr)"><i><b></b>추천</i><i><b></b>신상품</i></div></div><figcaption><span class="no">01</span><b>메인 · 기획전</b><p>추천 · 신상품</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="on">상품</span><span class="">상품</span><span class="">장바구니</span><span class="">회원</span><span class="">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/jr-02.jpg" alt="" loading="lazy"><p>상품 목록</p></div><div class="mk__rows" style="grid-template-columns:repeat(1,1fr)"><i><b></b>분류별 목록</i></div></div><figcaption><span class="no">02</span><b>상품 목록</b><p>분류별 목록</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="">상품</span><span class="on">상품</span><span class="">장바구니</span><span class="">회원</span><span class="">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/ind-cafe.jpg" alt="" loading="lazy"><p>상품 상세</p></div><div class="mk__rows" style="grid-template-columns:repeat(3,1fr)"><i><b></b>사진</i><i><b></b>정보</i><i><b></b>후기</i></div></div><figcaption><span class="no">03</span><b>상품 상세</b><p>사진 · 정보 · 후기</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="">상품</span><span class="">상품</span><span class="on">장바구니</span><span class="">회원</span><span class="">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/biz-mobile.gif" alt="" loading="lazy"><p>장바구니 · 주문</p></div><div class="mk__rows" style="grid-template-columns:repeat(2,1fr)"><i><b></b>결제</i><i><b></b>배송지</i></div></div><figcaption><span class="no">04</span><b>장바구니 · 주문</b><p>결제 · 배송지</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="">상품</span><span class="">상품</span><span class="">장바구니</span><span class="on">회원</span><span class="">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/biz-maint.jpg" alt="" loading="lazy"><p>회원</p></div><div class="mk__rows" style="grid-template-columns:repeat(3,1fr)"><i><b></b>가입</i><i><b></b>적립금</i><i><b></b>쿠폰</i></div></div><figcaption><span class="no">05</span><b>회원</b><p>가입 · 적립금 · 쿠폰</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="">상품</span><span class="">상품</span><span class="">장바구니</span><span class="">회원</span><span class="on">브랜드</span><span class="">고객센터</span></div><div class="mk__hero"><img src="assets/jr-03.jpg" alt="" loading="lazy"><p>브랜드 소개</p></div><div class="mk__rows" style="grid-template-columns:repeat(2,1fr)"><i><b></b>이야기</i><i><b></b>철학</i></div></div><figcaption><span class="no">06</span><b>브랜드 소개</b><p>이야기 · 철학</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--br"><div class="mk__bar"><em></em><em></em><em></em><span>www.oowood.co.kr</span></div><div class="mk__nav"><strong>○○우드</strong><span class="">메인</span><span class="">상품</span><span class="">상품</span><span class="">장바구니</span><span class="">회원</span><span class="">브랜드</span><span class="on">고객센터</span></div><div class="mk__hero"><img src="assets/jr-04.jpg" alt="" loading="lazy"><p>고객센터</p></div><div class="mk__rows" style="grid-template-columns:repeat(3,1fr)"><i><b></b>배송</i><i><b></b>교환</i><i><b></b>문의</i></div></div><figcaption><span class="no">07</span><b>고객센터</b><p>배송 · 교환 · 문의</p></figcaption></figure>
+        </div>
     </div>
+    <ul class="hv__chips">
+      <li><b>결제 연결</b></li><li><b>상품 · 주문 관리</b></li><li><b>회원 · 적립금</b></li><li><b>후기 · 문의</b></li><li><b>모바일 쇼핑 화면</b></li>
+    </ul>
   </div>
 </section>
 <!--/ed:shop/structure-->
@@ -180,16 +202,29 @@
       <h2 class="d2">기본으로<br><em>함께 드립니다</em></h2>
       <p class="lead">따로 요청하지 않으셔도 모든 홈페이지에 들어가는 항목입니다.</p>
     </div>
-    <div class="dt-incl rv">
-      <div><b>반응형 화면</b><span>PC · 태블릿 · 휴대폰 어디서든 보기 좋게 맞춥니다.</span></div>
-      <div><b>보안 접속(SSL)</b><span>주소창 자물쇠 표시로 방문자가 안심하고 볼 수 있습니다.</span></div>
-      <div><b>검색 등록</b><span>네이버 서치어드바이저 · 구글 서치콘솔 등록과 사이트맵 제출.</span></div>
-      <div><b>방문 통계 연결</b><span>어떤 검색어로 몇 명이 들어오는지 확인할 수 있게 연결합니다.</span></div>
-      <div><b>화면 보며 고치는 관리자</b><span>글자 · 사진 · 메뉴를 홈페이지 화면에서 바로 수정합니다.</span></div>
-      <div><b>문의 알림</b><span>문의가 들어오면 이메일로 바로 알려 드립니다.</span></div>
-      <div><b>AI가 읽는 구조</b><span>자주 묻는 질문과 구조화 데이터로 회사 정보를 정리합니다.</span></div>
-      <div><b>게시판 · 공지</b><span>소식 · 공지 · 자료를 직접 올릴 수 있습니다.</span></div>
-      <div><b>오픈 후 안내</b><span>관리자 사용법과 운영 방법을 정리해 전달합니다.</span></div>
+    <div class="hv hv--rev rv">
+      <ol class="hv__list hv__list--grid">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="14" height="10" rx="1.2"/><path d="M6 18h6M9 14v4"/><rect x="17" y="8" width="5" height="12" rx="1.2"/></svg></i><div><b>반응형 화면</b><span>PC · 태블릿 · 휴대폰 어디서나</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></i><div><b>보안 접속(SSL)</b><span>주소창 자물쇠 표시</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></i><div><b>검색 등록</b><span>네이버 · 구글 등록과 사이트맵</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">04</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M7 17V11M12 17V6M17 17v-4"/></svg></i><div><b>방문 통계 연결</b><span>검색어 · 방문 수 확인</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">05</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg></i><div><b>화면 보며 고치는 관리자</b><span>글자 · 사진 · 메뉴 바로 수정</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">06</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></i><div><b>문의 알림</b><span>문의가 오면 이메일로</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">07</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg></i><div><b>AI가 읽는 구조</b><span>자주 묻는 질문 · 구조화 데이터</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">08</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></i><div><b>게시판 · 공지</b><span>소식 · 공지 · 자료 직접 등록</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">09</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3z"/><path d="M4 17a3 3 0 0 1 3-3h11"/></svg></i><div><b>오픈 후 안내</b><span>관리자 사용법 정리</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--gif"><img src="assets/biz-mobile.gif" alt="" loading="lazy" style="object-position:50% 50%"></div><figcaption><span class="no">01</span><b>반응형 화면</b><p>PC · 태블릿 · 휴대폰 어디서든 보기 좋게 맞춥니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--ssl"><div class="mk__url"><span class="lk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>https://www.example.co.kr<em>보안 연결됨</em></div><div class="mk__shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><p>주소창 자물쇠로<br>안심하고 둘러봅니다</p></div><figcaption><span class="no">02</span><b>보안 접속(SSL)</b><p>주소창 자물쇠 표시로 방문자가 안심하고 볼 수 있습니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-seo.jpg" alt="" loading="lazy" style="object-position:22% 55%"><figcaption><span class="no">03</span><b>검색 등록</b><p>네이버 서치어드바이저 · 구글 서치콘솔 등록과 사이트맵을 제출합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--chart"><div class="mk__kpi"><span><b>1,284</b>이번 달 방문</span><span><b>+38%</b>지난달 대비</span><span><b>62%</b>검색 유입</span></div><div class="mk__bars"><i style="--h:34%"></i><i style="--h:48%"></i><i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:55%"></i><i style="--h:70%"></i><i style="--h:66%"></i><i style="--h:82%"></i><i style="--h:76%"></i><i style="--h:92%"></i></div><div class="mk__kw"><span>스테인리스 배관 부품</span><span>정밀 가공 업체</span><span>OEM 생산</span></div></div><figcaption><span class="no">04</span><b>방문 통계 연결</b><p>어떤 검색어로 몇 명이 들어오는지 확인할 수 있게 연결합니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-maint.jpg" alt="" loading="lazy" style="object-position:24% 50%"><figcaption><span class="no">05</span><b>화면 보며 고치는 관리자</b><p>글자 · 사진 · 메뉴를 홈페이지 화면에서 바로 수정합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--noti"><div class="mk__card"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>새 견적 문의가 도착했습니다</b><p>○○기계 · 플랜지 500개 견적 요청</p></div><em>방금</em></div><div class="mk__card dim"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>제휴 문의</b><p>△△산업 · 납품 협력 문의</p></div><em>1시간 전</em></div><div class="mk__card dim"><span class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><div><b>자료 요청</b><p>카탈로그 PDF 요청</p></div><em>어제</em></div></div><figcaption><span class="no">06</span><b>문의 알림</b><p>문의가 들어오면 이메일로 바로 알려 드립니다.</p></figcaption></figure>
+        <figure class="hv__s"><img src="assets/biz-aeo.jpg" alt="" loading="lazy" style="object-position:50% 50%"><figcaption><span class="no">07</span><b>AI가 읽는 구조</b><p>자주 묻는 질문과 구조화 데이터로 회사 정보를 정리합니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--board"><div class="mk__bh"><b>공지 · 소식</b><span>+ 글쓰기</span></div><div class="mk__row"><em>공지</em><b>2026 하반기 설비 증설 안내</b><span>11.08</span></div><div class="mk__row"><em>소식</em><b>국제 기계전 참가 안내</b><span>11.02</span></div><div class="mk__row"><em>자료</em><b>2026 제품 카탈로그</b><span>10.27</span></div><div class="mk__row"><em>공지</em><b>추석 연휴 배송 일정</b><span>09.20</span></div></div><figcaption><span class="no">08</span><b>게시판 · 공지</b><p>소식 · 공지 · 자료를 직접 올릴 수 있습니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--guide"><div class="mk__doc"><b>관리자 사용 안내서</b><span><i>1</i>글자 · 사진 바꾸기</span><span><i>2</i>제품 · 실적 등록</span><span><i>3</i>게시글 올리기</span><span><i>4</i>문의 확인하기</span></div><div class="mk__tag">오픈 후 1:1 설명</div></div><figcaption><span class="no">09</span><b>오픈 후 안내</b><p>관리자 사용법과 운영 방법을 정리해 전달합니다.</p></figcaption></figure>
+        </div>
     </div>
   </div>
 </section>
@@ -204,10 +239,17 @@
       <h2 class="d2">비용은 이렇게<br><em>정해집니다</em></h2>
       <p class="lead">견적을 드리기 전에 무엇에 따라 비용이 달라지는지 먼저 설명드립니다.</p>
     </div>
-    <div class="dt-cost rv">
-      <div><span class="n">01</span><h4>화면 수</h4><p>메인 외에 몇 개의 화면이 필요한지가 가장 큰 기준입니다.</p></div>
-      <div><span class="n">02</span><h4>내용 준비 범위</h4><p>문구 작성 · 사진 정리 · 자료 옮기기를 어디까지 맡기시는지에 따라 달라집니다.</p></div>
-      <div><span class="n">03</span><h4>기능과 언어</h4><p>예약 · 결제 · 회원 같은 기능이나 외국어 화면이 필요하면 범위가 늘어납니다.</p></div>
+    <div class="hv hv--cost rv">
+      <ol class="hv__list hv__list--big">
+        <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></i><div><b>화면 수</b><span>메인 외에 몇 개의 화면이 필요한지가 가장 큰 기준입니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg></i><div><b>내용 준비 범위</b><span>문구 작성 · 사진 정리 · 자료 옮기기를 어디까지 맡기시는지에 따라 달라집니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 4 6 4 9.5s-1.4 6.7-4 9.5c-2.6-2.8-4-6-4-9.5s1.4-6.7 4-9.5z"/></svg></i><div><b>기능과 언어</b><span>예약 · 결제 · 회원 같은 기능이나 외국어 화면이 필요하면 범위가 늘어납니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
+        </ol>
+      <div class="hv__stage" aria-hidden="true">
+        <figure class="hv__s on"><div class="mk mk--pages"><div class="mk__tree"><span class="m">메인</span><div><span style="--d:0.0s">회사소개</span><span style="--d:0.08s">제품</span><span style="--d:0.16s">기술</span><span style="--d:0.24s">실적</span><span style="--d:0.32s">홍보</span><span style="--d:0.4s">채용</span><span style="--d:0.48s">문의</span><span style="--d:0.56s">영문</span></div></div><div class="mk__meter"><b>화면 수</b><i><em style="width:72%"></em></i><span>메인 + 8개 화면</span></div></div><figcaption><span class="no">01</span><b>화면 수</b><p>메인 외에 필요한 화면 수가 가장 큰 기준입니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--prep"><div class="mk__opt on"><span class="ck"></span><div><b>문구 작성</b><p>회사 소개 · 제품 설명 글을 새로 씁니다</p></div><em>몽웹이 작성</em></div><div class="mk__opt on"><span class="ck"></span><div><b>사진 정리</b><p>보유 사진 보정 · 크기 맞춤</p></div><em>몽웹이 정리</em></div><div class="mk__opt on"><span class="ck"></span><div><b>자료 옮기기</b><p>카탈로그 · 인증서를 화면으로 옮깁니다</p></div><em>몽웹이 진행</em></div><div class="mk__opt"><span class="ck"></span><div><b>촬영</b><p>제품 · 공장 사진 새로 촬영</p></div><em>선택 사항</em></div></div><figcaption><span class="no">02</span><b>내용 준비 범위</b><p>문구 · 사진 · 자료 준비를 어디까지 맡기시는지에 따라 달라집니다.</p></figcaption></figure>
+        <figure class="hv__s"><div class="mk mk--func"><p class="h">필요한 기능</p><div class="mk__chips"><span class="on">견적 문의</span><span class="on">자료실</span><span class="">예약</span><span class="">결제</span><span class="">회원</span><span class="on">게시판</span></div><p class="h">화면 언어</p><div class="mk__chips"><span class="on">한국어</span><span class="on">English</span><span class="">中文</span><span class="">日本語</span></div></div><figcaption><span class="no">03</span><b>기능과 언어</b><p>예약 · 결제 · 회원 기능이나 외국어 화면이 늘면 범위가 넓어집니다.</p></figcaption></figure>
+        </div>
     </div>
     <div class="dt-more rv"><a class="btn" href="price.html" style="color:var(--ink)"><span>비용 안내 자세히 보기</span>
       <svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
@@ -240,6 +282,7 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
+<script src="js/dt-fit.js?v=6"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>
