@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261110x">
+<link rel="stylesheet" href="css/v2.css?v=20261110z">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -127,21 +127,32 @@
 
 <!-- 고객 이동 경로 -->
 <!--ed:corporate/journey-->
-<section class="sec cap dt-sec dt-jr" id="journey" data-nav="dark">
-  <div class="dt-jr__art" aria-hidden="true"><img class="base" src="assets/corp-journey.jpg" alt="" width="2600" height="960"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(20.6% 16.2%,53.2% 6.2%,50.0% 81.7%,17.5% 77.5%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(52.6% 18.8%,65.2% 15.0%,62.6% 83.3%,50.0% 80.8%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(64.5% 20.0%,75.5% 16.7%,74.0% 81.7%,63.5% 79.2%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(75.0% 22.9%,84.5% 19.8%,83.2% 79.2%,74.1% 77.1%)"><img class="hl" src="assets/corp-journey.jpg" alt="" style="clip-path:polygon(84.1% 26.7%,93.3% 23.5%,92.2% 76.2%,83.2% 74.6%)"></div>
+<section class="sec cap dt-sec dt-jr dt-jr2" id="journey" data-nav="dark">
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow"><b>／ 04</b>&nbsp; Customer Journey</span>
       <h2 class="d2">검색에서 문의까지,<br><em>막힘없는 흐름</em></h2>
       <p class="lead">방문자가 단계마다 찾는 정보를 미리 준비해, 중간에 떠나지 않고 문의까지 이어지게 합니다.</p>
     </div>
+    <div class="dt-jr2__stage rv" aria-live="polite">
+      <figure class="dt-jr2__s on" data-i="0"><img src="assets/jr-01.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">01</span><h3>제품 · 기술 · 지역으로<br><em>검색</em>하고 발견</h3><p>필요한 제품이나 기술, 지역으로 검색해 적합한 회사를 찾습니다.</p></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="1"><img src="assets/jr-02.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">02</span><h3>스타일과 <em>기능</em> 선택</h3><p>원하는 홈페이지 스타일과 필요한 기능을 구체적으로 선택합니다.</p></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="2"><img src="assets/jr-03.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">03</span><h3>홈페이지 <em>시안</em> 제작</h3><p>요구사항을 반영한 맞춤 시안을 제작합니다.</p><ul><li>요구사항 분석</li><li>기획 및 구조 설계</li><li>디자인 시안 제작</li></ul></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="3"><img src="assets/jr-04.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">04</span><h3>검토 및 <em>수정</em></h3><p>제작된 홈페이지를 함께 검토하고, 피드백을 반영해 완성도를 높입니다.</p><ul><li>시안 검토</li><li>피드백 접수</li><li>수정 작업</li><li>최종 반영</li></ul></figcaption></figure>
+      <figure class="dt-jr2__s" data-i="4"><img src="assets/jr-05.jpg" alt="" loading="lazy">
+        <figcaption><span class="no">05</span><h3>홈페이지 <em>완성</em> 및 공개</h3><p>완성된 홈페이지를 최종 확인하고 온라인에 정식으로 공개합니다.</p><ul><li>최종 검수</li><li>도메인 연결</li><li>웹사이트 공개</li></ul></figcaption></figure>
+    </div>
     <div class="dt-steps dt-steps--jr rv"><span class="dt-steps__bar" aria-hidden="true"><b></b></span>
       <div class="dt-step on" tabindex="0"><i>01</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></span><h4>검색</h4><p>제품명 · 기술 · 지역으로 찾아옵니다</p></div>
-      <div class="dt-step" tabindex="0"><i>02</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></span><h4>확인</h4><p>무슨 회사인지 첫 화면에서 파악합니다</p></div>
-      <div class="dt-step" tabindex="0"><i>03</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></span><h4>비교</h4><p>제품 · 기술 · 설비를 살펴봅니다</p></div>
-      <div class="dt-step" tabindex="0"><i>04</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 5.5v6c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10v-6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span><h4>신뢰</h4><p>실적 · 인증 · 거래처를 확인합니다</p></div>
-      <div class="dt-step" tabindex="0"><i>05</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><h4>문의</h4><p>견적 · 상담을 남깁니다</p></div>
-    </div>
+      <div class="dt-step" tabindex="0"><i>02</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></span><h4>스타일 · 기능 선택</h4><p>원하는 스타일과 기능을 고릅니다</p></div>
+      <div class="dt-step" tabindex="0"><i>03</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></span><h4>시안 제작</h4><p>요구사항을 반영한 맞춤 시안을 만듭니다</p></div>
+      <div class="dt-step" tabindex="0"><i>04</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 5.5v6c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10v-6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span><h4>검토 · 수정</h4><p>함께 검토하고 피드백을 반영합니다</p></div>
+      <div class="dt-step" tabindex="0"><i>05</i><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span><h4>완성 · 공개</h4><p>최종 확인 후 온라인에 공개합니다</p></div>
+      </div>
   </div>
 </section>
 <!--/ed:corporate/journey-->
@@ -249,7 +260,7 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
-<script src="js/dt-fit.js?v=4"></script>
+<script src="js/dt-fit.js?v=5"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>

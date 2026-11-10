@@ -39,6 +39,7 @@
       cur = i;
       steps.forEach(function (s, k) { s.classList.toggle('on', k === i); s.classList.toggle('done', k < i); });
       hls.forEach(function (h, k) { h.classList.toggle('on', k === i); });
+      [].forEach.call(sec.querySelectorAll('.dt-jr2__s'), function (f, k) { f.classList.toggle('on', k === i); });
       sec.classList.add('lit');
       if (bar && steps[i]) {
         var dot = steps[i].querySelector('i'), wrap = bar.parentNode;
@@ -58,7 +59,7 @@
       new IntersectionObserver(function (es) {
         es.forEach(function (e) {
           clearInterval(auto);
-          if (e.isIntersecting) { show(cur); auto = setInterval(tick, 2600); }
+          if (e.isIntersecting) { show(cur); auto = setInterval(tick, sec.classList.contains('dt-jr2') ? 4200 : 2600); }
         });
       }, { threshold: .3 }).observe(sec);
     }
