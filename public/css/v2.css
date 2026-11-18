@@ -1990,37 +1990,28 @@ html.ed-on .dt-faq details p{display:block}
   .cz-ph__cap,.cz-prep .cz-rows li,.cz-prep .cz-rows li::before{transition:none}
 }
 
-/* 병원 상세 07 비용 — 01 화면 수: BASIC / STANDARD / PREMIUM 유형 탭 (다크 네이비 무대 유지) */
-.hv--tier .hv__stage{min-height:540px}
-.hv__s--tier{padding:clamp(26px,3vw,40px);align-items:stretch;justify-content:stretch}
+/* 병원 상세 07 비용 — 01 화면 수: BASIC · STANDARD · PREMIUM 3단 글 + 타이핑 효과 (다크 네이비 무대 유지) */
+.hv--tier .hv__stage{min-height:660px}
+.hv__s--tier{padding:clamp(26px,3vw,38px);align-items:stretch;justify-content:stretch}
 .tier{position:relative;z-index:1;display:flex;flex-direction:column;width:100%;color:#fff}
-.tier__eb{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;color:#c9cef0;margin-bottom:18px}
+.tier__eb{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;color:#c9cef0;margin-bottom:8px}
 .tier__eb span{color:#8b95ff;font-weight:800}
-.tier__tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:5px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(160,168,220,.18)}
-.tier__tab{appearance:none;border:0;cursor:pointer;padding:12px 8px;border-radius:9px;background:transparent;color:#aeb4d6;font:inherit;font-size:clamp(13px,1vw,15px);font-weight:800;letter-spacing:.08em;transition:background .3s,color .3s,box-shadow .3s}
-.tier__tab:hover{color:#fff}
-.tier__tab.on{background:#0000FA;color:#fff;box-shadow:0 10px 24px -10px rgba(40,60,255,.9)}
-.tier__tab:focus-visible{outline:2px solid #8b95ff;outline-offset:2px}
-.tier__body{position:relative;display:grid;flex:1;margin-top:clamp(22px,2.4vw,32px)}
-.tier__p{grid-area:1/1;opacity:0;transition:opacity .35s ease}
-.tier__p[hidden]{display:block;visibility:hidden}
-.tier__p.on{opacity:1;visibility:visible}
-.tier__top{display:flex;align-items:center;flex-wrap:wrap;gap:10px 14px}
-.tier__name{font-size:clamp(26px,2.4vw,34px);font-weight:800;letter-spacing:.02em;line-height:1}
-.tier__pg{padding:6px 12px;border-radius:999px;background:rgba(77,91,255,.22);color:#c3c9ff;font-size:14px;font-weight:700}
-.tier__lv{display:flex;gap:4px;margin-left:auto}
-.tier__lv i{width:22px;height:6px;border-radius:3px;background:rgba(255,255,255,.14)}
-.tier__lv i.on{background:#4D5BFF}
-.tier__copy{margin-top:16px;font-size:clamp(19px,1.7vw,24px);font-weight:800;letter-spacing:-.03em;line-height:1.4}
-.tier__rec{margin-top:18px;padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(160,168,220,.14)}
-.tier__rec dt{font-size:13px;font-weight:700;color:#8b95ff;margin-bottom:4px}
-.tier__rec dd{margin:0;font-size:15.5px;color:#eef0fa;line-height:1.55}
-.tier__d{margin-top:14px;font-size:15.5px;line-height:1.65;color:#c9cef0}
-.tier__foot{margin-top:clamp(18px,2vw,26px);padding-top:16px;border-top:1px solid rgba(160,168,220,.18)}
+.tier__list{list-style:none;margin:0;padding:0;flex:1;display:flex;flex-direction:column}
+.tier__r{padding:18px 0;border-bottom:1px solid rgba(160,168,220,.16)}
+.tier__top{display:flex;align-items:baseline;gap:12px}
+.tier__name{font-size:clamp(20px,1.7vw,24px);font-weight:800;letter-spacing:.04em;color:#8b95ff}
+.tier__pg{font-size:14px;font-weight:700;color:#c3c9ff}
+.tier__copy{margin-top:6px;font-size:clamp(17px,1.4vw,20px);font-weight:800;letter-spacing:-.03em;line-height:1.4}
+.tier__rec{margin-top:6px;font-size:14.5px;line-height:1.55;color:#e3e6f6;display:flex;gap:8px}
+.tier__rec span{flex:none;font-size:12.5px;font-weight:700;color:#8b95ff;padding-top:1px;opacity:0;transition:opacity .3s}
+.tier__r.go .tier__rec span{opacity:1}
+.tier__rec em{font-style:normal}
+.tier__d{margin-top:4px;font-size:14px;line-height:1.55;color:#aab0d2}
+.tier__foot{margin-top:16px}
 .tier__foot p{font-size:14.5px;line-height:1.6;color:#e3e6f6}
 .tier__foot small{display:block;margin-top:6px;font-size:12px;line-height:1.5;color:#8a90b4}
-@media (max-width:1080px){
-  .hv--tier .hv__stage{min-height:700px}
-  .tier__lv{margin-left:0}
-}
-@media (prefers-reduced-motion:reduce){.tier__p,.tier__tab{transition:none}}
+.ty__rest{color:transparent}
+.ty--cur .ty__on::after{content:"";display:inline-block;width:2px;height:1em;margin-left:2px;vertical-align:-.12em;background:#8b95ff;animation:tyBlink .7s steps(1) infinite}
+@keyframes tyBlink{50%{opacity:0}}
+@media (max-width:1080px){.hv--tier .hv__stage{min-height:880px}}
+@media (max-width:480px){.hv--tier .hv__stage{min-height:900px}}
