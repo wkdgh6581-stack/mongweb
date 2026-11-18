@@ -1341,6 +1341,7 @@ html.ed-on .dt-faq details p{display:block}
   .bizp__viz--photo img{object-position:30% 50%}
   .bizp:has(.bizp__viz--photo) .bizp__scrim{background:linear-gradient(0deg,#070a1f 0%,#070a1f 42%,rgba(7,10,31,.55) 52%,transparent 66%)}
 }
+.bizp__viz--sky img{object-position:50% 50%}
 /* 업종 패널 01 — 하늘·빌딩 배경: 밝은 배경 위 흰 글자가 읽히도록 오른쪽을 더 어둡게 */
 .bizp:has(.bizp__viz--sky) .bizp__scrim{background:
    linear-gradient(-90deg,rgba(6,10,28,.86) 0%,rgba(6,10,28,.62) 24%,rgba(6,10,28,.18) 48%,transparent 62%),

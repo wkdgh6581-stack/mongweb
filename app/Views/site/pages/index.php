@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261118a">
+<link rel="stylesheet" href="css/v2.css?v=20261118b">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -190,7 +190,7 @@
 
   <!-- 01 기업 홈페이지 -->
   <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz bizp__viz--photo bizp__viz--sky"><img src="assets/biz-corporate-sky.jpg" alt="기업 홈페이지가 열린 노트북" width="1672" height="941" loading="lazy"></div>
+    <div class="bizp__viz bizp__viz--photo bizp__viz--sky"><img src="assets/biz-corporate-sky.jpg" alt="하늘을 향해 솟은 유리 빌딩들" width="1672" height="941" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">01</span><span class="bizp__en">Corporate Website</span>
