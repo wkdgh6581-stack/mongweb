@@ -1844,3 +1844,82 @@ html.ed-on .dt-faq details p{display:block}
 .subhero--dim .subhero__bg img{filter:blur(1.5px) brightness(.85)}
 .subhero--dim .subhero__bg::after{background:linear-gradient(180deg,rgba(8,14,34,.7) 0%,transparent 22%),linear-gradient(90deg,rgba(8,14,34,.95) 0%,rgba(8,14,34,.85) 45%,rgba(8,14,34,.35) 70%,rgba(8,14,34,.1) 100%)}
 @media (max-width:1080px){.subhero--dim .subhero__bg::after{background:rgba(8,14,34,.78)}}
+
+/* ───────── 기업 홈페이지 상세(corporate) — 간결한 흰 바탕 구성 (2026-11-18)
+   흰 바탕 · 검정 글자 · 로고 블루 한 가지 강조색. 숫자 + 짧은 문장 위주. */
+.cz{background:#fff;color:var(--ink)}
+.cz ol,.cz ul{list-style:none;margin:0;padding:0}
+.cz-sec{padding-block:clamp(72px,8vw,128px);background:#fff}
+.cz-sec--tint{background:var(--paper)}
+.cz-head{max-width:760px;margin-bottom:clamp(36px,4.4vw,64px)}
+.cz-eb{font-size:14px;font-weight:700;color:var(--orange);letter-spacing:-.01em;margin-bottom:14px}
+.cz-head h2,.cz-cta h2{font-size:clamp(28px,3.2vw,46px);font-weight:800;letter-spacing:-.035em;line-height:1.25;color:var(--ink)}
+.cz-lead{margin-top:18px;font-size:clamp(16px,1.25vw,18px);line-height:1.75;color:var(--ink-mut)}
+.cz-no{font-size:clamp(26px,2.4vw,36px);font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--orange);font-variant-numeric:tabular-nums}
+
+/* 준비할 것 — 번호 · 제목 · 설명 한 줄 */
+.cz-rows{border-top:1px solid var(--line-l)}
+.cz-rows li{display:grid;grid-template-columns:clamp(64px,7vw,110px) minmax(0,1fr) minmax(0,1fr);gap:clamp(16px,3vw,48px);align-items:start;
+  padding:clamp(26px,3vw,40px) 0;border-bottom:1px solid var(--line-l)}
+.cz-lb{font-size:13.5px;color:var(--ink-mut);margin-bottom:8px}
+.cz-rows h3{font-size:clamp(20px,1.9vw,28px);font-weight:700;letter-spacing:-.03em;line-height:1.35}
+.cz-d{font-size:clamp(15px,1.1vw,17px);line-height:1.75;color:var(--ink-2);padding-top:4px}
+
+/* 보통의 제작 vs 몽웹 */
+.cz-vs{display:grid;grid-template-columns:1fr 1fr;gap:clamp(14px,2vw,28px)}
+.cz-vs__c{background:#fff;border:1px solid var(--line-l);border-radius:18px;padding:clamp(28px,3.4vw,48px)}
+.cz-vs__c--on{border-color:var(--orange);box-shadow:0 18px 48px -24px rgba(0,0,250,.35)}
+.cz-vs__t{font-size:clamp(18px,1.5vw,22px);font-weight:800;letter-spacing:-.03em;margin-bottom:20px;color:var(--ink-mut)}
+.cz-vs__c--on .cz-vs__t{color:var(--orange)}
+.cz-vs li{position:relative;padding:14px 0 14px 30px;border-top:1px solid var(--line-l);font-size:clamp(15px,1.15vw,17.5px);color:var(--ink-mut)}
+.cz-vs li::before{content:"";position:absolute;left:4px;top:50%;width:12px;height:1.5px;background:var(--line-l2)}
+.cz-vs__c--on li{color:var(--ink);font-weight:600}
+.cz-vs__c--on li::before{left:2px;width:14px;height:8px;margin-top:-6px;background:none;border:solid var(--orange);border-width:0 0 2px 2px;transform:rotate(-45deg)}
+
+/* 진행 과정 — 4단계 가로 */
+.cz-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,28px);counter-reset:s}
+.cz-steps li{position:relative;padding-top:28px;border-top:2px solid var(--ink)}
+.cz-steps li:first-child{border-top-color:var(--orange)}
+.cz-steps h3{margin:16px 0 10px;font-size:clamp(20px,1.7vw,24px);font-weight:800;letter-spacing:-.03em}
+.cz-steps p{font-size:clamp(15px,1.05vw,16.5px);line-height:1.75;color:var(--ink-2)}
+.cz-steps em{display:inline-block;margin-top:18px;padding:6px 12px;border-radius:999px;background:var(--paper);font-style:normal;font-size:13.5px;font-weight:600;color:var(--orange)}
+
+/* 이런 기업 — 6개 카드 */
+.cz-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(12px,1.6vw,20px)}
+.cz-cards li{background:#fff;border:1px solid var(--line-l);border-radius:16px;padding:clamp(24px,2.6vw,36px);min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:22px}
+.cz-cards .cz-no{font-size:18px}
+.cz-cards p{font-size:clamp(17px,1.35vw,20px);font-weight:700;letter-spacing:-.03em;line-height:1.45}
+
+/* 기본 포함 — 8칸 */
+.cz-incl{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-l);border-left:1px solid var(--line-l)}
+.cz-incl li{padding:clamp(24px,2.4vw,34px);border-right:1px solid var(--line-l);border-bottom:1px solid var(--line-l)}
+.cz-incl .cz-no{display:block;font-size:15px;margin-bottom:14px}
+.cz-incl b{display:block;font-size:clamp(17px,1.3vw,19px);font-weight:800;letter-spacing:-.03em;margin-bottom:8px}
+.cz-incl p{font-size:15px;line-height:1.7;color:var(--ink-mut)}
+
+/* 자주 묻는 질문 */
+.cz-faq{max-width:980px;border-top:1px solid var(--line-l)}
+.cz-faq details{border-bottom:1px solid var(--line-l)}
+.cz-faq summary{list-style:none;cursor:pointer;position:relative;padding:24px 48px 24px 0;font-size:clamp(17px,1.35vw,20px);font-weight:700;letter-spacing:-.025em}
+.cz-faq summary::-webkit-details-marker{display:none}
+.cz-faq summary::before{content:"Q";margin-right:14px;color:var(--orange);font-weight:800}
+.cz-faq summary::after{content:"";position:absolute;right:8px;top:50%;width:10px;height:10px;margin-top:-8px;border:solid var(--ink);border-width:0 2px 2px 0;transform:rotate(45deg);transition:transform .25s}
+.cz-faq details[open] summary::after{transform:rotate(-135deg);margin-top:-3px}
+.cz-faq details p{padding:0 48px 26px 32px;font-size:clamp(15px,1.1vw,17px);line-height:1.8;color:var(--ink-2)}
+
+/* 시작하기 */
+.cz-cta{padding-block:clamp(72px,8vw,120px);background:#fff;text-align:center;border-top:1px solid var(--line-l)}
+.cz-cta p:not(.cz-eb){margin:14px auto 30px;font-size:clamp(16px,1.2vw,18px);color:var(--ink-mut)}
+
+@media (max-width:1080px){
+  .cz-steps{grid-template-columns:repeat(2,1fr);row-gap:40px}
+  .cz-incl{grid-template-columns:repeat(2,1fr)}
+  .cz-cards{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:720px){
+  .cz-rows li{grid-template-columns:52px 1fr;row-gap:10px}
+  .cz-rows .cz-d{grid-column:2}
+  .cz-vs{grid-template-columns:1fr}
+  .cz-steps,.cz-cards{grid-template-columns:1fr}
+  .cz-cards li{min-height:0}
+}
