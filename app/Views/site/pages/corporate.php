@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261118k">
+<link rel="stylesheet" href="css/v2.css?v=20261118l">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -247,16 +247,17 @@
 <script src="js/v2.js?v=20260902"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
 <script>
-/* '몽웹과 함께하면' 항목을 2초마다 차례로 강조 — 화면에 보일 때만 돈다 */
+/* '몽웹과 함께하면' 항목 호버 강조 — 마우스를 올린 항목이 강조되고, 카드에서 벗어나면 1번으로 돌아간다 (휴대폰은 누르면 강조) */
 (function(){
   var box=document.querySelector('.cz-vs__c--on'); if(!box) return;
   var items=[].slice.call(box.querySelectorAll('li')); if(!items.length) return;
-  var i=0, t=null;
   function show(n){ items.forEach(function(li,k){ li.classList.toggle('on',k===n); }); }
-  function start(){ if(t) return; show(i); t=setInterval(function(){ i=(i+1)%items.length; show(i); },2000); }
-  function stop(){ clearInterval(t); t=null; }
-  if(!('IntersectionObserver' in window)){ start(); return; }
-  new IntersectionObserver(function(es){ es.forEach(function(e){ e.isIntersecting?start():stop(); }); },{threshold:.4}).observe(box);
+  items.forEach(function(li,k){
+    li.addEventListener('mouseenter',function(){ show(k); });
+    li.addEventListener('click',function(){ show(k); });
+  });
+  box.querySelector('ul').addEventListener('mouseleave',function(){ show(0); });
+  show(0);
 })();
 </script>
 </body>
