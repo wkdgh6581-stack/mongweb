@@ -1953,17 +1953,17 @@ html.ed-on .dt-faq details p{display:block}
   .cz-cards li{min-height:0}
 }
 
-/* 기업 상세 — '몽웹과 함께하면' 첫 항목 강조 모션: 화면에 보이면 파란 띠가 왼쪽에서 채워지고, 체크가 그려진 뒤 은은하게 반짝임 */
-.cz-vs__c--on li:first-child{z-index:0;margin:0 -16px;padding-left:48px;padding-right:16px;border-radius:12px;overflow:hidden;transition:color .5s .9s,box-shadow .6s 1s}
-.cz-vs__c--on li:first-child::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(90deg,#0000FA,#3d4bff);
-  transform:scaleX(0);transform-origin:left;transition:transform .9s var(--e2) .5s}
-.cz-vs__c--on li:first-child::before{left:20px;border-color:var(--orange);transition:border-color .4s .9s}
-.cz-vs__c--on li:first-child+li{border-top-color:transparent}
-.cz-vs.in .cz-vs__c--on li:first-child{color:#fff;box-shadow:0 14px 34px -14px rgba(0,0,250,.55);animation:czGlow 2.6s ease-in-out 1.8s infinite}
-.cz-vs.in .cz-vs__c--on li:first-child::after{transform:scaleX(1)}
-.cz-vs.in .cz-vs__c--on li:first-child::before{border-color:#fff;animation:czTick .5s var(--e2) 1s both}
+/* 기업 상세 — '몽웹과 함께하면' 강조 모션: 화면에 보이면 1 → 2 → 3 → 4번 항목을 2초씩 차례로 강조 (corporate.php 아래 스크립트가 .on 을 옮김) */
+.cz-vs__c--on li{z-index:0;margin:0 -16px;padding-left:48px;padding-right:16px;border-radius:12px;overflow:hidden;transition:color .45s,box-shadow .5s}
+.cz-vs__c--on li::before{left:20px;transition:border-color .45s}
+.cz-vs__c--on li::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(90deg,#0000FA,#3d4bff);
+  transform:scaleX(0);transform-origin:left;transition:transform .7s var(--e2)}
+.cz-vs__c--on li.on{color:#fff;box-shadow:0 14px 34px -14px rgba(0,0,250,.55)}
+.cz-vs__c--on li.on::after{transform:scaleX(1)}
+.cz-vs__c--on li.on::before{border-color:#fff;animation:czTick .5s var(--e2) .25s both}
+.cz-vs__c--on li.on+li,.cz-vs__c--on li:has(+li.on){border-color:transparent}
+.cz-vs__c--on li.on+li{border-top-color:transparent}
 @keyframes czTick{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-@keyframes czGlow{0%,100%{box-shadow:0 14px 34px -14px rgba(0,0,250,.55)}50%{box-shadow:0 18px 46px -12px rgba(0,0,250,.8),0 0 0 4px rgba(0,0,250,.12)}}
 @media (prefers-reduced-motion:reduce){
-  .cz-vs__c--on li:first-child,.cz-vs__c--on li:first-child::after,.cz-vs__c--on li:first-child::before{transition:none;animation:none!important}
+  .cz-vs__c--on li,.cz-vs__c--on li::after,.cz-vs__c--on li::before{transition:none;animation:none!important}
 }
