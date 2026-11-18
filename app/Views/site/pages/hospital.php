@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261118n">
+<link rel="stylesheet" href="css/v2.css?v=20261118o">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -239,14 +239,14 @@
       <h2 class="d2">비용은 이렇게<br><em>정해집니다</em></h2>
       <p class="lead">견적을 드리기 전에 무엇에 따라 비용이 달라지는지 먼저 설명드립니다.</p>
     </div>
-    <div class="hv hv--cost rv">
+    <div class="hv hv--cost hv--tier rv">
       <ol class="hv__list hv__list--big">
         <li class="hv__i on" tabindex="0"><span class="no">01</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5z"/><path d="M2 13l10 5 10-5M2 17.5l10 5 10-5"/></svg></i><div><b>화면 수</b><span>메인 외에 몇 개의 화면이 필요한지가 가장 큰 기준입니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
         <li class="hv__i" tabindex="0"><span class="no">02</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg></i><div><b>내용 준비 범위</b><span>문구 작성 · 사진 정리 · 자료 옮기기를 어디까지 맡기시는지에 따라 달라집니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
         <li class="hv__i" tabindex="0"><span class="no">03</span><i class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 4 6 4 9.5s-1.4 6.7-4 9.5c-2.6-2.8-4-6-4-9.5s1.4-6.7 4-9.5z"/></svg></i><div><b>기능과 언어</b><span>예약 · 결제 · 회원 같은 기능이나 외국어 화면이 필요하면 범위가 늘어납니다.</span></div><em class="arr" aria-hidden="true">›</em></li>
         </ol>
-      <div class="hv__stage" aria-hidden="true">
-        <figure class="hv__s on"><div class="mk mk--pages"><div class="mk__tree"><span class="m">메인</span><div><span style="--d:0.0s">회사소개</span><span style="--d:0.08s">제품</span><span style="--d:0.16s">기술</span><span style="--d:0.24s">실적</span><span style="--d:0.32s">홍보</span><span style="--d:0.4s">채용</span><span style="--d:0.48s">문의</span><span style="--d:0.56s">영문</span></div></div><div class="mk__meter"><b>화면 수</b><i><em style="width:72%"></em></i><span>메인 + 8개 화면</span></div></div><figcaption><span class="no">01</span><b>화면 수</b><p>메인 외에 필요한 화면 수가 가장 큰 기준입니다.</p></figcaption></figure>
+      <div class="hv__stage">
+        <figure class="hv__s hv__s--tier on"><div class="tier"><p class="tier__eb"><span>01</span>화면 수 · 홈페이지 유형</p><div class="tier__tabs" role="tablist" aria-label="홈페이지 제작 유형"><button type="button" class="tier__tab on" role="tab" id="tier-t0" aria-controls="tier-p0" aria-selected="true" tabindex="0">BASIC</button><button type="button" class="tier__tab" role="tab" id="tier-t1" aria-controls="tier-p1" aria-selected="false" tabindex="-1">STANDARD</button><button type="button" class="tier__tab" role="tab" id="tier-t2" aria-controls="tier-p2" aria-selected="false" tabindex="-1">PREMIUM</button></div><div class="tier__body"><div class="tier__p on" role="tabpanel" id="tier-p0" aria-labelledby="tier-t0"><div class="tier__top"><b class="tier__name">BASIC</b><span class="tier__pg">약 10P 내외</span><span class="tier__lv" aria-hidden="true"><i class=on></i><i></i><i></i></span></div><p class="tier__copy">우리 동네 병원을 알리는 기본형 홈페이지</p><dl class="tier__rec"><dt>추천 병원</dt><dd>일반내과, 치과, 이비인후과, 소아청소년과 등 동네 개인병원</dd></dl><p class="tier__d">병원 소개, 의료진, 진료시간, 위치 등 환자에게 꼭 필요한 정보를 간결하게 전달하는 홈페이지입니다.</p></div><div class="tier__p" role="tabpanel" id="tier-p1" aria-labelledby="tier-t1" hidden><div class="tier__top"><b class="tier__name">STANDARD</b><span class="tier__pg">약 30P 내외</span><span class="tier__lv" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span></div><p class="tier__copy">다양한 진료와 치료를 소개하는 확장형 홈페이지</p><dl class="tier__rec"><dt>추천 병원</dt><dd>정형외과, 통증의학과, 재활의학과, 여러 진료과를 운영하는 병원 등</dd></dl><p class="tier__d">진료 분야가 다양하거나 전문적인 치료 프로그램을 운영하는 병원에 적합합니다. 환자가 증상과 치료 방법을 자세히 살펴볼 수 있도록 구성합니다.</p></div><div class="tier__p" role="tabpanel" id="tier-p2" aria-labelledby="tier-t2" hidden><div class="tier__top"><b class="tier__name">PREMIUM</b><span class="tier__pg">맞춤형 제작</span><span class="tier__lv" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></div><p class="tier__copy">시술 안내부터 예약과 결제까지 가능한 홈페이지</p><dl class="tier__rec"><dt>추천 병원</dt><dd>성형외과, 피부과, 미용시술 전문병원, 대형 전문병원 등</dd></dl><p class="tier__d">다양한 시술과 프로그램을 소개하고, 온라인 예약과 결제 등 환자가 홈페이지에서 직접 서비스를 이용할 수 있도록 제작합니다.</p></div></div><div class="tier__foot"><p>어떤 유형인지 고민되시나요? 병원의 규모와 진료 특성에 맞춰 몽웹이 적합한 구성을 추천해 드립니다.</p><small>위 병원 유형과 페이지 수는 이해를 돕기 위한 예시이며, 실제 제작 범위와 기능에 따라 달라질 수 있습니다.</small></div></div></figure>
         <figure class="hv__s"><div class="mk mk--prep"><div class="mk__opt on"><span class="ck"></span><div><b>문구 작성</b><p>회사 소개 · 제품 설명 글을 새로 씁니다</p></div><em>몽웹이 작성</em></div><div class="mk__opt on"><span class="ck"></span><div><b>사진 정리</b><p>보유 사진 보정 · 크기 맞춤</p></div><em>몽웹이 정리</em></div><div class="mk__opt on"><span class="ck"></span><div><b>자료 옮기기</b><p>카탈로그 · 인증서를 화면으로 옮깁니다</p></div><em>몽웹이 진행</em></div><div class="mk__opt"><span class="ck"></span><div><b>촬영</b><p>제품 · 공장 사진 새로 촬영</p></div><em>선택 사항</em></div></div><figcaption><span class="no">02</span><b>내용 준비 범위</b><p>문구 · 사진 · 자료 준비를 어디까지 맡기시는지에 따라 달라집니다.</p></figcaption></figure>
         <figure class="hv__s"><div class="mk mk--func"><p class="h">필요한 기능</p><div class="mk__chips"><span class="on">견적 문의</span><span class="on">자료실</span><span class="">예약</span><span class="">결제</span><span class="">회원</span><span class="on">게시판</span></div><p class="h">화면 언어</p><div class="mk__chips"><span class="on">한국어</span><span class="on">English</span><span class="">中文</span><span class="">日本語</span></div></div><figcaption><span class="no">03</span><b>기능과 언어</b><p>예약 · 결제 · 회원 기능이나 외국어 화면이 늘면 범위가 넓어집니다.</p></figcaption></figure>
         </div>
@@ -284,5 +284,28 @@
 <script src="js/v2.js?v=20260902"></script>
 <script src="js/dt-fit.js?v=6"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
+<script>
+/* 07 비용 — 01 화면 수: BASIC / STANDARD / PREMIUM 탭. 마우스를 올리거나 누르면 바뀌고, 벗어나도 마지막 선택 유지 */
+(function(){
+  var box=document.querySelector('.hv--tier .tier'); if(!box) return;
+  var tabs=[].slice.call(box.querySelectorAll('.tier__tab')), panes=[].slice.call(box.querySelectorAll('.tier__p')), cur=0;
+  function pick(n,focus){
+    if(n!==cur){ cur=n;
+      tabs.forEach(function(t,k){ var on=k===n; t.classList.toggle('on',on); t.setAttribute('aria-selected',on?'true':'false'); t.tabIndex=on?0:-1; });
+      panes.forEach(function(p,k){ var on=k===n; p.classList.toggle('on',on); p.hidden=!on; });
+    }
+    if(focus) tabs[n].focus();
+  }
+  var hover=window.matchMedia&&matchMedia('(hover:hover) and (pointer:fine)').matches;
+  tabs.forEach(function(t,k){
+    if(hover) t.addEventListener('mouseenter',function(){ pick(k); });
+    t.addEventListener('click',function(){ pick(k); });
+    t.addEventListener('keydown',function(e){
+      if(e.key==='ArrowRight'){ e.preventDefault(); pick((cur+1)%tabs.length,true); }
+      if(e.key==='ArrowLeft'){ e.preventDefault(); pick((cur+tabs.length-1)%tabs.length,true); }
+    });
+  });
+})();
+</script>
 </body>
 </html>
