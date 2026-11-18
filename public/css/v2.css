@@ -1968,3 +1968,24 @@ html.ed-on .dt-faq details p{display:block}
 @media (prefers-reduced-motion:reduce){
   .cz-vs__c--on li,.cz-vs__c--on li::after,.cz-vs__c--on li::before{transition:none;animation:none!important}
 }
+
+/* 기업 상세 '준비할 것' — 항목 선택에 따라 오른쪽 사진 크로스페이드 (0.45s, 1.02 → 1) */
+.cz-prep .cz-rows li{position:relative;row-gap:10px;padding-inline:20px;cursor:pointer;outline:none;transition:background .35s}
+.cz-prep .cz-rows li::before{content:"";position:absolute;left:0;top:-1px;bottom:-1px;width:3px;background:var(--orange);transform:scaleY(0);transition:transform .4s var(--e2)}
+.cz-prep .cz-rows .cz-no{color:#C5CADD;transition:color .35s}
+.cz-prep .cz-rows h3{transition:color .35s}
+.cz-prep .cz-rows li.on{background:rgba(0,0,250,.045)}
+.cz-prep .cz-rows li.on::before{transform:scaleY(1)}
+.cz-prep .cz-rows li.on .cz-no,.cz-prep .cz-rows li.on h3{color:var(--orange)}
+.cz-prep .cz-rows li:focus-visible{box-shadow:inset 0 0 0 2px var(--orange)}
+.cz-ph__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%;opacity:0;transform:scale(1.02);
+  transition:opacity .45s ease,transform .5s ease}
+.cz-ph__img.on{opacity:1;transform:scale(1)}
+.cz-ph figcaption{display:grid;z-index:2}
+.cz-ph__cap{grid-area:1/1;opacity:0;transition:opacity .35s ease}
+.cz-ph__cap.on{opacity:1;transition-delay:.08s}
+.cz-ph__cap b{display:block;font-size:clamp(17px,1.4vw,20px);color:var(--ink);letter-spacing:-.03em;margin-bottom:2px}
+@media (prefers-reduced-motion:reduce){
+  .cz-ph__img{transform:none;transition:opacity .2s linear}
+  .cz-ph__cap,.cz-prep .cz-rows li,.cz-prep .cz-rows li::before{transition:none}
+}

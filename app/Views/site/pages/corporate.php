@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261118m">
+<link rel="stylesheet" href="css/v2.css?v=20261118n">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -57,20 +57,29 @@
 <!-- 준비할 것 -->
 <!--ed:corporate/prepare-->
 <section class="cz-sec" id="prepare" data-nav="light">
-  <div class="wrap cz-split">
+  <div class="wrap cz-split cz-prep">
    <div>
     <div class="cz-head rv">
       <p class="cz-eb">준비할 것</p>
       <h2>담당자가 준비할 것은 이것뿐입니다.</h2>
-      <p class="cz-lead">페이지마다 들어갈 글과 사진을 미리 정리하지 않으셔도 됩니다. 지금 가지고 계신 자료를 그대로 보내 주세요.</p>
+      <p class="cz-lead">자료가 완벽하게 준비되어 있지 않아도 괜찮습니다. 가지고 계신 자료만 전달해 주세요. 부족한 부분은 몽웹이 함께 고민하고 채워드립니다.</p>
     </div>
-    <ol class="cz-rows rv">
-      <li><span class="cz-no">01</span><div><p class="cz-lb">회사 자료</p><h3>회사소개서 · 카탈로그</h3></div><p class="cz-d">PDF · PPT · 한글 파일 어떤 형식이든 괜찮습니다. 예전 홈페이지 주소만 있어도 됩니다.</p></li>
-      <li><span class="cz-no">02</span><div><p class="cz-lb">이미지</p><h3>로고와 가지고 있는 사진</h3></div><p class="cz-d">있는 것만 보내 주세요. 부족한 사진은 몽웹이 함께 준비합니다.</p></li>
-      <li><span class="cz-no">03</span><div><p class="cz-lb">방향</p><h3>원하는 느낌 한 줄</h3></div><p class="cz-d">“깔끔하고 신뢰감 있게”처럼 짧은 요청이나 참고 사이트 하나면 충분합니다.</p></li>
+    <ol class="cz-rows rv" aria-label="준비할 자료 — 항목을 고르면 오른쪽 사진이 바뀝니다">
+      <li class="on" tabindex="0" aria-current="true" data-i="0"><span class="cz-no">01</span><div><p class="cz-lb">회사 자료</p><h3>회사소개서 · 카탈로그</h3></div><p class="cz-d">회사소개서나 카탈로그가 있다면 그대로 전달해 주세요. 별도의 자료가 없더라도 괜찮습니다. 담당자와의 간단한 면담을 통해 기업의 사업 내용과 강점을 파악하고 홈페이지에 필요한 내용을 함께 정리합니다.</p></li>
+      <li tabindex="0" data-i="1"><span class="cz-no">02</span><div><p class="cz-lb">이미지</p><h3>로고와 가지고 있는 사진</h3></div><p class="cz-d">기업 로고, 제품 사진, 사업장 사진 등 보유한 이미지만 전달해 주세요. 전문적으로 촬영한 사진이 아니어도 괜찮습니다. 부족한 이미지는 몽웹이 적합한 제작 방법을 제안하고 함께 준비합니다.</p></li>
+      <li tabindex="0" data-i="2"><span class="cz-no">03</span><div><p class="cz-lb">디자인 방향</p><h3>원하는 느낌 한 줄</h3></div><p class="cz-d">원하는 디자인 분위기나 참고할 홈페이지가 있다면 알려주세요. 특별히 생각해 둔 디자인이 없어도 괜찮습니다. 기업의 업종과 특성에 맞는 디자인을 몽웹이 직접 추천해 드립니다.</p></li>
     </ol>
    </div>
-    <figure class="cz-ph rv"><img src="assets/about-web5.jpg" alt="노트북으로 완성된 홈페이지를 확인하는 담당자" width="1672" height="941" loading="lazy"><figcaption><b>담당자는 자료만 전달</b>나머지는 몽웹이 정리합니다</figcaption></figure>
+    <figure class="cz-ph rv" aria-live="polite">
+      <img class="cz-ph__img on" src="assets/prep-1.jpg" alt="회사소개서와 카탈로그 자료" width="1672" height="941">
+      <img class="cz-ph__img" src="assets/prep-2.jpg" alt="기업 로고와 사업장 사진 자료" width="1884" height="1070">
+      <img class="cz-ph__img" src="assets/prep-3.jpg" alt="홈페이지 디자인 방향과 참고 화면" width="1774" height="887">
+      <figcaption>
+        <span class="cz-ph__cap on"><b>회사 자료가 없어도 괜찮습니다</b>간단한 면담으로 필요한 내용을 정리합니다.</span>
+        <span class="cz-ph__cap"><b>가지고 있는 이미지만 전달하세요</b>부족한 이미지는 함께 준비합니다.</span>
+        <span class="cz-ph__cap"><b>디자인을 몰라도 괜찮습니다</b>기업에 어울리는 방향을 추천해 드립니다.</span>
+      </figcaption>
+    </figure>
   </div>
 </section>
 <!--/ed:corporate/prepare-->
@@ -258,6 +267,30 @@
   });
   box.querySelector('ul').addEventListener('mouseleave',function(){ show(0); });
   show(0);
+})();
+</script>
+<script>
+/* '준비할 것' — 01·02·03 항목에 마우스를 올리거나(PC) 누르거나(휴대폰·태블릿) 키보드로 고르면 오른쪽 사진과 설명이 바뀐다.
+   항목에서 벗어나도 마지막에 고른 사진을 유지한다. 사진은 모두 처음부터 불러 둔다. */
+(function(){
+  var wrap=document.querySelector('.cz-prep'); if(!wrap) return;
+  var items=[].slice.call(wrap.querySelectorAll('.cz-rows li'));
+  var imgs=[].slice.call(wrap.querySelectorAll('.cz-ph__img'));
+  var caps=[].slice.call(wrap.querySelectorAll('.cz-ph__cap'));
+  var cur=0;
+  function pick(n){
+    if(n===cur||!imgs[n]) return; cur=n;
+    items.forEach(function(li,k){ var on=k===n; li.classList.toggle('on',on); if(on) li.setAttribute('aria-current','true'); else li.removeAttribute('aria-current'); });
+    imgs.forEach(function(im,k){ im.classList.toggle('on',k===n); });
+    caps.forEach(function(c,k){ c.classList.toggle('on',k===n); });
+  }
+  var hover=window.matchMedia&&matchMedia('(hover:hover) and (pointer:fine)').matches;
+  items.forEach(function(li,k){
+    if(hover) li.addEventListener('mouseenter',function(){ pick(k); });
+    li.addEventListener('click',function(){ pick(k); });
+    li.addEventListener('focus',function(){ pick(k); });
+    li.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); pick(k); } });
+  });
 })();
 </script>
 </body>
