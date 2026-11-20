@@ -118,7 +118,7 @@
       <p class="cz-lead">회사 자료를 학습하면서 고객이 검색할 말을 찾아내고, 검색어마다 답이 되는 화면을 만듭니다.</p>
     </div>
     <div class="dt-cards stg rv">
-      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-product.jpg?v=2" alt="검색창에 스테인리스 배관 부품 제조를 입력한 화면" width="930" height="490" loading="lazy"></div><span class="n">01</span><span class="lab">제품</span><p class="q">스테인리스 배관 부품 제조</p><p>제품별 상세 화면과 규격 정보</p></div>
+      <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-product2.jpg" alt="네이버에서 스테인리스 배관 부품 제조를 검색하면 맨 위에 나오는 회사 홈페이지" width="1240" height="653" loading="lazy"></div><span class="n">01</span><span class="lab">제품</span><p class="q">스테인리스 배관 부품 제조</p><p>제품별 상세 화면과 규격 정보</p></div>
       <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-tech.jpg?v=2" alt="정밀 가공 중인 금속 부품" width="930" height="490" loading="lazy"></div><span class="n">02</span><span class="lab">기술</span><p class="q">정밀 가공 가능한 업체</p><p>보유 설비 · 기술 소개 화면</p></div>
       <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-region.jpg?v=2" alt="경기도 지도 위 위치 표시" width="930" height="490" loading="lazy"></div><span class="n">03</span><span class="lab">지역</span><p class="q">경기도 금형 업체</p><p>회사 위치와 서비스 지역 표시</p></div>
       <div class="dt-card dt-card--ph"><div class="dt-card__ph"><img src="assets/corp-find-process.jpg?v=2" alt="ISO 인증과 OEM 생산 부품" width="930" height="490" loading="lazy"></div><span class="n">04</span><span class="lab">공정</span><p class="q">OEM 생산 문의</p><p>생산 절차와 문의 방법 안내</p></div>
