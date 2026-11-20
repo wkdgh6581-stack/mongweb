@@ -2115,3 +2115,13 @@ html.ed-on .dt-faq details p{display:block}
 .diff__i:hover{border-top-color:var(--orange)}
 .diff__i:hover h4{color:var(--orange)}
 @media (max-width:1080px){.kp{border-top-color:var(--orange)}}
+
+/* 메인 06 Our Promise — 회색 바탕에 맞춘 글자색 (기존 흰 글자가 묻히던 문제) */
+#promise .cert__lead .d2{color:var(--ink)}
+#promise .certrow{border-top-color:rgba(20,30,80,.14)}
+#promise .certc+.certc,#promise .certc:nth-child(n+3){border-color:rgba(20,30,80,.12)}
+#promise .certc{transition:background .3s}
+#promise .certc h3{color:var(--ink);transition:color .3s}
+#promise .certc .k{color:#3a4057;font-weight:600}
+#promise .certc .en{color:var(--orange);font-weight:700}
+#promise .certc:hover h3{color:var(--orange)}

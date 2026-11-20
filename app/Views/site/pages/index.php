@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120m">
+<link rel="stylesheet" href="css/v2.css?v=20261120n">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -373,7 +373,7 @@
 
 <!-- ============ 몽웹의 약속 ============ -->
 <!--ed:index/promise-->
-<section class="sec cap" id="promise" data-nav="dark">
+<section class="sec cap" id="promise" data-nav="light">
   <div class="wrap">
     <div class="cert__lead">
       <span class="eyebrow rv">／ 06 &nbsp;Our Promise</span>
