@@ -1352,7 +1352,7 @@ html.ed-on .dt-faq details p{display:block}
 }
 /* 업종 패널 02 — 노트북·태블릿·휴대폰 사진 배경(왼쪽을 밝은 실내로 넓힌 사진). 밝은 배경이라 글자는 남색 */
 .bizp__viz--dev{inset:0;background:#eef2f8}
-.bizp__viz--dev img{width:100%;height:100%;object-fit:cover;object-position:100% 58%}
+.bizp__viz--dev img{width:100%;height:100%;object-fit:cover;object-position:100% 50%}
 .bizp:has(.bizp__viz--dev) .bizp__scrim{background:linear-gradient(90deg,rgba(244,247,252,.55) 0%,rgba(244,247,252,.25) 30%,transparent 46%)}
 .bizp--light .bizp__no{color:rgba(16,24,56,.12)}
 .bizp.bizp--light h3{color:#0f1a3c}

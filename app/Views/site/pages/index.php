@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120e">
+<link rel="stylesheet" href="css/v2.css?v=20261120f">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -201,7 +201,7 @@
 
   <!-- 02 반응형 · 모바일 -->
   <article class="bizp bizp--light rv" data-nav="light">
-    <div class="bizp__viz bizp__viz--dev"><img src="assets/biz-responsive.jpg" alt="노트북 · 태블릿 · 휴대폰에 똑같이 맞춰 보이는 몽웹 홈페이지" width="2236" height="1024" loading="lazy"></div>
+    <div class="bizp__viz bizp__viz--dev"><img src="assets/biz-responsive2.jpg" alt="노트북 · 태블릿 · 휴대폰에 똑같이 맞춰 보이는 쇼핑몰 화면" width="2236" height="1174" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">02</span><span class="bizp__en">Responsive</span>
