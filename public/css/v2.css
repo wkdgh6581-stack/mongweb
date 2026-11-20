@@ -2050,18 +2050,16 @@ html.ed-on .dt-faq details p{display:block}
 .bizp__phones{position:absolute;top:50%;left:50%;right:max(var(--pad),calc((100% - var(--wrap))/2 + var(--pad)));transform:translateY(-50%);
   display:flex;justify-content:center;align-items:center;gap:clamp(20px,3vw,48px)}
 .bizp__phones .dt-mock--ph{--phs:.92;margin:0;padding:0;height:calc(528px * var(--phs));width:calc(286px * var(--phs));background:none;border:0;overflow:visible}
-.bizp__phones .dt-mock--ph:nth-child(2){margin-top:clamp(40px,6vw,90px)}
 .bizp__phones .ph{box-shadow:0 0 0 1px rgba(20,24,40,.08),0 40px 80px -30px rgba(30,40,160,.45),0 0 60px -20px rgba(79,93,255,.35)}
 .bizp--ph .bizp__scrim{display:none}
 @media (max-width:1280px){.bizp__phones .dt-mock--ph{--phs:.8}}
 @media (max-width:1080px){
   .bizp__phones{top:clamp(28px,6vw,48px);left:var(--pad);right:var(--pad);transform:none}
   .bizp__phones .dt-mock--ph{--phs:.62}
-  .bizp__phones .dt-mock--ph:nth-child(2){margin-top:40px}
-  .bizp--ph{padding-top:calc(528px * .62 + 90px)}
+  .bizp--ph{padding-top:calc(528px * .62 + 60px)}
   .bizp--ph .bizp__body{padding-top:0}
 }
 @media (max-width:420px){
   .bizp__phones .dt-mock--ph{--phs:.52}
-  .bizp--ph{padding-top:calc(528px * .52 + 80px)}
+  .bizp--ph{padding-top:calc(528px * .52 + 50px)}
 }
