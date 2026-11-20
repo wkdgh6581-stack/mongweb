@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120s">
+<link rel="stylesheet" href="css/v2.css?v=20261120u">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -162,12 +162,13 @@
       <h2>몽웹이 학습하고, 기획하고, 만듭니다.</h2>
       <p class="cz-lead">단계마다 담당자가 할 일은 확인 한 번입니다.</p>
     </div>
-    <ol class="cz-steps rv">
-      <li><figure class="cz-steps__ph"><img src="assets/jr-01.jpg" alt="회사 자료를 분석하는 화면" loading="lazy"></figure><span class="cz-no">01</span><h3>학습</h3><p>회사소개서와 제품 자료를 읽고 사업 구조와 강점을 파악합니다.</p><em>담당자 · 자료 전달</em></li>
-      <li><figure class="cz-steps__ph"><img src="assets/jr-02.jpg" alt="메뉴 구조와 기능을 고르는 기획 화면" loading="lazy"></figure><span class="cz-no">02</span><h3>기획</h3><p>메뉴 구조와 페이지별 원고를 몽웹이 직접 써서 기획안으로 드립니다.</p><em>담당자 · 기획안 확인</em></li>
-      <li><figure class="cz-steps__ph"><img src="assets/jr-03.jpg" alt="홈페이지 디자인 시안 화면" loading="lazy"></figure><span class="cz-no">03</span><h3>디자인</h3><p>회사 색과 분위기를 담아 메인과 하위 화면 시안을 만듭니다.</p><em>담당자 · 시안 의견</em></li>
-      <li><figure class="cz-steps__ph"><img src="assets/jr-05.jpg" alt="완성된 홈페이지 공개 화면" loading="lazy"></figure><span class="cz-no">04</span><h3>개발 · 오픈</h3><p>PC · 휴대폰 화면을 만들고 검색 등록까지 마친 뒤 공개합니다.</p><em>담당자 · 최종 확인</em></li>
-    </ol>
+    <div class="tl rv" data-timeline>
+      <div class="tl__line"><i></i></div>
+      <div class="tl__s"><span class="tl__no">01</span><p class="tl__k">학습</p><h3 class="tl__t">회사를 학습합니다</h3><p class="tl__d">회사소개서와 제품 자료를 읽고 사업 구조와 강점을 파악합니다.</p><p class="tl__out"><i>담당자가 할 일</i><span>자료 전달</span></p></div>
+      <div class="tl__s"><span class="tl__no">02</span><p class="tl__k">기획</p><h3 class="tl__t">구조와 원고를 설계합니다</h3><p class="tl__d">메뉴 구조와 페이지별 원고를 몽웹이 직접 써서 기획안으로 드립니다.</p><p class="tl__out"><i>담당자가 할 일</i><span>기획안 확인</span></p></div>
+      <div class="tl__s"><span class="tl__no">03</span><p class="tl__k">디자인</p><h3 class="tl__t">디자인 시안을 만듭니다</h3><p class="tl__d">회사 색과 분위기를 담아 메인과 하위 화면 시안을 만듭니다.</p><p class="tl__out"><i>담당자가 할 일</i><span>시안 의견</span></p></div>
+      <div class="tl__s"><span class="tl__no">04</span><p class="tl__k">개발 · 오픈</p><h3 class="tl__t">개발하고 공개합니다</h3><p class="tl__d">PC · 휴대폰 화면을 만들고 검색 등록까지 마친 뒤 공개합니다.</p><p class="tl__out"><i>담당자가 할 일</i><span>최종 확인</span></p></div>
+    </div>
   </div>
 </section>
 <!--/ed:corporate/process-->
@@ -291,6 +292,24 @@
     li.addEventListener('focus',function(){ pick(k); });
     li.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); pick(k); } });
   });
+})();
+</script>
+<script>
+/* 진행 과정 타임라인 — 화면에 들어오면 01→04 단계가 차례로 켜지고 선이 그 점까지 차오른다. 지금 도달한 점만 맥동. 벗어나면 되감는다 */
+(function(){
+  var tl=document.querySelector('[data-timeline]'); if(!tl) return;
+  var steps=[].slice.call(tl.querySelectorAll('.tl__s')), fill=tl.querySelector('.tl__line i');
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches, timers=[], at=-1, playing=false;
+  function paint(){ if(fill&&at>=0) fill.style.width=(steps[at].offsetLeft+6)+'px'; }
+  function tip(s){ steps.forEach(function(o){o.classList.remove('is-tip');}); s.classList.add('is-tip'); }
+  function stop(){ timers.forEach(clearTimeout); timers=[]; }
+  function play(){ if(playing) return; playing=true;
+    if(reduce){ steps.forEach(function(s){s.classList.add('is-on');}); at=steps.length-1; tip(steps[at]); paint(); return; }
+    stop(); steps.forEach(function(s,i){ timers.push(setTimeout(function(){ s.classList.add('is-on'); tip(s); at=i; paint(); },250+i*420)); }); }
+  function reset(){ if(reduce||!playing) return; stop(); playing=false; at=-1; steps.forEach(function(s){s.classList.remove('is-on','is-tip');}); if(fill) fill.style.width='0px'; }
+  addEventListener('resize',paint);
+  if(!('IntersectionObserver' in window)){ play(); return; }
+  new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.intersectionRatio>=.15) play(); else if(!e.isIntersecting) reset(); }); },{threshold:[0,.15]}).observe(tl);
 })();
 </script>
 </body>

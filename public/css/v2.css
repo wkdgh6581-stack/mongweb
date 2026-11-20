@@ -2158,3 +2158,37 @@ html.ed-on .dt-faq details p{display:block}
   .cz-prep>.cz-ph{grid-column:1;grid-row:3;aspect-ratio:16/10;min-height:0;margin-top:28px}
 }
 .cz-prep .cz-ph__img[src*="prep-2"]{object-position:42% 50%}
+
+/* 기업 상세 진행 과정 — 하오웹식 타임라인: 선이 차오르고 점이 켜지며, 지금 도달한 점만 블루로 맥동 */
+.tl{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding-top:28px}
+.tl.rv{opacity:1;transform:none}
+.tl__line{position:absolute;top:0;left:24px;right:0;height:2px;background:#d9dce6}
+.tl__line i{display:block;height:100%;width:0;background:var(--ink);transition:width .25s linear}
+.tl__s{position:relative;display:flex;flex-direction:column;opacity:.28;transform:translateY(16px);transition:opacity .5s var(--e2),transform .5s var(--e2)}
+.tl__s::before{content:"";position:absolute;top:-32px;left:25px;width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid #d9dce6;transition:background .3s,border-color .3s}
+.tl__s.is-on{opacity:1;transform:none}
+.tl__s.is-on::before{background:var(--ink);border-color:var(--ink)}
+.tl__s.is-tip::before{background:var(--orange);border-color:var(--orange);animation:tlPulse 1.6s ease-in-out infinite}
+.tl__no{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:50%;margin-bottom:16px;
+  font-size:16px;font-weight:700;letter-spacing:.02em;color:#606060;border:2px solid #d9dce6;background:transparent;
+  transition:color .34s var(--e2),background .34s var(--e2),border-color .34s var(--e2),transform .34s var(--e2)}
+.tl__s.is-on .tl__no{color:#fff;background:var(--orange);border-color:var(--orange);transform:translateY(-2px);animation:tlPop .55s var(--e2)}
+.tl__k{font-size:14px;font-weight:700;color:var(--orange);margin-bottom:6px}
+.tl__t{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.35;transition:transform .34s var(--e2)}
+.tl__d{flex:1;margin-top:12px;font-size:16px;line-height:1.55;color:#606060}
+.tl__out{margin-top:20px;padding-top:14px;border-top:1px solid #d9dce6}
+.tl__out i{display:block;margin-bottom:7px;font-style:normal;font-size:13px;font-weight:700;letter-spacing:.02em;color:#9a9eab}
+.tl__out span{font-size:15px;line-height:1.6;color:var(--ink);font-weight:600}
+@keyframes tlPulse{0%,100%{box-shadow:0 0 0 5px rgba(0,0,250,.18)}50%{box-shadow:0 0 0 11px rgba(0,0,250,.06)}}
+@keyframes tlPop{0%{transform:scale(.6)}55%{transform:scale(1.18)}100%{transform:scale(1) translateY(-2px)}}
+@media (hover:hover){
+  .tl__s:hover::before{border-color:var(--orange)}
+  .tl__s:hover .tl__t{transform:translateX(4px)}
+  .tl__s:hover .tl__no{transform:translateY(-4px)}
+}
+@media (max-width:1024px){
+  .tl{grid-template-columns:repeat(2,1fr);gap:40px 24px;padding-top:0}
+  .tl__line,.tl__s::before{display:none}
+}
+@media (max-width:768px){.tl{grid-template-columns:1fr;gap:32px}}
+@media (prefers-reduced-motion:reduce){.tl__s{opacity:1;transform:none}}
