@@ -2146,3 +2146,15 @@ html.ed-on .dt-faq details p{display:block}
 .subhero--sky .subhero__bg img{object-position:50% 45%}
 .subhero--sky .subhero__bg::after{background:linear-gradient(90deg,rgba(6,10,28,.82) 0%,rgba(6,10,28,.6) 38%,rgba(6,10,28,.2) 64%,transparent 80%),linear-gradient(0deg,rgba(6,10,28,.35),transparent 40%)}
 @media (max-width:1080px){.subhero--sky .subhero__bg::after{background:linear-gradient(180deg,rgba(6,10,28,.6) 0%,rgba(6,10,28,.78) 100%)}}
+
+/* 기업 상세 '준비할 것' — 오른쪽 사진을 왼쪽 01~03 목록 높이에 정확히 맞춤 (제목 줄은 왼쪽 칸만) */
+.cz-prep{grid-template-rows:auto auto;align-items:stretch;row-gap:0}
+.cz-prep>div{display:contents}
+.cz-prep>div>.cz-head{grid-column:1;grid-row:1}
+.cz-prep>div>.cz-rows{grid-column:1;grid-row:2}
+.cz-prep>.cz-ph{grid-column:2;grid-row:2;aspect-ratio:auto;height:auto;min-height:420px;align-self:stretch}
+.cz-prep .cz-ph__img[src*="prep-3"]{object-position:50% 18%}
+@media (max-width:1080px){
+  .cz-prep>.cz-ph{grid-column:1;grid-row:3;aspect-ratio:16/10;min-height:0;margin-top:28px}
+}
+.cz-prep .cz-ph__img[src*="prep-2"]{object-position:42% 50%}

@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120q">
+<link rel="stylesheet" href="css/v2.css?v=20261120s">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -71,9 +71,9 @@
     </ol>
    </div>
     <figure class="cz-ph rv" aria-live="polite">
-      <img class="cz-ph__img on" src="assets/prep-1.jpg" alt="회사소개서와 카탈로그 자료" width="1672" height="941">
-      <img class="cz-ph__img" src="assets/prep-2.jpg" alt="기업 로고와 사업장 사진 자료" width="1884" height="1070">
-      <img class="cz-ph__img" src="assets/prep-3.jpg" alt="홈페이지 디자인 방향과 참고 화면" width="1774" height="887">
+      <img class="cz-ph__img on" src="assets/prep-1.jpg?v=2" alt="담당자와 태블릿으로 회사 자료를 함께 정리하는 면담" width="1536" height="1024">
+      <img class="cz-ph__img" src="assets/prep-2.jpg?v=2" alt="회사 제품을 담은 카탈로그" width="1672" height="941">
+      <img class="cz-ph__img" src="assets/prep-3.jpg?v=2" alt="기업 홈페이지 모바일 화면 디자인 시안" width="1160" height="1356">
       <figcaption>
         <span class="cz-ph__cap on"><b>회사 자료가 없어도 괜찮습니다</b>간단한 면담으로 필요한 내용을 정리합니다.</span>
         <span class="cz-ph__cap"><b>가지고 있는 이미지만 전달하세요</b>부족한 이미지는 함께 준비합니다.</span>
