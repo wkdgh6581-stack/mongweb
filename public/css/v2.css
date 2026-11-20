@@ -2261,3 +2261,13 @@ html.ed-on .dt-faq details p{display:block}
 .cz-cta__card{background:#fff;color:#14204a;box-shadow:0 6px 16px -8px rgba(20,30,80,.35)}
 .cz-cta__card svg{color:var(--orange)}
 .cz-cta__card:hover{background:#fff;color:var(--orange);box-shadow:0 12px 26px -10px rgba(0,0,250,.45)}
+/* 버튼 = 손에 든 흰 카드 그 자체(카드 크기 그대로). 카드를 잡은 손가락은 따로 오려 버튼 위에 얹는다 */
+.cz-cta__card{left:39.04%;top:60.45%;width:23.08%;height:25.79%;border-radius:.25cqw;font-size:1.85cqw;z-index:2;
+  box-shadow:0 10px 24px -14px rgba(20,30,80,.45)}
+.cz-cta__fingers{position:absolute;left:38.85%;top:59.92%;width:23.46%;height:26.85%;z-index:3;pointer-events:none}
+@media (max-width:720px){
+  .cz-cta__card{left:31.3%;top:60.4%;width:39.7%;height:25.8%;font-size:14px}
+  .cz-cta__fingers{left:31%;top:59.9%;width:40.4%;height:26.9%}
+}
+.cz-cta--card .cz-cta__bg img.cz-cta__fingers{position:absolute;left:38.85%;top:59.92%;width:23.46%;height:26.85%;object-fit:fill;z-index:3;transform:none}
+@media (max-width:720px){.cz-cta--card .cz-cta__bg img.cz-cta__fingers{left:31%;top:59.9%;width:40.4%;height:26.9%}}

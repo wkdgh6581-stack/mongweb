@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261121c">
+<link rel="stylesheet" href="css/v2.css?v=20261121e">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -245,6 +245,7 @@
   </div>
   <figure class="cz-cta__bg">
     <img src="assets/corp-cta-card.jpg" alt="제작 상담 신청 카드를 내미는 손" width="2080" height="756" loading="lazy">
+    <img class="cz-cta__fingers" src="assets/corp-cta-fingers.png" alt="" aria-hidden="true">
     <a class="cz-cta__card" href="contact.html#inquiry"><span>제작 상담 신청</span><svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
   </figure>
 </section>
