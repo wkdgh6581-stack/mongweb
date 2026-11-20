@@ -2192,3 +2192,22 @@ html.ed-on .dt-faq details p{display:block}
 }
 @media (max-width:768px){.tl{grid-template-columns:1fr;gap:32px}}
 @media (prefers-reduced-motion:reduce){.tl__s{opacity:1;transform:none}}
+
+/* 기업 상세 '이런 기업에 맞습니다' · '기본 포함' — 메인과 같은 호버 모션 · 진한 글자 */
+.cz-cards li{border-color:#dfe2ea;transition:transform .35s var(--e2),box-shadow .35s,border-color .35s}
+.cz-cards .cz-no{color:var(--orange);transition:transform .35s var(--e2)}
+.cz-cards p{color:var(--ink);transition:color .3s}
+.cz-cards li:hover{transform:translateY(-6px);border-color:rgba(0,0,250,.35);box-shadow:0 22px 44px -26px rgba(20,30,120,.4)}
+.cz-cards li:hover p{color:var(--orange)}
+.cz-cards li:hover .cz-no{transform:translateY(-2px)}
+#fit .cz-lead,#included .cz-lead{color:#4f5466}
+.cz-incl{border-color:#dfe2ea}
+.cz-incl li{position:relative;border-color:#dfe2ea;transition:background .35s,transform .35s var(--e2),box-shadow .35s}
+.cz-incl .cz-no{color:#9aa0b5}
+.cz-incl b{color:var(--ink);transition:color .3s}
+.cz-incl p{color:#4f5466}
+.cz-ic{transition:background .35s,color .35s,transform .35s var(--e2),box-shadow .35s}
+.cz-incl li:hover{background:#fff;z-index:1;transform:translateY(-4px);box-shadow:0 22px 44px -26px rgba(20,30,120,.4)}
+.cz-incl li:hover .cz-ic{background:var(--orange);color:#fff;transform:translateY(-2px) scale(1.06);box-shadow:0 10px 22px -10px rgba(0,0,250,.6)}
+.cz-incl li:hover b{color:var(--orange)}
+.cz-incl li:hover .cz-no{color:var(--orange)}
