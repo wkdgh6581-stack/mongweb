@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120b">
+<link rel="stylesheet" href="css/v2.css?v=20261120d">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -211,8 +211,8 @@
   </article>
 
   <!-- 03 SEO 검색 최적화 -->
-  <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz bizp__viz--photo bizp__viz--seo"><img src="assets/biz-seo.jpg" alt="구글 검색 결과 맨 위에 몽웹이 보이는 노트북 화면" width="1832" height="858" loading="lazy"></div>
+  <article class="bizp bizp--light rv" data-nav="light">
+    <div class="bizp__viz bizp__viz--seo2"><img src="assets/biz-seo2.jpg" alt="네이버에서 '홈페이지 제작'을 검색하면 맨 위에 몽웹이 보이는 노트북 화면" width="2921" height="1261" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">03</span><span class="bizp__en">Search Engine Optimization</span>
