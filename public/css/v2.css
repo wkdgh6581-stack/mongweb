@@ -2141,3 +2141,8 @@ html.ed-on .dt-faq details p{display:block}
 #search .bizd__i:hover h3{color:var(--orange)}
 @media (max-width:720px){#search .bizd__i{margin:0 calc(-1*clamp(22px,2.2vw,30px))}}
 @media (max-width:720px){#search .bizd__head{display:block}#search .bizd__head p{margin-top:18px}}
+
+/* 기업 홈페이지 상세 첫 화면 — 메인 01과 같은 하늘 · 빌딩 사진. 밝은 하늘 위 흰 글자가 읽히도록 왼쪽을 남색으로 */
+.subhero--sky .subhero__bg img{object-position:50% 45%}
+.subhero--sky .subhero__bg::after{background:linear-gradient(90deg,rgba(6,10,28,.82) 0%,rgba(6,10,28,.6) 38%,rgba(6,10,28,.2) 64%,transparent 80%),linear-gradient(0deg,rgba(6,10,28,.35),transparent 40%)}
+@media (max-width:1080px){.subhero--sky .subhero__bg::after{background:linear-gradient(180deg,rgba(6,10,28,.6) 0%,rgba(6,10,28,.78) 100%)}}
