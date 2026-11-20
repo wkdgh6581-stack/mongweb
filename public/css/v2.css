@@ -2040,3 +2040,7 @@ html.ed-on .dt-faq details p{display:block}
   .bizp__viz--seo2 img{height:44%;object-position:0% 100%}
   .bizp:has(.bizp__viz--seo2) .bizp__scrim{background:linear-gradient(0deg,#eef1f5 0%,#eef1f5 56%,transparent 60%)}
 }
+
+/* 메인 업종 패널 큰 번호(01~05) — 흐린 반투명 대신 몽웹 블루. 어두운 패널은 같은 블루를 한 단계 밝게 해 읽히게 */
+.bizp .bizp__no{color:#3646FF}
+.bizp.bizp--light .bizp__no{color:var(--orange)}
