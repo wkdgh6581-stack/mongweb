@@ -2125,3 +2125,19 @@ html.ed-on .dt-faq details p{display:block}
 #promise .certc .k{color:#3a4057;font-weight:600}
 #promise .certc .en{color:var(--orange);font-weight:700}
 #promise .certc:hover h3{color:var(--orange)}
+
+/* 메인 SEO · AEO · GEO — 02 · 04 · 06과 같은 톤: 진한 글자, 블루 강조, 마우스를 올리면 흰 카드로 떠오름 */
+#search .bizd__head h2{color:var(--ink)}
+#search .bizd__head p{color:#4f5466}
+#search .bizd__i{position:relative;padding:clamp(22px,2.2vw,30px);margin:calc(-1*clamp(22px,2.2vw,30px));border-radius:16px;
+  transition:background .35s,transform .35s var(--e2),box-shadow .35s}
+#search .bizd__grid{gap:clamp(44px,4.4vw,64px)}
+#search .bizd__i .n{color:var(--orange)}
+#search .bizd__i h3{color:var(--ink);transition:color .3s}
+#search .bizd__i .en2{color:#6b7086}
+#search .bizd__i li{color:#3a4057;border-color:rgba(20,30,80,.12)}
+#search .bizd__i ul{border-color:rgba(20,30,80,.12)}
+#search .bizd__i:hover{background:#fff;transform:translateY(-4px);box-shadow:0 18px 40px -24px rgba(20,30,120,.35)}
+#search .bizd__i:hover h3{color:var(--orange)}
+@media (max-width:720px){#search .bizd__i{margin:0 calc(-1*clamp(22px,2.2vw,30px))}}
+@media (max-width:720px){#search .bizd__head{display:block}#search .bizd__head p{margin-top:18px}}
