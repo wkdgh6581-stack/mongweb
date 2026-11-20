@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120g">
+<link rel="stylesheet" href="css/v2.css?v=20261120i">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -221,14 +221,19 @@
     </div></div>
   </article>
 
-  <!-- 04 AI 검색 대응 -->
-  <article class="bizp rv" data-nav="dark">
-    <div class="bizp__viz bizp__viz--fig"><img src="assets/biz-aeo.jpg" alt="네이버 검색 · 구글 AI 개요 · ChatGPT 답변에 몽웹이 나오는 휴대폰 세 대" width="1672" height="941" loading="lazy"></div>
+  <!-- 04 검색 · AI 답변 노출 (기업 홈페이지 상세의 SEO · AEO · GEO 휴대폰 연출) -->
+  <article class="bizp bizp--light bizp--ph rv" data-nav="light">
+    <div class="bizp__viz bizp__viz--ph">
+      <div class="bizp__phones">
+        <div class="dt-mock" aria-hidden="true"><div class="bar" data-rel="회사소개 홈페이지,홈페이지 리뉴얼,반응형 홈페이지">기업 홈페이지 제작</div><div class="res" data-url="www.mongweb.co.kr"><b>기업 홈페이지 제작 | 몽웹</b><span>회사소개서 한 부로 기획 · 디자인 · 개발까지. 검색과 AI 답변에 회사가 보이는 홈페이지를 만듭니다.</span></div></div>
+        <div class="dt-mock" aria-hidden="true"><span class="ask">회사 홈페이지 맡길 곳 추천해 줘</span><div class="ans" data-src="몽웹 홈페이지,자주 묻는 질문">자료 준비 부담이 적은 곳을 고르세요. <b>몽웹</b>은 회사소개서만 받아 기획부터 디자인 · 개발 · 검색 등록까지 한 번에 진행합니다.</div></div>
+      </div>
+    </div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
-      <span class="bizp__no">04</span><span class="bizp__en">AEO · GEO</span>
-      <h3>AI 검색 대응</h3>
-      <ul><li>고객 질문에 답하는 자주 묻는 질문 구성</li><li>회사 · 서비스 정보를 구조화 데이터로 정리</li><li>AI 답변에 정확한 정보가 담기도록 설계</li></ul>
+      <span class="bizp__no">04</span><span class="bizp__en">SEO · AEO · GEO</span>
+      <h3>검색 · AI 답변 노출</h3>
+      <ul><li>검색 결과에 보이는 제목 · 설명 정리</li><li>고객 질문에 답하는 자주 묻는 질문 구성</li><li>AI가 이해하는 회사 정보 구조화</li></ul>
     </div></div>
   </article>
 
@@ -391,5 +396,6 @@
 <?= view('site/partials/footer_ko') ?>
 
 <script src="js/v2.js?v=20260902"></script>
+<script src="js/dt-vis.js?v=20261110b"></script>
 </body>
 </html>

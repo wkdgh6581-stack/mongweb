@@ -2044,3 +2044,24 @@ html.ed-on .dt-faq details p{display:block}
 /* 메인 업종 패널 큰 번호(01~05) — 흐린 반투명 대신 몽웹 블루. 어두운 패널은 같은 블루를 한 단계 밝게 해 읽히게 */
 .bizp .bizp__no{color:#3646FF}
 .bizp.bizp--light .bizp__no{color:var(--orange)}
+
+/* 메인 업종 패널 04 — 검색 결과 · AI 답변 휴대폰 두 대(dt-vis.js 연출). 밝은 배경, 휴대폰은 오른쪽 */
+.bizp__viz--ph{inset:0;background:radial-gradient(40% 55% at 72% 52%,rgba(79,93,255,.16),transparent 70%),linear-gradient(180deg,#F6F7FB,#ECEEF6)}
+.bizp__phones{position:absolute;top:50%;left:50%;right:max(var(--pad),calc((100% - var(--wrap))/2 + var(--pad)));transform:translateY(-50%);
+  display:flex;justify-content:center;align-items:center;gap:clamp(20px,3vw,48px)}
+.bizp__phones .dt-mock--ph{--phs:.92;margin:0;padding:0;height:calc(528px * var(--phs));width:calc(286px * var(--phs));background:none;border:0;overflow:visible}
+.bizp__phones .dt-mock--ph:nth-child(2){margin-top:clamp(40px,6vw,90px)}
+.bizp__phones .ph{box-shadow:0 0 0 1px rgba(20,24,40,.08),0 40px 80px -30px rgba(30,40,160,.45),0 0 60px -20px rgba(79,93,255,.35)}
+.bizp--ph .bizp__scrim{display:none}
+@media (max-width:1280px){.bizp__phones .dt-mock--ph{--phs:.8}}
+@media (max-width:1080px){
+  .bizp__phones{top:clamp(28px,6vw,48px);left:var(--pad);right:var(--pad);transform:none}
+  .bizp__phones .dt-mock--ph{--phs:.62}
+  .bizp__phones .dt-mock--ph:nth-child(2){margin-top:40px}
+  .bizp--ph{padding-top:calc(528px * .62 + 90px)}
+  .bizp--ph .bizp__body{padding-top:0}
+}
+@media (max-width:420px){
+  .bizp__phones .dt-mock--ph{--phs:.52}
+  .bizp--ph{padding-top:calc(528px * .52 + 80px)}
+}
