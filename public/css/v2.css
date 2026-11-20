@@ -2018,16 +2018,16 @@ html.ed-on .dt-faq details p{display:block}
 .hv__s--tier::after{display:none}
 
 /* 메인 02 Capability — 어두운 배경을 걷어내고 흰 바탕으로 (기업 상세 '준비할 것'과 같은 밝은 톤) */
-.cap{background:#fff;color:var(--ink)}
+.cap{background:var(--paper2);color:var(--ink);border-top:1px solid rgba(20,30,80,.07)}
 .cap::before{display:none}
 .cap__aside .d2{color:var(--ink)}
-.cap .lead{color:#606060}
+.cap .lead{color:#4f5466}
 .cap .eyebrow{color:var(--ink-mut)}
-.cap__badge{background:rgba(0,0,250,.04);border-color:rgba(0,0,250,.3)}
+.cap__badge{background:#fff;border-color:rgba(0,0,250,.3)}
 .cap__sys::before{background:linear-gradient(rgba(0,0,250,.85),rgba(0,0,250,.35))}
-.cap__node{border-bottom-color:var(--line-l)}
+.cap__node{border-bottom-color:rgba(20,30,80,.12)}
 .cap__node h3{color:var(--ink)}
-.cap__node h3::before{background:#fff;border-color:#C5CADD}
+.cap__node h3::before{background:var(--paper2);border-color:#B9BFD3}
 .cap__node:hover h3,.cap__node:focus-within h3{color:var(--orange)}
 .cap__node:hover h3::before,.cap__node:focus-within h3::before{border-color:var(--orange);background:var(--orange);box-shadow:0 0 0 6px rgba(0,0,250,.12)}
-.cap__node p{color:#555}
+.cap__node p{color:#4f5466}
