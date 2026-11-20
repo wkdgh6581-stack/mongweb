@@ -2216,3 +2216,34 @@ html.ed-on .dt-faq details p{display:block}
 #search .dt-art{width:min(52vw,960px);height:clamp(260px,29vw,420px);overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 22%),linear-gradient(0deg,transparent 0%,#000 18%);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0%,#000 22%),linear-gradient(0deg,transparent 0%,#000 18%);mask-composite:intersect}
 #search .dt-art img{width:100%;height:100%;object-fit:cover;object-position:100% 40%}
 #search .cz-head{position:relative;z-index:1}
+
+/* 기업 상세 마지막 '시작하기' — 손에 든 카드 사진. 사진 비율 그대로 깔고, '제작 상담 신청'은 손에 든 카드 위에 정확히 얹는다 */
+.cz-cta--card{container-type:inline-size;background:#eef0f4;padding:0;aspect-ratio:2080/756;text-align:center}
+.cz-cta--card .cz-cta__bg{position:absolute;inset:0;margin:0;z-index:0}
+.cz-cta--card .cz-cta__bg::after{display:none}
+.cz-cta--card .cz-cta__bg img{width:100%;height:100%;object-fit:cover}
+.cz-cta--card>.wrap{position:absolute;left:0;right:0;top:13.6%;z-index:1;max-width:none}
+.cz-cta--card .cz-eb{font-size:max(14px,1.25cqw);color:var(--orange);margin:0 0 1.6cqw}
+.cz-cta--card .cz-eb::after{content:"";display:block;width:5.3cqw;height:1px;margin:1.1cqw auto 0;background:rgba(0,0,250,.35)}
+.cz-cta--card h2{font-size:3.6cqw;color:#14204a;line-height:1.2}
+.cz-cta--card>.wrap>p:not(.cz-eb){margin:1.4cqw 0 0;font-size:max(14px,1.3cqw);color:#3a4057}
+.cz-cta__card{position:absolute;left:39.2%;top:60.8%;width:22.8%;height:25.2%;display:flex;align-items:center;justify-content:center;gap:2.2cqw;
+  border-radius:.4cqw;color:#14204a;font-size:1.85cqw;font-weight:800;letter-spacing:-.02em;text-decoration:none;
+  transform:rotate(-.3deg);transition:background .3s,box-shadow .3s,color .3s}
+.cz-cta__card svg{width:3.6cqw;height:auto;color:var(--orange);transition:transform .35s var(--e2)}
+.cz-cta__card:hover{background:rgba(0,0,250,.06);box-shadow:inset 0 0 0 2px rgba(0,0,250,.35)}
+.cz-cta__card:hover svg{transform:translateX(.6cqw)}
+.cz-cta__card:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+@media (max-width:720px){
+  .cz-cta--card{aspect-ratio:auto}
+  .cz-cta--card>.wrap{position:static;padding:56px var(--pad) 22px}
+  .cz-cta--card .cz-eb{font-size:14px;margin-bottom:12px}
+  .cz-cta--card .cz-eb::after{width:40px;margin-top:8px}
+  .cz-cta--card h2{font-size:clamp(24px,6.6vw,30px)}
+  .cz-cta--card>.wrap>p:not(.cz-eb){margin-top:12px;font-size:15px}
+  .cz-cta--card .cz-cta__bg{position:relative;aspect-ratio:1.6}
+  .cz-cta--card .cz-cta__bg img{object-position:50% 50%}
+  .cz-cta--card .cz-cta__bg::before{content:"";position:absolute;inset:0 0 auto;height:52%;z-index:1;pointer-events:none;background:linear-gradient(180deg,#eef0f4 0%,#eef0f4 30%,rgba(238,240,244,0) 100%)}
+  .cz-cta__card{z-index:2;left:31.2%;width:39.6%;font-size:14px;gap:10px;border-radius:4px}
+  .cz-cta__card svg{width:30px}
+}
