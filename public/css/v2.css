@@ -2285,3 +2285,4 @@ html.ed-on .dt-faq details p{display:block}
   .cz-cta--img .cz-cta__bg::before{display:none}
   .cz-cta--img .cz-cta__card{left:31.1%;width:39.7%;top:60.35%;height:28.77%}
 }
+.cz-cta--img .cz-cta__card,.cz-cta--img .cz-cta__card:hover{animation:none;transform:none;box-shadow:none;background:transparent}
