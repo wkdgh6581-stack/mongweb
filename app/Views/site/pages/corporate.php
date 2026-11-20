@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120v">
+<link rel="stylesheet" href="css/v2.css?v=20261120x">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -110,7 +110,7 @@
 <!-- 고객이 찾는 검색어 -->
 <!--ed:corporate/search-->
 <section class="cz-sec dt-sec dt-sec--art" id="search" data-nav="light">
-  <div class="dt-art" aria-hidden="true"><img src="assets/corp-find-laptop.jpg?v=2" alt="" width="1972" height="690"></div>
+  <div class="dt-art" aria-hidden="true"><img src="assets/corp-find-key.jpg" alt="" width="2172" height="724"></div>
   <div class="wrap">
     <div class="cz-head rv">
       <p class="cz-eb">검색 키워드 설계</p>
