@@ -2271,3 +2271,17 @@ html.ed-on .dt-faq details p{display:block}
 }
 .cz-cta--card .cz-cta__bg img.cz-cta__fingers{position:absolute;left:38.85%;top:59.92%;width:23.46%;height:26.85%;object-fit:fill;z-index:3;transform:none}
 @media (max-width:720px){.cz-cta--card .cz-cta__bg img.cz-cta__fingers{left:31%;top:59.9%;width:40.4%;height:26.9%}}
+
+/* 기업 상세 '시작하기' — 보내 주신 완성 이미지를 그대로 사용(문구 · 카드 포함). 손에 든 카드 위치만 투명 링크로 덮어 클릭되게 */
+.cz-cta--img{aspect-ratio:1568/570}
+.cz-cta--img .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cz-cta--img .cz-cta__card{left:39.03%;top:60.35%;width:23.09%;height:28.77%;background:transparent;box-shadow:none;border-radius:.4cqw;
+  animation:ctaRing 2s ease-in-out infinite}
+.cz-cta--img .cz-cta__card:hover{background:rgba(0,0,250,.05);box-shadow:0 0 0 2px rgba(0,0,250,.45);animation-play-state:paused}
+@keyframes ctaRing{0%,100%{box-shadow:0 0 0 0 rgba(0,0,250,0)}50%{box-shadow:0 0 0 .5cqw rgba(0,0,250,.18)}}
+@media (max-width:720px){
+  .cz-cta--img{aspect-ratio:auto}
+  .cz-cta--img .cz-cta__bg{aspect-ratio:1.6}
+  .cz-cta--img .cz-cta__bg::before{display:none}
+  .cz-cta--img .cz-cta__card{left:31.1%;width:39.7%;top:60.35%;height:28.77%}
+}

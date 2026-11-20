@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261121e">
+<link rel="stylesheet" href="css/v2.css?v=20261121f">
 </head>
 <body class="sub">
 <a class="skip" href="#main">본문 바로가기</a>
@@ -237,16 +237,15 @@
 
 <!-- 시작하기 -->
 <!--ed:corporate/start-->
-<section class="cz-cta cz-cta--card" id="start" data-nav="light">
-  <div class="wrap rv">
-    <p class="cz-eb">시작하기</p>
+<section class="cz-cta cz-cta--card cz-cta--img" id="start" data-nav="light">
+  <div class="sr">
+    <p>시작하기</p>
     <h2>회사소개서 한 부로 시작하세요.</h2>
     <p>자료를 보내 주시면 어떤 홈페이지가 될지 먼저 정리해 드립니다.</p>
   </div>
   <figure class="cz-cta__bg">
-    <img src="assets/corp-cta-card.jpg" alt="제작 상담 신청 카드를 내미는 손" width="2080" height="756" loading="lazy">
-    <img class="cz-cta__fingers" src="assets/corp-cta-fingers.png" alt="" aria-hidden="true">
-    <a class="cz-cta__card" href="contact.html#inquiry"><span>제작 상담 신청</span><svg viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 6h37M32 1l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <img src="assets/corp-cta-card2.jpg" alt="" width="1568" height="570" loading="lazy">
+    <a class="cz-cta__card" href="contact.html#inquiry"><span class="sr">제작 상담 신청</span></a>
   </figure>
 </section>
 <!--/ed:corporate/start-->
