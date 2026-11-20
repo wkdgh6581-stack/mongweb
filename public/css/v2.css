@@ -2257,3 +2257,7 @@ html.ed-on .dt-faq details p{display:block}
 /* 손가락이 카드 위를 덮고 있으므로, 파란 버튼은 손가락 아래 카드 면 안쪽에만 얹는다 */
 .cz-cta__card{left:40.6%;top:66.2%;width:20.2%;height:17%;border-radius:.5cqw;font-size:1.6cqw}
 @media (max-width:720px){.cz-cta__card{left:33%;top:66.2%;width:36.4%;height:17%;font-size:13px}}
+/* '제작 상담 신청' — 파란 칠 대신 원래 흰 카드 그대로, 숨쉬듯 커졌다 작아지는 모션만 */
+.cz-cta__card{background:#fff;color:#14204a;box-shadow:0 6px 16px -8px rgba(20,30,80,.35)}
+.cz-cta__card svg{color:var(--orange)}
+.cz-cta__card:hover{background:#fff;color:var(--orange);box-shadow:0 12px 26px -10px rgba(0,0,250,.45)}
