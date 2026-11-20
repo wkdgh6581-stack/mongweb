@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120l">
+<link rel="stylesheet" href="css/v2.css?v=20261120m">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -253,7 +253,7 @@
 
 <!-- ============ 제작 절차 · 차별점 ============ -->
 <!--ed:index/process-->
-<section class="sec exe" id="process" data-nav="dark">
+<section class="sec exe" id="process" data-nav="light">
   <div class="wrap">
     <div class="exe__head">
       <span class="eyebrow rv">／ 04 &nbsp;How We Work</span>
@@ -397,5 +397,22 @@
 
 <script src="js/v2.js?v=20260902"></script>
 <script src="js/dt-vis.js?v=20261110b"></script>
+<script>
+/* 04 How We Work — LISTEN·PLAN·DESIGN·LAUNCH 버튼과 01~05 단계를 서로 연결해 마우스를 올리면 함께 강조 */
+(function(){
+  var box=document.querySelector('#process .kes2'); if(!box) return;
+  var chips=[].slice.call(box.querySelectorAll('.kes2__vow span')), steps=[].slice.call(box.querySelectorAll('.kp'));
+  var map=[[0],[1],[2],[3,4]];            // 칩 → 단계
+  function chipOf(k){ for(var i=0;i<map.length;i++) if(map[i].indexOf(k)>-1) return i; return 0; }
+  function show(ci,si){
+    chips.forEach(function(c,i){ c.classList.toggle('on',i===ci); });
+    steps.forEach(function(s,k){ s.classList.toggle('on',si!=null?k===si:map[ci].indexOf(k)>-1); });
+  }
+  chips.forEach(function(c,i){ c.tabIndex=0; c.addEventListener('mouseenter',function(){ show(i); }); c.addEventListener('focus',function(){ show(i); }); c.addEventListener('click',function(){ show(i); }); });
+  steps.forEach(function(s,k){ s.tabIndex=0; s.addEventListener('mouseenter',function(){ show(chipOf(k),k); }); s.addEventListener('focus',function(){ show(chipOf(k),k); }); s.addEventListener('click',function(){ show(chipOf(k),k); }); });
+  box.addEventListener('mouseleave',function(){ chips.forEach(function(c,i){ c.classList.toggle('on',i===0); }); steps.forEach(function(s){ s.classList.remove('on'); }); });
+  chips[0]&&chips[0].classList.add('on');
+})();
+</script>
 </body>
 </html>
