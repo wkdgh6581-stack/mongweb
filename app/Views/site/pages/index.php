@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/v2.css?v=20261120k">
+<link rel="stylesheet" href="css/v2.css?v=20261120l">
 </head>
 <body class="home">
 <a class="skip" href="#top">본문 바로가기</a>
@@ -239,7 +239,7 @@
 
   <!-- 05 유지보수 · 운영 -->
   <article class="bizp bizp--light rv" data-nav="light">
-    <div class="bizp__viz bizp__viz--maint2"><img src="assets/biz-maint2.jpg" alt="밝은 사무실에서 노트북으로 홈페이지를 관리하는 모습" width="1536" height="1024" loading="lazy"></div>
+    <div class="bizp__viz bizp__viz--maint2"><img src="assets/biz-maint3.jpg" alt="밝은 사무실에서 노트북으로 홈페이지를 관리하는 모습" width="1672" height="941" loading="lazy"></div>
     <div class="bizp__scrim"></div>
     <div class="bizp__body"><div class="bizp__c">
       <span class="bizp__no">05</span><span class="bizp__en">Maintenance</span>

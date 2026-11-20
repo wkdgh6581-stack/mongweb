@@ -2066,7 +2066,7 @@ html.ed-on .dt-faq details p{display:block}
 
 /* 메인 업종 패널 05 유지보수 — 밝게 보정한 노트북 타이핑 사진. 글자가 놓이는 오른쪽만 흰 안개로 덮어 읽히게 */
 .bizp__viz--maint2{inset:0;background:#f5f4f3}
-.bizp__viz--maint2 img{width:100%;height:100%;object-fit:cover;object-position:30% 60%}
+.bizp__viz--maint2 img{width:100%;height:100%;object-fit:cover;object-position:30% 55%}
 .bizp:has(.bizp__viz--maint2) .bizp__scrim{background:linear-gradient(-90deg,rgba(248,247,246,.95) 0%,rgba(248,247,246,.86) 28%,rgba(248,247,246,.4) 44%,transparent 58%)}
 @media (max-width:1080px){
   .bizp__viz--maint2 img{height:58%;object-position:30% 60%}
